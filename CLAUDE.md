@@ -85,6 +85,10 @@ Am Ende jeder Sitzung (und wenn sich Status ändert) aktualisierst du dessen Dat
 - `auftraege/<id>`: `titel`, `wer` (Team-id, „aisun" oder „nina"), `faellig` (JJJJ-MM-TT, nur wenn echt), `status` = offen | in-arbeit | zur-freigabe | erledigt, `prio` = hoch (optional), `notiz`. Aisun kann im Cockpit abhaken – lies den Stand zu Beginn jeder Sitzung mit `ArtifactData list` und übernimm Erledigtes.
 - `entscheidungen/<id>`: `datum`, `text` – jede neue Zeile aus `entscheidungen.md` auch hier.
 - `meta/briefing`: `text` (max. 110 Wörter, Du-Form), `datum`, `von: "Sebastian"` – schreib morgens bzw. zu Sitzungsbeginn ein neues Briefing.
+- `fragen/<id>`: Entscheidungen, die auf Aisun warten (`frage`, `kontext`, `optionen`, `thema`, `order`, `status` offen | beantwortet, `antwort`, `notiz`). Zu Beginn jeder Sitzung lesen, beantwortete umsetzen (Entscheidungen eintragen) und danach löschen oder stehen lassen.
+- `papiere/<id>`: Strategie-Papiere (`titel`, `datum`, `von`, `nummer`, `kurz`, `text` als Markdown). Quelle bleibt `strategie/`.
+- `kennzahlen/umsatz-2026`: Zahlen für den Zahlen-Tab (`bisher_netto`, `neu_netto`, `ziel_netto`, `monate`, `produkte`, `stand`, `hinweis`). Bei neuen Zahlen aktualisieren.
+- Quelltext des Cockpits: `cockpit/cockpit.html`. Änderungen dort machen und mit dem Artifact-Tool auf den Cockpit-Link veröffentlichen.
 Ist `ArtifactData` in dieser Sitzung nicht verfügbar, sag Aisun in einer Zeile, dass das Cockpit beim nächsten Mal aktualisiert wird, und notiere die Änderungen im Protokoll.
 
 ## Das Team

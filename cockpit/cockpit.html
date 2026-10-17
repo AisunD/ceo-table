@@ -1,0 +1,658 @@
+<title>Aisuns CEO-Table</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Raleway:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: eine App mit fünf Räumen (Heute · Entscheiden · Zahlen · Strategie · Team). Unten eine feste Tab-Leiste wie am Handy, auf breiten Bildschirmen dieselben Tabs oben. Jeder Raum eine ruhige Spalte. */
+:root{
+  --bg:#FBFAF0; --surface:#FFFFFF; --sunk:#F3EEDF; --sand:#EADCC1; --line:#E4DAC4;
+  --fg:#1A1A1A; --muted:#6F6A63; --ink-accent:#73013A; --gold:#C6A764;
+  --berry:#73013A; --berry-ink:#FBFAF0; --rose:#D17A81; --bar:#73013A; --bar-soft:#D17A81;
+  --ok:#3E7A4F; --warn:#9A6A0E; --crit:#960C19;
+  --ok-bg:#E6F0E6; --warn-bg:#F7ECD3; --crit-bg:#F6E1E1; --idle-bg:#EFEBE2;
+  --tabbar:#FFFFFFF2;
+  --display:"Bodoni Moda","Bauer Bodoni",Didot,Georgia,serif;
+  --body:Raleway,"Helvetica Neue",Arial,sans-serif;
+  --r:16px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141210; --surface:#1D1A17; --sunk:#25211D; --sand:#2E2822; --line:#36302A;
+  --fg:#F3EEE3; --muted:#A39C91; --ink-accent:#D4B677; --gold:#C6A764;
+  --berry:#8C1A50; --berry-ink:#FBFAF0; --rose:#E3A0A6; --bar:#E08AAE; --bar-soft:#8C4B63;
+  --ok:#7FC08E; --warn:#E3B55A; --crit:#EE8A8A;
+  --ok-bg:#1F2E22; --warn-bg:#33291A; --crit-bg:#3A1E1F; --idle-bg:#2A2622;
+  --tabbar:#1D1A17F2; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#141210; --surface:#1D1A17; --sunk:#25211D; --sand:#2E2822; --line:#36302A;
+  --fg:#F3EEE3; --muted:#A39C91; --ink-accent:#D4B677; --gold:#C6A764;
+  --berry:#8C1A50; --berry-ink:#FBFAF0; --rose:#E3A0A6; --bar:#E08AAE; --bar-soft:#8C4B63;
+  --ok:#7FC08E; --warn:#E3B55A; --crit:#EE8A8A;
+  --ok-bg:#1F2E22; --warn-bg:#33291A; --crit-bg:#3A1E1F; --idle-bg:#2A2622;
+  --tabbar:#1D1A17F2; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:18px 120px}
+.wrap{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
+.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-accent);font-weight:700}
+.muted{color:var(--muted)} .small{font-size:12px}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+/* Kopf */
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.top h1{font-size:clamp(30px,7vw,42px);line-height:1.1}
+.top h1 em{font-style:italic;color:var(--ink-accent)}
+.ring{width:40px;height:40px;border-radius:50%;border:1.5px solid var(--gold);display:grid;place-items:center;font-family:var(--display);color:var(--fg);font-size:15px;flex:none}
+
+/* Tabs */
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--tabbar);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line);
+  padding:6px max(8px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px))}
+.tabs .in{max-width:620px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);gap:2px}
+.tab{background:none;border:0;border-radius:12px;padding:6px 2px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:11px;font-weight:600;color:var(--muted);position:relative}
+.tab svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.tab[aria-selected="true"]{color:var(--fg)}
+.tab[aria-selected="true"] svg{stroke:var(--ink-accent)}
+.tab .badge{position:absolute;top:2px;left:calc(50% + 6px);min-width:18px;height:18px;border-radius:9px;background:var(--crit);color:#FBFAF0;font-size:10px;font-weight:700;display:grid;place-items:center;padding:0 5px}
+.view[hidden]{display:none!important}
+.view{display:flex;flex-direction:column;gap:22px}
+.vh{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.vh h2{font-size:30px}
+
+/* Karten */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px}
+.brief{display:flex;gap:14px;align-items:flex-start}
+.who{flex:none;width:44px;height:44px;border-radius:50%;background:var(--berry);color:var(--berry-ink);display:grid;place-items:center;font-family:var(--display);font-size:19px}
+.brief .txt{min-width:0;flex:1;display:flex;flex-direction:column;gap:8px}
+.brief p{margin:0;white-space:pre-line;max-width:66ch}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.btn{border:1px solid var(--gold);background:transparent;border-radius:999px;padding:8px 15px;font-size:13px;font-weight:600}
+.btn:hover{background:var(--sunk)}
+.btn.primary{background:var(--berry);border-color:var(--berry);color:var(--berry-ink)}
+.btn[disabled]{opacity:.55;cursor:default}
+
+/* Heute: Kacheln */
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media (max-width:560px){.tiles{grid-template-columns:1fr 1fr}.tiles .tile:last-child{grid-column:1/-1}}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;text-align:left;display:flex;flex-direction:column;gap:2px;min-width:0}
+button.tile:hover{background:var(--sunk)}
+.tile .num{font-family:var(--display);font-size:34px;line-height:1.1;font-variant-numeric:lining-nums tabular-nums}
+.tile .lbl{font-size:12px;color:var(--muted);font-weight:600}
+.tile.hot{background:var(--berry);border-color:var(--berry);color:var(--berry-ink)}
+.tile.hot .lbl{color:var(--berry-ink);opacity:.85}
+
+/* Kalender */
+.day-label{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.ev{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:9px 0;border-bottom:1px solid var(--line)}
+.ev:last-child{border-bottom:0}
+.ev time{font-variant-numeric:tabular-nums;font-weight:700;color:var(--ink-accent)}
+.ev .t{min-width:0;overflow-wrap:anywhere}
+.note{background:var(--sunk);border-radius:12px;padding:12px 14px;font-size:13px;color:var(--muted)}
+.empty{padding:14px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);font-size:13px}
+
+/* Entscheiden */
+.q{display:flex;flex-direction:column;gap:12px}
+.q h3{font-size:22px;line-height:1.25}
+.q .ctx{font-size:14px;color:var(--muted);max-width:62ch;margin:0}
+.q .src{font-size:12px;color:var(--muted)}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:11px 14px;text-align:left;font-weight:600;font-size:14px;display:flex;gap:10px;align-items:center}
+.opt::before{content:"";width:16px;height:16px;border-radius:50%;border:1.5px solid var(--gold);flex:none}
+.opt:hover{background:var(--sunk)}
+.opt[aria-pressed="true"]{border-color:var(--berry);background:var(--crit-bg)}
+.opt[aria-pressed="true"]::before{background:var(--berry);border-color:var(--berry);box-shadow:inset 0 0 0 3px var(--crit-bg)}
+.q textarea{width:100%;min-height:64px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--bg);resize:vertical}
+.q.done{opacity:.75}
+.answered{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px}
+.later-row{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.linkbtn{background:none;border:0;padding:0;color:var(--muted);font-size:13px;text-decoration:underline;text-underline-offset:3px}
+
+/* Aufträge */
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12px;background:var(--surface);font-weight:600}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.group-title{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-top:6px}
+.group-title.over{color:var(--crit)}
+.task{display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:start;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+.task + .task{margin-top:8px}
+.check{width:24px;height:24px;border-radius:50%;border:1.5px solid var(--gold);background:transparent;display:grid;place-items:center;padding:0}
+.task.done .check{background:var(--ok);border-color:var(--ok)}
+.task.done .check::after{content:"";width:8px;height:4px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg) translateY(-1px)}
+.task.done .tt{text-decoration:line-through;color:var(--muted)}
+.task .tt{font-weight:600;overflow-wrap:anywhere}
+.task .meta{font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;margin-top:2px}
+.task .tn{font-size:13px;color:var(--muted);margin-top:4px;overflow-wrap:anywhere}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:2px 9px;font-size:11px;font-weight:700;letter-spacing:.03em;white-space:nowrap}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.s-offen{background:var(--idle-bg);color:var(--muted)}
+.s-in-arbeit{background:var(--warn-bg);color:var(--warn)}
+.s-zur-freigabe{background:var(--crit-bg);color:var(--crit)}
+.s-erledigt{background:var(--ok-bg);color:var(--ok)}
+.due.over{color:var(--crit);font-weight:700}
+.newtask{display:grid;grid-template-columns:1fr auto auto;gap:8px}
+@media (max-width:520px){.newtask{grid-template-columns:1fr 1fr}.newtask input{grid-column:1/-1}}
+.newtask input,.newtask select{border:1px solid var(--line);border-radius:12px;padding:9px 12px;background:var(--surface);min-width:0}
+
+/* Zahlen */
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){.kpis{grid-template-columns:1fr}}
+.kpi .v{font-family:var(--display);font-size:40px;line-height:1.05;font-variant-numeric:lining-nums tabular-nums}
+.kpi .l{font-size:13px;color:var(--muted)}
+.goal{display:flex;flex-direction:column;gap:10px}
+.goalbar{position:relative;height:18px;border-radius:9px;background:var(--sunk);overflow:visible}
+.goalbar .seg{position:absolute;top:0;bottom:0;border-radius:9px}
+.goalbar .mark{position:absolute;top:-6px;bottom:-6px;width:2px;background:var(--fg)}
+.goallegend{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.goallegend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.chart{position:relative;min-width:0}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart .axis text{fill:var(--muted);font-size:11px;font-family:var(--body)}
+.chart .grid line{stroke:var(--line);stroke-width:1}
+.chart .lab{fill:var(--fg);font-size:11px;font-weight:700;font-family:var(--body)}
+.chart rect.b{fill:var(--bar)}
+.chart rect.b.dim{fill:var(--bar-soft)}
+.chart rect.hit{fill:transparent;cursor:pointer}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font-size:12px;font-weight:600;padding:6px 9px;border-radius:8px;white-space:nowrap;transform:translate(-50%,-110%);opacity:0;transition:opacity .12s}
+.tip.on{opacity:1}
+.hbars{display:flex;flex-direction:column;gap:10px}
+.hb{display:grid;grid-template-columns:minmax(0,150px) 1fr 80px;gap:10px;align-items:center;font-size:13px}
+.hb .n{overflow-wrap:anywhere}
+.hb .track{height:12px;border-radius:6px;background:var(--sunk);position:relative}
+.hb .fill{position:absolute;left:0;top:0;bottom:0;border-radius:6px;background:var(--bar)}
+.hb.off .fill{background:var(--bar-soft)}
+.hb .val{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--sunk);font-size:12px}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+
+/* Strategie */
+.paper{background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.paper + .paper{margin-top:10px}
+.paper summary{list-style:none;cursor:pointer;padding:16px 18px;display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:start}
+.paper summary::-webkit-details-marker{display:none}
+.paper .no{font-family:var(--display);font-size:30px;line-height:1;color:var(--ink-accent)}
+.paper .ph{min-width:0}
+.paper .ph h3{font-size:20px;line-height:1.25}
+.paper .by{font-size:12px;color:var(--muted);margin-top:4px}
+.paper .kz{font-size:14px;margin-top:6px;max-width:62ch}
+.paper .tog{font-size:12px;font-weight:700;color:var(--ink-accent);white-space:nowrap;padding-top:4px}
+.paper[open] .tog .o{display:none}
+.paper:not([open]) .tog .c{display:none}
+.paper[open] summary{border-bottom:1px solid var(--line)}
+.md{padding:6px 18px 22px;max-width:76ch;min-width:0;overflow-wrap:anywhere}
+.md h4{font-family:var(--display);font-weight:400;font-size:22px;margin:22px 0 8px;color:var(--ink-accent)}
+.md h5{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-accent);margin:18px 0 6px}
+.md p{margin:8px 0} .md ul,.md ol{margin:8px 0;padding-left:22px} .md li{margin:4px 0}
+.md .tbl{margin:12px 0}
+
+/* Team */
+.areas{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+.area h3{font-family:var(--body);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-accent);margin-bottom:6px}
+.member{display:grid;grid-template-columns:46px 1fr;gap:12px;padding:10px 0;border-top:1px solid var(--line);align-items:start}
+.member.reserve{opacity:.55}
+.avatar{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-size:17px;background:var(--surface);color:var(--fg);box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--st,var(--line))}
+.member.lead .avatar{background:var(--berry);color:var(--berry-ink)}
+.member .nm{font-weight:700;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.member .rl{font-size:12px;color:var(--muted)}
+.member .job{font-size:13px;margin-top:4px;overflow-wrap:anywhere}
+.st-arbeitet{background:var(--warn-bg);color:var(--warn)}
+.st-bereit{background:var(--ok-bg);color:var(--ok)}
+.st-wartet{background:var(--crit-bg);color:var(--crit)}
+.st-reserve{background:var(--idle-bg);color:var(--muted)}
+.dec{display:grid;grid-template-columns:86px 1fr;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:14px}
+.dec time{font-variant-numeric:tabular-nums;color:var(--muted);font-size:12px;padding-top:2px}
+
+/* Frag Sebastian */
+.ask{display:flex;gap:8px}
+.ask input{flex:1;min-width:0;border:1px solid var(--line);border-radius:999px;padding:10px 14px;background:var(--bg)}
+.answer{white-space:pre-line;font-size:14px;max-width:66ch;margin:0}
+@media (prefers-reduced-motion: no-preference){.view{animation:fade .18s ease-out}@keyframes fade{from{opacity:.4}to{opacity:1}}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">CEO-Table</div>
+      <h1 id="greet">Hallo, <em>Aisun</em></h1>
+      <div class="small muted" id="today"></div>
+    </div>
+    <span class="ring" aria-hidden="true">AD</span>
+  </header>
+
+  <!-- HEUTE -->
+  <section class="view" id="v-heute" aria-labelledby="h-heute">
+    <h2 id="h-heute" hidden>Heute</h2>
+    <div class="card brief">
+      <div class="who" aria-hidden="true">S</div>
+      <div class="txt">
+        <div class="eyebrow">Briefing von Sebastian</div>
+        <p id="brief-text">Hier erscheint Sebastians Briefing für heute.</p>
+        <div class="row"><button class="btn primary" id="brief-btn" type="button">Briefing erstellen</button><span class="small muted" id="brief-meta"></span></div>
+      </div>
+    </div>
+    <div class="tiles">
+      <button class="tile hot" type="button" data-go="entscheiden"><span class="num" id="t-dec">–</span><span class="lbl">warten auf deine Entscheidung</span></button>
+      <button class="tile" type="button" data-go="entscheiden" data-anchor="auftraege"><span class="num" id="t-open">–</span><span class="lbl">offene Aufträge</span></button>
+      <button class="tile" type="button" data-go="zahlen"><span class="num" id="t-rev">–</span><span class="lbl">Umsatz 2026 (Rechnungswert)</span></button>
+    </div>
+    <div class="card">
+      <div class="vh"><h3 style="font-size:22px">Heute &amp; diese Woche</h3><span class="small muted" id="cal-fresh"></span></div>
+      <div id="cal"><div class="note">Kalender wird geladen …</div></div>
+    </div>
+    <div class="card" id="askcard">
+      <div class="eyebrow">Schnellfrage an Sebastian</div>
+      <form class="ask" id="ask" style="margin-top:10px"><input id="ask-in" placeholder="z. B. Was ist diese Woche am wichtigsten?" aria-label="Deine Frage an Sebastian"><button class="btn primary" type="submit">Fragen</button></form>
+      <p class="answer" id="ask-out" style="margin-top:12px" hidden></p>
+      <p class="small muted" style="margin:10px 0 0">Kurze Antworten aus den Daten im Cockpit. Für echte Arbeit und alles, was gespeichert werden soll: der Chat mit Sebastian.</p>
+    </div>
+  </section>
+
+  <!-- ENTSCHEIDEN -->
+  <section class="view" id="v-entscheiden" aria-labelledby="h-ent" hidden>
+    <div class="vh"><h2 id="h-ent">Entscheiden</h2><span class="small muted" id="dec-sum"></span></div>
+    <p class="muted" style="margin:-10px 0 0;max-width:60ch">Tipp eine Antwort an. Sebastian liest sie beim nächsten Start und setzt sie um. Nichts davon eilt.</p>
+    <div id="questions"><div class="empty">Fragen werden geladen …</div></div>
+    <div class="vh" id="auftraege" style="margin-top:8px"><h2 style="font-size:26px">Aufträge</h2><div class="filters" id="filters" role="group" aria-label="Nach Person filtern"></div></div>
+    <form class="newtask" id="newtask">
+      <input id="nt-title" placeholder="Neuer Auftrag an den Tisch …" aria-label="Neuer Auftrag" required>
+      <select id="nt-who" aria-label="Für wen"><option value="sebastian">Sebastian</option><option value="katharina">Katharina</option><option value="nina">Nina</option><option value="aisun">Ich selbst</option></select>
+      <button class="btn primary" type="submit">Anlegen</button>
+    </form>
+    <div id="tasks"><div class="empty">Aufträge werden geladen …</div></div>
+  </section>
+
+  <!-- ZAHLEN -->
+  <section class="view" id="v-zahlen" aria-labelledby="h-zahlen" hidden>
+    <div class="vh"><h2 id="h-zahlen">Zahlen 2026</h2><span class="small muted" id="z-stand"></span></div>
+    <div id="zahlen"><div class="empty">Zahlen werden geladen …</div></div>
+  </section>
+
+  <!-- STRATEGIE -->
+  <section class="view" id="v-strategie" aria-labelledby="h-strat" hidden>
+    <div class="vh"><h2 id="h-strat">Strategie</h2><span class="small muted" id="strat-sum"></span></div>
+    <div id="papers"><div class="empty">Papiere werden geladen …</div></div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="view" id="v-team" aria-labelledby="h-team" hidden>
+    <div class="vh"><h2 id="h-team">Dein Team</h2><span class="small muted" id="team-sum"></span></div>
+    <div class="areas" id="team-areas"><div class="empty">Team wird geladen …</div></div>
+    <div><h3 style="font-size:22px;margin-bottom:6px">Zuletzt entschieden</h3><div id="decs"><div class="empty">Entscheidungen werden geladen …</div></div></div>
+  </section>
+</div>
+
+<nav class="tabs" aria-label="Bereiche"><div class="in" role="tablist">
+  <button class="tab" role="tab" data-tab="heute"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4 7 17M17 7l1.4-1.4"/></svg>Heute</button>
+  <button class="tab" role="tab" data-tab="entscheiden"><svg viewBox="0 0 24 24"><path d="M4 12.5 9 17 20 6"/></svg>Entscheiden<span class="badge" id="b-dec" hidden></span></button>
+  <button class="tab" role="tab" data-tab="zahlen"><svg viewBox="0 0 24 24"><path d="M5 20V11M12 20V5M19 20v-7"/></svg>Zahlen</button>
+  <button class="tab" role="tab" data-tab="strategie"><svg viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6z"/><path d="M9 10h6M9 14h6M9 18h4"/></svg>Strategie</button>
+  <button class="tab" role="tab" data-tab="team"><svg viewBox="0 0 24 24"><circle cx="9" cy="9" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 19c.8-3 3.2-4.5 6-4.5s5.2 1.5 6 4.5M15 15.5c2.6-.6 5 .6 6 3.5"/></svg>Team</button>
+</div></nav>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const pad = n => String(n).padStart(2,"0");
+  const now = new Date();
+  const ymd = d => d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
+  const todayStr = ymd(now);
+  const WD = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
+  const MO = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
+  const MS = ["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"];
+  const fmtLong = d => WD[d.getDay()]+", "+d.getDate()+". "+MO[d.getMonth()]+" "+d.getFullYear();
+  const fmtShort = s => { const [y,m,d]=String(s).split("-"); return d+"."+m+"."; };
+  const eur = n => new Intl.NumberFormat("de-DE",{maximumFractionDigits:0}).format(Math.round(n))+" €";
+  const keur = n => n>=1000 ? (Math.round(n/100)/10).toLocaleString("de-DE")+" T€" : eur(n);
+
+  const h = now.getHours();
+  $("#greet").innerHTML = (h<11?"Guten Morgen":h<17?"Hallo":"Guten Abend")+", <em>Aisun</em>";
+  $("#today").textContent = fmtLong(now);
+
+  const state = { team:[], tasks:[], decs:[], papers:null, fragen:null, zahlen:null, events:null, calError:null, briefing:null, filter:"alle", draft:{} };
+  let db = null;
+
+  // ---------- Tabs ----------
+  const TABS = ["heute","entscheiden","zahlen","strategie","team"];
+  function show(tab, anchor){
+    if(!TABS.includes(tab)) tab = "heute";
+    TABS.forEach(t=>{ $("#v-"+t).hidden = t!==tab; });
+    document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected", b.dataset.tab===tab));
+    try{ localStorage.setItem("cockpit-tab", tab); }catch(_){}
+    if(anchor){ const el = document.getElementById(anchor); if(el) el.scrollIntoView({block:"start"}); }
+    else window.scrollTo(0,0);
+    if(tab==="zahlen") renderZahlen();
+  }
+  document.querySelector(".tabs").addEventListener("click", e=>{ const b=e.target.closest(".tab"); if(b) show(b.dataset.tab); });
+  document.addEventListener("click", e=>{ const b=e.target.closest("[data-go]"); if(b) show(b.dataset.go, b.dataset.anchor); });
+  let start = (location.hash||"").slice(1);
+  if(!TABS.includes(start)){ try{ start = localStorage.getItem("cockpit-tab")||"heute"; }catch(_){ start="heute"; } }
+  show(start);
+
+  // ---------- Kacheln & Badge ----------
+  function renderTiles(){
+    const openQ = (state.fragen||[]).filter(q=>q.status!=="beantwortet").length;
+    $("#t-dec").textContent = state.fragen ? openQ : "–";
+    const b = $("#b-dec"); b.hidden = !openQ; b.textContent = openQ;
+    $("#t-open").textContent = state.tasks.filter(t=>t.status!=="erledigt").length || "0";
+    const z = state.zahlen;
+    $("#t-rev").textContent = z ? keur((z.bisher_netto||0)+(z.neu_netto||0)) : "–";
+  }
+
+  // ---------- Team ----------
+  const AREA_ORDER = ["Führung","Strategie","Marketing","Sales","Office & Finanzen","Recht","Reserve"];
+  const ST_LABEL = {arbeitet:"arbeitet", bereit:"bereit", wartet:"wartet auf dich", reserve:"Reserve"};
+  const ST_COLOR = {arbeitet:"var(--warn)", bereit:"var(--ok)", wartet:"var(--crit)", reserve:"var(--line)"};
+  function renderTeam(){
+    const el = $("#team-areas");
+    if(!state.team.length){ el.innerHTML = '<div class="empty">Noch kein Team eingetragen.</div>'; $("#team-sum").textContent=""; return; }
+    const by = {};
+    state.team.forEach(m => (by[m.bereich||"Weitere"] ||= []).push(m));
+    const areas = Object.keys(by).sort((a,b)=>(AREA_ORDER.indexOf(a)+99)%99 - (AREA_ORDER.indexOf(b)+99)%99);
+    el.innerHTML = areas.map(a => `<div class="area"><h3>${esc(a)}</h3>${
+      by[a].sort((x,y)=>(x.order??99)-(y.order??99)).map(m=>{
+        const st = m.status || "bereit";
+        const init = (m.name||"?").replace(/^(\w)\w*[- ](\w).*/u,"$1$2").slice(0,2).toUpperCase();
+        return `<div class="member ${st==="reserve"?"reserve":""} ${m.lead?"lead":""}">
+          <div class="avatar" style="--st:${ST_COLOR[st]||"var(--line)"}" aria-hidden="true">${esc(init)}</div>
+          <div style="min-width:0"><div class="nm">${esc(m.name)} <span class="pill st-${esc(st)}">${esc(ST_LABEL[st]||st)}</span></div>
+          <div class="rl">${esc(m.rolle||"")}</div>${m.aufgabe?`<div class="job">${esc(m.aufgabe)}</div>`:""}</div></div>`;
+      }).join("")}</div>`).join("");
+    const busy = state.team.filter(m=>m.status==="arbeitet").length, wait = state.team.filter(m=>m.status==="wartet").length;
+    $("#team-sum").textContent = `${state.team.filter(m=>m.status!=="reserve").length} aktiv · ${busy} arbeiten · ${wait} warten auf dich`;
+  }
+
+  // ---------- Fragen / Entscheiden ----------
+  function renderFragen(){
+    const el = $("#questions");
+    if(state.fragen===null) return;
+    const list = [...state.fragen].sort((a,b)=>(a.status==="beantwortet")-(b.status==="beantwortet") || (a.order??99)-(b.order??99));
+    const open = list.filter(q=>q.status!=="beantwortet").length;
+    $("#dec-sum").textContent = open ? `${open} offen` : "alles beantwortet";
+    if(!list.length){ el.innerHTML = '<div class="empty">Gerade wartet nichts auf dich. Neue Fragen legt Sebastian hier ab.</div>'; return; }
+    el.innerHTML = list.map(q=>{
+      const done = q.status==="beantwortet";
+      const pick = state.draft[q.id]?.wahl ?? q.antwort ?? null;
+      return `<div class="card q ${done?"done":""}" data-q="${esc(q.id)}" style="margin-bottom:12px">
+        ${q.thema?`<div class="eyebrow">${esc(q.thema)}</div>`:""}
+        <h3>${esc(q.frage)}</h3>
+        ${q.kontext?`<p class="ctx">${esc(q.kontext)}</p>`:""}
+        ${done ? `<div class="answered"><span class="pill s-erledigt">beantwortet</span><strong>${esc(q.antwort||"")}</strong>${q.notiz?`<span class="muted">· ${esc(q.notiz)}</span>`:""}<button type="button" class="linkbtn" data-reopen="${esc(q.id)}">ändern</button></div>`
+        : `<div class="opts" role="group" aria-label="Antwort">${(q.optionen||[]).map(o=>`<button type="button" class="opt" data-pick="${esc(o)}" aria-pressed="${pick===o}">${esc(o)}</button>`).join("")}</div>
+          <textarea id="note-${esc(q.id)}" placeholder="Notiz für Sebastian (optional)" aria-label="Notiz">${esc(state.draft[q.id]?.notiz ?? q.notiz ?? "")}</textarea>
+          <div class="later-row"><span class="small muted">${q.quelle?esc(q.quelle):""}</span><button type="button" class="btn primary" data-save="${esc(q.id)}" ${pick?"":"disabled"}>Antwort speichern</button></div>`}
+      </div>`;
+    }).join("");
+  }
+  $("#questions").addEventListener("click", async e=>{
+    const card = e.target.closest("[data-q]"); if(!card) return;
+    const id = card.dataset.q;
+    const p = e.target.closest("[data-pick]");
+    if(p){ state.draft[id] = {...(state.draft[id]||{}), wahl:p.dataset.pick, notiz:$("#note-"+id)?.value}; renderFragen(); return; }
+    const s = e.target.closest("[data-save]");
+    if(s && db){
+      const d = state.draft[id]||{}; const notiz = $("#note-"+id)?.value || "";
+      s.disabled = true; s.textContent = "Speichert …";
+      try{ await db.collection("fragen").doc(id).update({status:"beantwortet", antwort:d.wahl, notiz, beantwortet:new Date().toISOString()}); delete state.draft[id]; }
+      catch(err){ s.disabled=false; s.textContent="Antwort speichern"; card.insertAdjacentHTML("beforeend",`<div class="note">Konnte nicht gespeichert werden. Versuch es noch einmal.</div>`); }
+      return;
+    }
+    const r = e.target.closest("[data-reopen]");
+    if(r && db){ const q = state.fragen.find(x=>x.id===id); state.draft[id]={wahl:q.antwort, notiz:q.notiz}; try{ await db.collection("fragen").doc(id).update({status:"offen"}); }catch(_){} }
+  });
+
+  // ---------- Aufträge ----------
+  const S_LABEL = {"offen":"offen","in-arbeit":"in Arbeit","zur-freigabe":"zur Freigabe","erledigt":"erledigt"};
+  function nameOf(id){ const m = state.team.find(t=>t.id===id); return m ? m.name : (id==="aisun"?"Du":id==="nina"?"Nina":id||""); }
+  function renderTasks(){
+    const owners = [...new Set(state.tasks.map(t=>t.wer).filter(Boolean))];
+    $("#filters").innerHTML = ["alle",...owners].map(o=>`<button type="button" class="chip" data-f="${esc(o)}" aria-pressed="${state.filter===o}">${esc(o==="alle"?"Alle":nameOf(o))}</button>`).join("");
+    const el = $("#tasks");
+    const list = state.tasks.filter(t => state.filter==="alle" || t.wer===state.filter);
+    if(!list.length){ el.innerHTML = '<div class="empty">Nichts offen.</div>'; return; }
+    const wk = new Date(now); wk.setDate(wk.getDate()+7); const wkStr = ymd(wk);
+    const groups = [["Überfällig",[],"over"],["Heute",[]],["Diese Woche",[]],["Später",[]],["Ohne Termin",[]],["Erledigt",[]]];
+    list.forEach(t=>{
+      if(t.status==="erledigt") return groups[5][1].push(t);
+      if(!t.faellig) return groups[4][1].push(t);
+      if(t.faellig<todayStr) return groups[0][1].push(t);
+      if(t.faellig===todayStr) return groups[1][1].push(t);
+      if(t.faellig<=wkStr) return groups[2][1].push(t);
+      groups[3][1].push(t);
+    });
+    const prio = t => t.status==="zur-freigabe"?0:t.prio==="hoch"?1:2;
+    el.innerHTML = groups.filter(g=>g[1].length).map(([title,items,cls])=>{
+      items.sort((a,b)=>prio(a)-prio(b) || String(a.faellig||"9").localeCompare(String(b.faellig||"9")));
+      const shown = title==="Erledigt" ? items.slice(0,5) : items;
+      return `<div class="group-title ${cls||""}">${title}</div>` + shown.map(t=>{
+        const st = t.status||"offen";
+        return `<div class="task ${st==="erledigt"?"done":""}">
+          <button type="button" class="check" data-id="${esc(t.id)}" aria-label="${st==="erledigt"?"Wieder öffnen":"Als erledigt markieren"}: ${esc(t.titel)}"></button>
+          <div style="min-width:0"><div class="tt">${esc(t.titel)}</div>
+            <div class="meta"><span>${esc(nameOf(t.wer))}</span>${t.faellig?`<span class="due ${t.faellig<todayStr&&st!=="erledigt"?"over":""}">fällig ${fmtShort(t.faellig)}</span>`:""}</div>
+            ${t.notiz?`<div class="tn">${esc(t.notiz)}</div>`:""}</div>
+          <span class="pill s-${esc(st)}">${esc(S_LABEL[st]||st)}</span></div>`;
+      }).join("");
+    }).join("");
+  }
+  $("#filters").addEventListener("click", e=>{ const b=e.target.closest("[data-f]"); if(!b) return; state.filter=b.dataset.f; renderTasks(); });
+  $("#tasks").addEventListener("click", async e=>{
+    const b = e.target.closest(".check"); if(!b || !db) return;
+    const t = state.tasks.find(x=>x.id===b.dataset.id); if(!t) return;
+    b.disabled = true;
+    try{ await db.collection("auftraege").doc(t.id).update({status: t.status==="erledigt"?"offen":"erledigt", geaendert:new Date().toISOString()}); }
+    catch(err){ b.disabled=false; }
+  });
+  $("#newtask").addEventListener("submit", async e=>{
+    e.preventDefault(); if(!db) return;
+    const titel = $("#nt-title").value.trim(); if(!titel) return;
+    const id = "a-"+Date.now().toString(36);
+    try{ await db.collection("auftraege").doc(id).set({titel, wer:$("#nt-who").value, status:"offen", notiz:"Von Aisun im Cockpit angelegt", angelegt:new Date().toISOString()}); $("#nt-title").value=""; }
+    catch(err){ $("#tasks").insertAdjacentHTML("afterbegin",'<div class="note">Konnte nicht angelegt werden. Versuch es noch einmal.</div>'); }
+  });
+
+  // ---------- Zahlen ----------
+  const tip = document.createElement("div"); tip.className = "tip"; tip.setAttribute("role","status");
+  function renderZahlen(){
+    const el = $("#zahlen"); const z = state.zahlen;
+    if(!z){ if(state.zahlen===null) return; el.innerHTML='<div class="empty">Noch keine Zahlen hinterlegt.</div>'; return; }
+    $("#z-stand").textContent = z.stand ? "Stand "+fmtShort(z.stand)+z.stand.slice(0,4) : "";
+    const bisher = z.bisher_netto||0, neu = z.neu_netto||0, ziel = z.ziel_netto||100000, total = bisher+neu;
+    const scale = Math.max(ziel, total)*1.08;
+    const months = z.monate||[]; const prods = (z.produkte||[]).slice().sort((a,b)=>b.netto-a.netto);
+    el.innerHTML = `
+      <div class="kpis">
+        <div class="card kpi"><div class="eyebrow">Online-Business 2026</div><div class="v">${eur(total)}</div><div class="l">netto, Rechnungswert, Schätzung</div></div>
+        <div class="card kpi"><div class="eyebrow">Ausbildung</div><div class="v">${Math.round((prods.find(p=>/Ausbildung/.test(p.name))?.netto||0)/Math.max(1,bisher)*100)} %</div><div class="l">Anteil am bisherigen Umsatz</div></div>
+      </div>
+      <div class="card goal">
+        <div class="vh"><h3 style="font-size:20px">Auf dem Weg zu sechsstellig</h3><span class="small muted">Marke: ${eur(ziel)}</span></div>
+        <div class="goalbar" role="img" aria-label="${eur(bisher)} bisher plus ${eur(neu)} neue Rechnung, Ziel ${eur(ziel)}">
+          <div class="seg" style="left:0;width:${bisher/scale*100}%;background:var(--bar)"></div>
+          <div class="seg" style="left:calc(${bisher/scale*100}% + 2px);width:calc(${neu/scale*100}% - 2px);background:var(--gold)"></div>
+          <div class="mark" style="left:${ziel/scale*100}%"></div>
+        </div>
+        <div class="goallegend"><span><i style="background:var(--bar)"></i>bisher ${eur(bisher)}</span><span><i style="background:var(--gold)"></i>neue Rechnung ${eur(neu)}</span><span>│ ${eur(ziel)}</span></div>
+      </div>
+      <div class="card">
+        <div class="vh"><h3 style="font-size:20px">ThriveCart je Monat</h3><button type="button" class="linkbtn" id="tbl-toggle">Als Tabelle</button></div>
+        <p class="small muted" style="margin:4px 0 10px">brutto, inkl. Raten. Rechnungen außerhalb von ThriveCart sind hier nicht drin.</p>
+        <div class="chart" id="mchart"></div>
+        <div class="tbl" id="mtable" hidden><table><thead><tr><th>Monat</th><th class="n">brutto</th></tr></thead><tbody>${months.map(m=>`<tr><td>${esc(MO[m.m-1])}</td><td class="n">${eur(m.brutto)}</td></tr>`).join("")}</tbody></table></div>
+      </div>
+      <div class="card">
+        <h3 style="font-size:20px">Woher der Umsatz kommt</h3>
+        <p class="small muted" style="margin:4px 0 14px">netto, grob. Blass = abgeschafft.</p>
+        <div class="hbars">${prods.map(p=>`<div class="hb ${p.aus?"off":""}"><span class="n">${esc(p.name)}</span><span class="track"><span class="fill" style="width:${p.netto/prods[0].netto*100}%"></span></span><span class="val">${keur(p.netto)}</span></div>`).join("")}</div>
+      </div>
+      ${z.hinweis?`<p class="small muted" style="margin:0">${esc(z.hinweis)}</p>`:""}`;
+    drawMonths(months);
+    $("#tbl-toggle").addEventListener("click", ()=>{ const t=$("#mtable"), c=$("#mchart"); t.hidden=!t.hidden; c.hidden=!t.hidden; $("#tbl-toggle").textContent = t.hidden?"Als Tabelle":"Als Grafik"; });
+  }
+  function drawMonths(months){
+    const box = $("#mchart"); if(!box || !months.length) return;
+    const W=600, H=230, L=44, R=8, T=22, B=26;
+    const max = Math.max(...months.map(m=>m.brutto));
+    const step = 5000, top = Math.ceil(max/step)*step;
+    const y = v => T + (H-T-B)*(1 - v/top);
+    const bw = (W-L-R)/months.length, gap = Math.max(6, bw*0.28);
+    const peak = months.reduce((a,b)=>b.brutto>a.brutto?b:a);
+    let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="ThriveCart-Umsatz je Monat 2026"><g class="grid">`;
+    for(let v=0; v<=top; v+=step) s += `<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}"/>`;
+    s += `</g><g class="axis">`;
+    for(let v=0; v<=top; v+=step) s += `<text x="${L-8}" y="${y(v)+4}" text-anchor="end">${v/1000} T€</text>`;
+    months.forEach((m,i)=>{ s += `<text x="${L+bw*i+bw/2}" y="${H-8}" text-anchor="middle">${MS[m.m-1]}</text>`; });
+    s += `</g>`;
+    months.forEach((m,i)=>{
+      const x = L+bw*i+gap/2, w = bw-gap, yy = y(m.brutto), hh = Math.max(1, y(0)-yy), r = Math.min(4,w/2,hh);
+      s += `<path class="bar" d="M${x},${y(0)} V${yy+r} Q${x},${yy} ${x+r},${yy} H${x+w-r} Q${x+w},${yy} ${x+w},${yy+r} V${y(0)} Z" fill="${m===peak?"var(--bar)":"var(--bar-soft)"}"/>`;
+      if(m===peak) s += `<text class="lab" x="${x+w/2}" y="${yy-6}" text-anchor="middle">${keur(m.brutto)}</text>`;
+      s += `<rect class="hit" x="${L+bw*i}" y="${T}" width="${bw}" height="${H-T-B}" data-i="${i}"><title>${MO[m.m-1]}: ${eur(m.brutto)}</title></rect>`;
+    });
+    s += `</svg>`;
+    box.innerHTML = s; box.appendChild(tip);
+    const svg = box.querySelector("svg");
+    const showTip = (i) => { const m = months[i]; const rect = svg.getBoundingClientRect(), k = rect.width/W;
+      tip.textContent = `${MO[m.m-1]} · ${eur(m.brutto)}`; tip.style.left = ((L+bw*i+bw/2)*k)+"px"; tip.style.top = (y(m.brutto)*k)+"px"; tip.classList.add("on"); };
+    svg.addEventListener("pointermove", e=>{ const h=e.target.closest(".hit"); if(h) showTip(+h.dataset.i); });
+    svg.addEventListener("click", e=>{ const h=e.target.closest(".hit"); if(h) showTip(+h.dataset.i); });
+    svg.addEventListener("pointerleave", ()=>tip.classList.remove("on"));
+  }
+
+  // ---------- Strategie ----------
+  function inline(s){ return esc(s).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/`([^`]+)`/g,"$1"); }
+  const isNum = s => /^[\s\d.,%€+−\-–×Σ=~]+$/.test(s) && /\d/.test(s);
+  function mdToHtml(md){
+    const lines = String(md||"").split("\n"); const out = []; let i = 0;
+    while(i < lines.length){
+      const l = lines[i]; let m;
+      if(!l.trim()){ i++; continue; }
+      if((m = l.match(/^###\s+(.*)/))){ out.push(`<h5>${inline(m[1])}</h5>`); i++; continue; }
+      if((m = l.match(/^#{1,2}\s+(.*)/))){ out.push(`<h4>${inline(m[1])}</h4>`); i++; continue; }
+      if(/^\s*\|/.test(l)){
+        const rows = []; while(i < lines.length && /^\s*\|/.test(lines[i])){ rows.push(lines[i]); i++; }
+        const cells = r => r.trim().replace(/^\||\|$/g,"").split("|").map(c=>c.trim());
+        const body = rows.filter(r=>!/^\s*\|[\s:|-]+\|\s*$/.test(r)).map(cells);
+        const [head, ...rest] = body;
+        out.push(`<div class="tbl"><table><thead><tr>${head.map(c=>`<th class="${isNum(c)?"n":""}">${inline(c)}</th>`).join("")}</tr></thead><tbody>${rest.map(r=>`<tr>${r.map(c=>`<td class="${isNum(c.replace(/\*/g,""))?"n":""}">${inline(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`);
+        continue;
+      }
+      if(/^\s*[-*]\s+/.test(l)){ const it=[]; while(i<lines.length && /^\s*[-*]\s+/.test(lines[i])){ it.push(lines[i].replace(/^\s*[-*]\s+/,"")); i++; } out.push(`<ul>${it.map(x=>`<li>${inline(x)}</li>`).join("")}</ul>`); continue; }
+      if(/^\s*\d+\.\s+/.test(l)){ const it=[]; while(i<lines.length && /^\s*\d+\.\s+/.test(lines[i])){ it.push(lines[i].replace(/^\s*\d+\.\s+/,"")); i++; } out.push(`<ol>${it.map(x=>`<li>${inline(x)}</li>`).join("")}</ol>`); continue; }
+      const para=[]; while(i<lines.length && lines[i].trim() && !/^(#|\s*\||\s*[-*]\s|\s*\d+\.\s)/.test(lines[i])){ para.push(lines[i]); i++; }
+      out.push(`<p>${inline(para.join(" "))}</p>`);
+    }
+    return out.join("");
+  }
+  const openPapers = new Set();
+  function renderPapers(){
+    const el = $("#papers"); if(state.papers===null) return;
+    if(!state.papers.length){ el.innerHTML = '<div class="empty">Noch keine Papiere.</div>'; $("#strat-sum").textContent=""; return; }
+    const list = [...state.papers].sort((a,b)=>String(b.datum||"").localeCompare(String(a.datum||"")) || (b.nummer??0)-(a.nummer??0));
+    el.innerHTML = list.map(p=>`<details class="paper" data-id="${esc(p.id)}" ${openPapers.has(p.id)?"open":""}>
+      <summary><span class="no" aria-hidden="true">${esc(p.nummer??"")}</span>
+        <div class="ph"><h3>${esc(p.titel)}</h3><div class="by">${esc(p.von||"")}${p.datum?" · "+fmtShort(p.datum)+p.datum.slice(0,4):""}</div>${p.kurz?`<div class="kz">${esc(p.kurz)}</div>`:""}</div>
+        <span class="tog"><span class="o">Lesen</span><span class="c">Schließen</span></span></summary>
+      <div class="md">${mdToHtml(p.text)}</div></details>`).join("");
+    $("#strat-sum").textContent = `${list.length} Papiere von Katharina`;
+  }
+  $("#papers").addEventListener("toggle", e=>{ const d=e.target; if(!d.dataset||!d.dataset.id) return; d.open?openPapers.add(d.dataset.id):openPapers.delete(d.dataset.id); }, true);
+
+  // ---------- Entscheidungen (Rückblick) ----------
+  function renderDecs(){
+    const el = $("#decs");
+    if(!state.decs.length){ el.innerHTML = '<div class="empty">Noch keine Entscheidungen.</div>'; return; }
+    el.innerHTML = state.decs.slice(0,8).map(d=>`<div class="dec"><time>${esc(d.datum?fmtShort(d.datum)+d.datum.slice(0,4):"")}</time><div>${esc(d.text)}</div></div>`).join("");
+  }
+
+  // ---------- Briefing ----------
+  function renderBrief(){
+    const b = state.briefing; if(!(b && b.text)) return;
+    $("#brief-text").textContent = b.text;
+    $("#brief-meta").textContent = b.datum===todayStr ? (b.von? "von "+b.von+" · heute" : "heute") : "Stand "+(b.datum?fmtShort(b.datum):"");
+    $("#brief-btn").textContent = b.datum===todayStr ? "Neu erstellen" : "Briefing für heute";
+  }
+
+  // ---------- Kalender ----------
+  function evStart(e){ const s=e.start||{}; return s.dateTime||s.date||e.startTime||""; }
+  function renderCal(){
+    const el = $("#cal");
+    if(state.calError){ el.innerHTML = `<div class="note">${esc(state.calError)}</div>`; return; }
+    if(state.events===null) return;
+    const evs = state.events.filter(e=>e.status!=="cancelled");
+    if(!evs.length){ el.innerHTML = '<div class="note">Keine Termine in den nächsten Tagen. Gute Zeit für Tiefe.</div>'; return; }
+    const byDay = {}; evs.forEach(e=>{ const d=evStart(e).slice(0,10); (byDay[d] ||= []).push(e); });
+    el.innerHTML = Object.keys(byDay).sort().map(d=>{
+      const dt = new Date(d+"T12:00:00");
+      return `<div class="day-label">${d===todayStr?"Heute":(WD[dt.getDay()]+", "+fmtShort(d))}</div>` + byDay[d].map(e=>{
+        const s = evStart(e), allDay = s.length<=10, st = allDay?null:new Date(s);
+        return `<div class="ev"><time>${allDay?"ganztägig":pad(st.getHours())+":"+pad(st.getMinutes())}</time><div class="t">${esc(e.summary||"(ohne Titel)")}</div></div>`;
+      }).join("");
+    }).join("");
+  }
+  const CAL_MSG = {needs_reauth:"Google Kalender muss neu verbunden werden: claude.ai → Einstellungen → Connectors.", server_not_connected:"Google Kalender ist nicht verbunden.", not_in_manifest:"Du hast den Kalender für dieses Cockpit nicht freigegeben.", blocked_by_policy:"Dein Kalender ist für diese Seite gesperrt.", approval_required:"Der Kalender braucht einmal deine Freigabe.", selection_required:"Bitte wähle im Hinweis, welcher Kalender gemeint ist."};
+
+  // ---------- Start ----------
+  async function startDb(){
+    db = await claude.use("db");
+    if(!db){ ["#tasks","#team-areas","#decs","#papers","#questions","#zahlen"].forEach(s=>$(s).innerHTML='<div class="empty">Bitte melde dich bei claude.ai an, um dein Cockpit zu sehen.</div>'); $("#brief-btn").hidden=true; return; }
+    const fail = sel => () => { $(sel).innerHTML = '<div class="empty">Konnte gerade nicht geladen werden. Lade die Seite neu.</div>'; };
+    db.collection("team").onSnapshot(s=>{ state.team = s.docs.map(d=>({id:d.id,...d.data()})); renderTeam(); renderTasks(); }, fail("#team-areas"));
+    db.collection("auftraege").onSnapshot(s=>{ state.tasks = s.docs.map(d=>({id:d.id,...d.data()})); renderTasks(); renderTiles(); }, fail("#tasks"));
+    db.collection("fragen").onSnapshot(s=>{ state.fragen = s.docs.map(d=>({id:d.id,...d.data()})); renderFragen(); renderTiles(); }, fail("#questions"));
+    db.collection("entscheidungen").orderBy("datum","desc").limit(10).onSnapshot(s=>{ state.decs = s.docs.map(d=>({id:d.id,...d.data()})); renderDecs(); }, fail("#decs"));
+    db.collection("papiere").onSnapshot(s=>{ state.papers = s.docs.map(d=>({id:d.id,...d.data()})); renderPapers(); }, fail("#papers"));
+    db.collection("kennzahlen").doc("umsatz-2026").onSnapshot(s=>{ state.zahlen = s.exists ? s.data() : false; renderTiles(); if(!$("#v-zahlen").hidden) renderZahlen(); });
+    db.collection("meta").doc("briefing").onSnapshot(s=>{ state.briefing = s.exists ? s.data() : null; renderBrief(); });
+  }
+  async function startCal(){
+    const mcp = await claude.use("mcp");
+    if(!mcp){ state.calError = "Der Kalender ist in dieser Ansicht nicht verfügbar."; renderCal(); return; }
+    const end = new Date(now); end.setDate(end.getDate()+6);
+    mcp.watchTool("Google Calendar","list_events",{ startTime: todayStr+"T00:00:00", endTime: ymd(end)+"T23:59:00", orderBy:"startTime", pageSize:50 }, ev=>{
+      if(ev.type==="data"){ const p = ev.result.payload || {}; state.events = Array.isArray(p) ? p : (p.items || p.events || []); state.calError = null;
+        const at = ev.result.cache ? new Date(ev.result.cache.storedAt) : new Date(); $("#cal-fresh").textContent = "Stand "+pad(at.getHours())+":"+pad(at.getMinutes()); }
+      else { const c = ev.error && ev.error.code; if(CAL_MSG[c]){ state.events=null; state.calError=CAL_MSG[c]; } else if(state.events===null) state.calError="Kalender gerade nicht erreichbar."; }
+      renderCal();
+    }, { refetchInterval: 300000, cache:{ staleTime: 120000 } });
+  }
+  function context(){
+    return {
+      offene_auftraege: state.tasks.filter(t=>t.status!=="erledigt").map(t=>({titel:t.titel, wer:nameOf(t.wer), faellig:t.faellig||null, status:t.status, notiz:t.notiz||""})),
+      offene_fragen: (state.fragen||[]).filter(q=>q.status!=="beantwortet").map(q=>({frage:q.frage, kontext:q.kontext})),
+      entscheidungen: state.decs.slice(0,8).map(d=>d.text),
+      strategie: (state.papers||[]).map(p=>({titel:p.titel, kurz:p.kurz})),
+      zahlen: state.zahlen ? {online_2026_netto:(state.zahlen.bisher_netto||0)+(state.zahlen.neu_netto||0), produkte:state.zahlen.produkte} : null,
+      termine: (state.events||[]).map(e=>({titel:e.summary, start:evStart(e)}))
+    };
+  }
+  $("#brief-btn").addEventListener("click", async ()=>{
+    const btn = $("#brief-btn"); const sample = await claude.use("sample");
+    if(!sample){ $("#brief-meta").textContent = "Briefings sind in dieser Ansicht nicht verfügbar."; return; }
+    btn.disabled = true; $("#brief-meta").textContent = "Sebastian schreibt …";
+    const prompt = `Du bist Sebastian, CEO von Aisun Dodenhoffs Online-Business. Schreib Aisun ein kurzes Tagesbriefing für ${fmtLong(now)} auf Deutsch, Du-Form, warm, klar, direkt, ohne Floskeln und Emojis. 1 Satz Begrüßung, dann höchstens 3 kurze Absätze: Termine heute; was auf ihre Entscheidung wartet; eine Empfehlung für ihre Energie heute. Max. 110 Wörter. Erfinde nichts, nutze nur diese Daten:\n${JSON.stringify(context())}`;
+    try{ const r = await sample(prompt,{modelTier:"default",cache:false,onText:({text})=>{ $("#brief-text").textContent = text; }});
+      $("#brief-text").textContent = r.text; $("#brief-meta").textContent = "gerade erstellt";
+      if(db){ try{ await db.collection("meta").doc("briefing").set({text:r.text, datum:todayStr, von:"Cockpit"}); }catch(_){} } }
+    catch(err){ $("#brief-meta").textContent = err&&err.code==="not_granted" ? "Du hast das Erstellen von Briefings nicht erlaubt." : err&&err.code==="rate_limited" ? "Gerade zu viele Anfragen. Versuch es gleich noch einmal." : "Briefing konnte nicht erstellt werden."; }
+    finally{ btn.disabled = false; }
+  });
+  $("#ask").addEventListener("submit", async e=>{
+    e.preventDefault(); const q = $("#ask-in").value.trim(); if(!q) return;
+    const out = $("#ask-out"); const sample = await claude.use("sample");
+    out.hidden = false;
+    if(!sample){ out.textContent = "Die Schnellfrage ist in dieser Ansicht nicht verfügbar."; return; }
+    out.textContent = "Sebastian denkt nach …";
+    const prompt = `Du bist Sebastian, CEO von Aisun Dodenhoffs Online-Business (energetische Selbstheilung, Coach-Ausbildung, VIP-Begleitung). Antworte Aisun auf Deutsch, Du-Form, warm, klar, ehrlich, max. 90 Wörter, ohne Emojis. Nutze nur diese Cockpit-Daten; wenn sie nicht reichen, sag das und schlag vor, es im Chat mit Sebastian zu klären. Keine Heilversprechen. Große Entscheidungen nie unter Druck.\nDaten: ${JSON.stringify(context())}\nFrage: ${q}`;
+    try{ const r = await sample(prompt,{modelTier:"default",cache:false,onText:({text})=>{ out.textContent = text; }}); out.textContent = r.text; }
+    catch(err){ out.textContent = err&&err.code==="not_granted" ? "Du hast die Schnellfrage nicht erlaubt." : err&&err.code==="rate_limited" ? "Gerade zu viele Anfragen. Versuch es gleich noch einmal." : "Das hat gerade nicht geklappt."; }
+  });
+
+  if(window.claude && window.claude.use){ startDb(); startCal(); }
+  else { state.calError="Öffne das Cockpit in der Claude-App oder auf claude.ai."; renderCal(); }
+})();
+</script>
