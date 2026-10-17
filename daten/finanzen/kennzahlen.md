@@ -31,6 +31,7 @@ Hinweis: Die Jahre 2023–2025 enthalten laut Steuerunterlagen auch Beratung. Ab
 | **Summe Online-Business 2026 (Soll)** | **ca. 85.000 €** | nicht abgestimmt |
 
 **Je Produkt (netto, grob):** Große Coach-Ausbildung ca. 47.600 € (Rechnungen) · Kurs im Heilen ca. 10.800 € · Magic Momentum ca. 6.700 € · Lebenscoach-Mastermind ca. 5.200 € + 2 Mastermind-Rechnungen 930 € · Heilraum ca. 4.900 € · Workshops ca. 5.000 € · DARE Day ca. 1.250 € · Einzelsitzungen ca. 170 €.
+**Nachtrag 17.10.:** Aisun hat eine weitere Rechnung über 30.000 € gestellt (Details folgen). Damit liegt 2026 voraussichtlich über 100.000 € (Rechnungswert).
 **Offen:** 6.000 € fehlgeschlagene Raten, ca. 4.900 € „pending", Rechnung 00226 korrigiert (USt), Rechnung 00826 vermutlich doppelt, tatsächlicher Geldeingang (Ist) liegt unter dem Rechnungswert.
 
 ## Was 2026 bekannt ist (aus Steuer-Unterlagen, unvollständig)

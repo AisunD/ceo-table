@@ -2,6 +2,7 @@
 
 Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entscheidung – (Begründung in wenigen Worten)`
 
+- 2026-10-17 – Aussage bleibt: „In kürzester Zeit (in den ersten zwei Jahren Online-Business) sechsstellig.“ Begründung Aisun: 2026 ca. 85.000 € plus neue Rechnung über 30.000 €, Jahr läuft noch. Petra prüft nur den genauen Wortlaut auf öffentlichen Seiten, kein weiteres Nachhaken. – (Aisun hat entschieden)
 - 2026-10-17 – Magic Momentum (inkl. Momentum Days/Business Reset) ist abgeschafft und wird nicht mehr angeboten. – (Aisun: „das machen wir nicht mehr“)
 - 2026-10-17 – Der CEO-Table betrachtet nur Aisuns Online-Business. Unternehmensberatung wird bei Umsatz, Kennzahlen und Strategie nicht mitgerechnet. – (Aisun: „Hier geht es nur um mein Online-Business“)
 - 2026-10-17 – Steuer und Finanzen gehören in den CEO-Table; Nina darf sie sehen. Finanz-Franzi (CFO-Assistentin) ist aktiv. Nicht in den Ordner: Kontonummern, Steuer-ID, Passwörter. – (Zahlen sind Grundlage für Strategie und Kennzahlen)

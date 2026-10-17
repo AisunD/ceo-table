@@ -9,9 +9,6 @@ Gefunden beim Einlesen von OneDrive am 17.10.2026. Sebastian fragt diese Punkte 
 4. Preise offen: Bundle „Sex, Money & Smile", Coach-Selbstcheck, Business Healing, Lebenscoach-Mastermind.
 5. Welche Produkte laufen aktuell überhaupt noch (The Money Room, DARE Day, Präsenz-Workshop, Kakao)?
 
-## Glaubwürdigkeit
-16. `wissen/ueber-aisun.md` sagt „in wenigen Monaten auf sechsstelligen Umsatz gewachsen", die Zahlen zeigen ca. 75–85.000 €. Welcher Satz stimmt? Erst nach Aisuns OK überall ersetzen.
-
 ## Zielgruppe
 6. **Altersspanne:** 30–55, 35–60, 30–50+ oder 40+? (Bis dahin gilt ca. 35–55.)
 
