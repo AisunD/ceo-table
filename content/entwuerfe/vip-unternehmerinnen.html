@@ -56,14 +56,6 @@ p{margin:0}
 .room p{margin-top:10px;color:var(--creme)}
 @media (max-width:520px){.room{grid-template-columns:56px 1fr;gap:14px}.room .num{font-size:40px}}
 
-/* Teilung */
-.split{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--linie)}
-.split div{padding:24px}
-.split div + div{border-left:1px solid var(--linie);background:#1F0A13}
-.split .who{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
-.split .what{font-family:var(--display);font-size:24px;line-height:1.3;margin-top:8px}
-@media (max-width:560px){.split{grid-template-columns:1fr}.split div + div{border-left:0;border-top:1px solid var(--linie)}}
-
 /* Leistungen */
 .items{list-style:none;padding:0;margin:0;border-top:1px solid var(--gold)}
 .items li{display:grid;grid-template-columns:1fr auto;gap:16px;padding:16px 0;border-bottom:1px solid var(--linie);align-items:baseline}
@@ -145,19 +137,7 @@ p{margin:0}
     </div>
   </section>
 
-  <section class="chapter band" aria-labelledby="c3">
-    <div class="inner">
-      <div class="kicker">Klare Rollen</div>
-      <h2 id="c3">Wir ergänzen uns. Wir konkurrieren nicht.</h2>
-      <div class="split">
-        <div><div class="who">Du</div><div class="what">gibst deinen Frauen die Richtung.</div></div>
-        <div><div class="who">Ich</div><div class="what">sorge dafür, dass du und dein Programm das tragen.</div></div>
-      </div>
-      <p class="body">Deine Teilnehmerinnen sind deine Kundinnen. Ich spreche sie während unserer Zusammenarbeit und sechs Monate danach nicht aktiv an. Das halten wir schriftlich fest.</p>
-    </div>
-  </section>
-
-  <section class="chapter band" aria-labelledby="c4">
+    <section class="chapter band" aria-labelledby="c4">
     <div class="inner">
       <div class="kicker">Was enthalten ist</div>
       <h2 id="c4">Ein Paket. So lange wie dein Programm.</h2>
