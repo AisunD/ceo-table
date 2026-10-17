@@ -25,8 +25,8 @@ Quellen: Produktpalette, Blueprint/Business Report, Salespages, Launch-Unterlage
 | **Große Coach-Ausbildung** | ca. 1 Jahr, wöchentliche Calls, Präsenztage (DARE Day), Materialien, 1:1; max. 10 TN | **11.900 € brutto** (Rechnungen 2026), meist in Raten | läuft (Start März 2026) |
 | **Seelenklar Deep Dive** | 1:1, 60–120 Min., Zoom oder Berlin, 2 Wochen WhatsApp-Nachbegleitung, energetischer Speicher per Post | 333 € netto | läuft |
 | **Seelenklar Journey** | 3 Monate 1:1, WhatsApp Mo–Fr, Zugang Heilraum + Extended, Willkommenspaket | 6.000 € netto (wöchentlich) · 3.000 € netto (14-tägig) · 30.000 € (älterer Website-Stand) | läuft, wenige Plätze |
-| **Magic Momentum** | Business-Programm mit Natalie Brüne, 12 Wochen, wöchentl. Zoom, max. 10 TN; zuletzt Feb–Mai 2026 | 2.999 € (Early Bird 2.200 €) | Kooperation, ca. 1× pro Jahr |
-| **Momentum Days / Business Reset** | Launch-Events für Magic Momentum | 0 € | mit Natalie |
+| ~~**Magic Momentum**~~ **ABGESCHAFFT (17.10.2026)** | Business-Programm mit Natalie Brüne, 12 Wochen, wöchentl. Zoom, max. 10 TN; zuletzt Feb–Mai 2026 | 2.999 € (Early Bird 2.200 €) | Kooperation, ca. 1× pro Jahr |
+| ~~**Momentum Days / Business Reset**~~ entfallen mit Magic Momentum | Launch-Events für Magic Momentum | 0 € | mit Natalie |
 | **Business Healing** | Workshop, ca. 2 Std. live auf Zoom | offen | lief sehr gut |
 | **Lebenscoach-Mastermind** | Neues Live-Produkt | offen | neu |
 | **The Money Room** | Workshop/Launch | offen | Status unklar |

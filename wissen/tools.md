@@ -14,7 +14,7 @@ Quelle: „Übersicht BusinessApps" (01 ADMIN) + Gespräche. Stand: 17.10.2026.
 | **ThriveCart Pro + Learn+** | Checkout, Kursplattform | ❌ |
 | **Calendly** | Terminbuchung mit Zoom-Link | ❌ |
 | **Zoom** | Kurse, Kundentermine, Launch-Workshops | ❌ |
-| **Typeform** | Umfragen | ❌ |
+| **Typeform** | Umfragen. Antworten landen automatisch im Slack-Kanal `#typeform_` (Bot), dort liest Sebastian sie. Kein direkter Zugang. | ⚠️ nur über Slack |
 | **Opus Clip** | Videos automatisch kürzen (wöchentliche Reels) | ❌ |
 | **CapCut** | Untertitel, Schnitt (immer weniger genutzt) | ❌ |
 | **Riverside** | Podcast-Aufnahme | ❌ |

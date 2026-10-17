@@ -6,7 +6,7 @@ Gefunden beim Einlesen von OneDrive am 17.10.2026. Sebastian fragt diese Punkte 
 1. ~~KiH-Preis~~ – geklärt: 2.400 €, Frühbucher 2.000 € (Launch Sept. 2026). Bitte nur bestätigen, ob das für die nächste Runde so bleibt.
 2. ~~Ausbildung~~ – geklärt: 11.900 € brutto. Bitte bestätigen.
 3. **Seelenklar Journey:** 3.000/6.000 € netto (Salespage) oder 30.000 € (alter Website-Stand)?
-4. Preise offen: Bundle „Sex, Money & Smile", Coach-Selbstcheck, Business Healing, Lebenscoach-Mastermind, Magic Momentum 2027.
+4. Preise offen: Bundle „Sex, Money & Smile", Coach-Selbstcheck, Business Healing, Lebenscoach-Mastermind.
 5. Welche Produkte laufen aktuell überhaupt noch (The Money Room, DARE Day, Präsenz-Workshop, Kakao)?
 
 ## Zielgruppe

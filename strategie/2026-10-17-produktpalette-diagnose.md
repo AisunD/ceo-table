@@ -30,3 +30,12 @@ Trägt: wiederkehrender Umsatz, Bauchladen aufräumen, Nähe über Monate. Träg
 2. Wie viele Ausbildungsfrauen 2026 kamen aus dem KiH (Zahl, keine Namen).
 3. Was haben Leute zur Nicht-Kaufentscheidung gesagt?
 Keine Entscheidung ohne Aisuns OK; keine Entscheidung unter Zeitdruck.
+
+## Umfrage „KIH Nicht-Käufer" (Typeform, Slack #typeform_, 12 echte Antworten, Stand 17.10.; nur Aggregat)
+- Zeit/Lebenslage/Termin (6): Termin kollidiert, Pflege, Krankheit, zu viel zu tun, anderes Seminar.
+- Haben schon alles / sind selbst Coachinnen aus der innerwise-Szene (3) → Bestandspublikum, kein Bedarf am Kurs.
+- Neu und überfordert / unsicher, wie es weitergeht (2): u. a. „kann mich selbst noch nicht testen".
+- Inhalt/Workshop-Qualität (2): „3 Methoden angekündigt, nur 1 gezeigt", Folien zu schnell, Übungen schlecht sichtbar, Ton zu leise, „energetisch nicht überzeugt".
+- Preis wurde nur von 1 Person angedeutet (finanziell, dazu erkrankt). Niemand nennt den Preis als Hauptgrund.
+- Eine Person braucht Begleitung statt Selbstlernen.
+Vorsicht: kleine, selbst gewählte Stichprobe (12 von ca. 200).
