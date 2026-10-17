@@ -3,6 +3,7 @@
 Quellen: Gewinnermittlung (EÜR) 2024 mit Vorjahr 2023 (Steuerkanzlei), BWA Dezember 2025 laut Steuer-Projekt, Steuer-Unterlagen 2026. Stand: 17.10.2026. Gepflegt von Finanz-Franzi.
 
 ## Jahre im Überblick
+Hinweis: Die Jahre 2023–2025 enthalten laut Steuerunterlagen auch Beratung. Ab 2026 zählt hier nur das Online-Business (Entscheidung 17.10.2026).
 | | 2023 | 2024 | 2025 (BWA Dez.) |
 |---|---|---|---|
 | Einnahmen aus Tätigkeit (netto) | 129.241 € | 75.363 € | – |
@@ -28,7 +29,6 @@ Quellen: Gewinnermittlung (EÜR) 2024 mit Vorjahr 2023 (Steuerkanzlei), BWA Deze
 | Rechnungen außerhalb ThriveCart (11 Stück) | ca. 48.700 € | Details: `rechnungen-ausserhalb-thrivecart-2026.md` |
 | abzgl. Überschneidung (Ausbildungs-Raten in beiden) | ca. −10.500 € | Schätzung |
 | **Summe Online-Business 2026 (Soll)** | **ca. 85.000 €** | nicht abgestimmt |
-| Unternehmensberatung | unbekannt | fehlt noch |
 
 **Je Produkt (netto, grob):** Große Coach-Ausbildung ca. 47.600 € (Rechnungen) · Kurs im Heilen ca. 10.800 € · Magic Momentum ca. 6.700 € · Lebenscoach-Mastermind ca. 5.200 € + 2 Mastermind-Rechnungen 930 € · Heilraum ca. 4.900 € · Workshops ca. 5.000 € · DARE Day ca. 1.250 € · Einzelsitzungen ca. 170 €.
 **Offen:** 6.000 € fehlgeschlagene Raten, ca. 4.900 € „pending", Rechnung 00226 korrigiert (USt), Rechnung 00826 vermutlich doppelt, tatsächlicher Geldeingang (Ist) liegt unter dem Rechnungswert.
@@ -41,7 +41,6 @@ Quellen: Gewinnermittlung (EÜR) 2024 mit Vorjahr 2023 (Steuerkanzlei), BWA Deze
 ## Fehlt noch (Franzi holt es)
 - Umsatz 2026 je Monat: ThriveCart liegt vor, Rechnungen nach Monat noch nicht aufgeteilt; Geldeingang (Ist)
 - Ad-Ausgaben gesamt 2026 und Ergebnis pro Launch
-- Anteil Unternehmensberatung am Umsatz (2023 vs. heute) – wichtig, um das Online-Business sauber zu bewerten
 
 ## Erste Einordnung (für Katharina, keine Bewertung)
 - Der Rückgang 2023 → 2024 fällt mit dem Wechsel vom Beratungs- zum Online-Business zusammen; ohne Aufteilung nach Umsatzquelle lässt sich das nicht bewerten.

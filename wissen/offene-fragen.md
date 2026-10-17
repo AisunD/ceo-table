@@ -20,7 +20,7 @@ Gefunden beim Einlesen von OneDrive am 17.10.2026. Sebastian fragt diese Punkte 
 9. Termin mit Fachanwältin für Heilmittelwerberecht für Ursprungsgeschichte und Motto?
 
 ## Zahlen für Katharina
-0. Profil sagt „sechsstelliger Umsatz", die Steuerzahlen zeigen 2024 rund 75.000 € und 2025 rund 76.000 € Umsatz (2023: 129.000 € inkl. Beratung?). Welche Zahl ist die richtige Ausgangsbasis, und wie viel davon ist Online-Business vs. Unternehmensberatung?
+0. Ausgangsbasis ist das Online-Business 2026 (ca. 85.000 € netto, Schätzung). Beratung zählt nicht. Offen: Vergleichswert für 2025 nur Online-Business (steht in den Steuerzahlen mit Beratung).
 10. Umsatz je Produkt 2025 und 2026 bis heute (grob reicht).
 11. Anzahl Kundinnen je Produkt, Listengröße, Heilungskompass-Anmeldungen pro Monat.
 12. Ad-Budget und Ergebnisse seit Januar 2026.
