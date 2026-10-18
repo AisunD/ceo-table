@@ -1,7 +1,7 @@
 # Human Design – Aisun
 
 Quellen: „HD Aisun Business und Money", „HD Ausdruck & Content" (Wealth-Linse nach Jamie Sea, Juli 2026), „Marketing Tore" (03 BRANDING/Human Design Aisun). Stand: 17.10.2026.
-Für: Energie-Elli, Katharina, das Content-Team, Sebastian (Entscheidungen, Rhythmus).
+Für: Energie-Elli (Human-Design-Queen, liest zusätzlich `human-design-details.md`, `astrologie.md`, `gene-keys.md`), Katharina, das Content-Team, Sebastian (Entscheidungen, Rhythmus).
 
 ## Grunddaten
 - **Typ:** Generatorin
