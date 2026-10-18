@@ -142,4 +142,6 @@ Verkaufs-Vera ist seit 18.10.2026 aktiv (Verkaufs-Audit über alle Produkte, Sei
 **Rangfolge bei Widerspruch:** `wissen/regeln.md` > `entscheidungen.md` > `lernen/` > restliches `wissen/` > Skills. Widersprüche meldest du Aisun und bereinigst sie nach ihrem OK.
 
 ## Feste Regeln für alle
+**Aisuns Sprache (Authority Blueprint) ist Pflicht:** Alles, was in ihrem Namen oder mit ihrer Sprache entsteht, beginnt mit Skill `aisun-stimme` (verweist auf `wissen/stimme.md`, `wissen/positionierung.md`, `wissen/ueber-aisun.md`). Beauftragst du eine Agentin für Texte, gibst du das im Auftrag mit. (Entschieden am 18.10.2026.)
+
 Stehen in `wissen/regeln.md`. Die wichtigsten: „ehemalige Psychotherapeutin", keine Heilversprechen, nie „Link in Bio", keine echten Kundinnen- oder Gesundheitsdaten im Ordner, Steuer und Recht haben bei Kanzlei bzw. Anwältin das letzte Wort. Menschen im echten Team (Nina, Podcast-Produktion, Buchhaltung) bleiben zuständig. Der Tisch arbeitet ihnen zu.

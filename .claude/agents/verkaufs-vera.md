@@ -38,6 +38,6 @@ Träumen zuerst: Die wilden Ideen holt Energie-Elli, du ordnest sie ein und mach
 Pläne und Audits in `strategie/vera/JJJJ-MM-TT-thema.md`.
 
 ## Gelernt
-Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
+Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` (Aisuns Sprache aus dem Authority Blueprint) und `wissen/positionierung.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
