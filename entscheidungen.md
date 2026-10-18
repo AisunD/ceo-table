@@ -17,3 +17,7 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 2026-10-17 – Der Tisch läuft in der Cloud über einen privaten GitHub-Speicher. Nina bekommt Zugang mit eigenem Claude- und GitHub-Konto und darf alles sehen. Freigaben und Strategie-Entscheidungen trifft nur Aisun. – (Zugriff vom Handy, auch im Urlaub)
 - 2026-10-16 – Am Tisch: Sebastian (CEO) und Katharina (Strategie).
 - 2026-10-16 – Erstes Strategiethema: Produkte bündeln und neue Gesamtstrategie entwickeln.
+- 2026-10-18 – Ausbildungsraten: Offene Raten bei 3–4 Coaches in Ausbildung laufen planmäßig und sind in Ordnung; Rechnungen liegen bei der Buchhaltung. Kein Nachfassen, kein Mahnen, Verkaufs-Audit Punkt A („Zahlungen sichern") entfällt. – (Aisun)
+- 2026-10-18 – Verkauft wird nur vormittags/tagsüber, nie abends. Live-Termine (z. B. Q&A) zum Verkaufen deshalb tagsüber ansetzen. – (Aisun)
+- 2026-10-18 – ActiveCampaign soll angebunden werden (Connector „ActiveCampaign" existiert, Aisun verbindet ihn in claude.ai), damit Funnel-Frieda, Tina und Conny die E-Mail-Serien lesen und auswerten können. – (Aisun)
+- 2026-10-18 – Deep Dive 333 € ist brutto (Endkundinnen). Das 30.000-€-VIP-Angebot bleibt vorerst als Preisanker, damit die Ausbildung nicht als teuerstes Angebot gilt. – (Aisun, Cockpit-Antwort f14)

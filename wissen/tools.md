@@ -10,7 +10,7 @@ Quelle: „Übersicht BusinessApps" (01 ADMIN) + Gespräche. Stand: 17.10.2026.
 | **OneDrive** (Microsoft 365, privates Konto) | Hauptablage | nur dieser Ordner; über verknüpften Rechner auch Business-Ordner |
 | **Instagram** (verifiziert) | Hauptkanal | ❌ – Zahlen als Export/Screenshot in `daten/instagram/` |
 | **ManyChat Pro** | Keyword-DMs auf Instagram | ❌ – Frieda liefert Texte und Bauanleitung |
-| **ActiveCampaign** | E-Mails, Formulare, Automationen | ❌ |
+| **ActiveCampaign** | E-Mails, Formulare, Automationen | ❌ (Connector im Verzeichnis vorhanden, Aisun verbindet ihn in claude.ai → Konnektoren) |
 | **ThriveCart Pro + Learn+** | Checkout, Kursplattform | ❌ |
 | **Calendly** | Terminbuchung mit Zoom-Link | ❌ |
 | **Zoom** | Kurse, Kundentermine, Launch-Workshops | ❌ |

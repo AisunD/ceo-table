@@ -60,7 +60,7 @@ Wichtig: Chart und Marktlogik zeigen in dieselbe Richtung. Das ist der Grund, wa
 Wirkung = Schätzung (S) in zusätzlichem Netto-Umsatz in 90 Tagen. Energie: 1 = leicht, 5 = zehrt.
 | # | Idee | Wirkung (S) | Aufwand | Energie | Chart-Passung | Kleinster Test und Abbruch |
 |---|---|---|---|---|---|---|
-| A | **Zahlungen sichern:** ThriveCart-Erinnerungen für fehlgeschlagene Raten, ruhige Mail, Zahlungsplan anbieten | bis ca. 10.900 € (Teil davon) | gering | 1 | neutral | Alle offenen Posten einmal persönlich anschreiben. Abbruch: keine Reaktion nach 14 Tagen, dann Buchhaltung/Anwältin |
+| A | ~~**Zahlungen sichern:**~~ ENTFÄLLT (18.10., Aisun: Raten laufen planmäßig, nichts nachfassen) – ThriveCart-Erinnerungen für fehlgeschlagene Raten, ruhige Mail, Zahlungsplan anbieten | bis ca. 10.900 € (Teil davon) | gering | 1 | neutral | Alle offenen Posten einmal persönlich anschreiben. Abbruch: keine Reaktion nach 14 Tagen, dann Buchhaltung/Anwältin |
 | B | **Klarheitsgespräche** (20 Min., Calendly) für Ausbildung 2027, an warme Gruppen: Absolventinnen, Selbstcheck-Käuferinnen, Workshop-Teilnehmerinnen | 1 bis 3 Plätze = 10.000 bis 30.000 € | mittel | 2 | sehr hoch (59, Generatorin, 4/6) | 15 persönliche Einladungen. Abbruch: unter 4 Termine gebucht |
 | C | **Fachfrauen-Infoabend** (Katharinas Weg B/C) als Gesprächs-Türöffner | 1 bis 2 Plätze (S) | mittel | 2 | hoch (Gruppe, Reaktion) | Ziel 25 Anmeldungen. Abbruch: unter 12 |
 | D | **Zuhören vor Bauen:** Ein-Klick-Umfrage an die ca. 200 Anmeldungen und an Tripwire-Käuferinnen: „Was war der Grund?" | Erkenntnis, kein Umsatz | gering | 1 | hoch (Tor 64) | Abbruch: unter 20 Antworten, dann 5 Gespräche |
