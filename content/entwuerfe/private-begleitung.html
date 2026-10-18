@@ -104,13 +104,53 @@ h2{font-size:clamp(32px,8.4vw,46px);line-height:1.14;margin-top:18px}
 .foot{padding-block:44px 64px}
 .foot p{font-size:14px;line-height:1.6;color:var(--soft);margin:0 0 12px;max-width:66ch}
 .foot .brand{font-family:var(--display);font-weight:500;letter-spacing:.28em;font-size:14px;color:var(--beere);margin-bottom:18px}
+
+/* Ergänzungen Runde 2 */
+.herocta{text-align:center;margin-top:8px}
+.hero .cta{margin-top:32px}
+.mantra{font-family:var(--display);font-style:italic;font-weight:500;font-size:clamp(30px,8vw,42px);line-height:1.2;color:var(--beere);margin:36px 0 8px;text-wrap:balance}
+.mantra.on-dark{color:var(--gold)}
+.s-dream{background:var(--sand)}
+.s-dream .big{font-family:var(--display);font-weight:500;font-size:clamp(28px,7.4vw,38px);line-height:1.22;color:var(--beere);margin-top:18px;text-wrap:balance}
+.s-dream .inner>p{margin-top:20px}
+.ritual{background:var(--creme);border:1px solid var(--gold);padding:30px 24px;margin-top:40px}
+.ritual .act{font-family:var(--display);font-weight:500;font-size:clamp(23px,5.8vw,28px);line-height:1.38;color:var(--beere);margin-top:16px}
+.ritual p+p{margin-top:14px}
+.scene{margin-top:32px;display:flex;flex-direction:column;gap:20px}
+.scene p{font-size:18px;font-weight:500;color:var(--creme);margin:0}
+.scene .said{font-family:var(--display);font-style:italic;font-size:clamp(24px,6vw,30px);line-height:1.35;color:var(--gold);border-left:2px solid var(--gold);padding-left:18px}
+.ur{margin-top:36px;padding-top:28px;border-top:1px solid var(--gold)}
+.ur p{margin:0 0 14px;font-size:18px;font-weight:500;color:var(--creme)}
+.fit h3{font-size:30px;line-height:1.2;margin-top:44px;color:var(--ink)}
+.fit ul{margin:18px 0 0;padding:0;list-style:none;border-top:1px solid var(--gold)}
+.fit li{padding:16px 0 16px 28px;position:relative;border-bottom:1px solid var(--sand)}
+.fit li::before{content:"";position:absolute;left:0;top:1.5em;width:14px;height:2px;background:var(--gold)}
+.fit ul.no{border-top-color:var(--rose)}
+.fit ul.no li::before{background:var(--rose)}
+.s-person{background:var(--sand)}
+.s-person .person li{border-bottom-color:rgba(115,1,58,.25)}
+.faq{margin-top:32px;border-top:1px solid var(--gold)}
+.qa{padding:28px 0;border-bottom:1px solid var(--sand)}
+.qa h3{font-size:27px;line-height:1.25;color:var(--beere)}
+.qa p{margin-top:12px}
+.closing{background:var(--sand)}
+.closing .mantra{margin-top:28px}
+.s-invite .p1 strong{color:var(--gold);font-weight:700}
+.s-invite .hint{font-size:16px;font-weight:500;max-width:46ch;margin:24px auto 0;text-align:left}
+.s-invite a.cta{text-decoration:none}
+.herocta a.cta{text-decoration:none}
+.s-rahmen .quiet{margin-top:0}
+.rahmen{margin:24px 0 0}
+.rahmen dt{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--beere);margin-top:22px}
+.rahmen dd{margin:6px 0 0;font-size:16px;line-height:1.65;color:var(--soft)}
 </style>
 
 <header class="hero band">
   <div class="inner">
     <div class="mark"><span class="logo">AISUN DODENHOFF</span><span class="rule"></span></div>
-    <h1>Dein Leben darf sich wieder nach <em>dir</em> anfühlen.</h1>
-    <p class="sub">Sechs Monate private Begleitung mit energetischer Tiefe. Für Frauen, die nach außen alles tragen und für sich selbst einen Raum verdienen.</p>
+    <h1>Alle wissen, was du brauchst. Nur <em>du</em> nicht.</h1>
+    <p class="sub">Sechs Monate, in denen du wieder vorkommst. Private Begleitung für Frauen, die nach außen alles tragen, mit psychologischer Klarheit und energetischer Tiefe.</p>
+    <div class="herocta"><a class="cta" href="#kontakt">Schreib mir einen Satz</a></div>
   </div>
 </header>
 <div class="wash" aria-hidden="true"></div>
@@ -119,40 +159,57 @@ h2{font-size:clamp(32px,8.4vw,46px);line-height:1.14;margin-top:18px}
 
   <section class="s band letter" aria-label="Persönlicher Brief">
     <div class="inner">
-      <p class="lead">Von außen sieht alles gut aus. Und das ist es ja auch, irgendwie.</p>
-      <p>Und trotzdem gibt es diese Momente. Abends, wenn das Haus ruhig ist. Oder mitten in einem Fest, wenn alle lachen und du merkst: Eigentlich weiß hier gerade niemand, was ich brauche. Manchmal weiß ich es selbst nicht so genau.</p>
+      <p class="lead">Ich weiß nicht, wie dein Abend heute aussieht.</p>
+      <p>Vielleicht liegen alle endlich im Bett und du gehst im Kopf schon die Liste für morgen durch. Und vielleicht ist da, ganz leise, dieser Gedanke: Von außen sieht alles gut aus. Und das ist es ja auch, irgendwie.</p>
+      <p>Und trotzdem gibt es diese Momente. Mitten in einem Fest, wenn alle lachen, und du merkst: Eigentlich weiß hier gerade niemand, was ich brauche. Manchmal weiß ich es selbst nicht so genau. Wenn du dich darin wiedererkennst: Das ist völlig okay. Du bist damit nicht allein.</p>
       <p>Ich kenne das. Als ich mit meiner Familie im Ausland gelebt habe, in Russland, war ich umgeben von Menschen und Möglichkeiten. Und gleichzeitig war da eine Einsamkeit, über die man nicht spricht. Weil man ja so privilegiert ist. Weil man funktioniert.</p>
-      <p>Genau dafür gibt es diesen Raum. Einen Raum nur für dich. Kein Programm, keine Gruppe, kein Druck. Wir schauen gemeinsam hinter die Fassade: Wie geht es dir wirklich? Was brauchst du? Und was beschäftigt dich im Hintergrund?</p>
+      <p>Genau dafür gibt es diesen Raum. Einen Raum nur für dich. Kein Programm, keine Gruppe, kein Druck. Wir gucken gemeinsam hinter die Fassade: Wie geht es dir wirklich? Was brauchst du? Und was beschäftigt dich im Hintergrund?</p>
+      <p class="mantra">Hier kommst du wieder vor.</p>
       <div class="sig" aria-label="Aisun">Aisun</div>
+    </div>
+  </section>
+
+  <section class="s band s-dream" aria-labelledby="dream-h">
+    <div class="inner">
+      <div class="label">Stell dir vor</div>
+      <h2 id="dream-h" class="big">Ein Dienstag, zehn Uhr.</h2>
+      <p>Der Kaffee ist noch warm. Das Haus ist still. Du hast eine Stunde, in der keiner fragt, wo die Sportsachen sind. Niemand will etwas von dir. Da ist nur eine Frage: Wie geht&rsquo;s dir?</p>
+      <p>Und dann hörst du dir selbst beim Antworten zu. Vielleicht zum ersten Mal seit Langem.</p>
+      <div class="ritual">
+        <div class="label">Probier es gleich aus</div>
+        <p class="act">Leg mal kurz eine Hand auf dein Brustbein. Atme einmal aus. Und frag dich: Was trage ich gerade, das gar nicht meins ist?</p>
+        <p>Du musst die Antwort noch nicht wissen.</p>
+      </div>
     </div>
   </section>
 
   <section class="s band s-method" aria-labelledby="meth-h">
     <div class="inner">
       <div class="label">Das Herzstück</div>
-      <h2 id="meth-h">Energetische Arbeit, die tiefer geht.</h2>
-      <div class="mgrid">
-        <div class="mitem"><span class="mn">Jede Woche</span><p>Eine energetische Einzelsession nur für dich. Wir schauen gemeinsam, welche <em>wirkenden Kräfte</em> du hinter deinen Themen wahrnimmst, und machen sie für dich sichtbar.</p></div>
-        <div class="mitem"><span class="mn">Deine UrSeele</span><p>Wir gehen dem nach, was wirklich zu dir gehört und was du nur mitträgst: Rollen, Erwartungen, Dynamiken, die nicht deine sind.</p></div>
-        <div class="mitem"><span class="mn">Hinter der Fassade</span><p>Mit meinen Methoden schaue ich auf das, was sich in Worten nicht fassen lässt, und teile mit dir, was ich dabei wahrnehme, als Angebot, nicht als Befund.</p></div>
+      <h2 id="meth-h">Was passiert, wenn jemand wirklich hinschaut?</h2>
+      <div class="scene">
+        <p>Jede Woche eine energetische Einzelsession nur für dich. Stell dir vor: Du sitzt da, die Kamera ist an, und ich werde still. Ich gucke auf das, was sich in Worten kaum fassen lässt. Dann teile ich mit dir, was ich wahrnehme. Zum Beispiel:</p>
+        <p class="said">&bdquo;Da ist etwas sehr Schweres. Und es fühlt sich nicht nach dir an.&ldquo;</p>
+        <p>Du hältst kurz inne. Vielleicht lachst du, vielleicht wird es still. Und du merkst: Ja, das gehört mir gar nicht. Ob es für dich stimmt, entscheidest allein du. Mein Eindruck ist ein Angebot, kein Befund. <span class="todo">ENTWURF · Aisun prüft, ob die Szene so stimmt</span></p>
       </div>
-      <p class="mfoot">Daneben bringe ich die Klarheit einer Psychologin und knapp 20 Jahre Erfahrung mit Menschen in Verantwortung mit. Die energetische Arbeit ist ein Impuls für deine Selbstreflexion, nicht als Diagnose und ohne Wirkversprechen.</p>
+      <div class="ur">
+        <p>Dabei geht es immer wieder um deine UrSeele: das, was ursprünglich zu dir gehört, bevor sich Rollen, Erwartungen und fremde Muster darübergelegt haben. <span class="todo">ENTWURF · Aisun formuliert UrSeele selbst</span></p>
+        <p>Daneben bringe ich die Klarheit einer Psychologin und knapp 20 Jahre Erfahrung mit Menschen in Verantwortung mit.</p>
+      </div>
+      <p class="mantra on-dark">Hier kommst du wieder vor.</p>
     </div>
   </section>
 
   <section class="s band" aria-labelledby="areas-h">
     <div class="inner">
       <div class="label">Was wir anschauen</div>
-      <h2 id="areas-h">Vier Bereiche deines Lebens</h2>
+      <h2 id="areas-h">Worüber wir sprechen?</h2>
       <p class="intro">Wir fangen da an, wo es dich gerade am meisten beschäftigt. Alles andere darf sich zeigen, wenn es so weit ist.</p>
       <div class="areas">
-        <div class="area"><h3>Wohlbefinden</h3><p>Wie lebst du deinen Alltag, und wie erlebst du ihn? Wo ist es eng, wo wünschst du dir mehr Leichtigkeit und Zeit für dich?</p></div>
-        <div class="area"><h3>Beziehung</h3><p>Was trägt eure Partnerschaft, und wo bist du allein mit etwas, das du nicht aussprichst?</p></div>
-        <div class="area"><h3>Familie &amp; Kinder</h3><p>Deine Rolle zwischen allen Ansprüchen. Und die Frage, wo du selbst darin vorkommst.</p></div>
-        <div class="area"><h3>Lebensvision</h3><p>Was willst du eigentlich? Nicht für die anderen. Für dich.</p></div>
-      </div>
-      <div class="forces">
-        <p>Ergänzend arbeite ich mit <em>energetischen Methoden</em>, als Impuls zur Selbstreflexion, nicht als Diagnose und ohne Wirkversprechen. Meine Absicht: dass du dir wieder mehr Raum für dich nimmst und dein Leben so gestaltest, dass es sich wie deines anfühlt. Was daraus wird, entscheidest du.</p>
+        <div class="area"><h3>Wie geht es dir wirklich?</h3><p>Wie lebst du deinen Alltag, und wie erlebst du ihn? Wo ist es eng, wo wünschst du dir mehr Leichtigkeit und Zeit für dich?</p></div>
+        <div class="area"><h3>Was trägt euch, und was sagst du nicht?</h3><p>Was trägt eure Partnerschaft, und wo bist du allein mit etwas, das du nicht aussprichst?</p></div>
+        <div class="area"><h3>Wo kommst du selbst vor?</h3><p>Deine Rolle zwischen allen Ansprüchen, zwischen Kindern, Partner, Familie. Und die Frage, wo du selbst darin vorkommst.</p></div>
+        <div class="area"><h3>Was willst du, wenn niemand zuschaut?</h3><p>Nicht für die anderen. Für dich. Und was davon darfst du dir nehmen?</p></div>
       </div>
     </div>
   </section>
@@ -162,16 +219,36 @@ h2{font-size:clamp(32px,8.4vw,46px);line-height:1.14;margin-top:18px}
       <div class="label">Wie es läuft</div>
       <h2 id="ablauf-h">Sechs Monate, in deinem Tempo</h2>
       <ol class="steps">
-        <li><span class="k">Start</span><span class="v">Ein ausführliches erstes Gespräch. Wir schauen, wo du stehst und was du dir für diese Zeit wünschst.</span></li>
-        <li><span class="k">Jede Woche</span><span class="v">Ein persönliches Gespräch, per Video oder in Berlin. Wir sprechen, wir spüren hin, und ich teile mit dir meine Eindrücke aus der energetischen Arbeit als Impuls für deine Reflexion.</span></li>
-        <li><span class="k">Dazwischen</span><span class="v">Kleine Impulse für deinen Alltag, die du für dich allein anwenden kannst. Und du kannst mir schreiben, wenn dich etwas beschäftigt. Ich antworte werktags innerhalb von <span class="todo">ENTWURF · Antwortzeit: legt Aisun fest</span>. Ich bin kein Notfallkontakt: Bei akuten Krisen oder gesundheitlichen Notfällen wende dich an den Notruf 112, den ärztlichen Bereitschaftsdienst 116 117 oder die Telefonseelsorge 0800 111 0 111.</span></li>
-        <li><span class="k">Abschluss</span><span class="v">Wir schauen gemeinsam zurück: Was hat sich verändert, was nimmst du mit, was darf als Nächstes kommen.</span></li>
+        <li><span class="k">Kennenlernen</span><span class="v">30 Minuten per Video, kein Verkaufsgespräch. Du entscheidest frühestens am nächsten Tag. Danach bekommst du von mir einen persönlichen Vorschlag schriftlich.</span></li>
+        <li><span class="k">Start</span><span class="v">Ein ausführliches erstes Gespräch. Wir gucken, wo du stehst und was du dir für diese Zeit wünschst.</span></li>
+        <li><span class="k">Jede Woche</span><span class="v">Ein persönliches Gespräch, per Video oder in Berlin, insgesamt rund 26 über sechs Monate. Wir sprechen, wir spüren hin, und ich teile mit dir meine Eindrücke aus der energetischen Arbeit.</span></li>
+        <li><span class="k">Dazwischen</span><span class="v">Kleine Impulse für deinen Alltag, die du für dich allein anwenden kannst. Du kannst mir schreiben, wenn dich etwas beschäftigt: Nach dem Kennenlernen bekommst du von mir eine persönliche Nummer für Terminabsprachen und Kurznachrichten.</span></li>
+        <li><span class="k">Abschluss</span><span class="v">Wir gucken gemeinsam zurück: Was hat sich verändert, was nimmst du mit, was darf als Nächstes kommen.</span></li>
       </ol>
-      <p class="small">Diese Begleitung ist Coaching. Sie ist keine Therapie und ersetzt keine ärztliche oder psychotherapeutische Behandlung.</p>
     </div>
   </section>
 
-  <section class="s band" aria-labelledby="person-h">
+  <section class="s band fit" aria-labelledby="fit-h">
+    <div class="inner">
+      <div class="label">Passt das zu dir?</div>
+      <h2 id="fit-h">Für wen, und für wen nicht</h2>
+      <h3>Das ist für dich, wenn</h3>
+      <ul>
+        <li>du nach außen vieles trägst und dich selbst dabei manchmal aus den Augen verlierst</li>
+        <li>du dir wünschst, dass jemand mit dir hinschaut, ohne zu bewerten</li>
+        <li>du offen bist für eine Mischung aus psychologischer Klarheit und energetischer Arbeit</li>
+      </ul>
+      <h3>Das ist nicht für dich, wenn</h3>
+      <ul class="no">
+        <li>du dich in einer akuten Krise befindest. Dann brauchst du schnelle, professionelle Hilfe.</li>
+        <li>du eine Therapie suchst. Das hier ist Coaching.</li>
+        <li>du möchtest, dass jemand anderes für dich entscheidet</li>
+        <li>du nur geschickt wurdest und selbst nicht möchtest</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="s band s-person" aria-labelledby="person-h">
     <div class="inner person">
       <div class="label">Wer dich begleitet</div>
       <h2 id="person-h">Aisun Dodenhoff</h2>
@@ -182,27 +259,66 @@ h2{font-size:clamp(32px,8.4vw,46px);line-height:1.14;margin-top:18px}
         <li>Mentorin im innerwise-System</li>
         <li>Selbst Mama von zwei Söhnen, mit eigener Erfahrung als Frau im Ausland</li>
       </ul>
+    </div>
+  </section>
 
-      <div class="quiet" role="group" aria-labelledby="disk-h">
-        <div class="label">Diskretion</div>
-        <h2 id="disk-h">Was du mir anvertraust, bleibt vertraulich.</h2>
-        <p>Was du mir anvertraust, behandle ich vertraulich. Ich gebe ohne dein Einverständnis nichts weiter, auch nicht an die Person, die dir diese Seite geschickt hat. Ausnahmen gelten nur, wenn das Gesetz es verlangt oder wenn Leben in akuter Gefahr ist.</p>
+  <section class="s band" aria-labelledby="faq-h">
+    <div class="inner">
+      <div class="label">Fragen, die du dir vielleicht stellst</div>
+      <h2 id="faq-h">Kurz gefragt</h2>
+      <div class="faq">
+        <div class="qa"><h3>Bin ich nicht zu privilegiert dafür?</h3><p>Guck mal: Dass es dir materiell gut geht, heißt nicht, dass du dich gesehen fühlst. Beides kann gleichzeitig wahr sein, und das ist völlig okay. Genau diese Einsamkeit kenne ich aus meiner Zeit im Ausland.</p></div>
+        <div class="qa"><h3>Ist das Therapie?</h3><p>Nein. Das ist Coaching. Ich bin Diplom-Psychologin, approbiert, arbeite aber nicht mehr als Psychotherapeutin im Gesundheitssystem. Ich stelle keine Diagnosen und behandle nichts. Wenn du eine Therapie suchst, ist das hier nicht der richtige Rahmen.</p></div>
+        <div class="qa"><h3>Muss ich an Energie glauben?</h3><p>Nein. Stell dir vor, ich teile einen Eindruck mit dir, und du prüfst, ob er für dich stimmt. Was passt, nimmst du mit. Was nicht passt, lässt du liegen. Mehr verlange ich nicht.</p></div>
+        <div class="qa"><h3>Was passiert in einer Session?</h3><p>Wir fangen mit dem Ankommen an: Wie geht&rsquo;s dir? Du erzählst, was dich gerade beschäftigt. Dann gucke ich energetisch hin und teile, was ich wahrnehme. Am Ende nimmst du einen kleinen Impuls für den Alltag mit. <span class="todo">ENTWURF · Dauer einer Session: Aisun ergänzt</span></p></div>
+        <div class="qa"><h3>Erfährt mein Mann oder Partner etwas, wenn er zahlt?</h3><p>Nein. Die Vertraulichkeit gilt dir, auch wenn jemand anderes die Rechnung zahlt oder dir diese Seite geschickt hat. Ohne dein Einverständnis gebe ich nichts weiter. Die gesetzlichen Ausnahmen stehen unten im Rahmen.</p></div>
       </div>
     </div>
   </section>
 
-  <section class="s band s-invite" aria-labelledby="inv-h">
+  <section class="s band letter closing" aria-label="Persönlicher Schluss">
+    <div class="inner">
+      <p class="lead">Du musst heute nichts entscheiden.</p>
+      <p>Ich habe diese Seite für eine bestimmte Frau geschrieben. Vielleicht bist du das. Du trägst so viel für alle anderen. Du darfst dir diesen Raum nehmen, ohne Begründung und ohne schlechtes Gewissen.</p>
+      <p class="mantra">Hier kommst du wieder vor.</p>
+      <div class="sig" aria-label="Aisun">Aisun</div>
+    </div>
+  </section>
+
+  <section class="s band s-invite" id="kontakt" aria-labelledby="inv-h">
     <div class="inner">
       <div class="label">Deine Einladung</div>
-      <h2 id="inv-h">Ein Raum nur für dich</h2>
-      <p class="p1">Ich begleite bewusst im kleinen Rahmen, damit jede Begleitung Raum hat. Wenn du spürst, dass das für dich sein könnte, schreib mir über das Kontaktformular: für ein kostenloses Kennenlernen oder wenn du direkt starten möchtest. Bitte schreib in dieser ersten Nachricht noch nichts über Krankheiten oder deine Gesundheit.</p>
-      <div class="facts"><span class="pill">6 Monate</span><span class="pill">wöchentlich 1:1</span><span class="pill">per Video oder in Berlin</span></div>
+      <h2 id="inv-h">Schreib mir einen Satz.</h2>
+      <p class="p1">Was wünschst du dir für dich, wenn niemand zuschaut? Mehr braucht es für den Anfang nicht. Ich melde mich innerhalb von <span class="todo">ENTWURF · Antwortzeit: legt Aisun fest</span>, und wir lernen uns kennen: 30 Minuten Video, kein Verkaufsgespräch.</p>
+      <div class="facts"><span class="pill">6 Monate</span><span class="pill">rund 26 Gespräche</span><span class="pill">per Video oder in Berlin</span></div>
       <div class="price">17.850 €</div>
-      <div class="pricesub">inkl. gesetzlicher MwSt. (15.000 € netto) · <span class="todo">ENTWURF · Zahlungsweise: einmalig oder Raten, legt Aisun fest</span></div>
-      <p class="pricesub" style="margin-top:14px">Du hast ein gesetzliches Widerrufsrecht von 14 Tagen. Details findest du in den AGB und im Bestellprozess.</p>
-      <span class="cta">Zum Kontaktformular</span>
-      <p style="margin-top:14px"><span class="todo">ENTWURF · Link zum Kontaktformular auf aisundodenhoff.com</span></p>
-      <p class="phone">Wenn wir uns kennenlernen, bekommst du von mir eine persönliche Telefonnummer für Terminabsprachen und Kurznachrichten. Ich antworte werktags innerhalb der oben genannten Zeit. Ich bin kein Notfallkontakt. Diese Nummer gebe ich nach unserem Kennenlernen an dich weiter.</p>
+      <div class="pricesub">inkl. gesetzlicher MwSt. (15.000 € netto). Das sind 2.975 € im Monat (brutto): rund 26 Gespräche über 6 Monate, dazu Impulse dazwischen. <span class="todo">ENTWURF · Zahlungsweise: einmalig oder Raten, legt Aisun fest</span></div>
+      <a class="cta" href="#kontakt">Schreib mir einen Satz</a>
+      <p style="margin-top:14px"><span class="todo">ENTWURF · Kontaktweg und Link auf aisundodenhoff.com</span></p>
+      <p class="hint">Bitte schreib in dieser ersten Nachricht noch nichts über Krankheiten oder deine Gesundheit.</p>
+    </div>
+  </section>
+
+  <section class="s band s-rahmen" aria-labelledby="rahmen-h">
+    <div class="inner">
+      <div class="quiet" role="group" aria-labelledby="rahmen-h">
+        <div class="label">Rahmen</div>
+        <h2 id="rahmen-h">Klar und fair.</h2>
+        <dl class="rahmen">
+          <dt>Coaching, keine Therapie</dt>
+          <dd>Diese Begleitung dient der persönlichen Entwicklung und dem Wohlbefinden. Sie ist keine Psychotherapie und ersetzt keine ärztliche, psychotherapeutische oder heilpraktische Diagnose oder Behandlung. Bei körperlichen oder psychischen Beschwerden wende dich bitte an deine Ärztin, deinen Arzt oder eine Psychotherapeutin.</dd>
+          <dt>Energetische Arbeit</dt>
+          <dd>Ergänzend arbeite ich mit energetischen Methoden. Sie sind ein Impuls zur Selbstreflexion, keine Diagnose und kein Wirkversprechen, und wissenschaftlich nicht als Heilmethode belegt. Was daraus wird, entscheidest du.</dd>
+          <dt>Kein Notfallkontakt</dt>
+          <dd>Ich antworte werktags in der oben genannten Zeit. Bei akuten Krisen oder gesundheitlichen Notfällen wende dich an den Notruf 112, den ärztlichen Bereitschaftsdienst 116 117 oder die Telefonseelsorge 0800 111 0 111.</dd>
+          <dt>Vertraulichkeit</dt>
+          <dd>Was du mir anvertraust, behandle ich vertraulich. Ich gebe ohne dein Einverständnis nichts weiter, auch nicht an die Person, die dir diese Seite geschickt hat oder die zahlt. Ausnahmen gelten nur, wenn das Gesetz es verlangt oder wenn Leben in akuter Gefahr ist.</dd>
+          <dt>Gesundheitsdaten und Datenschutz</dt>
+          <dd>Bitte nenne keine Gesundheitsdaten Dritter, zum Beispiel von Familienmitgliedern. Sehr sensible Angaben über dich selbst teile nur, soweit du das möchtest. Informationen zur Verarbeitung deiner Daten findest du in der Datenschutzerklärung.</dd>
+          <dt>Preis und Widerruf</dt>
+          <dd>Die Preise verstehen sich brutto, also inklusive gesetzlicher Mehrwertsteuer. Du hast ein gesetzliches Widerrufsrecht von 14 Tagen. Details findest du in den AGB und im Bestellprozess.</dd>
+        </dl>
+      </div>
     </div>
   </section>
 
@@ -211,7 +327,7 @@ h2{font-size:clamp(32px,8.4vw,46px);line-height:1.14;margin-top:18px}
 <footer class="band foot">
   <div class="inner">
     <div class="brand">AISUN DODENHOFF</div>
-    <p>Diese Begleitung dient der persönlichen Entwicklung und dem allgemeinen Wohlbefinden. Sie ist keine Psychotherapie und ersetzt keine ärztliche, psychotherapeutische oder heilpraktische Diagnose oder Behandlung. Ich stelle keine Diagnosen und gebe keine Heilversprechen. Bei körperlichen oder psychischen Beschwerden wende dich bitte an deine Ärztin, deinen Arzt oder eine Psychotherapeutin. Die energetischen Methoden sind wissenschaftlich nicht als Heilmethoden belegt.</p>
+    <p>Coaching, keine Psychotherapie. Ich stelle keine Diagnosen und gebe keine Heilversprechen. Die energetischen Methoden sind wissenschaftlich nicht als Heilmethoden belegt.</p>
     <p>Aisun Dodenhoff · Berlin · aisundodenhoff.com · Impressum · Datenschutz <span class="todo">ENTWURF · Links ergänzen</span></p>
   </div>
 </footer>
