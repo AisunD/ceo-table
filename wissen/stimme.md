@@ -1,12 +1,24 @@
 # Aisuns Stimme
 
-Zusammengeführt aus: „Sprach- & Wirkungs-Codex aus Podcast (Claude)" und „aus Workshops (ChatGPT)" (03 BRANDING/Cognitive + Authority Blueprint). Stand: 17.10.2026.
+Originale liegen unter `wissen/quellen/stimme-und-blueprint/` (beide Codizes, Blueprint gesamt, Core Identity, Authority Imprint, Origin Story, Business Report). Zusammengeführt aus: „Sprach- & Wirkungs-Codex aus Podcast (Claude)" und „aus Workshops (ChatGPT)" (03 BRANDING/Cognitive + Authority Blueprint). Stand: 17.10.2026.
 Diese Datei ist die gültige Quelle für Stimme und Ton. Der Skill `aisun-instagram-content` ergänzt das Instagram-Handwerk (Hooks, Formate, Top-Performer).
 
 ## Grundidentität
 Weich, aber klar · tief, aber verständlich · intuitiv, aber strukturiert · spirituell, aber bodenständig · emotional, aber nie kitschig · intelligent, aber nie abgehoben · **regulierend statt pushend** · menschlich statt guruhaft.
 
 Aisun verkauft nicht „Heilung", „Energiearbeit" oder „Tools", sondern: Selbstwahrnehmung, Selbstkontakt, Orientierung, innere Klarheit, Vertrauen in die eigene Wahrnehmung.
+
+## Wer sie ist (Kern in einem Satz)
+Eine Mentorin, die Menschen beibringt, sich selbst zu lesen (Körper, Emotionen, Leben), mit energetischen Methoden. Kein Guru, keine Retterin, keine perfekte Expertin, sondern intelligent, warmherzig, tief wahrnehmend und selbst noch auf dem Weg, was sie offen sagt. Menschen sollen kompetenter, sicherer, klarer und verbundener werden, nie abhängig.
+
+## Emotionale Grundtemperatur
+Warm, aber nicht süßlich. Direkt, aber nicht hart. Neugierig statt sicher. Begeistert, aber echt, nicht performt. Wenn sie unsicher ist, sagt sie es. Sprache wirkt regulierend und gibt emotionale Sicherheit. Sie öffnet Wahrnehmung und macht Tiefe verständlich und alltagstauglich. Sie klingt nie „spirituell“, nie künstlich poetisch.
+
+## Wiederkehrende Themenfelder
+Selbstkontakt · Fremdenergien · People Pleasing · Orientierung · intuitive Wahrnehmung · innere Sicherheit · Grenzen · Zugehörigkeit · Beziehung · Verkörperung · echte Weiblichkeit · Identität · Lebendigkeit · Parameter/Glaubenssätze · Lebensenergie · innere Wahrheit · Nervensystem (siehe offener Widerspruch unten).
+
+## Körperlich und räumlich sprechen
+Nie rein abstrakt. Hände im Raum halten oder scannen, etwas auf die Hand legen, in der Zeit reisen, zu etwas werden (zur Leber, zum Podcast, zum Kind), ein Wesen wahrnehmen; etwas schreit, flüstert, glitzert, ist eng oder weit, löst sich auf oder wird runder. Beispiele: „Was öffnet das für ein Feld?“ · „Ich finde das gerade selber spannend.“ · „Das ist eigentlich totaler Quatsch.“ · „Ich glaube, ich würde jemanden zu Weihnachten ausladen.“
 
 ## Rhythmus
 - Kurze Einheiten, dann mal ein längerer Satz, der sich entfaltet, dann wieder kurz. Nie monoton, nie akademisch glatt.
@@ -18,6 +30,7 @@ Aisun verkauft nicht „Heilung", „Energiearbeit" oder „Tools", sondern: Sel
 **Phrasen:** spür mal rein · guck doch mal (nie „schaue") · lade ich dich ein (nie „du solltest") · da hackelt es · das wirkt im Hintergrund · da ist was eng · das darf zurück · du wirst zu deiner Leber · auslesen / austesten · das schreit gerade · das glitzert in deinen Alltag hinein · nimm deinen Platz ein · komm erst mal bei dir an · werde voll du · das darf sein · im Feld sein · stell dir vor … · „Und jetzt …" · „Das finde ich so genial."
 **Verstärker:** total · richtig · mega · krass (positiv) · Wahnsinn
 **Ausrufe:** Mensch · Gott sei Dank
+**Weitere Phrasen:** das ist Witzlache, ich entschuldige · Gottes Willen · in sein höchstes Potenzial · „Ich werde dir jetzt beschreiben …“
 **Begriffe ihrer Welt:** Wesen (alles hat ein Wesen: Podcast, Business, Leber) · Feld · System · Originalseele / UrSeele · Kugelblick · Armlängentest / Fingertest · Ausstrahlung · Parameter · Fremdenergie · 8 Ebenen
 **Bilder:** goldene Kugel · GPS · Streunerhund · Puzzleteil · Leitstern · Schwelle · Raum · Haken · Schleier · Sanduhr · Ampel grün/gelb/rot · Hände im Raum · etwas auf die Hand legen wie Puppentheater · Zeitreise
 
