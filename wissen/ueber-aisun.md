@@ -4,7 +4,7 @@ Quellen: Cognitive & Authority Blueprint (03 BRANDING), Gespräche mit Claude. S
 
 ## Kurzprofil
 - **Aisun Dodenhoff**, Berlin. Online-Business unter eigenem Namen (aisundodenhoff.com), Hauptkanal Instagram @aisun.dodenhoff.
-- Diplom-Psychologin, **ehemalige Psychotherapeutin** (Verhaltenstherapie, Approbation seit 2011, erteilt in Hessen; praktiziert nicht mehr).
+- Diplom-Psychologin, **ehemalige Psychotherapeutin** (Verhaltenstherapie, Approbation seit 2011, erteilt in Hessen). **Die Approbation ist aktiv** (Aisun, 18.10.2026). Sie praktiziert nicht mehr und arbeitet nicht mehr als Psychotherapeutin im Gesundheitssystem. Das soll sprachlich überall deutlich sein, damit es keinen Ärger mit der Kammer gibt (Formulierungen siehe `wissen/regeln.md`).
 - Seit 2016 innerwise (Uwe Albrecht), seit 2018 Guide, seit 2024 **Mentorin im innerwise-System**.
 - Knapp 20 Jahre Unternehmensberaterin (u. a. Deutsche Bahn: Auswahl und Entwicklung von Führungskräften, Assessment-Center, Interviews im Top-Management).
 - Online-Business seit 2024 (erster 8-Wochen-Online-Kurs 2024), in wenigen Monaten auf sechsstelligen Umsatz gewachsen.

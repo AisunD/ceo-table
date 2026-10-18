@@ -1,6 +1,10 @@
 # Harte Regeln (gelten für alle)
 
-- Über Aisun immer **„ehemalige Psychotherapeutin"**, niemals nur „Psychotherapeutin".
+- Über Aisun immer **„ehemalige Psychotherapeutin"**, niemals nur „Psychotherapeutin". **Die Approbation ist aktiv (Stand 18.10.2026)**, Aisun arbeitet aber nicht mehr als Psychotherapeutin im Gesundheitssystem und will das überall deutlich machen. Deshalb gilt zusätzlich:
+  - **Langform** (Angebotsseiten, Über-mich, Profile, überall wo Platz ist): „Diplom-Psychologin, approbiert. Ich arbeite nicht mehr als Psychotherapeutin im Gesundheitssystem."
+  - **Kurzform** (Captions, kurze Bios): „Diplom-Psychologin, ehemalige Psychotherapeutin" oder „Diplom-Psychologin". Nie „Psychotherapeutin" allein, nie im Zusammenhang mit Behandlung, Therapie oder Praxis.
+  - Nie „Praxis", „Patientinnen", „Behandlung" oder Kassen-/KV-Bezug für Aisuns heutige Arbeit. Die Angebote sind Coaching und Mentoring.
+  - Die endgültige Formulierung klärt die Anwältin (Kammer, Berufsordnung, Titelführung bei ruhender Tätigkeit).
 - **Keine Heilversprechen.** Statt „Heilung versprechen": „Gesundung", „Wohlbefinden", „Klarheit". Erfahrungen nur als persönliche Erfahrung, nie als Ergebnis-Garantie.
 - **Ursprungsgeschichte und Motto** („Unheilbar gibt's nicht", eigene Erkrankung überwunden) sind rechtlich sensibel (Heilmittelwerbegesetz). Bis eine Fachanwältin die Formulierungen geprüft hat: nur so verwenden, wie es in `wissen/freigegebene-formulierungen.md` steht, und sonst als `[RECHT PRÜFEN]` markieren.
 - **Nie „Link in Bio".** Call-to-Action über ManyChat-Keywords: HEILEN · COACH · SEELENKLAR · KOMPASS · HEILRAUM · MOMENTUM · URSEELE.

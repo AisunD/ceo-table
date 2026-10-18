@@ -16,7 +16,7 @@ Gefunden beim Einlesen von OneDrive am 17.10.2026. Sebastian fragt diese Punkte 
 7. **„Nervensystem":** Der Instagram-Skill verbietet es, der Workshop-Codex nennt es als Kernthema. Erlaubt oder nicht?
 
 ## Recht
-0a. **Aisun sagt am 18.10.: „Ich BIN Psychotherapeutin.“** Regel bleibt „ehemalige Psychotherapeutin“, bis du es ausdrücklich ändern willst und die Anwältin den Approbationsstatus geklärt hat (AGB/Impressum nennen sie „approbierte psychologische Psychotherapeutin“). Wie ist der Stand deiner Approbation (aktiv, ruhend, zurückgegeben)?
+0a. **Approbation ist aktiv (Aisun, 18.10.).** Seit dem gilt die Langform „Diplom-Psychologin, approbiert. Ich arbeite nicht mehr als Psychotherapeutin im Gesundheitssystem.“ (siehe `wissen/regeln.md`). Anwältin klärt: Titelführung bei ruhender Tätigkeit, KV-Bezug in AGB/Impressum, Pflichten gegenüber der Kammer.
 8. Titel in AGB und Impressum („approbierte psychologische Psychotherapeutin", Kassenärztliche Vereinigung) vs. „ehemalige Psychotherapeutin" – mit Anwältin klären (Details in `wissen/recht.md`).
 9. Termin mit Fachanwältin für Heilmittelwerberecht für Ursprungsgeschichte und Motto?
 

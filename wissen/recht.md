@@ -18,7 +18,7 @@ Quellen: AGB (Stand Januar 2026), Impressum, ältere Kurs- und Salestexte (OneDr
 „Meine Angebote dienen dem allgemeinen Wohlbefinden und der persönlichen Entwicklung. Sie ersetzen keine ärztliche, heilpraktische oder psychotherapeutische Behandlung. Ich stelle keine Diagnosen und gebe keine Heilversprechen."
 
 ## Für die Anwältin – offene Prüfpunkte
-1. **Titel:** AGB §11 und Impressum nennen Aisun „approbierte psychologische Psychotherapeutin" und eine zuständige Kassenärztliche Vereinigung. Aisun möchte als „ehemalige Psychotherapeutin" auftreten und praktiziert nicht mehr. Wie ist der Titel korrekt und einheitlich anzugeben?
+1. **Titel und Approbation (neu geklärt 18.10.2026):** Die Approbation ist **aktiv**, Aisun arbeitet aber nicht mehr als Psychotherapeutin im Gesundheitssystem und will jeden Ärger mit der Kammer vermeiden. AGB §11 und Impressum nennen sie „approbierte psychologische Psychotherapeutin" und eine zuständige Kassenärztliche Vereinigung, das passt nicht zur gelebten Praxis. Fragen: Wie führt sie den Titel korrekt (Langform/Kurzform in `wissen/regeln.md`), muss der KV-Bezug raus, welche Pflichten hat sie als Kammermitglied bei ruhender Tätigkeit (Berufsordnung, Werbung, Beitrag, Abmeldung?), ist „ehemalige Psychotherapeutin" bei aktiver Approbation zulässig?
 2. **Impressum:** beruft sich auf „§ 5 TMG" (inzwischen DDG) und enthält einen Disclaimer, der von „Geräten" und „Dosierung" spricht. Prüfen, ob die aktuelle Website-Fassung schon korrigiert ist.
 3. **Widerrufsbutton (§ 356a BGB, seit Juni 2026):** in den AGB nicht erwähnt; ThriveCart-Einrichtung prüfen.
 4. **Fernunterrichtsschutzgesetz:** strukturierte Online-Kurse mit Lernerfolgskontrolle (KiH, Ausbildung) – Zulassungspflicht prüfen.

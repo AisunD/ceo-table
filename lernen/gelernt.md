@@ -12,6 +12,7 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - 2026-10-18 – Antworten im Cockpit (Tab Entscheiden) sind Aufträge: sofort umsetzen, nicht erneut nachfragen.
 - 2026-10-18 – Aisun will Angebotsseiten mutig und kraftvoll, mit klarem Fokus auf die energetischen Methoden, im Rahmen von Petras Rechtscheck.
 - 2026-10-18 – Ideen zuerst träumen lassen (Elli), nie sofort kritisieren. Kritik erst nach dem Einordnen, immer konstruktiv. Rechtsprüfung nur ganz am Ende und nur bei roten Linien.
+- 2026-10-18 – Titel: Langform „Diplom-Psychologin, approbiert. Ich arbeite nicht mehr als Psychotherapeutin im Gesundheitssystem.“ überall nutzen, wo Platz ist. Nie Praxis-, Patientinnen- oder Behandlungs-Sprache für Aisuns heutige Arbeit.
 
 ## Stimme und Stil
 (noch leer)

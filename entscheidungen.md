@@ -2,6 +2,7 @@
 
 Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entscheidung – (Begründung in wenigen Worten)`
 
+- 2026-10-18 – Approbation ist aktiv. Aisun arbeitet aber nicht mehr als Psychotherapeutin im Gesundheitssystem und macht das überall sprachlich deutlich (Langform in `wissen/regeln.md`), um keinen Ärger mit der Kammer zu bekommen. Anwältin klärt die endgültige Titelführung. – (Aisun)
 - 2026-10-18 – Energie-Elli (Human-Design-Queen) kommt früh ins Spiel: Träumphase ohne Bewertung (Disney-Methode), dann Einordnen, Challenge, konstruktive Kritik. Die Rechtsabteilung (Petra) greift nur noch im Notfall ein (rote Linien, ganz am Ende), so wenig wie möglich. – (Aisun: Rechtsprüfung bremst ihren Fluss und ihre Begeisterung)
 - 2026-10-18 – Keine Obergrenze für Weiterbildung und Coachings 2027. Aisun: „Wir sparen nicht an Weiterbildung. Mehr Geld verdienen ist ein Spiel und darf leicht sein.“ – (Aisun hat entschieden, gegen Katharinas Vorschlag einer Obergrenze)
 - 2026-10-18 – Bühnen-Agentin wird aufgebaut: Bühnen-Bella (fremde Bühnen, Anfragen, Pipeline). – (Katharinas Vertriebsmotor Nr. 1)
