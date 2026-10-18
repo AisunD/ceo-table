@@ -252,6 +252,17 @@ tr:last-child td{border-bottom:0}
 .quick{display:flex;gap:6px;flex-wrap:wrap;padding:0 16px 8px}
 .send{display:flex;gap:8px;padding:10px 16px 14px;border-top:1px solid var(--line)}
 .send textarea{flex:1;min-width:0;border:1px solid var(--line);border-radius:16px;padding:10px 14px;background:var(--surface);resize:none;min-height:46px;max-height:140px}
+/* Lauf */
+.run{display:flex;flex-direction:column;gap:10px}
+.run .rh{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+.run textarea{width:100%;min-height:48px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--bg);resize:vertical}
+.run-sum{font-size:14px;margin:0;max-width:64ch;white-space:pre-line}
+.l-laeuft,.l-gestartet{background:var(--warn-bg);color:var(--warn)}
+.l-fertig{background:var(--ok-bg);color:var(--ok)}
+.l-fehler{background:var(--crit-bg);color:var(--crit)}
+.l-leer{background:var(--idle-bg);color:var(--muted)}
+.acts{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.acts li{font-size:13px;background:var(--ok-bg);color:var(--ok);border-radius:10px;padding:6px 10px}
 /* Frag Sebastian */
 .ask{display:flex;gap:8px}
 .ask input{flex:1;min-width:0;border:1px solid var(--line);border-radius:999px;padding:10px 14px;background:var(--bg)}
@@ -280,6 +291,12 @@ tr:last-child td{border-bottom:0}
         <div class="row"><button class="btn primary" id="brief-btn" type="button">Briefing erstellen</button><span class="small muted" id="brief-meta"></span></div>
       </div>
     </div>
+    <div class="card run" id="runcard">
+      <div class="rh"><div><div class="eyebrow">Sebastian arbeiten lassen</div><div class="small muted" id="run-when">Jeden Morgen um 6:47 Uhr läuft er automatisch.</div></div><span class="pill l-leer" id="run-pill">kein Lauf</span></div>
+      <p class="run-sum" id="run-sum">Er liest deine Antworten, Gespräche und Aufträge, beauftragt das Team und legt alles hier ab. Nichts geht nach außen ohne dein OK.</p>
+      <textarea id="run-note" rows="2" placeholder="Worauf soll er heute besonders achten? (optional)" aria-label="Hinweis für den Lauf"></textarea>
+      <div class="row"><button class="btn primary" id="run-btn" type="button">Jetzt arbeiten lassen</button><span class="small muted" id="run-msg"></span></div>
+    </div>
     <div class="tiles">
       <button class="tile hot" type="button" data-go="entscheiden"><span class="num" id="t-dec">–</span><span class="lbl">warten auf deine Entscheidung</span></button>
       <button class="tile" type="button" data-go="entscheiden" data-anchor="auftraege"><span class="num" id="t-open">–</span><span class="lbl">offene Aufträge</span></button>
@@ -290,10 +307,11 @@ tr:last-child td{border-bottom:0}
       <div id="cal"><div class="note">Kalender wird geladen …</div></div>
     </div>
     <div class="card" id="askcard">
-      <div class="eyebrow">Schnellfrage an Sebastian</div>
-      <form class="ask" id="ask" style="margin-top:10px"><input id="ask-in" placeholder="z. B. Was ist diese Woche am wichtigsten?" aria-label="Deine Frage an Sebastian"><button class="btn primary" type="submit">Fragen</button></form>
+      <div class="eyebrow">Frag Sebastian oder gib einen Auftrag</div>
+      <form class="ask" id="ask" style="margin-top:10px"><input id="ask-in" placeholder="z. B. Lege einen Auftrag an Bella an: Podcast-Liste prüfen" aria-label="Deine Frage an Sebastian"><button class="btn primary" type="submit">Fragen</button></form>
       <p class="answer" id="ask-out" style="margin-top:12px" hidden></p>
-      <p class="small muted" style="margin:10px 0 0">Kurze Antworten aus den Daten im Cockpit. Für echte Arbeit und alles, was gespeichert werden soll: der Chat mit Sebastian.</p>
+      <ul class="acts" id="ask-acts" hidden></ul>
+      <p class="small muted" style="margin:10px 0 0">Er kann Aufträge und Fragen für dich anlegen. Gearbeitet wird im nächsten Lauf (Knopf oben oder 6:47 Uhr).</p>
     </div>
   </section>
 
@@ -377,7 +395,7 @@ tr:last-child td{border-bottom:0}
   $("#greet").innerHTML = (h<11?"Guten Morgen":h<17?"Hallo":"Guten Abend")+", <em>Aisun</em>";
   $("#today").textContent = fmtLong(now);
 
-  const state = { team:[], tasks:[], decs:[], papers:null, chats:{}, entwuerfe:null, fragen:null, zahlen:null, events:null, calError:null, briefing:null, filter:"alle", draft:{} };
+  const state = { team:[], tasks:[], decs:[], papers:null, lauf:null, chats:{}, entwuerfe:null, fragen:null, zahlen:null, events:null, calError:null, briefing:null, filter:"alle", draft:{} };
   let db = null;
 
   // ---------- Tabs ----------
@@ -605,6 +623,40 @@ tr:last-child td{border-bottom:0}
     svg.addEventListener("pointerleave", ()=>tip.classList.remove("on"));
   }
 
+  // ---------- Lauf ----------
+  const TRIGGER_ID = "trig_01URpYvD6dXSmDaykJUotEKv";
+  const L_LABEL = {leer:"kein Lauf", gestartet:"gestartet", laeuft:"läuft", fertig:"fertig", fehler:"Fehler"};
+  function fmtTime(iso){ try{ const d = new Date(iso); return pad(d.getDate())+"."+pad(d.getMonth()+1)+". "+pad(d.getHours())+":"+pad(d.getMinutes()); }catch(_){ return ""; } }
+  function renderLauf(){
+    const l = state.lauf || {status:"leer"};
+    let st = l.status || "leer";
+    const started = l.start ? new Date(l.start).getTime() : 0;
+    const stale = (st==="gestartet"||st==="laeuft") && started && Date.now()-started > 25*60*1000;
+    $("#run-pill").className = "pill l-"+(stale?"fehler":st);
+    $("#run-pill").textContent = stale ? "dauert länger" : (L_LABEL[st]||st);
+    $("#run-when").textContent = l.ende ? "Letzter Lauf: "+fmtTime(l.ende) : (l.start ? "Gestartet: "+fmtTime(l.start) : "Jeden Morgen um 6:47 Uhr läuft er automatisch.");
+    if(l.zusammenfassung) $("#run-sum").textContent = l.zusammenfassung;
+    else if(st==="gestartet"||st==="laeuft") $("#run-sum").textContent = "Sebastian arbeitet. Das dauert einige Minuten. Die Ergebnisse erscheinen hier im Cockpit.";
+    $("#run-btn").disabled = (st==="gestartet"||st==="laeuft") && !stale;
+  }
+  $("#run-btn").addEventListener("click", async ()=>{
+    const btn = $("#run-btn"), msg = $("#run-msg"); msg.textContent = "";
+    const mcp = await claude.use("mcp");
+    if(!mcp || !db){ msg.textContent = "Der Knopf ist in dieser Ansicht nicht verfügbar. Öffne das Cockpit in der Claude-App oder auf claude.ai."; return; }
+    btn.disabled = true; msg.textContent = "Startet …";
+    const note = ($("#run-note").value||"").trim();
+    try{
+      await db.collection("meta").doc("lauf").set({status:"gestartet", start:new Date().toISOString(), von:"Aisun", hinweis:note});
+      await mcp.callTool("Claude Code Remote","fire_trigger",{trigger_id:TRIGGER_ID, text: "Aisun hat im Cockpit auf „Jetzt arbeiten lassen“ getippt."+(note?" Hinweis von Aisun: "+note:"")});
+      msg.textContent = "Gestartet. Die Ergebnisse erscheinen hier."; $("#run-note").value = "";
+    }catch(err){
+      const c = err && err.code;
+      const text = c==="approval_required" ? "Das Cockpit braucht einmal deine Erlaubnis, eine Sitzung zu starten. Tippe noch einmal und erlaube es." : c==="not_in_manifest" ? "Du hast das Starten von Sitzungen für das Cockpit nicht erlaubt." : c==="server_not_connected"||c==="needs_reauth" ? "Claude Code ist nicht verbunden. Prüfe claude.ai → Einstellungen → Konnektoren." : "Das Starten hat nicht geklappt. Versuch es gleich noch einmal.";
+      msg.textContent = text;
+      try{ await db.collection("meta").doc("lauf").set({status:"fehler", ende:new Date().toISOString(), zusammenfassung:text}); }catch(_){ }
+    }
+  });
+
   // ---------- Gespräche mit dem Team ----------
   let chatId = null, chatOpener = null, busy = false;
   const QUICK = ["Wie ist der Stand?","Was brauchst du von mir?","Was ist heute das Wichtigste?"];
@@ -805,6 +857,7 @@ Bisheriges Gespräch:\n${hist}`;
     db.collection("entwuerfe").onSnapshot(s=>{ state.entwuerfe = s.docs.map(d=>({id:d.id,...d.data()})); renderEntwuerfe(); }, fail("#entwuerfe"));
     db.collection("papiere").onSnapshot(s=>{ state.papers = s.docs.map(d=>({id:d.id,...d.data()})); renderPapers(); }, fail("#papers"));
     db.collection("kennzahlen").doc("umsatz-2026").onSnapshot(s=>{ state.zahlen = s.exists ? s.data() : false; renderTiles(); if(!$("#v-zahlen").hidden) renderZahlen(); });
+    db.collection("meta").doc("lauf").onSnapshot(s=>{ state.lauf = s.exists ? s.data() : null; renderLauf(); });
     db.collection("meta").doc("briefing").onSnapshot(s=>{ state.briefing = s.exists ? s.data() : null; renderBrief(); });
   }
   async function startCal(){
@@ -820,7 +873,7 @@ Bisheriges Gespräch:\n${hist}`;
   }
   function context(){
     return {
-      offene_auftraege: state.tasks.filter(t=>t.status!=="erledigt").map(t=>({titel:t.titel, wer:nameOf(t.wer), faellig:t.faellig||null, status:t.status, notiz:t.notiz||""})),
+      offene_auftraege: state.tasks.filter(t=>t.status!=="erledigt").map(t=>({id:t.id, titel:t.titel, wer:nameOf(t.wer), faellig:t.faellig||null, status:t.status, notiz:t.notiz||""})),
       offene_fragen: (state.fragen||[]).filter(q=>q.status!=="beantwortet").map(q=>({frage:q.frage, kontext:q.kontext})),
       entscheidungen: state.decs.slice(0,8).map(d=>d.text),
       entwuerfe: (state.entwuerfe||[]).map(d=>({titel:d.titel, status:d.status, offen:d.offen})),
@@ -842,13 +895,33 @@ Bisheriges Gespräch:\n${hist}`;
   });
   $("#ask").addEventListener("submit", async e=>{
     e.preventDefault(); const q = $("#ask-in").value.trim(); if(!q) return;
-    const out = $("#ask-out"); const sample = await claude.use("sample");
-    out.hidden = false;
-    if(!sample){ out.textContent = "Die Schnellfrage ist in dieser Ansicht nicht verfügbar."; return; }
+    const out = $("#ask-out"), acts = $("#ask-acts"); const sample = await claude.use("sample");
+    out.hidden = false; acts.hidden = true; acts.innerHTML = "";
+    if(!sample){ out.textContent = "Der Assistent ist in dieser Ansicht nicht verfügbar."; return; }
     out.textContent = "Sebastian denkt nach …";
-    const prompt = `Du bist Sebastian, CEO von Aisun Dodenhoffs Online-Business (energetische Selbstheilung, Coach-Ausbildung, VIP-Begleitung). Antworte Aisun auf Deutsch, Du-Form, warm, klar, ehrlich, max. 90 Wörter, ohne Emojis. Nutze nur diese Cockpit-Daten; wenn sie nicht reichen, sag das und schlag vor, es im Chat mit Sebastian zu klären. Keine Heilversprechen. Große Entscheidungen nie unter Druck.\nDaten: ${JSON.stringify(context())}\nFrage: ${q}`;
-    try{ const r = await sample(prompt,{modelTier:"default",cache:false,onText:({text})=>{ out.textContent = text; }}); out.textContent = r.text; }
-    catch(err){ out.textContent = err&&err.code==="not_granted" ? "Du hast die Schnellfrage nicht erlaubt." : err&&err.code==="rate_limited" ? "Gerade zu viele Anfragen. Versuch es gleich noch einmal." : "Das hat gerade nicht geklappt."; }
+    const done = []; const WER = ["sebastian","katharina","elli","vera","bella","karla","conny","tina","romy","greta","frieda","ines","petra","franzi","nina","aisun"];
+    const note = t => { done.push(t); acts.hidden = false; acts.insertAdjacentHTML("beforeend", `<li>${esc(t)}</li>`); };
+    const limits = await sample.limits().catch(()=>null);
+    const tools = (db && limits && limits.tools) ? [
+      { name:"auftrag_anlegen", description:"Legt einen neuen Auftrag im Cockpit an. Nur aufrufen, wenn Aisun einen Auftrag verlangt. Liefert die Auftrags-ID.",
+        inputSchema:{type:"object", properties:{titel:{type:"string",description:"Kurzer Titel"}, wer:{type:"string",description:"Team-ID: "+WER.join(", ")}, notiz:{type:"string"}, prio:{type:"string",description:"hoch oder normal"}}, required:["titel","wer"]},
+        execute: async inp => { const id="a-"+Date.now().toString(36); const wer = WER.includes(String(inp.wer))?String(inp.wer):"sebastian";
+          await db.collection("auftraege").doc(id).set({titel:String(inp.titel).slice(0,200), wer, status:"offen", prio: inp.prio==="hoch"?"hoch":undefined, notiz:String(inp.notiz||"Vom Assistenten im Cockpit angelegt").slice(0,500), angelegt:new Date().toISOString()});
+          note("Auftrag angelegt: "+String(inp.titel)+" ("+nameOf(wer)+")"); return "Auftrag angelegt, ID "+id; } },
+      { name:"frage_anlegen", description:"Legt eine neue Entscheidungsfrage für Aisun im Tab Entscheiden an, mit 2 bis 4 Antwortoptionen. Nur aufrufen, wenn Aisun das will.",
+        inputSchema:{type:"object", properties:{frage:{type:"string"}, kontext:{type:"string"}, optionen:{type:"array",items:{type:"string"}}, wer:{type:"string",description:"Team-ID, die es umsetzt"}}, required:["frage","optionen"]},
+        execute: async inp => { const id="f-"+Date.now().toString(36); const opts = (Array.isArray(inp.optionen)?inp.optionen:[]).map(String).slice(0,4); if(opts.length<2) throw new Error("Mindestens 2 Optionen");
+          await db.collection("fragen").doc(id).set({frage:String(inp.frage).slice(0,300), kontext:String(inp.kontext||"").slice(0,600), optionen:opts, order:50, status:"offen", wer: WER.includes(String(inp.wer))?String(inp.wer):"sebastian", thema:"Neu", quelle:"Cockpit-Assistent"});
+          note("Frage angelegt: "+String(inp.frage)); return "Frage angelegt, ID "+id; } },
+      { name:"auftrag_erledigt", description:"Markiert einen bestehenden Auftrag als erledigt. Die ID steht in offene_auftraege. Nur auf Aisuns Wunsch.",
+        inputSchema:{type:"object", properties:{id:{type:"string"}}, required:["id"]},
+        execute: async inp => { const t = state.tasks.find(x=>x.id===String(inp.id)); if(!t) throw new Error("Auftrag nicht gefunden");
+          await db.collection("auftraege").doc(t.id).update({status:"erledigt", geaendert:new Date().toISOString()}); note("Als erledigt markiert: "+t.titel); return "Erledigt"; } }
+    ] : undefined;
+    const prompt = `Du bist Sebastian, CEO von Aisun Dodenhoffs Online-Business (energetische Selbstheilung, Coach-Ausbildung, VIP-Begleitung). Antworte Aisun auf Deutsch, Du-Form, warm, klar, ehrlich, max. 90 Wörter, ohne Emojis. Nutze nur diese Cockpit-Daten; wenn sie nicht reichen, sag das und schlag vor, es im Lauf (Knopf „Jetzt arbeiten lassen“) bearbeiten zu lassen. ${tools?"Du hast Werkzeuge: Aufträge und Fragen anlegen, Aufträge abhaken. Nutze sie nur, wenn Aisun das ausdrücklich will, und sag danach kurz, was du getan hast. Echte Arbeit (Recherche, Texte, Seiten) erledigt nicht dieses Fenster, sondern der nächste Lauf.":"Du hast hier keine Werkzeuge."} Keine Heilversprechen. Große Entscheidungen nie unter Druck.\nDaten: ${JSON.stringify(context())}\nFrage oder Auftrag: ${q}`;
+    try{ const opts = tools ? {modelTier:"default", tools, onText:({text})=>{ out.textContent = text; }} : {modelTier:"default", cache:false, onText:({text})=>{ out.textContent = text; }};
+      const r = await sample(prompt, opts); out.textContent = r.text; }
+    catch(err){ out.textContent = err&&err.code==="not_granted" ? "Du hast den Assistenten nicht erlaubt." : err&&err.code==="rate_limited" ? "Gerade zu viele Anfragen. Versuch es gleich noch einmal." : (err&&err.text) ? err.text : "Das hat gerade nicht geklappt."; }
   });
 
   if(window.claude && window.claude.use){ startDb(); startCal(); }
