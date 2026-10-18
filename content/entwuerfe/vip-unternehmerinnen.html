@@ -1,95 +1,100 @@
 <title>Wer trägt dich?</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<meta name="color-scheme" content="dark only">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Raleway:wght@400;500;600;700&family=Dancing+Script:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,500;1,6..96,600&family=Raleway:wght@400;500;600;700&family=Dancing+Script:wght@600&display=swap">
 <style>
-/* Layout: ein dunkles Business-Dossier. Schwarzer Grund, Bordeaux-Bänder, Gold als Linien und Akzentschrift (nur auf dunklem Grund). Abschnitte wie Kapitel eines Vertragsdossiers; die drei Räume sind die einzige nummerierte Folge. Bewusst einziges dunkles Erscheinungsbild. */
+/* Layout: ein dunkles Business-Dossier. Schwarz mit zwei Tonstufen im Wechsel, ein Bordeaux-Zitatband als Wendepunkt, Gold als Linie und als Schrift (nur auf dunklem Grund), Gold-Button als einziger heller Moment im Angebot. Pro Bildschirm ein starker Moment. Bewusst einziges dunkles Erscheinungsbild. Schriften sind Fallbacks: echt Bauer Bodoni, Raleway, Signature. */
 :root{
   color-scheme:dark;
-  --schwarz:#1A1A1A; --tief:#121212; --bordeaux:#73013A; --gold:#C6A764; --creme:#FBFAF0; --sand:#EADCC1; --grau:#A9A39C; --linie:#3A3330;
+  --schwarz:#1A1A1A; --tief:#121212; --bordeaux:#73013A; --gold:#C6A764; --creme:#FBFAF0; --sand:#EADCC1; --grau:#C9C2B9; --linie:#4A423D;
   --display:"Bauer Bodoni","Bodoni Moda",Didot,"Playfair Display",serif;
   --body:Raleway,Montserrat,"Helvetica Neue",Arial,sans-serif;
   --script:"Signature","Dancing Script",cursive;
 }
 *{box-sizing:border-box}
 html,body{background:var(--tief)}
-body{color:var(--creme);font-family:var(--body);font-size:16px;line-height:1.7;margin:0}
-.band{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{color:var(--creme);font-family:var(--body);font-size:18px;font-weight:500;line-height:1.65;margin:0;-webkit-font-smoothing:antialiased}
+.band{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
 .inner{max-width:760px;margin:0 auto}
-h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
+h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;text-wrap:balance;font-optical-sizing:auto;color:var(--creme)}
 p{margin:0}
-.kicker{font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
-.rule{height:1px;background:var(--gold);opacity:.7}
-.todo{display:inline-block;background:#3A2E12;color:#F1D48A;border:1px dashed #C6A764;font-size:12px;font-weight:600;padding:3px 8px;border-radius:6px;letter-spacing:.02em}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.todo{display:inline-block;background:#3A2E12;color:#F6DE9E;border:1px dashed #C6A764;font-size:13px;font-weight:600;padding:3px 9px;border-radius:6px;letter-spacing:.02em;line-height:1.5}
 
 /* Hero */
-.hero{background:radial-gradient(120% 90% at 50% 0%,#2A0716 0%,var(--tief) 62%);padding-block:40px 72px;border-bottom:1px solid var(--linie)}
-.brandline{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-.logo{font-family:var(--display);letter-spacing:.34em;font-size:13px;color:var(--gold)}
-.conf{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--grau);border:1px solid var(--linie);padding:4px 10px;border-radius:999px}
-.hero h1{font-size:clamp(44px,10vw,84px);line-height:1.02;margin-top:72px;letter-spacing:-.01em}
+.hero{background:radial-gradient(130% 80% at 50% 0%,#4A0126 0%,var(--tief) 70%);padding-block:36px 80px;border-bottom:1px solid var(--linie)}
+.brandline{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.logo{font-family:var(--display);font-weight:600;letter-spacing:.3em;font-size:15px;color:var(--gold)}
+.conf{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--sand);border:1px solid var(--linie);padding:6px 14px;border-radius:999px}
+.hero h1{font-weight:500;font-size:clamp(48px,13.5vw,92px);line-height:1.04;margin-top:64px;letter-spacing:-.01em}
 .hero h1 .g{color:var(--gold);font-style:italic}
-.hero .sub{margin-top:26px;font-size:18px;max-width:44ch;color:var(--sand)}
-.hero .meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}
-.hero .meta span{font-size:12px;font-weight:600;letter-spacing:.08em;color:var(--creme);border:1px solid var(--gold);padding:7px 14px;border-radius:999px}
+.hero .sub{margin-top:30px;font-size:20px;line-height:1.6;max-width:36ch;color:var(--creme)}
+.hero .meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:36px}
+.hero .meta span{font-size:14px;font-weight:600;letter-spacing:.03em;color:var(--creme);border:1px solid var(--gold);padding:9px 16px;border-radius:999px}
+@media (min-width:768px){.brandline{flex-direction:row;justify-content:space-between;align-items:center}.hero{padding-block:48px 120px}.hero .sub{font-size:22px;max-width:44ch}}
 
 /* Kapitel */
-.chapter{padding-block:64px;border-bottom:1px solid var(--linie)}
-.chapter .inner{display:flex;flex-direction:column;gap:22px}
-.chapter h2{font-size:clamp(30px,6vw,44px);line-height:1.12}
-.lead{font-family:var(--display);font-size:clamp(22px,4.2vw,28px);line-height:1.4;color:var(--sand)}
-.body p + p{margin-top:14px}
-.body{max-width:62ch;color:var(--creme)}
+.chapter{padding-block:80px;border-bottom:1px solid var(--linie)}
+.chapter.alt{background:var(--schwarz)}
+@media (min-width:768px){.chapter{padding-block:112px}}
+.chapter .inner{display:flex;flex-direction:column;gap:28px}
+.chapter h2{font-size:clamp(34px,9vw,52px);line-height:1.12}
+.body{max-width:60ch;color:var(--creme)}
+.body p + p{margin-top:20px}
+.body .lead{font-family:var(--display);font-weight:600;font-size:clamp(24px,6.2vw,30px);line-height:1.35;color:var(--sand)}
 
 /* Zitat-Band */
-.quote{background:var(--bordeaux);padding-block:60px;text-align:center}
-.quote .q{font-family:var(--display);font-style:italic;font-size:clamp(32px,7vw,54px);line-height:1.15;color:var(--creme)}
+.quote{background:var(--bordeaux);padding-block:88px;text-align:center}
+.quote .q{font-family:var(--display);font-weight:500;font-style:italic;font-size:clamp(38px,10.5vw,64px);line-height:1.12;color:var(--creme)}
 .quote .q .g{color:var(--gold)}
-.quote .by{margin-top:18px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--sand)}
+.quote .by{margin-top:28px;font-size:14px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--creme)}
 
 /* Drei Räume */
-.rooms{display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid var(--gold)}
-.room{display:grid;grid-template-columns:96px 1fr;gap:20px;padding:26px 0;border-bottom:1px solid var(--linie)}
-.room .num{font-family:var(--display);font-size:56px;line-height:.9;color:var(--gold)}
-.room h3{font-size:28px}
-.room .tag{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--grau);margin-top:4px}
-.room p{margin-top:10px;color:var(--creme)}
-@media (max-width:520px){.room{grid-template-columns:56px 1fr;gap:14px}.room .num{font-size:40px}}
+.rooms{display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid var(--gold);margin-top:8px}
+.room{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:36px 0;border-bottom:1px solid var(--linie)}
+.room .num{font-family:var(--display);font-weight:600;font-size:44px;line-height:1;color:var(--gold)}
+.room h3{font-size:32px;line-height:1.15}
+.room .tag{font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-top:10px;line-height:1.5}
+.room p{margin-top:16px;color:var(--creme)}
+@media (min-width:768px){.room{grid-template-columns:110px 1fr;gap:28px}.room .num{font-size:72px}}
 
 /* Leistungen */
-.items{list-style:none;padding:0;margin:0;border-top:1px solid var(--gold)}
-.items li{display:grid;grid-template-columns:1fr auto;gap:16px;padding:16px 0;border-bottom:1px solid var(--linie);align-items:baseline}
-.items .t{font-weight:600}
-.items .d{display:block;font-size:14px;color:var(--grau);font-weight:400;margin-top:2px}
-.items .q{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:700;white-space:nowrap;font-size:14px}
+.items{list-style:none;padding:0;margin:8px 0 0;border-top:1px solid var(--gold)}
+.items li{display:flex;flex-direction:column;gap:10px;padding:24px 0;border-bottom:1px solid var(--linie)}
+.items .t{font-weight:700;font-size:19px;line-height:1.4;color:var(--creme)}
+.items .d{display:block;font-size:17px;color:var(--grau);font-weight:500;margin-top:6px;line-height:1.6}
+.items .q{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:700;font-size:15px;letter-spacing:.04em}
+@media (min-width:768px){.items li{flex-direction:row;justify-content:space-between;align-items:baseline;gap:32px}.items .q{white-space:nowrap}}
 
 /* Person */
-.person{display:grid;grid-template-columns:1fr;gap:18px}
-.creds{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--gold)}
-.creds li{padding:16px 16px 16px 0;border-bottom:1px solid var(--linie)}
-.creds li:nth-child(odd){border-right:1px solid var(--linie)}
-.creds li:nth-child(even){padding-left:16px;padding-right:0}
-.creds .big{font-family:var(--display);font-size:22px;color:var(--gold);line-height:1.2}
-.creds .small{font-size:14px;color:var(--creme);margin-top:4px}
-@media (max-width:560px){.creds{grid-template-columns:1fr}.creds li,.creds li:nth-child(even){padding-left:0;padding-right:0;border-right:0}}
-.sig{font-family:var(--script);font-size:40px;color:var(--gold);line-height:1}
+.person{display:grid;grid-template-columns:1fr;gap:28px}
+.creds{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:0;border-top:1px solid var(--gold)}
+.creds li{padding:26px 0;border-bottom:1px solid var(--linie)}
+.creds .big{font-family:var(--display);font-weight:600;font-size:30px;color:var(--gold);line-height:1.15}
+.creds .small{font-size:17px;color:var(--creme);margin-top:8px;line-height:1.6}
+@media (min-width:768px){.creds{grid-template-columns:1fr 1fr}.creds li:nth-child(odd){padding-right:28px;border-right:1px solid var(--linie)}.creds li:nth-child(even){padding-left:28px}}
+.sig{font-family:var(--script);font-weight:600;font-size:48px;color:var(--gold);line-height:1}
 
 /* Angebot */
-.offer{background:linear-gradient(180deg,#73013A 0%,#4A0126 100%);padding-block:64px}
-.offer .card{border:1px solid var(--gold);padding:34px 28px;background:rgba(18,18,18,.35);display:flex;flex-direction:column;gap:18px;text-align:center;align-items:center}
-.offer h2{font-size:clamp(30px,6vw,42px)}
-.offer .price{font-family:var(--display);font-size:clamp(30px,6vw,44px);color:var(--gold)}
-.offer .note{font-size:14px;color:var(--sand);max-width:52ch}
-.give{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
-.give li{font-size:12px;font-weight:600;letter-spacing:.06em;border:1px solid var(--sand);color:var(--creme);padding:6px 12px;border-radius:999px}
-.cta{display:inline-block;background:var(--gold);color:var(--schwarz);font-weight:700;letter-spacing:.14em;font-size:13px;text-transform:uppercase;padding:15px 30px;border-radius:999px}
+.offer{background:linear-gradient(180deg,#73013A 0%,#4A0126 100%);padding-block:80px}
+.offer .card{border:1px solid var(--gold);padding:40px 24px;background:rgba(18,18,18,.4);display:flex;flex-direction:column;gap:24px;text-align:center;align-items:center}
+.offer h2{font-size:clamp(34px,9vw,52px);line-height:1.12}
+.offer .price{font-family:var(--display);font-weight:600;font-size:clamp(30px,7vw,44px);color:var(--gold)}
+.offer .note{font-size:17px;color:var(--creme);max-width:52ch;text-align:left}
+.give{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.give li{font-size:14px;font-weight:600;letter-spacing:.03em;border:1px solid var(--sand);color:var(--creme);padding:8px 14px;border-radius:999px}
+.cta{display:inline-block;background:var(--gold);color:var(--schwarz);font-weight:700;letter-spacing:.1em;font-size:15px;text-transform:uppercase;padding:18px 34px;border-radius:999px}
 
 /* Rahmen */
-.frame .body{color:var(--grau);font-size:14px}
-.foot{padding-block:30px 52px}
-.foot p{font-size:12px;color:var(--grau);max-width:66ch}
-.foot p + p{margin-top:8px}
-.foot .logo{display:block;margin-bottom:14px}
+.frame{border-bottom:0}
+.frame h2{font-size:30px}
+.frame .body{color:var(--grau);font-size:16px;line-height:1.7}
+.foot{padding-block:44px 64px}
+.foot p{font-size:14px;line-height:1.6;color:var(--grau);max-width:66ch}
+.foot p + p{margin-top:12px}
+.foot .logo{display:block;margin-bottom:18px}
 </style>
 
 <header class="hero band">
@@ -108,7 +113,7 @@ p{margin:0}
       <h2 id="c1">Du hältst den Raum für alle. Für dich hält ihn kaum jemand.</h2>
       <div class="body">
         <p class="lead">Von außen läuft es. Die Gruppe ist voll, die Frauen kommen weiter, die Zahlen stimmen.</p>
-        <p style="margin-top:16px">Und innen? Da sind die Entscheidungen, die du allein triffst. Darf diese Teilnehmerin bleiben? Wohin entwickelt sich das Programm? Und warum fühlt sich etwas, das du selbst gebaut hast, manchmal schwerer an, als es müsste?</p>
+        <p>Und innen? Da sind die Entscheidungen, die du allein triffst. Darf diese Teilnehmerin bleiben? Wohin entwickelt sich das Programm? Und warum fühlt sich etwas, das du selbst gebaut hast, manchmal schwerer an, als es müsste?</p>
         <p>Strategie hast du. Was oft fehlt, ist ein Raum, in dem jemand mit dir auf das schaut, was unter der Oberfläche wirkt: bei dir, in deiner Gruppe und in deinem Programm selbst.</p>
       </div>
     </div>
@@ -137,7 +142,7 @@ p{margin:0}
     </div>
   </section>
 
-    <section class="chapter band" aria-labelledby="c4">
+    <section class="chapter alt band" aria-labelledby="c4">
     <div class="inner">
       <div class="kicker">Was enthalten ist</div>
       <h2 id="c4">Ein Paket. So lange wie dein Programm.</h2>
@@ -182,10 +187,10 @@ p{margin:0}
     </div>
   </section>
 
-  <section class="chapter band frame" aria-labelledby="c7">
+  <section class="chapter alt band frame" aria-labelledby="c7">
     <div class="inner">
       <div class="kicker">Rahmen</div>
-      <h2 id="c7" style="font-size:26px">Klar und fair.</h2>
+      <h2 id="c7">Klar und fair.</h2>
       <div class="body">
         <p>Was du mir anvertraust, behandle ich vertraulich. Ohne dein Einverständnis gebe ich nichts weiter. Ausnahmen gelten nur, wenn das Gesetz es verlangt. Fälle aus deiner Gruppe besprechen wir anonymisiert, ohne Namen und ohne Gesundheitsangaben. Bitte nenne in unseren Calls keine Gesundheitsdaten Dritter, zum Beispiel von Familienmitgliedern oder Teilnehmerinnen. Besonders sensible Angaben über dich selbst teile nur, soweit du das möchtest. Informationen zur Verarbeitung deiner Daten findest du in der Datenschutzerklärung.</p>
         <p>Diese Begleitung ist ein Coaching zur persönlichen und unternehmerischen Entwicklung. Sie ist keine Psychotherapie, keine Heilkunde, keine Rechts- oder Steuerberatung und keine Garantie für unternehmerischen Erfolg. Die Begleitung bezieht sich auf deine unternehmerische Rolle und ist nicht für die Bearbeitung persönlicher oder gesundheitlicher Krisen gedacht. Alle Entscheidungen triffst du selbst. Die energetische Arbeit ist ein Impuls zur Reflexion, keine Diagnose und kein Wirkversprechen. Bei akuter psychischer oder gesundheitlicher Belastung verweise ich dich an ärztliche oder psychotherapeutische Hilfe.</p>

@@ -1,95 +1,109 @@
 <title>Ein Raum nur für dich</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<meta name="color-scheme" content="light only">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Raleway:wght@400;500;600&family=Dancing+Script:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,500;1,6..96,600&family=Raleway:wght@400;500;600;700&family=Dancing+Script:wght@600&display=swap">
 <style>
-/* Layout: ein persönlicher Brief in Brand-Farben. Oben ein Beere-Verlauf mit Markenkopf, darunter ein ruhiger Creme-Bogen mit Brief, vier Lebensbereichen, Ablauf, Person, Diskretion und Einladung. Bewusst ein einziges helles Erscheinungsbild wie gedrucktes Papier. */
+/* Layout: ein persönlicher Brief in Brand-Farben. Durchgehend Beere-Kopf mit Creme-Schrift, Verlauf nur als Deko-Übergang ohne Text, danach Creme-Brief. Rhythmus: Brief (Creme) / Herzstück (Beere-Band) / Bereiche (Creme) / Ablauf (Sand) / Person und Diskretion (Creme) / Einladung (Beere-Band). Bewusst ein einziges helles Erscheinungsbild. Akzent: Beere, Gold nur als Linie/Fläche auf hell und als Schrift auf Beere. Schriften sind Fallbacks: echt Bauer Bodoni, Raleway, Signature. */
 :root{
   color-scheme:light;
   --creme:#FBFAF0; --sand:#EADCC1; --gold:#C6A764; --rose:#D17A81;
-  --beere:#73013A; --ink:#1A1A1A; --grau:#888380;
+  --beere:#73013A; --ink:#1A1A1A; --soft:#4F4946;
   --display:"Bauer Bodoni","Bodoni Moda",Didot,"Playfair Display",serif;
   --body:Raleway,Montserrat,"Helvetica Neue",Arial,sans-serif;
   --script:"Signature","Dancing Script",cursive;
 }
 *{box-sizing:border-box}
-html{background:var(--creme)}
-body{background:var(--creme);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.7;margin:0}
-.band{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+html{background:var(--creme);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{background:var(--creme);color:var(--ink);font-family:var(--body);font-size:18px;font-weight:450;line-height:1.65;margin:0;-webkit-font-smoothing:antialiased}
+.band{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
 .inner{max-width:680px;margin:0 auto}
-h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
+h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;text-wrap:balance;font-optical-sizing:auto}
+p{margin:0}
+section.s{padding-block:72px}
+@media (min-width:768px){section.s{padding-block:104px}}
 
-/* Kopf */
-.hero{background:linear-gradient(180deg,#73013A 0%,#73013A 38%,#D17A81 82%,#EADCC1 100%);color:var(--creme);padding-block:44px 120px}
-.mark{display:flex;flex-direction:column;align-items:center;gap:2px;text-align:center}
-.mark .logo{font-family:var(--display);letter-spacing:.32em;font-size:13px;color:var(--gold);padding-left:.32em}
-.mark .rule{width:56px;height:1px;background:var(--gold);margin-top:10px}
-.hero h1{font-size:clamp(34px,7.5vw,54px);line-height:1.12;margin-top:56px;text-align:center}
-.hero h1 em{font-style:italic}
-.hero .sub{margin:22px auto 0;max-width:46ch;text-align:center;font-size:17px;color:var(--creme)}
+/* Kopf: massives Beere bis unter den Text */
+.hero{background:var(--beere);color:var(--creme);padding-block:36px 72px}
+.mark{display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.mark .logo{font-family:var(--display);font-weight:600;letter-spacing:.3em;font-size:15px;color:var(--gold);padding-left:.3em}
+.mark .rule{width:56px;height:1px;background:var(--gold)}
+.hero h1{font-weight:500;font-size:clamp(42px,11.5vw,68px);line-height:1.08;margin-top:64px;text-align:center}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero .sub{margin:28px auto 0;max-width:34ch;text-align:center;font-size:19px;font-weight:500;line-height:1.6;color:var(--creme)}
+@media (min-width:768px){.hero{padding-block:48px 104px}.hero .sub{font-size:21px;max-width:42ch}}
+/* Deko-Übergang, enthält keinen Text */
+.wash{height:72px;background:linear-gradient(180deg,#73013A 0%,#D17A81 62%,#FBFAF0 100%)}
 
-/* Bogen */
-.sheet{background:var(--creme);margin-top:-80px;border-radius:2px;padding-block:52px 40px;position:relative}
-.sheet .inner{display:flex;flex-direction:column;gap:56px}
-.letter p{margin:0 0 16px;font-size:17px}
-.letter .lead{font-family:var(--display);font-size:24px;line-height:1.4;color:var(--beere);margin-bottom:22px}
-.sig{font-family:var(--script);font-size:38px;color:var(--beere);line-height:1;margin-top:8px}
+/* Brief */
+.letter p{margin:0 0 20px}
+.letter .lead{font-family:var(--display);font-weight:600;font-size:clamp(28px,7.4vw,38px);line-height:1.22;color:var(--beere);margin-bottom:32px;text-wrap:balance}
+.sig{font-family:var(--script);font-weight:600;font-size:46px;color:var(--beere);line-height:1;margin-top:16px}
 
-.label{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--beere);display:flex;align-items:center;gap:12px}
+.label{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--beere);display:flex;align-items:center;gap:14px}
 .label::after{content:"";flex:1;height:1px;background:var(--gold)}
-h2{font-size:clamp(26px,5vw,34px);line-height:1.2;margin-top:14px}
-.intro{margin:14px 0 0;max-width:58ch}
+h2{font-size:clamp(32px,8.4vw,46px);line-height:1.14;margin-top:18px}
+.intro{margin:20px 0 0;max-width:58ch}
+.small{font-size:16px;line-height:1.6;color:var(--soft);max-width:62ch}
 
-.areas{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:28px;border-top:1px solid var(--gold)}
-.area{padding:22px 20px 22px 0;border-bottom:1px solid var(--sand)}
-.area:nth-child(odd){border-right:1px solid var(--sand)}
-.area:nth-child(even){padding-left:20px;padding-right:0}
-.area h3{font-size:22px;color:var(--ink)}
-.area p{margin:6px 0 0;font-size:15px;color:var(--ink)}
-@media (max-width:560px){.areas{grid-template-columns:1fr}.area,.area:nth-child(even){padding-left:0;padding-right:0;border-right:0}}
-
-.method{border-top:1px solid var(--gold);padding-top:28px}
-.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:22px;background:var(--beere);color:var(--creme)}
-.mitem{padding:26px 22px;border-right:1px solid rgba(198,167,100,.5)}
-.mitem:last-child{border-right:0}
-.mitem .mn{font-family:var(--display);font-size:24px;color:var(--gold);display:block;line-height:1.2}
-.mitem p{margin:10px 0 0;font-size:15px;line-height:1.6;color:var(--creme)}
+/* Herzstück: Beere-Band */
+.s-method{background:var(--beere);color:var(--creme)}
+.s-method .label{color:var(--gold)}
+.s-method h2{color:var(--creme)}
+.mgrid{display:flex;flex-direction:column;margin-top:40px;border-top:1px solid var(--gold)}
+.mitem{padding:30px 0;border-bottom:1px solid rgba(198,167,100,.55)}
+.mitem .mn{font-family:var(--display);font-weight:600;font-size:30px;color:var(--gold);display:block;line-height:1.15}
+.mitem p{margin:12px 0 0;font-size:18px;font-weight:500;color:var(--creme)}
 .mitem em{color:var(--gold);font-style:italic}
-.mfoot{font-size:14px;color:var(--ink);max-width:62ch;margin:16px 0 0}
-@media (max-width:640px){.mgrid{grid-template-columns:1fr}.mitem{border-right:0;border-bottom:1px solid rgba(198,167,100,.5)}.mitem:last-child{border-bottom:0}}
-.price{font-family:var(--display);font-size:clamp(34px,7vw,48px);color:var(--beere);margin-top:20px;line-height:1.1}
-.pricesub{font-size:13px;color:var(--ink);margin-top:4px}
-.phone{font-size:14px;max-width:50ch;margin:18px auto 0}
-.forces{background:var(--beere);color:var(--creme);padding:30px 28px;margin-top:28px}
-.forces p{margin:0;font-family:var(--display);font-size:22px;line-height:1.45}
+.mfoot{font-size:17px;font-weight:500;color:var(--creme);max-width:62ch;margin:32px 0 0}
+@media (min-width:900px){.s-method .inner{max-width:980px}.mgrid{display:grid;grid-template-columns:repeat(3,1fr);column-gap:40px;border-top:1px solid var(--gold)}.mitem{border-bottom:0;padding:32px 0 0}}
+
+/* Bereiche */
+.areas{display:grid;grid-template-columns:1fr;margin-top:36px;border-top:1px solid var(--gold)}
+.area{padding:28px 0;border-bottom:1px solid var(--sand)}
+.area h3{font-size:28px;line-height:1.2;color:var(--ink)}
+.area p{margin:10px 0 0}
+@media (min-width:768px){.areas{grid-template-columns:1fr 1fr}.area:nth-child(odd){padding-right:28px;border-right:1px solid var(--sand)}.area:nth-child(even){padding-left:28px}}
+.forces{background:var(--beere);color:var(--creme);padding:36px 28px;margin-top:40px}
+.forces p{font-family:var(--display);font-weight:500;font-size:clamp(23px,5.6vw,28px);line-height:1.4}
 .forces p em{color:var(--gold);font-style:italic}
 
-.steps{list-style:none;margin:24px 0 0;padding:0;display:flex;flex-direction:column}
-.steps li{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--sand)}
-.steps li:first-child{border-top:1px solid var(--gold)}
-.steps .k{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--beere);padding-top:3px}
+/* Ablauf auf Sand */
+.s-ablauf{background:var(--sand)}
+.steps{list-style:none;margin:36px 0 0;padding:0;display:flex;flex-direction:column}
+.steps li{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:24px 0;border-bottom:1px solid rgba(115,1,58,.28)}
+.steps li:first-child{border-top:1px solid var(--beere)}
+.steps .k{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--beere);padding-top:5px}
 .steps .v{min-width:0}
-@media (max-width:480px){.steps li{grid-template-columns:1fr;gap:4px}}
+@media (max-width:560px){.steps li{grid-template-columns:1fr;gap:6px}}
+.s-ablauf .small{margin-top:28px;color:var(--ink)}
 
-.person{display:grid;grid-template-columns:1fr;gap:12px}
-.person ul{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
-.person li{padding-left:22px;position:relative}
-.person li::before{content:"";position:absolute;left:0;top:.75em;width:10px;height:1px;background:var(--gold)}
+/* Person */
+.person ul{margin:28px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;border-top:1px solid var(--gold)}
+.person li{padding:16px 0 16px 28px;position:relative;border-bottom:1px solid var(--sand)}
+.person li::before{content:"";position:absolute;left:0;top:1.5em;width:14px;height:2px;background:var(--gold)}
+.quiet{border:1px solid var(--gold);padding:32px 26px;margin-top:64px}
+.quiet h2{font-size:clamp(28px,7vw,36px)}
+.quiet p{margin:18px 0 0}
 
-.quiet{border:1px solid var(--gold);padding:28px;background:var(--creme)}
-.quiet p{margin:12px 0 0}
+/* Einladung: Beere-Band */
+.s-invite{background:var(--beere);color:var(--creme);text-align:center}
+.s-invite .label{justify-content:center;color:var(--gold)}
+.s-invite .label::before{content:"";flex:0 0 28px;height:1px;background:var(--gold)}
+.s-invite .label::after{flex:0 0 28px}
+.s-invite h2{color:var(--creme);margin-top:18px}
+.s-invite .p1{margin:22px auto 0;max-width:50ch;font-weight:500;text-align:left}
+.facts{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:32px}
+.pill{font-size:14px;font-weight:600;letter-spacing:.04em;border:1px solid var(--gold);color:var(--creme);border-radius:999px;padding:9px 18px}
+.price{font-family:var(--display);font-weight:600;font-size:clamp(46px,13vw,72px);color:var(--gold);margin-top:44px;line-height:1.05}
+.pricesub{font-size:16px;font-weight:500;line-height:1.6;color:var(--creme);margin:10px auto 0;max-width:46ch}
+.cta{display:inline-block;margin-top:36px;background:var(--gold);color:var(--ink);font-weight:700;letter-spacing:.1em;font-size:15px;text-transform:uppercase;padding:18px 34px;border-radius:999px}
+.phone{font-size:16px;font-weight:500;max-width:50ch;margin:32px auto 0;text-align:left}
+.todo{display:inline-block;background:#F7ECD3;color:#6B4D0E;border:1px dashed #B07A12;font-size:13px;font-weight:600;padding:3px 9px;border-radius:6px;letter-spacing:.02em;line-height:1.5}
 
-.invite{background:var(--sand);padding:36px 28px;text-align:center}
-.invite h2{margin-top:10px}
-.invite p{margin:14px auto 0;max-width:48ch}
-.facts{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:22px}
-.pill{font-size:12px;font-weight:600;letter-spacing:.06em;border:1px solid var(--beere);color:var(--beere);border-radius:999px;padding:6px 14px}
-.cta{display:inline-block;margin-top:24px;background:var(--beere);color:var(--creme);font-weight:600;letter-spacing:.08em;font-size:13px;text-transform:uppercase;padding:14px 26px;border-radius:999px}
-.todo{display:inline-block;background:#F7ECD3;color:#7A5A12;border:1px dashed #B07A12;font-size:12px;font-weight:600;padding:3px 8px;border-radius:6px;letter-spacing:.02em}
-
-.foot{padding-block:28px 48px}
-.foot p{font-size:12px;color:var(--grau);margin:0 0 8px;max-width:64ch}
-.foot .brand{font-family:var(--display);letter-spacing:.28em;font-size:11px;color:var(--beere);margin-bottom:14px}
+.foot{padding-block:44px 64px}
+.foot p{font-size:14px;line-height:1.6;color:var(--soft);margin:0 0 12px;max-width:66ch}
+.foot .brand{font-family:var(--display);font-weight:600;letter-spacing:.28em;font-size:14px;color:var(--beere);margin-bottom:18px}
 </style>
 
 <header class="hero band">
@@ -99,90 +113,99 @@ h2{font-size:clamp(26px,5vw,34px);line-height:1.2;margin-top:14px}
     <p class="sub">Sechs Monate private Begleitung mit energetischer Tiefe. Für Frauen, die nach außen alles tragen und für sich selbst einen Raum verdienen.</p>
   </div>
 </header>
+<div class="wash" aria-hidden="true"></div>
 
-<main class="band">
-  <article class="sheet">
+<main>
+
+  <section class="s band letter" aria-label="Persönlicher Brief">
     <div class="inner">
-
-      <section class="letter" aria-label="Persönlicher Brief">
-        <p class="lead">Von außen sieht alles gut aus. Und das ist es ja auch, irgendwie.</p>
-        <p>Und trotzdem gibt es diese Momente. Abends, wenn das Haus ruhig ist. Oder mitten in einem Fest, wenn alle lachen und du merkst: Eigentlich weiß hier gerade niemand, was ich brauche. Manchmal weiß ich es selbst nicht so genau.</p>
-        <p>Ich kenne das. Als ich mit meiner Familie im Ausland gelebt habe, in Russland, war ich umgeben von Menschen und Möglichkeiten. Und gleichzeitig war da eine Einsamkeit, über die man nicht spricht. Weil man ja so privilegiert ist. Weil man funktioniert.</p>
-        <p>Genau dafür gibt es diesen Raum. Einen Raum nur für dich. Kein Programm, keine Gruppe, kein Druck. Wir schauen gemeinsam hinter die Fassade: Wie geht es dir wirklich? Was brauchst du? Und was beschäftigt dich im Hintergrund?</p>
-        <div class="sig" aria-label="Aisun">Aisun</div>
-      </section>
-
-      <section class="method" aria-labelledby="meth-h">
-        <div class="label">Das Herzstück</div>
-        <h2 id="meth-h">Energetische Arbeit, die tiefer geht.</h2>
-        <div class="mgrid">
-          <div class="mitem"><span class="mn">Jede Woche</span><p>Eine energetische Einzelsession nur für dich. Wir schauen gemeinsam, welche <em>wirkenden Kräfte</em> du hinter deinen Themen wahrnimmst, und machen sie für dich sichtbar.</p></div>
-          <div class="mitem"><span class="mn">Deine UrSeele</span><p>Wir gehen dem nach, was wirklich zu dir gehört und was du nur mitträgst: Rollen, Erwartungen, Dynamiken, die nicht deine sind.</p></div>
-          <div class="mitem"><span class="mn">Hinter der Fassade</span><p>Mit meinen Methoden schaue ich auf das, was sich in Worten nicht fassen lässt, und teile mit dir, was ich dabei wahrnehme, als Angebot, nicht als Befund.</p></div>
-        </div>
-        <p class="mfoot">Daneben bringe ich die Klarheit einer Psychologin und knapp 20 Jahre Erfahrung mit Menschen in Verantwortung mit. Die energetische Arbeit ist ein Impuls für deine Selbstreflexion, nicht als Diagnose und ohne Wirkversprechen.</p>
-      </section>
-
-      <section aria-labelledby="areas-h">
-        <div class="label">Was wir anschauen</div>
-        <h2 id="areas-h">Vier Bereiche deines Lebens</h2>
-        <p class="intro">Wir fangen da an, wo es dich gerade am meisten beschäftigt. Alles andere darf sich zeigen, wenn es so weit ist.</p>
-        <div class="areas">
-          <div class="area"><h3>Wohlbefinden</h3><p>Wie lebst du deinen Alltag, und wie erlebst du ihn? Wo ist es eng, wo wünschst du dir mehr Leichtigkeit und Zeit für dich?</p></div>
-          <div class="area"><h3>Beziehung</h3><p>Was trägt eure Partnerschaft, und wo bist du allein mit etwas, das du nicht aussprichst?</p></div>
-          <div class="area"><h3>Familie &amp; Kinder</h3><p>Deine Rolle zwischen allen Ansprüchen. Und die Frage, wo du selbst darin vorkommst.</p></div>
-          <div class="area"><h3>Lebensvision</h3><p>Was willst du eigentlich? Nicht für die anderen. Für dich.</p></div>
-        </div>
-        <div class="forces">
-          <p>Ergänzend arbeite ich mit <em>energetischen Methoden</em>, als Impuls zur Selbstreflexion, nicht als Diagnose und ohne Wirkversprechen. Meine Absicht: dass du dir wieder mehr Raum für dich nimmst und dein Leben so gestaltest, dass es sich wie deines anfühlt. Was daraus wird, entscheidest du.</p>
-        </div>
-      </section>
-
-      <section aria-labelledby="ablauf-h">
-        <div class="label">Wie es läuft</div>
-        <h2 id="ablauf-h">Sechs Monate, in deinem Tempo</h2>
-        <ol class="steps">
-          <li><span class="k">Start</span><span class="v">Ein ausführliches erstes Gespräch. Wir schauen, wo du stehst und was du dir für diese Zeit wünschst.</span></li>
-          <li><span class="k">Jede Woche</span><span class="v">Ein persönliches Gespräch, per Video oder in Berlin. Wir sprechen, wir spüren hin, und ich teile mit dir meine Eindrücke aus der energetischen Arbeit als Impuls für deine Reflexion.</span></li>
-          <li><span class="k">Dazwischen</span><span class="v">Kleine Impulse für deinen Alltag, die du für dich allein anwenden kannst. Und du kannst mir schreiben, wenn dich etwas beschäftigt. Ich antworte werktags innerhalb von <span class="todo">ENTWURF · Antwortzeit: legt Aisun fest</span>. Ich bin kein Notfallkontakt: Bei akuten Krisen oder gesundheitlichen Notfällen wende dich an den Notruf 112, den ärztlichen Bereitschaftsdienst 116 117 oder die Telefonseelsorge 0800 111 0 111.</span></li>
-          <li><span class="k">Abschluss</span><span class="v">Wir schauen gemeinsam zurück: Was hat sich verändert, was nimmst du mit, was darf als Nächstes kommen.</span></li>
-        </ol>
-        <p class="intro" style="font-size:14px">Diese Begleitung ist Coaching. Sie ist keine Therapie und ersetzt keine ärztliche oder psychotherapeutische Behandlung.</p>
-      </section>
-
-      <section class="person" aria-labelledby="person-h">
-        <div class="label">Wer dich begleitet</div>
-        <h2 id="person-h">Aisun Dodenhoff</h2>
-        <p class="intro" style="margin-top:4px">Ich verbinde zwei Welten, die selten zusammenkommen: die Klarheit der Psychologie und die Arbeit mit dem, was sich nicht in Worte fassen lässt.</p>
-        <ul>
-          <li>Diplom-Psychologin und ehemalige Psychotherapeutin</li>
-          <li>Knapp 20 Jahre Unternehmensberaterin, unter anderem in der Auswahl und Entwicklung von Führungskräften im Top-Management</li>
-          <li>Mentorin im innerwise-System</li>
-          <li>Selbst Mama von zwei Söhnen, mit eigener Erfahrung als Frau im Ausland</li>
-        </ul>
-      </section>
-
-      <section class="quiet" aria-labelledby="disk-h">
-        <div class="label">Diskretion</div>
-        <h2 id="disk-h" style="font-size:26px">Was du mir anvertraust, bleibt vertraulich.</h2>
-        <p>Was du mir anvertraust, behandle ich vertraulich. Ich gebe ohne dein Einverständnis nichts weiter, auch nicht an die Person, die dir diese Seite geschickt hat. Ausnahmen gelten nur, wenn das Gesetz es verlangt oder wenn Leben in akuter Gefahr ist.</p>
-      </section>
-
-      <section class="invite" aria-labelledby="inv-h">
-        <div class="label" style="justify-content:center">Deine Einladung</div>
-        <h2 id="inv-h">Ein Raum nur für dich</h2>
-        <p>Ich begleite bewusst im kleinen Rahmen, damit jede Begleitung Raum hat. Wenn du spürst, dass das für dich sein könnte, schreib mir über das Kontaktformular: für ein kostenloses Kennenlernen oder wenn du direkt starten möchtest. Bitte schreib in dieser ersten Nachricht noch nichts über Krankheiten oder deine Gesundheit.</p>
-        <div class="facts"><span class="pill">6 Monate</span><span class="pill">wöchentlich 1:1</span><span class="pill">per Video oder in Berlin</span></div>
-        <div class="price">17.850 €</div>
-        <div class="pricesub">inkl. gesetzlicher MwSt. (15.000 € netto) · <span class="todo">ENTWURF · Zahlungsweise: einmalig oder Raten, legt Aisun fest</span></div>
-        <p class="pricesub" style="margin-top:8px">Du hast ein gesetzliches Widerrufsrecht von 14 Tagen. Details findest du in den AGB und im Bestellprozess.</p>
-        <span class="cta">Zum Kontaktformular</span>
-        <p style="margin-top:10px"><span class="todo">ENTWURF · Link zum Kontaktformular auf aisundodenhoff.com</span></p>
-        <p class="phone">Wenn wir uns kennenlernen, bekommst du von mir eine persönliche Telefonnummer für Terminabsprachen und Kurznachrichten. Ich antworte werktags innerhalb der oben genannten Zeit. Ich bin kein Notfallkontakt. Diese Nummer gebe ich nach unserem Kennenlernen an dich weiter.</p>
-      </section>
-
+      <p class="lead">Von außen sieht alles gut aus. Und das ist es ja auch, irgendwie.</p>
+      <p>Und trotzdem gibt es diese Momente. Abends, wenn das Haus ruhig ist. Oder mitten in einem Fest, wenn alle lachen und du merkst: Eigentlich weiß hier gerade niemand, was ich brauche. Manchmal weiß ich es selbst nicht so genau.</p>
+      <p>Ich kenne das. Als ich mit meiner Familie im Ausland gelebt habe, in Russland, war ich umgeben von Menschen und Möglichkeiten. Und gleichzeitig war da eine Einsamkeit, über die man nicht spricht. Weil man ja so privilegiert ist. Weil man funktioniert.</p>
+      <p>Genau dafür gibt es diesen Raum. Einen Raum nur für dich. Kein Programm, keine Gruppe, kein Druck. Wir schauen gemeinsam hinter die Fassade: Wie geht es dir wirklich? Was brauchst du? Und was beschäftigt dich im Hintergrund?</p>
+      <div class="sig" aria-label="Aisun">Aisun</div>
     </div>
-  </article>
+  </section>
+
+  <section class="s band s-method" aria-labelledby="meth-h">
+    <div class="inner">
+      <div class="label">Das Herzstück</div>
+      <h2 id="meth-h">Energetische Arbeit, die tiefer geht.</h2>
+      <div class="mgrid">
+        <div class="mitem"><span class="mn">Jede Woche</span><p>Eine energetische Einzelsession nur für dich. Wir schauen gemeinsam, welche <em>wirkenden Kräfte</em> du hinter deinen Themen wahrnimmst, und machen sie für dich sichtbar.</p></div>
+        <div class="mitem"><span class="mn">Deine UrSeele</span><p>Wir gehen dem nach, was wirklich zu dir gehört und was du nur mitträgst: Rollen, Erwartungen, Dynamiken, die nicht deine sind.</p></div>
+        <div class="mitem"><span class="mn">Hinter der Fassade</span><p>Mit meinen Methoden schaue ich auf das, was sich in Worten nicht fassen lässt, und teile mit dir, was ich dabei wahrnehme, als Angebot, nicht als Befund.</p></div>
+      </div>
+      <p class="mfoot">Daneben bringe ich die Klarheit einer Psychologin und knapp 20 Jahre Erfahrung mit Menschen in Verantwortung mit. Die energetische Arbeit ist ein Impuls für deine Selbstreflexion, nicht als Diagnose und ohne Wirkversprechen.</p>
+    </div>
+  </section>
+
+  <section class="s band" aria-labelledby="areas-h">
+    <div class="inner">
+      <div class="label">Was wir anschauen</div>
+      <h2 id="areas-h">Vier Bereiche deines Lebens</h2>
+      <p class="intro">Wir fangen da an, wo es dich gerade am meisten beschäftigt. Alles andere darf sich zeigen, wenn es so weit ist.</p>
+      <div class="areas">
+        <div class="area"><h3>Wohlbefinden</h3><p>Wie lebst du deinen Alltag, und wie erlebst du ihn? Wo ist es eng, wo wünschst du dir mehr Leichtigkeit und Zeit für dich?</p></div>
+        <div class="area"><h3>Beziehung</h3><p>Was trägt eure Partnerschaft, und wo bist du allein mit etwas, das du nicht aussprichst?</p></div>
+        <div class="area"><h3>Familie &amp; Kinder</h3><p>Deine Rolle zwischen allen Ansprüchen. Und die Frage, wo du selbst darin vorkommst.</p></div>
+        <div class="area"><h3>Lebensvision</h3><p>Was willst du eigentlich? Nicht für die anderen. Für dich.</p></div>
+      </div>
+      <div class="forces">
+        <p>Ergänzend arbeite ich mit <em>energetischen Methoden</em>, als Impuls zur Selbstreflexion, nicht als Diagnose und ohne Wirkversprechen. Meine Absicht: dass du dir wieder mehr Raum für dich nimmst und dein Leben so gestaltest, dass es sich wie deines anfühlt. Was daraus wird, entscheidest du.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="s band s-ablauf" aria-labelledby="ablauf-h">
+    <div class="inner">
+      <div class="label">Wie es läuft</div>
+      <h2 id="ablauf-h">Sechs Monate, in deinem Tempo</h2>
+      <ol class="steps">
+        <li><span class="k">Start</span><span class="v">Ein ausführliches erstes Gespräch. Wir schauen, wo du stehst und was du dir für diese Zeit wünschst.</span></li>
+        <li><span class="k">Jede Woche</span><span class="v">Ein persönliches Gespräch, per Video oder in Berlin. Wir sprechen, wir spüren hin, und ich teile mit dir meine Eindrücke aus der energetischen Arbeit als Impuls für deine Reflexion.</span></li>
+        <li><span class="k">Dazwischen</span><span class="v">Kleine Impulse für deinen Alltag, die du für dich allein anwenden kannst. Und du kannst mir schreiben, wenn dich etwas beschäftigt. Ich antworte werktags innerhalb von <span class="todo">ENTWURF · Antwortzeit: legt Aisun fest</span>. Ich bin kein Notfallkontakt: Bei akuten Krisen oder gesundheitlichen Notfällen wende dich an den Notruf 112, den ärztlichen Bereitschaftsdienst 116 117 oder die Telefonseelsorge 0800 111 0 111.</span></li>
+        <li><span class="k">Abschluss</span><span class="v">Wir schauen gemeinsam zurück: Was hat sich verändert, was nimmst du mit, was darf als Nächstes kommen.</span></li>
+      </ol>
+      <p class="small">Diese Begleitung ist Coaching. Sie ist keine Therapie und ersetzt keine ärztliche oder psychotherapeutische Behandlung.</p>
+    </div>
+  </section>
+
+  <section class="s band" aria-labelledby="person-h">
+    <div class="inner person">
+      <div class="label">Wer dich begleitet</div>
+      <h2 id="person-h">Aisun Dodenhoff</h2>
+      <p class="intro">Ich verbinde zwei Welten, die selten zusammenkommen: die Klarheit der Psychologie und die Arbeit mit dem, was sich nicht in Worte fassen lässt.</p>
+      <ul>
+        <li>Diplom-Psychologin und ehemalige Psychotherapeutin</li>
+        <li>Knapp 20 Jahre Unternehmensberaterin, unter anderem in der Auswahl und Entwicklung von Führungskräften im Top-Management</li>
+        <li>Mentorin im innerwise-System</li>
+        <li>Selbst Mama von zwei Söhnen, mit eigener Erfahrung als Frau im Ausland</li>
+      </ul>
+
+      <div class="quiet" role="group" aria-labelledby="disk-h">
+        <div class="label">Diskretion</div>
+        <h2 id="disk-h">Was du mir anvertraust, bleibt vertraulich.</h2>
+        <p>Was du mir anvertraust, behandle ich vertraulich. Ich gebe ohne dein Einverständnis nichts weiter, auch nicht an die Person, die dir diese Seite geschickt hat. Ausnahmen gelten nur, wenn das Gesetz es verlangt oder wenn Leben in akuter Gefahr ist.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="s band s-invite" aria-labelledby="inv-h">
+    <div class="inner">
+      <div class="label">Deine Einladung</div>
+      <h2 id="inv-h">Ein Raum nur für dich</h2>
+      <p class="p1">Ich begleite bewusst im kleinen Rahmen, damit jede Begleitung Raum hat. Wenn du spürst, dass das für dich sein könnte, schreib mir über das Kontaktformular: für ein kostenloses Kennenlernen oder wenn du direkt starten möchtest. Bitte schreib in dieser ersten Nachricht noch nichts über Krankheiten oder deine Gesundheit.</p>
+      <div class="facts"><span class="pill">6 Monate</span><span class="pill">wöchentlich 1:1</span><span class="pill">per Video oder in Berlin</span></div>
+      <div class="price">17.850 €</div>
+      <div class="pricesub">inkl. gesetzlicher MwSt. (15.000 € netto) · <span class="todo">ENTWURF · Zahlungsweise: einmalig oder Raten, legt Aisun fest</span></div>
+      <p class="pricesub" style="margin-top:14px">Du hast ein gesetzliches Widerrufsrecht von 14 Tagen. Details findest du in den AGB und im Bestellprozess.</p>
+      <span class="cta">Zum Kontaktformular</span>
+      <p style="margin-top:14px"><span class="todo">ENTWURF · Link zum Kontaktformular auf aisundodenhoff.com</span></p>
+      <p class="phone">Wenn wir uns kennenlernen, bekommst du von mir eine persönliche Telefonnummer für Terminabsprachen und Kurznachrichten. Ich antworte werktags innerhalb der oben genannten Zeit. Ich bin kein Notfallkontakt. Diese Nummer gebe ich nach unserem Kennenlernen an dich weiter.</p>
+    </div>
+  </section>
+
 </main>
 
 <footer class="band foot">

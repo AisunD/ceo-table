@@ -89,6 +89,7 @@ Am Ende jeder Sitzung (und wenn sich Status ändert) aktualisierst du dessen Dat
 - `papiere/<id>`: Strategie-Papiere (`titel`, `datum`, `von`, `nummer`, `kurz`, `text` als Markdown). Quelle bleibt `strategie/`.
 - `kennzahlen/umsatz-2026`: Zahlen für den Zahlen-Tab (`bisher_netto`, `neu_netto`, `ziel_netto`, `monate`, `produkte`, `stand`, `hinweis`). Bei neuen Zahlen aktualisieren.
 - `entwuerfe/<id>`: Landingpages und Angebote in Arbeit (`titel`, `typ`, `status` entwurf | petra | zur-freigabe | freigegeben, `kurz`, `ampel` gruen | gelb | rot, `ampel_hinweis`, `offen` als Liste, `link` zum Artifact, `aktualisiert`). Bei jedem neuen Stand eines Entwurfs aktualisieren, freigegebene nach `content/freigegeben/`.
+- `gespraeche/<team-id>`: Gespräche, die Aisun im Cockpit mit einem Teammitglied (und Sebastian) führt (`nachrichten` mit `von` aisun | sebastian | team-id, `text`, `zeit`, `auftrag`; `ungelesen` = true, wenn Aisun etwas geschrieben hat). Zu Beginn jeder Sitzung lesen: Alles, was Aisun dort geschrieben hat, ist eine Anweisung an dieses Teammitglied. Umsetzen (Agentin beauftragen), danach `ungelesen` auf false. Die Antworten im Cockpit sind nur Kurzantworten aus den Daten und keine erledigte Arbeit.
 - Quelltext des Cockpits: `cockpit/cockpit.html`. Änderungen dort machen und mit dem Artifact-Tool auf den Cockpit-Link veröffentlichen.
 Ist `ArtifactData` in dieser Sitzung nicht verfügbar, sag Aisun in einer Zeile, dass das Cockpit beim nächsten Mal aktualisiert wird, und notiere die Änderungen im Protokoll.
 
