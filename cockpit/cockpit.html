@@ -230,26 +230,34 @@ tr:last-child td{border-bottom:0}
 .d-frei{background:var(--ok-bg);color:var(--ok)}
 .ts{font-size:12px;color:var(--muted)}
 /* Gespräch */
-.sheet-bg{position:fixed;inset:0;z-index:40;background:rgba(10,8,6,.55);display:flex;align-items:flex-end;justify-content:center}
+.sheet-bg{position:fixed;left:0;right:0;top:var(--vvt,0px);height:var(--vvh,100%);z-index:40;background:rgba(10,8,6,.55);display:flex;align-items:flex-end;justify-content:center}
 .sheet-bg[hidden]{display:none}
-.sheet-p{width:100%;max-width:640px;max-height:92vh;max-height:92dvh;background:var(--bg);border-radius:20px 20px 0 0;display:flex;flex-direction:column;box-shadow:0 -8px 40px rgba(0,0,0,.3);padding-bottom:env(safe-area-inset-bottom,0px)}
-.sh{display:flex;gap:12px;align-items:center;padding:14px 16px;border-bottom:1px solid var(--line)}
-.sh .avatar{width:44px;height:44px;flex:none}
+.sheet-p{width:100%;max-width:640px;height:100%;max-height:100%;background:var(--bg);border-radius:0;display:flex;flex-direction:column;box-shadow:0 -8px 40px rgba(0,0,0,.3);padding-bottom:env(safe-area-inset-bottom,0px)}
+.sh{display:flex;gap:10px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line)}
+.sh .avatar{width:38px;height:38px;flex:none}
 .sh .ti{min-width:0;flex:1}
-.sh .ti strong{font-family:var(--display);font-size:20px;font-weight:400;display:block;line-height:1.2}
+.sh .ti strong{font-family:var(--display);font-size:19px;font-weight:400;display:block;line-height:1.2}
 .sh .ti span{font-size:12px;color:var(--muted)}
 .xbtn{border:1px solid var(--line);background:var(--surface);border-radius:50%;width:38px;height:38px;font-size:18px;line-height:1}
 .hint{margin:0;padding:10px 16px;font-size:12px;color:var(--muted);background:var(--sunk)}
-.now{padding:12px 16px;border-bottom:1px solid var(--line);max-height:42vh;overflow-y:auto;display:flex;flex-direction:column;gap:10px;font-size:14px}
+.now{border-bottom:1px solid var(--line);flex:none}
+.now-sum{display:flex;align-items:center;gap:8px;width:100%;border:0;background:var(--sunk);padding:9px 12px;text-align:left;font-size:13px;color:var(--fg)}
+.now-sum .ns-t{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+.now-sum .ns-c{flex:none;color:var(--muted);font-size:12px}
+.now-sum .ns-a{flex:none;color:var(--muted);transition:transform .15s}
+.now.open .ns-a{transform:rotate(180deg)}
+.now-body{display:none;flex-direction:column;gap:10px;padding:10px 12px;max-height:calc(var(--vvh,100dvh)*.45);overflow-y:auto;font-size:14px}
+.now.open .now-body{display:flex}
 .now h4{margin:0 0 4px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.now .job2{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
 .now .it{display:flex;gap:8px;align-items:flex-start;padding:7px 0;border-top:1px solid var(--line)}
 .now .it:first-of-type{border-top:0}
 .now .it .tx{flex:1;min-width:0;overflow-wrap:anywhere}
 .now .it .tg{font-size:11px;font-weight:700;color:var(--muted);white-space:nowrap}
 .now .go{font-size:12px;font-weight:700;color:var(--ink-accent);background:none;border:0;padding:0;text-decoration:underline;text-underline-offset:3px}
 .now .none{color:var(--muted);font-size:13px}
-.msgs{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px;min-height:160px}
+.now .hint2{font-size:11.5px;color:var(--muted)}
+.typing .now,.typing .quick{display:none}
+.msgs{flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:10px;min-height:0}
 .m{max-width:86%;display:flex;flex-direction:column;gap:2px}
 .m .who2{font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--muted)}
 .m .b{padding:10px 14px;border-radius:16px;white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px}
@@ -258,8 +266,9 @@ tr:last-child td{border-bottom:0}
 .m.team .b{background:var(--surface);border:1px solid var(--line);border-bottom-left-radius:4px}
 .m.ceo .b{background:var(--sunk);border-bottom-left-radius:4px}
 .m .act{font-size:12px;font-weight:700;color:var(--ink-accent);background:none;border:0;padding:2px 0;text-decoration:underline;text-underline-offset:3px}
-.quick{display:flex;gap:6px;flex-wrap:wrap;padding:0 16px 8px}
-.send{display:flex;gap:8px;padding:10px 16px 14px;border-top:1px solid var(--line)}
+.quick{display:flex;gap:6px;overflow-x:auto;flex:none;padding:0 12px 8px;scrollbar-width:none}
+.quick .chip{flex:none;white-space:nowrap}
+.send{display:flex;gap:8px;padding:8px 12px 10px;flex:none;border-top:1px solid var(--line)}
 .send textarea{flex:1;min-width:0;border:1px solid var(--line);border-radius:16px;padding:10px 14px;background:var(--surface);resize:none;min-height:46px;max-height:140px}
 /* Lauf */
 .run{display:flex;flex-direction:column;gap:10px}
@@ -368,7 +377,6 @@ tr:last-child td{border-bottom:0}
 <div class="sheet-bg" id="sheet" hidden>
   <div class="sheet-p" role="dialog" aria-modal="true" aria-labelledby="sh-name">
     <div class="sh"><span class="avatar" id="sh-av" aria-hidden="true"></span><div class="ti"><strong id="sh-name"></strong><span id="sh-sub"></span></div><button type="button" class="xbtn" id="sh-x" aria-label="Schließen">×</button></div>
-    <p class="hint">Gespräch zu dritt: du, das Teammitglied und Sebastian. Antworten kommen aus den Daten im Cockpit. Was erledigt werden soll, speicherst du als Auftrag. Gearbeitet wird in der Sitzung mit Sebastian.</p>
     <div class="now" id="now"></div>
     <div class="msgs" id="msgs" aria-live="polite"></div>
     <div class="quick" id="quick"></div>
@@ -685,34 +693,46 @@ tr:last-child td{border-bottom:0}
     }).join("") : `<div class="note">Noch kein Gespräch. Schreib ${esc(m.name)} etwas oder tippe unten auf eine Frage.</div>`;
     if(!keepScroll || near) box.scrollTop = box.scrollHeight;
   }
+  let nowOpen = false;
   function renderNow(){
     const el = $("#now"); if(!chatId){ el.innerHTML=""; return; }
     const id = chatId, m = state.team.find(t=>t.id===id)||{};
     const qs = (state.fragen||[]).filter(q=>(q.wer===id || (id==="sebastian" && !q.wer)) && q.status!=="beantwortet");
     const ts = (state.tasks||[]).filter(t=>t.wer===id && t.status!=="erledigt");
     const ens = (state.entwuerfe||[]).filter(d=>d.wer===id && d.status!=="freigegeben");
-    const st = m.status||"bereit";
     const ev = {offen:"offen","in-arbeit":"in Arbeit","zur-freigabe":"wartet auf dein OK"};
-    let h = `<div class="job2"><h4>Gerade</h4>${m.aufgabe?esc(m.aufgabe):'<span class="none">Keine Aufgabe eingetragen.</span>'}</div>`;
+    const cnt = [qs.length?qs.length+(qs.length===1?" Frage":" Fragen"):"", ts.length?ts.length+(ts.length===1?" Auftrag":" Aufträge"):""].filter(Boolean).join(" · ") || "nichts offen";
+    let h = `<button type="button" class="now-sum" id="now-tg" aria-expanded="${nowOpen}"><span class="ns-t">${esc(m.aufgabe||"Keine Aufgabe eingetragen")}</span><span class="ns-c">${cnt}</span><span class="ns-a" aria-hidden="true">▾</span></button><div class="now-body">`;
+    h += `<div><h4>Gerade</h4>${m.aufgabe?esc(m.aufgabe):'<span class="none">Keine Aufgabe eingetragen.</span>'}</div>`;
     h += `<div><h4>Wartet auf dich (${qs.length})</h4>${qs.length?qs.map(q=>`<div class="it"><div class="tx">${esc(q.frage)}</div><button type="button" class="go" data-go="entscheiden">Entscheiden</button></div>`).join(""):'<div class="none">Keine offene Frage.</div>'}</div>`;
     h += `<div><h4>Aufträge (${ts.length})</h4>${ts.length?ts.map(t=>`<div class="it"><div class="tx">${esc(t.titel)}${t.notiz?`<div class="small muted">${esc(t.notiz)}</div>`:""}</div><span class="tg">${esc(ev[t.status]||t.status||"offen")}</span></div>`).join(""):'<div class="none">Nichts offen.</div>'}</div>`;
     if(ens.length) h += `<div><h4>Entwürfe</h4>${ens.map(d=>`<div class="it"><div class="tx">${esc(d.titel)}</div><button type="button" class="go" data-go="entwuerfe">Ansehen</button></div>`).join("")}</div>`;
-    el.innerHTML = h;
+    h += `<div class="hint2">Gespräch zu dritt: du, ${esc(m.name||"das Teammitglied")} und Sebastian. Antworten kommen aus den Daten im Cockpit. Was erledigt werden soll, speicherst du als Auftrag. Gearbeitet wird in der Sitzung mit Sebastian.</div></div>`;
+    el.innerHTML = h; el.classList.toggle("open", nowOpen);
   }
-  $("#now").addEventListener("click", e=>{ const b=e.target.closest("[data-go]"); if(!b) return; closeChat(); show(b.dataset.go); });
+  $("#now").addEventListener("click", e=>{ if(e.target.closest("#now-tg")){ nowOpen=!nowOpen; renderNow(); return; } const b=e.target.closest("[data-go]"); if(!b) return; closeChat(); show(b.dataset.go); });
+  function fitVV(){
+    const sh = $("#sheet"), v = window.visualViewport;
+    if(!v || sh.hidden || v.height > window.innerHeight - 60){ sh.style.removeProperty("--vvh"); sh.style.removeProperty("--vvt"); return; }
+    sh.style.setProperty("--vvh", Math.round(v.height)+"px"); sh.style.setProperty("--vvt", Math.round(v.offsetTop)+"px");
+    const box = $("#msgs"); if(box) box.scrollTop = box.scrollHeight;
+  }
+  if(window.visualViewport){ window.visualViewport.addEventListener("resize", fitVV); window.visualViewport.addEventListener("scroll", fitVV); }
+  $("#send-in").addEventListener("focus", ()=>{ $("#sheet").classList.add("typing"); });
+  $("#send-in").addEventListener("blur", ()=>{ setTimeout(()=>{ if(!$("#send-in").value.trim()) $("#sheet").classList.remove("typing"); }, 200); });
   function openChat(id, opener){
     const m = state.team.find(t=>t.id===id); if(!m) return;
-    chatId = id; chatOpener = opener||null;
+    chatId = id; chatOpener = opener||null; nowOpen = false; $("#sheet").classList.remove("typing");
     const st = m.status||"bereit";
     $("#sh-av").textContent = (m.name||"?").replace(/^(\w)\w*[- ](\w).*/u,"$1$2").slice(0,2).toUpperCase();
     $("#sh-av").className = "avatar"; $("#sh-av").style.setProperty("--st", ST_COLOR[st]||"var(--line)");
     $("#sh-name").textContent = m.name; $("#sh-sub").textContent = (m.rolle||"")+" · "+(ST_LABEL[st]||st);
     $("#quick").innerHTML = QUICK.map(q=>`<button type="button" class="chip" data-q="${esc(q)}">${esc(q)}</button>`).join("");
     $("#sheet").hidden = false; document.body.style.overflow = "hidden";
-    renderNow(); renderChat(false); $("#send-in").focus();
+    renderNow(); renderChat(false); fitVV();
     if(db && state.chats[id]?.ungelesen_team){ db.collection("gespraeche").doc(id).update({ungelesen_team:false}).catch(()=>{}); }
   }
-  function closeChat(){ $("#sheet").hidden = true; document.body.style.overflow = ""; chatId = null; if(chatOpener) chatOpener.focus(); renderTeam(); }
+  function closeChat(){ $("#sheet").hidden = true; $("#sheet").classList.remove("typing"); document.body.style.overflow = ""; chatId = null; if(chatOpener) chatOpener.focus(); renderTeam(); }
   async function saveChat(id, ms, extra){
     const prev = state.chats[id]||{};
     state.chats[id] = {...prev, ...extra, nachrichten: ms.slice(-40), aktualisiert: nowIso()};
@@ -734,7 +754,7 @@ tr:last-child td{border-bottom:0}
     const m = state.team.find(t=>t.id===cid); const sample = await claude.use("sample");
     const ms = [...chatMsgs(), {von:"aisun", text, zeit:nowIso()}];
     await saveChat(cid, ms, {ungelesen:true});
-    $("#send-in").value = ""; renderChat(false);
+    $("#send-in").value = ""; $("#sheet").classList.remove("typing"); renderChat(false);
     if(!sample){ $("#msgs").insertAdjacentHTML("beforeend",'<div class="note">Antworten sind in dieser Ansicht nicht verfügbar. Deine Nachricht ist gespeichert und Sebastian liest sie in der nächsten Sitzung.</div>'); return; }
     busy = true; $("#send-btn").disabled = true;
     const isCeo = cid==="sebastian";
