@@ -240,6 +240,15 @@ tr:last-child td{border-bottom:0}
 .sh .ti span{font-size:12px;color:var(--muted)}
 .xbtn{border:1px solid var(--line);background:var(--surface);border-radius:50%;width:38px;height:38px;font-size:18px;line-height:1}
 .hint{margin:0;padding:10px 16px;font-size:12px;color:var(--muted);background:var(--sunk)}
+.now{padding:12px 16px;border-bottom:1px solid var(--line);max-height:42vh;overflow-y:auto;display:flex;flex-direction:column;gap:10px;font-size:14px}
+.now h4{margin:0 0 4px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.now .job2{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.now .it{display:flex;gap:8px;align-items:flex-start;padding:7px 0;border-top:1px solid var(--line)}
+.now .it:first-of-type{border-top:0}
+.now .it .tx{flex:1;min-width:0;overflow-wrap:anywhere}
+.now .it .tg{font-size:11px;font-weight:700;color:var(--muted);white-space:nowrap}
+.now .go{font-size:12px;font-weight:700;color:var(--ink-accent);background:none;border:0;padding:0;text-decoration:underline;text-underline-offset:3px}
+.now .none{color:var(--muted);font-size:13px}
 .msgs{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px;min-height:160px}
 .m{max-width:86%;display:flex;flex-direction:column;gap:2px}
 .m .who2{font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--muted)}
@@ -360,6 +369,7 @@ tr:last-child td{border-bottom:0}
   <div class="sheet-p" role="dialog" aria-modal="true" aria-labelledby="sh-name">
     <div class="sh"><span class="avatar" id="sh-av" aria-hidden="true"></span><div class="ti"><strong id="sh-name"></strong><span id="sh-sub"></span></div><button type="button" class="xbtn" id="sh-x" aria-label="Schließen">×</button></div>
     <p class="hint">Gespräch zu dritt: du, das Teammitglied und Sebastian. Antworten kommen aus den Daten im Cockpit. Was erledigt werden soll, speicherst du als Auftrag. Gearbeitet wird in der Sitzung mit Sebastian.</p>
+    <div class="now" id="now"></div>
     <div class="msgs" id="msgs" aria-live="polite"></div>
     <div class="quick" id="quick"></div>
     <form class="send" id="send"><textarea id="send-in" rows="1" placeholder="Schreib hier …" aria-label="Deine Nachricht"></textarea><button class="btn primary" type="submit" id="send-btn">Senden</button></form>
@@ -675,6 +685,21 @@ tr:last-child td{border-bottom:0}
     }).join("") : `<div class="note">Noch kein Gespräch. Schreib ${esc(m.name)} etwas oder tippe unten auf eine Frage.</div>`;
     if(!keepScroll || near) box.scrollTop = box.scrollHeight;
   }
+  function renderNow(){
+    const el = $("#now"); if(!chatId){ el.innerHTML=""; return; }
+    const id = chatId, m = state.team.find(t=>t.id===id)||{};
+    const qs = (state.fragen||[]).filter(q=>(q.wer===id || (id==="sebastian" && !q.wer)) && q.status!=="beantwortet");
+    const ts = (state.tasks||[]).filter(t=>t.wer===id && t.status!=="erledigt");
+    const ens = (state.entwuerfe||[]).filter(d=>d.wer===id && d.status!=="freigegeben");
+    const st = m.status||"bereit";
+    const ev = {offen:"offen","in-arbeit":"in Arbeit","zur-freigabe":"wartet auf dein OK"};
+    let h = `<div class="job2"><h4>Gerade</h4>${m.aufgabe?esc(m.aufgabe):'<span class="none">Keine Aufgabe eingetragen.</span>'}</div>`;
+    h += `<div><h4>Wartet auf dich (${qs.length})</h4>${qs.length?qs.map(q=>`<div class="it"><div class="tx">${esc(q.frage)}</div><button type="button" class="go" data-go="entscheiden">Entscheiden</button></div>`).join(""):'<div class="none">Keine offene Frage.</div>'}</div>`;
+    h += `<div><h4>Aufträge (${ts.length})</h4>${ts.length?ts.map(t=>`<div class="it"><div class="tx">${esc(t.titel)}${t.notiz?`<div class="small muted">${esc(t.notiz)}</div>`:""}</div><span class="tg">${esc(ev[t.status]||t.status||"offen")}</span></div>`).join(""):'<div class="none">Nichts offen.</div>'}</div>`;
+    if(ens.length) h += `<div><h4>Entwürfe</h4>${ens.map(d=>`<div class="it"><div class="tx">${esc(d.titel)}</div><button type="button" class="go" data-go="entwuerfe">Ansehen</button></div>`).join("")}</div>`;
+    el.innerHTML = h;
+  }
+  $("#now").addEventListener("click", e=>{ const b=e.target.closest("[data-go]"); if(!b) return; closeChat(); show(b.dataset.go); });
   function openChat(id, opener){
     const m = state.team.find(t=>t.id===id); if(!m) return;
     chatId = id; chatOpener = opener||null;
@@ -684,7 +709,7 @@ tr:last-child td{border-bottom:0}
     $("#sh-name").textContent = m.name; $("#sh-sub").textContent = (m.rolle||"")+" · "+(ST_LABEL[st]||st);
     $("#quick").innerHTML = QUICK.map(q=>`<button type="button" class="chip" data-q="${esc(q)}">${esc(q)}</button>`).join("");
     $("#sheet").hidden = false; document.body.style.overflow = "hidden";
-    renderChat(false); $("#send-in").focus();
+    renderNow(); renderChat(false); $("#send-in").focus();
     if(db && state.chats[id]?.ungelesen_team){ db.collection("gespraeche").doc(id).update({ungelesen_team:false}).catch(()=>{}); }
   }
   function closeChat(){ $("#sheet").hidden = true; document.body.style.overflow = ""; chatId = null; if(chatOpener) chatOpener.focus(); renderTeam(); }
@@ -849,12 +874,12 @@ Bisheriges Gespräch:\n${hist}`;
     db = await claude.use("db");
     if(!db){ ["#tasks","#team-areas","#decs","#papers","#questions","#zahlen","#entwuerfe"].forEach(s=>$(s).innerHTML='<div class="empty">Bitte melde dich bei claude.ai an, um dein Cockpit zu sehen.</div>'); $("#brief-btn").hidden=true; return; }
     const fail = sel => () => { $(sel).innerHTML = '<div class="empty">Konnte gerade nicht geladen werden. Lade die Seite neu.</div>'; };
-    db.collection("team").onSnapshot(s=>{ state.team = s.docs.map(d=>({id:d.id,...d.data()})); renderTeam(); renderTasks(); }, fail("#team-areas"));
-    db.collection("auftraege").onSnapshot(s=>{ state.tasks = s.docs.map(d=>({id:d.id,...d.data()})); renderTasks(); renderTiles(); }, fail("#tasks"));
-    db.collection("fragen").onSnapshot(s=>{ state.fragen = s.docs.map(d=>({id:d.id,...d.data()})); renderFragen(); renderTiles(); }, fail("#questions"));
+    db.collection("team").onSnapshot(s=>{ state.team = s.docs.map(d=>({id:d.id,...d.data()})); renderTeam(); renderTasks(); renderNow(); }, fail("#team-areas"));
+    db.collection("auftraege").onSnapshot(s=>{ state.tasks = s.docs.map(d=>({id:d.id,...d.data()})); renderTasks(); renderTiles(); renderNow(); }, fail("#tasks"));
+    db.collection("fragen").onSnapshot(s=>{ state.fragen = s.docs.map(d=>({id:d.id,...d.data()})); renderFragen(); renderTiles(); renderNow(); }, fail("#questions"));
     db.collection("entscheidungen").orderBy("datum","desc").limit(10).onSnapshot(s=>{ state.decs = s.docs.map(d=>({id:d.id,...d.data()})); renderDecs(); }, fail("#decs"));
     db.collection("gespraeche").onSnapshot(s=>{ const c={}; s.docs.forEach(d=>{ c[d.id]={...d.data()}; }); state.chats = c; renderTeam(); if(chatId) renderChat(true); }, ()=>{});
-    db.collection("entwuerfe").onSnapshot(s=>{ state.entwuerfe = s.docs.map(d=>({id:d.id,...d.data()})); renderEntwuerfe(); }, fail("#entwuerfe"));
+    db.collection("entwuerfe").onSnapshot(s=>{ state.entwuerfe = s.docs.map(d=>({id:d.id,...d.data()})); renderEntwuerfe(); renderNow(); }, fail("#entwuerfe"));
     db.collection("papiere").onSnapshot(s=>{ state.papers = s.docs.map(d=>({id:d.id,...d.data()})); renderPapers(); }, fail("#papers"));
     db.collection("kennzahlen").doc("umsatz-2026").onSnapshot(s=>{ state.zahlen = s.exists ? s.data() : false; renderTiles(); if(!$("#v-zahlen").hidden) renderZahlen(); });
     db.collection("meta").doc("lauf").onSnapshot(s=>{ state.lauf = s.exists ? s.data() : null; renderLauf(); });
