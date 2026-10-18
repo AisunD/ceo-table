@@ -11,6 +11,7 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - 2026-10-18 – Geld ist für Aisun kein Engpass-Thema: nicht auf Kostensenkung bei Weiterbildung drängen. Verdienen soll leicht sein. Statt Sparen: Umsatz und Wirkung der Ausgaben zeigen.
 - 2026-10-18 – Antworten im Cockpit (Tab Entscheiden) sind Aufträge: sofort umsetzen, nicht erneut nachfragen.
 - 2026-10-18 – Aisun will Angebotsseiten mutig und kraftvoll, mit klarem Fokus auf die energetischen Methoden, im Rahmen von Petras Rechtscheck.
+- 2026-10-18 – Ideen zuerst träumen lassen (Elli), nie sofort kritisieren. Kritik erst nach dem Einordnen, immer konstruktiv. Rechtsprüfung nur ganz am Ende und nur bei roten Linien.
 
 ## Stimme und Stil
 (noch leer)
