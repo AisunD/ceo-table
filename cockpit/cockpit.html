@@ -653,13 +653,14 @@ tr:last-child td{border-bottom:0}
   }
   async function sendChat(text){
     text = text.trim(); if(!text || busy || !chatId) return;
-    const m = state.team.find(t=>t.id===chatId); const sample = await claude.use("sample");
+    const cid = chatId;
+    const m = state.team.find(t=>t.id===cid); const sample = await claude.use("sample");
     const ms = [...chatMsgs(), {von:"aisun", text, zeit:nowIso()}];
-    await saveChat(chatId, ms, {ungelesen:true});
+    await saveChat(cid, ms, {ungelesen:true});
     $("#send-in").value = ""; renderChat(false);
     if(!sample){ $("#msgs").insertAdjacentHTML("beforeend",'<div class="note">Antworten sind in dieser Ansicht nicht verfügbar. Deine Nachricht ist gespeichert und Sebastian liest sie in der nächsten Sitzung.</div>'); return; }
     busy = true; $("#send-btn").disabled = true;
-    const isCeo = chatId==="sebastian";
+    const isCeo = cid==="sebastian";
     const hist = ms.slice(-12).map(x=>`${x.von==="aisun"?"Aisun":(x.von==="sebastian"?"Sebastian":m.name)}: ${x.text}`).join("\n");
     const ctx = context();
     const prompt = `Du spielst ${isCeo?"Sebastian, den CEO":"zwei Rollen"} im Cockpit von Aisun Dodenhoff (Online-Business, energetische Selbstheilung, Coach-Ausbildung, Business-Begleitung).
@@ -671,7 +672,7 @@ Bisheriges Gespräch:\n${hist}`;
     try{
       const r = await sample(prompt,{modelTier:"default",cache:false});
       const add = parseReply(r.text, m).map(x=>({...x, zeit:nowIso()}));
-      await saveChat(chatId, [...ms, ...add], {});
+      await saveChat(cid, [...ms, ...add], {});
     }catch(err){
       const msg = err&&err.code==="not_granted" ? "Du hast Antworten im Cockpit nicht erlaubt." : err&&err.code==="rate_limited" ? "Gerade zu viele Anfragen. Versuch es gleich noch einmal." : "Die Antwort hat nicht geklappt. Deine Nachricht ist gespeichert.";
       $("#msgs").insertAdjacentHTML("beforeend",`<div class="note">${esc(msg)}</div>`);
