@@ -405,17 +405,26 @@ tr:last-child td{border-bottom:0}
     el.innerHTML = list.map(q=>{
       const done = q.status==="beantwortet";
       const pick = state.draft[q.id]?.wahl ?? q.antwort ?? null;
+      const noteVal = state.draft[q.id]?.notiz ?? q.notiz ?? "";
+      const canSave = !!(pick || String(noteVal).trim());
       return `<div class="card q ${done?"done":""}" data-q="${esc(q.id)}" style="margin-bottom:12px">
         ${q.thema?`<div class="eyebrow">${esc(q.thema)}</div>`:""}
         <h3>${esc(q.frage)}</h3>
         ${q.kontext?`<p class="ctx">${esc(q.kontext)}</p>`:""}
         ${done ? `<div class="answered"><span class="pill s-erledigt">beantwortet</span><strong>${esc(q.antwort||"")}</strong>${q.notiz?`<span class="muted">· ${esc(q.notiz)}</span>`:""}<button type="button" class="linkbtn" data-reopen="${esc(q.id)}">ändern</button></div>`
         : `<div class="opts" role="group" aria-label="Antwort">${(q.optionen||[]).map(o=>`<button type="button" class="opt" data-pick="${esc(o)}" aria-pressed="${pick===o}">${esc(o)}</button>`).join("")}</div>
-          <textarea id="note-${esc(q.id)}" placeholder="Notiz für Sebastian (optional)" aria-label="Notiz">${esc(state.draft[q.id]?.notiz ?? q.notiz ?? "")}</textarea>
-          <div class="later-row"><span class="small muted">${q.quelle?esc(q.quelle):""}</span><button type="button" class="btn primary" data-save="${esc(q.id)}" ${pick?"":"disabled"}>Antwort speichern</button></div>`}
+          <textarea id="note-${esc(q.id)}" placeholder="Eigene Antwort oder Notiz (optional)" aria-label="Eigene Antwort oder Notiz">${esc(noteVal)}</textarea>
+          <div class="later-row"><span class="small muted">Geht an: ${esc(nameOf(q.wer||"sebastian"))}</span><button type="button" class="btn primary" data-save="${esc(q.id)}" ${canSave?"":"disabled"}>Antwort speichern</button></div>`}
       </div>`;
     }).join("");
   }
+  $("#questions").addEventListener("input", e=>{
+    const t = e.target.closest("textarea[id^='note-']"); if(!t) return;
+    const id = t.id.slice(5); state.draft[id] = {...(state.draft[id]||{}), notiz:t.value};
+    const btn = t.closest("[data-q]")?.querySelector("[data-save]");
+    const q = (state.fragen||[]).find(x=>x.id===id)||{};
+    if(btn) btn.disabled = !((state.draft[id].wahl ?? q.antwort) || t.value.trim());
+  });
   $("#questions").addEventListener("click", async e=>{
     const card = e.target.closest("[data-q]"); if(!card) return;
     const id = card.dataset.q;
@@ -423,9 +432,17 @@ tr:last-child td{border-bottom:0}
     if(p){ state.draft[id] = {...(state.draft[id]||{}), wahl:p.dataset.pick, notiz:$("#note-"+id)?.value}; renderFragen(); return; }
     const s = e.target.closest("[data-save]");
     if(s && db){
-      const d = state.draft[id]||{}; const notiz = $("#note-"+id)?.value || "";
+      const d = state.draft[id]||{}; const notiz = ($("#note-"+id)?.value || d.notiz || "").trim();
+      const wahl = d.wahl || null;
+      if(!wahl && !notiz) return;
+      const antwort = wahl || "Eigene Antwort (siehe Notiz)";
+      const q = state.fragen.find(x=>x.id===id) || {};
       s.disabled = true; s.textContent = "Speichert …";
-      try{ await db.collection("fragen").doc(id).update({status:"beantwortet", antwort:d.wahl, notiz, beantwortet:new Date().toISOString()}); delete state.draft[id]; }
+      try{
+        await db.collection("fragen").doc(id).update({status:"beantwortet", antwort, notiz, beantwortet:new Date().toISOString()});
+        try{ await db.collection("auftraege").doc("u-"+id).set({titel:"Umsetzen: "+(q.frage||"Entscheidung"), wer:q.wer||"sebastian", status:"offen", prio:"hoch", notiz:"Antwort von Aisun: "+antwort+(notiz?" · Notiz: "+notiz:""), angelegt:new Date().toISOString()}); }catch(_){}
+        delete state.draft[id];
+      }
       catch(err){ s.disabled=false; s.textContent="Antwort speichern"; card.insertAdjacentHTML("beforeend",`<div class="note">Konnte nicht gespeichert werden. Versuch es noch einmal.</div>`); }
       return;
     }

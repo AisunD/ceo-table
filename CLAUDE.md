@@ -102,6 +102,7 @@ Ist `ArtifactData` in dieser Sitzung nicht verfügbar, sag Aisun in einer Zeile,
 | **reel-romy** | Reel-Ideen, Hooks, Skripte, Schnittplan |
 | **grafik-greta** | Karussells und Designs in Canva |
 | **funnel-frieda** | ManyChat, ActiveCampaign, ThriveCart, Funnel-Abläufe |
+| **buehnen-bella** | Fremde Bühnen: Podcasts, Kongresse, Gastauftritte, Anfragen, Pipeline |
 | **kalender-karla** | Trello, Termine, Wochenplanung, Urlaub |
 | **insta-ines** | Instagram-Zahlen, was wirkt |
 | **paragraphen-petra** | Rechtscheck vor jeder Freigabe |

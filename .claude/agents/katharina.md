@@ -43,3 +43,4 @@ Kurz und scharf. Eine Seite schlägt zehn.
 
 ## Gelernt
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
+- 2026-10-18 – Keine Obergrenze für Weiterbildung 2027 (Aisun). Kostenseite nicht als Spar-Hebel für Fortbildung vorschlagen; Aisun: „Verdienen ist ein Spiel und darf leicht sein.“ Empfehlungen als Chancen formulieren, nicht als Mangel.

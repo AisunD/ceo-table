@@ -8,6 +8,10 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - 2026-10-17 – Aisun arbeitet nur mit OneDrive, nie Google Drive vorschlagen. Ihr privates Microsoft-Konto lässt sich nicht mit Claude-Konnektoren verbinden; in der Cloud kommt Sebastian nicht an OneDrive, nur am PC-Ordner.
 - 2026-10-17 – Nina macht keine Umsatz-/Finanzzahlen. Dafür nicht auf Nina verweisen; Zahlen kommen von Aisun oder per ThriveCart-Export, Franzi wertet aus.
 
+- 2026-10-18 – Geld ist für Aisun kein Engpass-Thema: nicht auf Kostensenkung bei Weiterbildung drängen. Verdienen soll leicht sein. Statt Sparen: Umsatz und Wirkung der Ausgaben zeigen.
+- 2026-10-18 – Antworten im Cockpit (Tab Entscheiden) sind Aufträge: sofort umsetzen, nicht erneut nachfragen.
+- 2026-10-18 – Aisun will Angebotsseiten mutig und kraftvoll, mit klarem Fokus auf die energetischen Methoden, im Rahmen von Petras Rechtscheck.
+
 ## Stimme und Stil
 (noch leer)
 

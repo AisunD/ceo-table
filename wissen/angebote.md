@@ -47,6 +47,7 @@ Absolventinnen → Heilraum (Übungsraum).
 - Sie wünscht sich: Selbstlernkurs, der ohne sie funktioniert; größere Gruppen; weniger Instagram-Abhängigkeit.
 
 ## Ideen in Planung
+- **Private Begleitung für Frauen (Entwurf, Preis 15.000 € netto, Stand 18.10.2026):** 6 Monate wöchentlich 1:1, Einladung „Ein Raum nur für dich", Versand über Ewald. Noch nicht freigegeben.
 - **Neues VIP-Angebot:** energetische Business-Begleitung für erfolgreiche Unternehmerinnen, drei Räume (Ich, Wir, Es). Name offen.
 - **Community-Bündelung:** alle Produkte in einer Community, zweimal im Jahr Launch, Zugang je ein halbes Jahr.
 - **0€-Workshop-Funnel (Stand Sept. 2026):** Workshop nur noch für Endverbraucherinnen, verkauft ausschließlich KiH, die Ausbildung wird dort nicht mehr erwähnt (Entscheidung Aisun, Juli 2026). Details `wissen/projekte/0euro-workshop/`.
