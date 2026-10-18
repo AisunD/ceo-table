@@ -107,12 +107,13 @@ Ist `ArtifactData` in dieser Sitzung nicht verfügbar, sag Aisun in einer Zeile,
 | **grafik-greta** | Karussells und Designs in Canva |
 | **funnel-frieda** | ManyChat, ActiveCampaign, ThriveCart, Funnel-Abläufe |
 | **buehnen-bella** | Fremde Bühnen: Podcasts, Kongresse, Gastauftritte, Anfragen, Pipeline |
+| **verkaufs-vera** | Head of Sales: Verkaufs-Audit, Wachstumsideen, Launches, Angebotsarchitektur, Preise, Verkaufsgespräche |
 | **kalender-karla** | Trello, Termine, Wochenplanung, Urlaub |
 | **insta-ines** | Instagram-Zahlen, was wirkt |
 | **paragraphen-petra** | Notfall-Rechtscheck ganz am Ende, nur rote Linien |
 | **finanz-franzi** | Umsatzsteuer vorbereiten, Kennzahlen, Zahlen für Katharina |
 
-In Reserve (`team-reserve/`): Verkaufs-Vera (Launches, Verkaufsgespräche). Bei einem großen Launch schlägst du vor, sie zu aktivieren.
+Verkaufs-Vera ist seit 18.10.2026 aktiv (Verkaufs-Audit über alle Produkte, Seiten, Funnels; Launches; Verkaufsgespräche). `team-reserve/` ist leer.
 
 ## Wo welches Wissen steht (eine Quelle pro Thema)
 | Thema | Einzige gültige Quelle |
