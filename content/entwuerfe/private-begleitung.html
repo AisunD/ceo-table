@@ -48,6 +48,18 @@ h2{font-size:clamp(26px,5vw,34px);line-height:1.2;margin-top:14px}
 .area p{margin:6px 0 0;font-size:15px;color:var(--ink)}
 @media (max-width:560px){.areas{grid-template-columns:1fr}.area,.area:nth-child(even){padding-left:0;padding-right:0;border-right:0}}
 
+.method{border-top:1px solid var(--gold);padding-top:28px}
+.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:22px;background:var(--beere);color:var(--creme)}
+.mitem{padding:26px 22px;border-right:1px solid rgba(198,167,100,.5)}
+.mitem:last-child{border-right:0}
+.mitem .mn{font-family:var(--display);font-size:24px;color:var(--gold);display:block;line-height:1.2}
+.mitem p{margin:10px 0 0;font-size:15px;line-height:1.6;color:var(--creme)}
+.mitem em{color:var(--gold);font-style:italic}
+.mfoot{font-size:14px;color:var(--ink);max-width:62ch;margin:16px 0 0}
+@media (max-width:640px){.mgrid{grid-template-columns:1fr}.mitem{border-right:0;border-bottom:1px solid rgba(198,167,100,.5)}.mitem:last-child{border-bottom:0}}
+.price{font-family:var(--display);font-size:clamp(34px,7vw,48px);color:var(--beere);margin-top:20px;line-height:1.1}
+.pricesub{font-size:13px;color:var(--ink);margin-top:4px}
+.phone{font-size:14px;max-width:50ch;margin:18px auto 0}
 .forces{background:var(--beere);color:var(--creme);padding:30px 28px;margin-top:28px}
 .forces p{margin:0;font-family:var(--display);font-size:22px;line-height:1.45}
 .forces p em{color:var(--gold);font-style:italic}
@@ -83,8 +95,8 @@ h2{font-size:clamp(26px,5vw,34px);line-height:1.2;margin-top:14px}
 <header class="hero band">
   <div class="inner">
     <div class="mark"><span class="logo">AISUN DODENHOFF</span><span class="rule"></span></div>
-    <h1>Manchmal wird es <em>still</em> um einen herum.</h1>
-    <p class="sub">Eine private Begleitung über sechs Monate. Für Frauen, die viel tragen und selten gefragt werden, wie es ihnen eigentlich geht.</p>
+    <h1>Dein Leben darf sich wieder nach <em>dir</em> anfühlen.</h1>
+    <p class="sub">Sechs Monate private Begleitung mit energetischer Tiefe. Für Frauen, die nach außen alles tragen und für sich selbst einen Raum verdienen.</p>
   </div>
 </header>
 
@@ -100,6 +112,17 @@ h2{font-size:clamp(26px,5vw,34px);line-height:1.2;margin-top:14px}
         <div class="sig" aria-label="Aisun">Aisun</div>
       </section>
 
+      <section class="method" aria-labelledby="meth-h">
+        <div class="label">Das Herzstück</div>
+        <h2 id="meth-h">Energetische Arbeit, die tiefer geht.</h2>
+        <div class="mgrid">
+          <div class="mitem"><span class="mn">Jede Woche</span><p>Eine energetische Einzelsession nur für dich. Wir schauen gemeinsam, welche <em>wirkenden Kräfte</em> du hinter deinen Themen wahrnimmst, und machen sie für dich sichtbar.</p></div>
+          <div class="mitem"><span class="mn">Deine UrSeele</span><p>Wir gehen dem nach, was wirklich zu dir gehört und was du nur mitträgst: Rollen, Erwartungen, Dynamiken, die nicht deine sind.</p></div>
+          <div class="mitem"><span class="mn">Hinter der Fassade</span><p>Mit meinen Methoden schaue ich auf das, was sich in Worten nicht fassen lässt, und teile mit dir, was ich dabei wahrnehme, als Angebot, nicht als Befund.</p></div>
+        </div>
+        <p class="mfoot">Daneben bringe ich die Klarheit einer Psychologin und knapp 20 Jahre Erfahrung mit Menschen in Verantwortung mit. Die energetische Arbeit ist ein Impuls für deine Selbstreflexion, nicht als Diagnose und ohne Wirkversprechen.</p>
+      </section>
+
       <section aria-labelledby="areas-h">
         <div class="label">Was wir anschauen</div>
         <h2 id="areas-h">Vier Bereiche deines Lebens</h2>
@@ -111,7 +134,7 @@ h2{font-size:clamp(26px,5vw,34px);line-height:1.2;margin-top:14px}
           <div class="area"><h3>Lebensvision</h3><p>Was willst du eigentlich? Nicht für die anderen. Für dich.</p></div>
         </div>
         <div class="forces">
-          <p>Ergänzend arbeite ich mit <em>energetischen Methoden</em>, als Impuls zur Selbstreflexion, nicht als Diagnose und ohne Wirkversprechen. Das Ziel: dass du dir wieder mehr Raum für dich nimmst und dein Leben so gestaltest, dass es sich wie deines anfühlt.</p>
+          <p>Ergänzend arbeite ich mit <em>energetischen Methoden</em>, als Impuls zur Selbstreflexion, nicht als Diagnose und ohne Wirkversprechen. Meine Absicht: dass du dir wieder mehr Raum für dich nimmst und dein Leben so gestaltest, dass es sich wie deines anfühlt. Was daraus wird, entscheidest du.</p>
         </div>
       </section>
 
@@ -148,11 +171,14 @@ h2{font-size:clamp(26px,5vw,34px);line-height:1.2;margin-top:14px}
       <section class="invite" aria-labelledby="inv-h">
         <div class="label" style="justify-content:center">Deine Einladung</div>
         <h2 id="inv-h">Ein Raum nur für dich</h2>
-        <p>Ich begleite bewusst im kleinen Rahmen, damit jede Begleitung Raum hat. Wenn du spürst, dass das für dich sein könnte, schreib mir: für ein kostenloses Kennenlernen oder wenn du direkt starten möchtest. Bitte schreib mir in dieser ersten Nachricht noch nichts über Krankheiten oder deine Gesundheit.</p>
+        <p>Ich begleite bewusst im kleinen Rahmen, damit jede Begleitung Raum hat. Wenn du spürst, dass das für dich sein könnte, schreib mir über das Kontaktformular: für ein kostenloses Kennenlernen oder wenn du direkt starten möchtest. Bitte schreib in dieser ersten Nachricht noch nichts über Krankheiten oder deine Gesundheit.</p>
         <div class="facts"><span class="pill">6 Monate</span><span class="pill">wöchentlich 1:1</span><span class="pill">per Video oder in Berlin</span></div>
-        <p style="margin-top:18px"><span class="todo">ENTWURF · Investition: legt Aisun fest</span></p>
-        <span class="cta">Schreib mir</span>
-        <p style="margin-top:12px"><span class="todo">ENTWURF · Kontaktweg: legt Aisun fest</span></p>
+        <div class="price">17.850 €</div>
+        <div class="pricesub">inkl. gesetzlicher MwSt. (15.000 € netto) · <span class="todo">ENTWURF · Zahlungsweise: einmalig oder Raten, legt Aisun fest</span></div>
+        <p class="pricesub" style="margin-top:8px">Du hast ein gesetzliches Widerrufsrecht von 14 Tagen. Details findest du in den AGB und im Bestellprozess.</p>
+        <span class="cta">Zum Kontaktformular</span>
+        <p style="margin-top:10px"><span class="todo">ENTWURF · Link zum Kontaktformular auf aisundodenhoff.com</span></p>
+        <p class="phone">Wenn wir uns kennenlernen, bekommst du von mir eine persönliche Telefonnummer für Terminabsprachen und Kurznachrichten. Ich antworte werktags innerhalb der oben genannten Zeit. Ich bin kein Notfallkontakt. Diese Nummer gebe ich nach unserem Kennenlernen an dich weiter.</p>
       </section>
 
     </div>
