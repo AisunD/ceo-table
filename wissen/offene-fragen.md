@@ -32,3 +32,4 @@ Gefunden beim Einlesen von OneDrive am 17.10.2026. Sebastian fragt diese Punkte 
 
 ## Sicherheit
 13. **ActiveCampaign-Wiederherstellungscode** liegt als Textdatei in `01 ADMIN`. In einen Passwort-Manager verschieben und aus OneDrive löschen.
+- Stimmunterlagen: Authority Blueprint und 2 Word-Dokumente mit Aisuns Sprache fehlen im Speicher; Aisun lädt sie zu Hause hoch (Cockpit-Auftrag u-stimmunterlagen), danach in wissen/stimme.md einarbeiten. Auch references/marke-stimme-brand.md des Instagram-Skills fehlt.
