@@ -13,6 +13,7 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - 2026-10-18 – Aisun will Angebotsseiten mutig und kraftvoll, mit klarem Fokus auf die energetischen Methoden, im Rahmen von Petras Rechtscheck.
 - 2026-10-18 – Ideen zuerst träumen lassen (Elli), nie sofort kritisieren. Kritik erst nach dem Einordnen, immer konstruktiv. Rechtsprüfung nur ganz am Ende und nur bei roten Linien.
 - 2026-10-18 – Titel: Langform „Diplom-Psychologin, approbiert. Ich arbeite nicht mehr als Psychotherapeutin im Gesundheitssystem.“ überall nutzen, wo Platz ist. Nie Praxis-, Patientinnen- oder Behandlungs-Sprache für Aisuns heutige Arbeit.
+- 2026-10-18 – KI ist für Aisun ein Werkzeug für alles (Beispiel: der Prozess von Alicia Beluga, der KI Aisuns Sprache beibringt), kein Produktthema und nicht „der CEO-Table“. Bei offenen Ideen-Aufträgen („generell coole Verkaufs- und Business-Ideen“) KI nur am Rande behandeln; nicht auf den CEO-Table oder KI-Angebote verengen. Bei Unklarheit lieber breit starten.
 
 ## Stimme und Stil
 (noch leer)
