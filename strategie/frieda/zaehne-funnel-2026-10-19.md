@@ -122,3 +122,9 @@ Diese Punkte gehören vor oder zu Beginn des Plans, weil sie Regeln betreffen.
 - Ist 111 € wirklich der reguläre Preis und das Bundle regulär 139 €? (Sonst stimmen die Anker nicht.)
 - Gibt es das „Zahn-Reflexe-Paket", oder streichen wir Variante B?
 - Darf Nina diese Woche die Flow-Zahlen aus ManyChat und ThriveCart ziehen (Screenshots reichen)?
+
+
+---
+
+## Nachtrag 19.10.2026: Echte Zahlen (Sebastian)
+Quelle und Detail: `daten/finanzen/zaehne-workshop-2026-10.md`. ManyChat-Flow „Zähne Workshop“: 387 Sends, 242 Klicks. ThriveCart: 13 Käufe gesamt (netto 471,49 €, Ø 36 €), 7 zu 49 € (11.04. bis 12.05.2025), 6 zu 22 € (14.05.2025 bis 02.09.2026), keine Rückerstattung. 9 von 13 Käufen fielen in die Zeit der aktiven Zähne-Reels (April/Mai 2025). Folgerungen: (1) Der Preis war nicht der Hebel (Preis halbiert, Verkäufe seltener). (2) Verkauft wird, wenn das Thema aktiv in Reels und Stories beworben wird, nicht durch den Flow allein. (3) Annahme „Preis ist keine Hürde“ bestätigt. (4) Experiment 1 bis 4 bleiben, aber mit der Erwartung: Der Workshop trägt wenig Umsatz (ca. 36 € pro Käuferin), sein Wert ist die Brücke zur Einzelbegleitung oder zum Kurs. Klick-Ziel unklar, bitte bei Aisun klären: Worauf zeigen die 242 Klicks?
