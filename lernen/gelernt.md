@@ -22,6 +22,7 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - 2026-10-19 – Views sind Aisun egal, wenn der Post zu Verkäufen führt. Nie nach Views entscheiden, ob ein Thema (z. B. Coach-Ausbildung) bleibt; Posts nach Leads, DMs und Käufen bewerten. Wenige Zuschauerinnen für ein 10.000-€-Angebot sind ein Erfolg.
 - 2026-10-19 – Aisuns scharfe Hooks (Anti-Arzt, „Tu das NICHT“, „Ich behandle …“) sind ihre Stärke und bleiben erlaubt, Regel angepasst. Nicht weichspülen oder wegfiltern.
 - 2026-10-19 – Aisun poste Mo bis Fr täglich um 12 Uhr und macht 6-mal pro Woche Stories mit 24-Stunden-Pause (Fr/Sa bis So). Das bleibt. Nicht neu erfinden.
+- 2026-10-19 – Aisun entwickelt Karussells neu und orientiert sich an externen Vorbildern (Bauprinzip, nie Inhalt). Jedes Beispiel, das sie schickt, wird in `wissen/vorbilder/` analysiert: warum es funktioniert, was daran funktioniert, wie es gebaut ist. Design-Basis: Foto von Aisun im Hintergrund, Markenschrift (Bauer Bodoni) darauf.
 
 ## Stimme und Stil
 (noch leer)
