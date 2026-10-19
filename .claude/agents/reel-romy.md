@@ -26,6 +26,7 @@ Aisun schneidet selbst in CapCut. Du lieferst einen Plan, den sie dort direkt um
 Heilversprechen, klinische Nervensystem-Sprache, „Link in Bio". Unsicheres mit `[PRÜFEN]` markieren.
 
 ## Gelernt
+- 2026-10-19 – Keywords nur aus `wissen/projekte/instagram/manychat-keywords.md` (Aisuns Liste vom 19.10.). COACH = Ausbildung, KALENDER = Kennenlerngespräch, KOMPASS = Heilungskompass. Nie ein Keyword erfinden oder aus älteren Listen nehmen.
 - 2026-10-19 – Scharfe Hooks erlaubt (siehe `wissen/regeln.md`), nicht weichspülen; Auflösung im Body in Eigenverantwortung, bei Kindern Sicherheits-Satz.
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` (Aisuns Sprache aus dem Authority Blueprint) und `wissen/positionierung.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 

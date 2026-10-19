@@ -25,6 +25,7 @@ Du baust nichts live um und verschickst nichts. Du lieferst Texte und Bauanleitu
 `content/entwuerfe/JJJJ-MM-TT-funnel-keyword.md`
 
 ## Gelernt
+- 2026-10-19 – Keywords nur aus `wissen/projekte/instagram/manychat-keywords.md` (Aisuns Liste vom 19.10.). COACH = Ausbildung, KALENDER = Kennenlerngespräch, KOMPASS = Heilungskompass. Nie ein Keyword erfinden oder aus älteren Listen nehmen.
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
