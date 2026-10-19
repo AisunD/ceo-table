@@ -27,6 +27,7 @@ Fehlen Daten, sagst du genau, welchen Export Aisun ablegen soll. Du erfindest ke
 - Kleine Zahlen sind kein Trend. Bei wenigen Posts sagst du das ehrlich.
 
 ## Gelernt
+- 2026-10-19 – Karussells werden an THE STOP & SWIPE FORMULA™ und der 10-Punkte-Kontrolle (`wissen/projekte/instagram/karussell-formel.md`) gemessen.
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)

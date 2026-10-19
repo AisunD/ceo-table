@@ -9,6 +9,17 @@ Entstanden am 19.10.2026 nach einem Karussell, das Aisun als „null neugierig m
 4. Falsche Persona gewählt (angehende Coachin zieht laut Daten weniger Reichweite) und Business-Thema ohne Gefühl.
 5. Grafik als reine Textfolie ohne Bildwelt, ohne Aisuns echten Canva-Look.
 
+## Verbindliche Grundlage: THE STOP & SWIPE FORMULA™
+Die vollständige Formel (Slides 1 bis 8, Design-Regeln, 10-Punkte-Kontrolle) steht in `wissen/projekte/instagram/karussell-formel.md`. Aisun hat sie am 19.10.2026 ausdrücklich für ALLE zukünftigen Karussells bestätigt. Jede Autorin und jede Kritikerin liest sie vollständig, nicht nur diese Zusammenfassung. Sie war schon im Speicher; das Karussell vom 19.10. ist daran gescheitert, dass sie nicht durchgesetzt wurde.
+
+**Funktion je Slide:** 1 STOP (Framing statt Thema, mind. 10 Hooks vorher) · 2 PROVE THE SWIPE (verschärfen, nicht erklären) · 3 MAKE IT REAL (Film statt Thema) · 4 POV (Aisuns Meinung, Kante) · 5 PROOF (Beispiel, Case, Vergleich, Vorher/Nachher) · 6 VALUE (ein Gedanke, nicht fünf) · 7 MONEY LINE (Screenshot-Satz) · 8 CTA (genau eine Handlung). Muss nicht exakt acht Slides sein, die Funktion muss da sein.
+
+**Design (nicht verhandelbar): Low Effort Look, High Attention Framing.** Es darf nicht aussehen, als hätte eine Agentur drei Tage daran gearbeitet. Dump Style: eigene Fotos, Selfies, Alltag, Behind the Scenes, Screenshots, gemischt mit Handyfotos; Fotos dürfen wiederverwendet werden. Große Schrift, hoher Kontrast, klare Font, wenig Text, keine Deko-Orgie, Balken hinter dem Text bei unruhigem Foto. Gesicht auf Slide 1. Nie perfekt polierte Textfolien.
+
+**Die 10-Punkte-Kontrolle vor dem Posten (jede Kritikerin prüft jeden Punkt einzeln mit Ja/Nein und Begründung):**
+1. Würde Slide 1 den eigenen Daumen stoppen? 2. Framing oder nur Thema? 3. Enthält die Hook etwas Konkretes? 4. Macht Slide 2 die Sache stärker, statt zu erklären? 5. Gibt es mindestens einen echten Filmmoment? 6. Ist Aisuns POV erkennbar? 7. Echter Value, ohne fünf Content Pieces? 8. Gibt es einen Screenshot-Satz (Money Line)? 9. Alles in wenigen Sekunden lesbar? 10. Ein klarer CTA?
+Slide 1 verkauft Slide 2, Slide 2 verkauft Slide 3, und so weiter. Erst wenn das sitzt, geht es raus.
+
 ## Ablauf
 1. **Vorbilder laden:** `wissen/vorbilder/` (Aisuns echte Karussells und Reels-Sieger) lesen. Fehlt das, zuerst Insta-Ines beauftragen, es aus Canva zu ziehen.
 2. **Funnel prüfen:** Phase (Reichweite oder Launch), Persona (eine!), Keyword aus der echten ManyChat-Map. Kein Keyword erfinden, nie ein Freebie versprechen, das es nicht gibt.
