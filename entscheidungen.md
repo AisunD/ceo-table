@@ -26,3 +26,4 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 2026-10-19 – Posting-Rhythmus bleibt: Montag bis Freitag täglich um 12 Uhr (Reel oder Karussell, egal), Stories 6-mal pro Woche mit einer 24-Stunden-Pause, meist Freitagnachmittag bis Sonntagnachmittag. – (Aisun)
 - 2026-10-19 – Erfolg bei Social Media misst sich an Verkäufen, nicht an Views. Reels zur großen Coach-Ausbildung (10.000 €) dürfen wenig Views haben, wenn daraus Käufe entstehen. Die Strategie wird als Verkaufssystem aufgebaut, nicht als Reichweiten-Wettbewerb. – (Aisun)
 - 2026-10-19 – Aisuns Söhne (12 und 6) dürfen in Posts vorkommen. Erstes Karussell: Zähne. – (Aisun)
+- 2026-10-19 – Reihenfolge: Erst Zähne (Karussell und Funnel), danach das Coach-Karussell (COACH). – (Aisun)
