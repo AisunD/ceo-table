@@ -1,8 +1,20 @@
-# Karussell ZÄHNE – Briefing, Hooks, 3 Entwürfe, Gate
+# Karussell ZÄHNE – Version 2 (Briefing, Hooks, 2 Entwürfe, Gate)
 
-Social-Sina, 19.10.2026. Auftrag von Aisun über Sebastian. Grundlage: Stop & Swipe Formula (`wissen/projekte/instagram/karussell-formel.md`), Playbook `lernen/playbooks/karussell-qualitaet.md`, `wissen/regeln.md` (Stand 19.10., provokante Hooks erlaubt), `entscheidungen.md`, Reel-Katalog, Themenplan, Vorbilder, Skills `aisun-stimme` und `aisun-instagram-content`.
+Social-Sina, 19.10.2026. Auftrag von Aisun über Sebastian. Grundlage: Stop & Swipe Formula (`wissen/projekte/instagram/karussell-formel.md`), Playbook `lernen/playbooks/karussell-qualitaet.md`, `wissen/regeln.md` (Stand 19.10., provokante Hooks erlaubt), `entscheidungen.md`, Reel-Katalog, Themenplan, Vorbilder (`karussells-aisun.md`, **`extern-karussell-foto-schrift.md`**), unabhängige Kritik `content/entwuerfe/karussell-zaehne-kritik-2026-10-19.md`, Skills `aisun-stimme` und `aisun-instagram-content`.
 
-Status: **Entwurf, nicht freigegeben.** Platzhalter `[AISUN: …]` und `[FOTO: …]` sind offen. Petra kommt erst ganz am Ende.
+Status: **Entwurf, nicht freigegeben, nicht vorlagefähig.** Vor der Vorlage an Aisun: ihre Antworten auf die `[AISUN: …]`-Stellen, Mockup von Slide 1 bis 3 durch Greta, erneute unabhängige Kritik (mindestens 8), danach Petra (gelb erwartet).
+
+## Änderungen gegenüber Version 1 (nach Kritik A 5,9 · B 6,1 · C 5,0 und Aisuns Look-Vorgabe)
+
+1. **C verworfen.** Thema statt Film, keine Nähe. Der Winkel taugt später als Reel („Das höre ich immer wieder“).
+2. **Look neu:** ein Foto von Aisun auf **jeder** Slide aus **einem** Shooting mit wechselnden Posen (Posen-Liste aus `extern-karussell-foto-schrift.md`), abgedunkelt 55 bis 65 %, Aussage groß in **Bauer Bodoni, Creme**, Fließtext **Raleway**, Farben nur aus dem Brand-Skill. Keine Requisiten-Fotos (Zahnputzbecher, Küchentisch) mehr als Hauptbild, keine „weiße fette Sans“, keine kleinen Fußzeilen.
+3. **Nichts Erfundenes mehr bei Aisun:** gestrichen sind „Ich hätte das auch nicht geglaubt“, „in einem Atemzug“, „Ich stand da und dachte nur: Stopp“, „Boden weggezogen“, „Unausgesprochenes“, „Dinge gefunden, die mich umgehauen haben“, „Kieferorthopädin misst Millimeter“, „festsitzt“, die Spange als vollzogen, und die gestellte iPhone-Notiz. Aisuns Sätze stehen jetzt im Reel-Wortlaut (Quelle je Slide), alles andere ist als `[AISUN: …]` markiert. Du-Szenen auf Slide 1 sind als Leser-Szene gekennzeichnet, nie als Aisuns Erlebnis.
+4. **Ehrliche Einschränkung aus dem Reel eingebaut** („Ich weiß nicht, wie lange es anhält … ich kann nicht ausschließen, dass ich mit meinem Sohn wieder zum Zahnarzt gehe“). Der Ausgang („am nächsten Tag kein Schmerz …“) steht nur als `[AISUN: darf das so stehen? Entscheidung]`.
+5. **Aufbau nach Vorbild:** Szene mit Du-Dialog, dreimal steigern (Wiederholungsmuster in der Mitte), Dreh, Ich-Slide, Gegenbild, Money Line, Autorinnen-Slide („Diplom-Psychologin, ehemalige Psychotherapeutin“), genau ein CTA. Humor an genau einer Stelle.
+6. **Stimme entdogmatisiert:** „Nicht X, sondern Y“ höchstens 1 pro Entwurf, keine Sätze gegen alle Zahnärzte, Aisuns Wörter hinein („total“, „mega“, „guck mal“, „spür mal rein“, „ja?“, „halt“, „So genial!“ aus dem Reel).
+7. **Value speicherbar:** Frage plus Handlung (reinspüren, erste Antwort aufschreiben). Bei B kein „warm“ mehr in der Übung (Fieberzeichen gehören in den Sicherheits-Satz).
+8. **CTA:** Standard KOMPASS mit Brücke zur Geschichte („Damit testest du, was bei dir und deinem Kind dahintersteckt“). ZÄHNE nur als Variante im Briefing, nie in Slide oder Caption, nie beide. Die Klammer-Variante aus den Captions ist raus.
+9. **Slide-1-Test:** je Entwurf zwei Fassungen zum Vergleich. Söhne korrekt: heute 12 und 6.
 
 ---
 
@@ -10,16 +22,16 @@ Status: **Entwurf, nicht freigegeben.** Platzhalter `[AISUN: …]` und `[FOTO: �
 
 | | |
 |---|---|
-| **Ziel** | Auf die Liste über Keyword-Kommentare, mit Nähe (Aisun als Mama, echte Szene). Erfolg = Kommentare mit Keyword, DMs, später Käufe. Nicht Views. |
-| **Persona** | Heilungs-Kundin. Konkret: Mama, deren Kind (oder sie selbst) immer wieder etwas an den Zähnen hat, die beim Zahnarzt nur die Mechanik hört und spürt, dass mehr dahinter liegt. |
-| **Keyword** | **Standard: KOMPASS** (0-€-Heilungskompass, aktiv laut Map). **Variante: ZÄHNE** (Zahn-Arbeitsblatt / Workshop „Tschüss Zahnarzt“) nur, wenn Aisun bestätigt, dass die Automation noch läuft. Genau eins pro Post. |
-| **Phase** | Kein Launch aktiv bekannt, Reichweite plus Liste. Kein Verkaufsangebot im Post. |
-| **Posting** | Mo bis Fr 12 Uhr (Entscheidung 19.10.). Themenplan sieht Fr 06.11. vor. Nicht Montag (Skill: Montage laufen schwächer). |
-| **Hook-Winkel** | A: Streit und Kinderzahn (Ursache, die schockt). B: „Ich behandle die Zähne meiner Söhne“ (Familie, BTS, Tabu-Verb). C: Anti-Experte „NICHT nur dem Zahnarzt“ (Frau selbst). |
-| **Echte Erlebnisse (mit Quelle aus Reel-Captions)** | Kleiner Sohn mit 5: starke Zahnschmerzen, Zahnarzt: „Eiter. Antibiotika. Zahn ziehen. Lachgas oder Vollnarkose. Zahnspange.“, Aisun geschockt, „Das kann nicht die einzige Lösung sein“, mit innerwise-Kollegin hingeschaut, „unter seinem Zahn MEINE Beziehungsthemen gespeichert“, „Ich schaue immer, was HINTER den Symptomen liegt“ (Reels 11.04. und 16.04.2025). Großer Sohn mit 10: im Urlaub ohne Materialien den Kiefer energetisch angeschaut, Zahnspange zusätzlich, Kieferorthopädin nutzt selbst innerwise (Reel 29.04.2025). Kleiner mit 4: Zahnschmerzen, getragenes Thema (Reel 14.05.2024). Kommentare unter ihren Videos: „So ein Quatsch“, „Das kann nicht sein“, „Zähne sind feste Substanz, da hilft keine Energiearbeit“ (Reel 09.05.2025). Aisun geht selbst zu ausgewählten Ärzten, „Frauenarzt und Zahnarzt gehören dazu“ (Frauenarzt-Reel 2024). Zahn-Themen: „Deine Zähne speichern Themen“, „gespeicherte Wut“ (Reel 05.05.2025). |
-| **Nicht verwenden** | Den Namen des Kleinen (steht in alten Captions). „Am nächsten Tag kein Eiter“ ohne Aisuns OK (Heilergebnis am Kind). Fluorid (Reibung ohne Nutzen, Meta-Risiko). Workshop-Feedbacks von Teilnehmerinnen (Kundinnendaten, Heilaussagen). „Tschüss Zahnarzt“ als Versprechen. |
-| **Fotos (Dump Style)** | Siehe je Entwurf. Grundbedarf: 1 Handy-Selfie Aisun mit Gesicht (Slide 1), Bad-Alltag (Zahnputzbecher mit Kinderzahnbürsten), Hände an Kinder-Wange/Kiefer (Kind ohne Gesicht oder nur mit OK), Standbild aus dem Kiefer-Reel, Screenshot echter Kommentare (Namen geschwärzt), Porträt für CTA. |
-| **Sicherheit** | Bei Kindern und akuten Zahnschmerzen der Sicherheits-Satz auf der Auflösungs-Slide und in der Caption. „Behandeln“ nur für die eigenen Söhne. Kein Heilversprechen, keine Anweisung gegen Zahnarzt/Antibiotika. |
+| **Ziel** | Auf die Liste über Keyword-Kommentare, mit Nähe (Aisun als Mama, echte Geschichte). Erfolg = Kommentare mit Keyword, DMs, später Käufe. Nicht Views. |
+| **Persona** | Heilungs-Kundin, konkret Mama, deren Kind etwas an Zähnen oder Kiefer hat, und die spürt, dass mehr dahinter liegt, aber nichts falsch machen will. |
+| **Keyword** | **Standard: KOMPASS** (0-€-Heilungskompass). **Variante: ZÄHNE** nur, wenn Aisun bestätigt, dass die Automation läuft und was sie schickt (Map: „Tschüss Zahnarzt“-Workshop; die Reels versprachen das Zahn-Arbeitsblatt). Achtung Widerspruch in den Quellen: ZÄHNE steht in der ManyChat-Map (`anweisungen.md`), fehlt aber in der Keyword-Liste von `wissen/regeln.md`. Aisun muss das auflösen. Immer genau ein Keyword. |
+| **Phase** | Reichweite plus Liste. Kein Verkaufsangebot im Post. |
+| **Posting** | Mo bis Fr 12 Uhr (Entscheidung 19.10.). Themenplan: Fr 06.11. (A), B für den Zahnspangen-Slot Fr 20.11. Nicht Montag. |
+| **Hook-Winkel** | A: Streit und Kinderzahn (Geschichte des Kleinen). B: „Ich behandle den Kiefer meines Sohnes“ (Großer, Zahnspange, Bauart des 288.000-Reels). |
+| **Echte Erlebnisse (nur Reel-Wortlaut)** | **Kleiner (heute 6), damals 5:** „plötzlich über starke Zahnschmerzen klagte“, Zahnarzt „sofort“: „Eiter. Antibiotika. Zahn ziehen. Lachgas oder Vollnarkose. Zahnspange.“, „Ich war erstmal ganz schön geschockt … Und doch spürte ich: Das kann nicht die einzige Lösung sein.“, „Ich holte mir eine Innerwise-Kollegin dazu. Wir schauten auf die energetischen Ursachen“, „unter seinem Zahn MEINE Beziehungsthemen gespeichert. Streit & Ärger hatten sich dort abgelagert und ein fremdes Feld kreiiert“, „Der Körper versuchte nun mit Entzündung & Eiter das fremde Feld wieder aus dem Körper zu treiben“, „war mir lange überhaupt nicht klar“, Ausgang „am nächsten Tag … kein Schmerz, keine Entzündung, kein Eiter mehr da. So genial!“ (nur mit OK), Einschränkung „ich weiß nicht, wie lange es anhält. Es kommen bestimmt wieder Zahnschmerzen oder andere Themen. Ich kann auch nicht ausschließen, dass ich mit meinem Sohn wieder zum Zahnarzt gehe. Aber ich schaue immer, was HINTER den Symptomen liegt.“ (Reel 16.04.2025, ähnlich 11.04.2025). **Großer (heute 12), damals 10:** „im Urlaub ganz ohne meine energetischen Materialien den Kiefer meines Sohnes behandle“, „kurz davor, zusätzlich … eine Zahnspange zu nehmen“, „Kieferorthopädin …, die in ihrer Praxis selbst Innerwise nutzt“, „bearbeite ich energetisch immer wieder alle Blockaden, damit die Zahnspange möglichst wenig ‚zu tun hat‘ & … keine Themen … übersehen und durch die Spange in den Rücken oder sonst wohin geschoben werden“, „Unsere Hände & unsere Intuition können mit etwas Übung ein messerscharfes … Instrument werden“, „Du kannst die Realität mit deinen Händen abscannen“ (Reel 29.04.2025). |
+| **Nicht verwenden** | Namen der Söhne. Den Ausgang ohne Aisuns OK. Den Zahnarzt-Freund („falsche Seite fotografiert … Es war Selbstheilung“), nur mit OK und Petra. Fluorid. Workshop-Feedbacks. „Tschüss Zahnarzt“ als Versprechen. „Diagnostik-Instrument“ (gekürzt auf „Instrument“). Erfundene Gefühle, Szenen, Dokumente. |
+| **Look (Aisuns Vorgabe 19.10.)** | Ein Shooting, ein Outfit, ruhiger Hintergrund, 10 bis 12 Posen (Liste in `wissen/vorbilder/extern-karussell-foto-schrift.md`), 4:5. Jedes Foto 55 bis 65 % abgedunkelt, Gesicht bleibt sichtbar. Aussage: Bauer Bodoni groß in Creme, 2 bis 4 Zeilen. Fließtext: Raleway, kurze Zeilen, Leerzeilen dazwischen. Akzente nur aus dem Brand-Skill (Beere, Gold nur auf dunklem Grund). Slide-Zähler (1/11). Keine Deko, keine Boxen-Orgie. Fotos mit den Söhnen (Pose 11) nur mit Aisuns OK, Gesichter nur mit OK. |
+| **Sicherheit** | Sicherheits-Satz in normaler, lesbarer Größe auf der Auflösungs-Slide und in der Caption. „Behandeln“ nur für die eigenen Söhne als Mama. Kein Heilversprechen, keine Anweisung gegen Zahnarzt oder Antibiotika. |
 
 ---
 
@@ -61,335 +73,277 @@ Test: Würde eine Mama mit Zahnarzt-Frust stoppen und wischen? Konkretes, offene
 | 14 | Jedes Mal bei der Zahnreinigung: „Wiiiie bitte?! Ohne Fluorid?“ | Szene, Humor | 5 (Fluorid lenkt ab, Meta-Risiko) |
 | 15 | Zähne sind kein Ersatzteil. Sie sind ein Archiv. | Meinung | 4 (Thema statt Film) |
 
-**Weiter gehen:** #1 (Entwurf A), #2 (Entwurf B), #5 (Entwurf C). #3 und #4 leben als Slide 2/3 in A weiter.
+**Weiter gehen (V2):** #1 (Entwurf A, Slide-1-Fassung A1), #3 (Entwurf A, Fassung A2), #2 (Entwurf B). #5 (Entwurf C) ist verworfen.
 
 ---
 
-## 4. Drei Entwürfe
+## 4. Zwei Entwürfe (Version 2)
 
-Wortzahl je Slide in Klammern (Haupttext ohne Unterzeile und Fußzeile). Slide 1 und Money Line sind bewusst kürzer als 15 Wörter, weil die Formel dort „groß drauf, viel Luft“ verlangt; alle anderen 15–45.
+Legende: **BODONI** = große Aussage in Bauer Bodoni, Creme. *Raleway* = Fließtext. „Pose“ = Nummer aus der Posen-Liste. Jedes Foto ist von Aisun, aus demselben Shooting, abgedunkelt. Wortzahl = gesamter Text der Slide ohne `[AISUN]`-Hinweise.
 
-Design für alle: **Low Effort Look, High Attention Framing.** Handyfotos, keine Textfolien. Weiße, fette Sans in großen Zeilen, bei unruhigem Foto Balken dahinter (Farben nur laut Skill `aisun-brand-design`, Greta). Ein Gedanke pro Slide, Schlüsselwort fett. Kleiner Wisch-Pfeil auf 1 bis vorletzte. Gesicht von Aisun auf Slide 1. Format 4:5.
+### Entwurf A · „Streit und Zahn“ · 11 Slides
 
-### Entwurf A · „Streit und Zahn“ (Winkel: Ursache, die schockt) · 9 Slides
+11 statt 10, weil die Autorinnen-Slide neu dazukommt; Aisuns stärkstes eigenes Karussell („Ausreden“) hat 14.
 
-**Slide 1 · STOP** (10 Wörter)
-> Du streitest mit deinem Partner.
-> Und dein **Kind** bekommt Zahnschmerzen.
+**Slide 1 · STOP · Szene mit Du-Dialog** (Pose 2: frontal, ernst, direkter Blick)
 
-Unterzeile klein: *Ich hätte das auch nicht geglaubt.*
-[FOTO: Handy-Selfie Aisun, nah, ernster Blick, Küche oder Auto. Text oben auf dunklem Balken.]
+Slide-1-Test, zwei Fassungen:
 
-**Slide 2 · PROVE THE SWIPE** (27 Wörter)
-> Nicht, weil Kinder alles mitbekommen. Das weißt du längst.
-> Sondern weil ich bei meinem Sohn etwas gefunden habe, das ich dort **nie** gesucht hätte.
-> Unter seinem Zahn.
+*Fassung A1 (Du-Dialog, Leser-Szene, nicht Aisuns Erlebnis)* (21 Wörter)
+> BODONI: Du streitest. Dein Kind bekommt Zahnschmerzen.
+> Raleway: „Du hörst mir nie zu!“ Tür zu.
+> Zwei Tage später: „Mama, mein Zahn tut weh.“
 
-[FOTO: Zahnputzbecher mit zwei Kinderzahnbürsten im eigenen Bad, Handyfoto, gern etwas schief.]
+*Fassung A2 (Ich-Film, Reel-Wortlaut)* (15 Wörter)
+> BODONI: Mein Sohn war fünf.
+> Raleway: Der Zahnarzt, sofort: Eiter. Antibiotika. Zahn ziehen. Lachgas oder Vollnarkose. Zahnspange.
 
-**Slide 3 · MAKE IT REAL** (33 Wörter)
-> Er war fünf. Plötzlich starke Zahnschmerzen.
-> Beim Zahnarzt in einem Atemzug:
-> **Eiter. Antibiotika. Zahn ziehen. Lachgas oder Vollnarkose. Zahnspange.**
-> Ich stand da und dachte nur: Stopp. Das kann nicht die einzige Antwort sein.
+Meine Wahl: **A1**, weil der Du-Dialog das Vorbild-Prinzip trifft und die Diagnose-Kaskade auf Slide 3 als Höhepunkt aufspart. A2 ist die sichere Variante ohne Schuld-Trigger auf Slide 1; wird A2 genommen, beginnt Slide 3 ohne die Kaskade.
 
-Quelle: Reels 11.04. und 16.04.2025.
-[FOTO: Screenshot einer iPhone-Notiz mit den fünf Wörtern untereinander (Greta baut sie als echte Notiz auf Aisuns Handy), oder Schwarzweiß-Foto Aisun nachdenklich.]
+**Slide 2 · PROVE THE SWIPE · Dreh** (Pose 5: verschränkte Arme, skeptisch-amüsiert) (32 Wörter)
+> BODONI: Klingt total verrückt, ja?
+> Raleway: Mir war das lange auch überhaupt nicht klar.
+> Was unser Streit mit den Zähnen meines Sohnes zu tun hat.
+> Bis er mit fünf plötzlich über starke Zahnschmerzen klagte.
 
-**Slide 4 · POV** (25 Wörter)
-> Für mich gehört zu jedem Zahn eine Frage, die in keiner Zahnarztpraxis gestellt wird:
-> **Was trägt mein Kind da eigentlich?**
-> Und ist das überhaupt seins?
+Quelle: Reel 16.04.2025 („war mir lange überhaupt nicht klar“, „plötzlich über starke Zahnschmerzen klagte“).
 
-[FOTO: Aisun in Farbe, Hand am eigenen Kinn, Blick in die Kamera.]
+**Slide 3 · MAKE IT REAL · Muster 1/3** (Pose 3: Hand an der Wange, nachdenklich) (27 Wörter)
+> Raleway: DER ZAHNARZT, SOFORT:
+> BODONI: Eiter. Antibiotika. Zahn ziehen. Lachgas oder Vollnarkose. Zahnspange.
+> Raleway: ICH:
+> Ganz schön geschockt. Und doch hab ich gespürt: Das kann nicht die einzige Lösung sein.
 
-**Slide 5 · PROOF** (28 Wörter)
-> Mit einer innerwise-Kollegin habe ich zusätzlich hingeschaut.
-> Was wir gefunden haben, hat mir den Boden weggezogen:
-> Unter seinem Zahn saßen **MEINE** Beziehungsthemen. Streit. Ärger. Unausgesprochenes.
-> Nicht seins. Meins.
+Quelle: Reel 16.04.2025, wörtlich.
 
-Quelle: Reels 11.04. und 16.04.2025. `[AISUN: Wie ging es weiter? Im Reel stand „am nächsten Tag kein Schmerz, keine Entzündung, kein Eiter“. Ohne dein OK bleibt der Ausgang raus; mit OK als „bei uns war es so“, Petra gelb.]`
-[FOTO: Aisun und Sohn von hinten oder nur Hände/Schultern (Gesicht nur mit deinem OK), Alltag, Garten oder Sofa.]
+**Slide 4 · Muster 2/3 · Steigerung** (Pose 9: Hände im Raum) (27 Wörter)
+> Raleway: DER ZAHNARZT:
+> Entzündung. Eiter.
+> WIR, ZUSÄTZLICH:
+> Ich hab mir eine innerwise-Kollegin dazugeholt. Wir haben auf die energetischen Ursachen geguckt.
+> BODONI: Was will sein Körper mit dem Eiter loswerden?
 
-**Slide 6 · VALUE** (29 Wörter + Sicherheits-Satz)
-> Wenn dein Kind etwas an den Zähnen hat, lade ich dich zu **einer** Frage ein, zusätzlich zum Zahnarzt:
-> **Was ist bei UNS gerade eng?**
-> Nicht als Schuld. Als Spur.
+Quelle: Reel 16.04.2025 („Ich holte mir eine Innerwise-Kollegin dazu. Wir schauten auf die energetischen Ursachen“).
 
-Fußzeile klein, gut lesbar: *Energetische Arbeit ersetzt keine ärztliche Hilfe. Bei Warnzeichen oder wenn dein Bauchgefühl Alarm schlägt, gehört dein Kind abgeklärt.*
-[FOTO: Mama-Hand auf Kinderwange, nah, warmes Licht.]
+**Slide 5 · POV · Muster 3/3 · Höhepunkt** (Pose 2 oder 6, direkter Blick) (32 Wörter)
+> Raleway: DER ZAHNARZT:
+> Der Zahn.
+> WIR, ZUSÄTZLICH:
+> BODONI: Unter seinem Zahn hatte er MEINE Beziehungsthemen gespeichert.
+> Raleway: Streit und Ärger. Ein fremdes Feld. Und sein Körper hat versucht, es mit Entzündung und Eiter wieder rauszutreiben.
 
-**Slide 7 · Wendung und Entlastung** (28 Wörter)
-> Und nein, du bist keine schlechte Mutter, weil du streitest.
-> Jede Familie streitet.
-> Es geht nicht um Schuld. Es geht darum, dass du **hinschaust**, statt nur zu reparieren.
+Quelle: Reel 16.04.2025, dicht am Wortlaut. Aisuns Wahrnehmung, als ihre Geschichte erzählt, nicht als Regel für alle.
 
-[FOTO: chaotischer Küchentisch oder Familienalltag, unperfekt.]
+**Slide 6 · Ich-Slide · ehrliche Einschränkung** (Pose 7: halbnah, Kopf leicht geneigt) (31 Wörter ohne Ausgang)
+> Raleway: Wir haben das Thema energetisch geklärt.
+> `[AISUN: darf das so stehen? Entscheidung. Reel-Wortlaut: „Und am nächsten Tag war: kein Schmerz, keine Entzündung, kein Eiter mehr da. So genial!“ Ohne dein OK fällt die Zeile weg. Mit OK: Petra gelb.]`
+> BODONI: Ich weiß nicht, wie lange es anhält.
+> Raleway: Es kommen bestimmt wieder Zahnschmerzen. Ich kann nicht ausschließen, dass ich mit meinem Sohn wieder zum Zahnarzt gehe.
 
-**Slide 8 · MONEY LINE** (9 Wörter)
-> Nicht alles, was dein Kind trägt, **gehört zu ihm.**
+Quelle: Reel 16.04.2025, wörtlich.
 
-[FOTO: ruhiges Bild, viel Luft (Himmel, Meer aus Ägypten, Garten). Schrift groß, mittig.]
+**Slide 7 · Gegenbild · Humor (einzige Stelle)** (Pose 1: lachend, Blick zur Seite) (28 Wörter)
+> BODONI: Und nein, du bist keine schlechte Mutter, weil ihr streitet.
+> Raleway: Bei uns kracht's auch. 😅
+> Ich guck nur immer, was HINTER den Symptomen liegt. Auf allen 8 Ebenen.
 
-**Slide 9 · CTA** (24 Wörter)
-> Willst du lernen, selbst zu testen, was hinter Beschwerden steckt, bei dir und bei deinem Kind?
-> Kommentiere **KOMPASS** und ich schick dir meinen Heilungskompass.
+Quelle: „Aber ich schaue immer, was HINTER den Symptomen liegt“, 8 Ebenen (Reel 16.04.2025). `[AISUN: Passt „Bei uns kracht's auch“ für dich? Im Reel steht „unsere Beziehungsthemen“, „Streit & Ärger“.]`
 
-Variante ZÄHNE: *Kommentiere **ZÄHNE** und ich schick dir mein Zahn-Arbeitsblatt.*
-[FOTO: Porträt Aisun, warm, lächelnd. Keyword als Pille.]
+**Slide 8 · VALUE** (Pose 6: sitzend, entspannt, Blick zur Kamera) (44 Wörter)
+> BODONI: Was ist bei uns gerade eng?
+> Raleway: Hat dein Kind was an den Zähnen? Guck zusätzlich mal auf diese Frage. Spür rein, schreib die erste Antwort auf.
+> Energetische Arbeit ersetzt keine ärztliche Hilfe. Bei Warnzeichen oder wenn dein Bauchgefühl Alarm schlägt, gehört dein Kind abgeklärt.
+
+Sicherheits-Satz in normaler Raleway-Größe, nicht als Fußzeile.
+
+**Slide 9 · MONEY LINE** (Pose 12: Outdoor, Weite) (9 Wörter)
+> BODONI: Nicht alles, was dein Kind trägt, gehört zu ihm.
+
+**Slide 10 · Autorinnen-Slide** (Pose 10: Nahaufnahme, warmes Lächeln) (30 Wörter)
+> BODONI: Ich bin Aisun.
+> Raleway: Diplom-Psychologin, ehemalige Psychotherapeutin. Mama von zwei Jungs, 12 und 6.
+> Ich zeig dir, wie du dich und dein Kind selbst wahrnimmst. Und testest, statt nur zu glauben.
+
+**Slide 11 · CTA** (Pose 7 oder 10, anderes Bild als Slide 10) (19 Wörter)
+> BODONI: Kommentiere KOMPASS.
+> Raleway: Dann schick ich dir meinen Heilungskompass. Damit testest du, was bei dir und deinem Kind wirklich dahintersteckt.
+
+Keyword in Beere-Pille oder Creme-Rahmen (Brand-Skill). Variante ZÄHNE nur, wenn Aisun bestätigt (dann: „Kommentiere ZÄHNE. Dann schick ich dir mein Zahn-Arbeitsblatt.“), nie beide.
 
 **Caption A**
 
-Es war nicht der Zahn. 🦷
+Ich war ganz schön geschockt. 🦷
 
-😳 Mein Sohn war fünf, als er plötzlich starke Zahnschmerzen hatte.
+😱 Mein Kleiner war fünf. Plötzlich starke Zahnschmerzen. Und vom Zahnarzt sofort: Eiter. Antibiotika. Zahn ziehen. Lachgas oder Vollnarkose. Zahnspange.
 
-😱 Beim Zahnarzt: Eiter. Antibiotika. Zahn ziehen. Lachgas oder Vollnarkose. Zahnspange. Alles in einem Atemzug.
+🤍 Ich war ganz schön geschockt. Und doch hab ich gespürt: Das kann nicht die einzige Lösung sein.
 
-🤍 Ich war geschockt. Und gleichzeitig spürte ich: Das kann nicht die einzige Antwort sein.
+✨ Ich hab mir eine innerwise-Kollegin dazugeholt. Wir haben zusätzlich auf die energetischen Ursachen geguckt.
 
-✨ Mit einer innerwise-Kollegin habe ich zusätzlich hingeschaut. Und was wir gefunden haben, hat mir den Boden weggezogen: Unter seinem Zahn saßen MEINE Beziehungsthemen. Streit. Ärger. Unausgesprochenes.
+🤦🏼‍♀️ Und was war da? Unter seinem Zahn hatte er MEINE Beziehungsthemen gespeichert. Streit und Ärger. Ein fremdes Feld.
 
-🤦🏼‍♀️ Nicht seins. Meins.
+`[AISUN: Ausgang, Entscheidung wie Slide 6]`
 
-💛 Und bevor du jetzt denkst „Oh Gott, wir streiten auch“: Ja. Jede Familie streitet. Es geht nicht um Schuld. Es geht darum, hinzuschauen.
+🙏🏻 Ich weiß nicht, wie lange es anhält. Es kommen bestimmt wieder Zahnschmerzen oder andere Themen. Ich kann auch nicht ausschließen, dass ich mit meinem Sohn wieder zum Zahnarzt gehe.
 
-🔍 Ich schaue immer, was HINTER den Symptomen liegt. Auf allen 8 Ebenen.
+🔍 Aber ich guck immer, was HINTER den Symptomen liegt.
+
+😅 Und nein, du bist keine schlechte Mutter, weil ihr streitet. Bei uns kracht's auch.
 
 ⚠️ Wichtig: Energetische Arbeit ersetzt keine ärztliche Hilfe. Bei Warnzeichen oder wenn dein Bauchgefühl Alarm schlägt, gehört dein Kind abgeklärt.
 
-👉🏻 Kommentiere KOMPASS und ich schick dir meinen Heilungskompass. Damit lernst du, selbst zu spüren und zu testen, was hinter Beschwerden steckt.
-
-(Variante: 👉🏻 Kommentiere ZÄHNE und ich schick dir mein Zahn-Arbeitsblatt.)
+👉🏻 Kommentiere KOMPASS und ich schick dir meinen Heilungskompass. Damit testest du, was bei dir und deinem Kind wirklich dahintersteckt.
 
 ZAHNSCHMERZEN KINDERGESUNDHEIT INNERWISE
 
 ---
 
-### Entwurf B · „Ich behandle die Zähne meiner Söhne“ (Winkel: Familie, Behind the Scenes) · 9 Slides
+### Entwurf B · „Ich behandle den Kiefer meines Sohnes“ · 10 Slides
 
-**Slide 1 · STOP** (10 Wörter)
-> Ich **behandle** die Zähne meiner Söhne.
-> Selbst. Mit meinen Händen.
+**Slide 1 · STOP** (Pose 11: Aisun mit dem Großen, Gesicht nur mit OK, sonst von hinten; Alternative Pose 9)
 
-Unterzeile klein: *Und ja, wir gehen trotzdem zum Zahnarzt.*
-[FOTO: Standbild aus dem Kiefer-Reel (29.04.2025): Aisuns Hände am Kiefer des Großen, Aisuns Gesicht sichtbar. Alternativ Selfie Aisun mit Sohn, wenn Gesicht ok.]
+Slide-1-Test, zwei Fassungen:
 
-**Slide 2 · PROVE THE SWIPE** (32 Wörter)
-> Der Zahnarzt schaut auf den Zahn. Die Kieferorthopädin misst Millimeter.
-> Ich schaue auf etwas, das beide nicht messen können.
-> Und da habe ich bei meinen Jungs Dinge gefunden, die mich **umgehauen** haben.
+*Fassung B1 (Ich + Kind + Tabu-Verb, Bauart des 288.000-Reels)* (20 Wörter)
+> BODONI: Ich behandle den Kiefer meines Sohnes.
+> Raleway: Er ist 12. Als Mama, mit meinen Händen.
+> Und ja: Die Zahnspange kommt trotzdem.
 
-[FOTO: Zahnspangen-Box oder Kinderzahnbürsten, Handyfoto.]
+`[AISUN: Stand heute? Hat er die Spange inzwischen, und behandelst du seinen Kiefer weiter? Im Reel (04/2025) war er 10 und die Spange „kurz davor“.]`
 
-**Slide 3 · MAKE IT REAL** (26 Wörter)
-> Urlaub. Keine Materialien dabei, nur meine Hände.
-> Ich halte sie über den Kiefer meines Großen und spüre nach, was da festsitzt.
-> Die Zahnspange war schon geplant.
-> `[AISUN: ein echter Satz von ihm in dem Moment?]`
+*Fassung B2 (Du-Dialog, Leser-Szene, nicht Aisuns Erlebnis)* (20 Wörter)
+> BODONI: „Ihr Kind braucht eine Zahnspange.“
+> Raleway: Du nickst. Du unterschreibst.
+> Und im Auto fragst du dich: Und was liegt eigentlich darunter?
 
-Quelle: Reel 29.04.2025.
-[FOTO: zweites Standbild aus dem Reel, Hände im Fokus.]
+Meine Wahl: **B1**. Bewiesene Bauart, Ich-Erfahrung, kein Vorwurf. B2 ist die Szene-Variante nach dem Vorbild.
 
-**Slide 4 · POV** (27 Wörter)
-> Für mich ist das **kein Entweder-oder.**
-> Die Spange macht ihren Job.
-> Ich schaue zusätzlich hin, was hinter der Fehlstellung liegt. Damit es nicht einfach woanders hingeschoben wird.
+**Slide 2 · PROVE THE SWIPE · Dreh** (Pose 2: frontal, ernst) (30 Wörter)
+> BODONI: Spange UND Hände. Gleichzeitig.
+> Raleway: Uns begleitet eine Kieferorthopädin, die in ihrer Praxis selbst innerwise nutzt.
+> Mega, oder?
+> Und für mich gehört zur Spange immer eine zweite Frage: Was liegt darunter?
 
-Quelle: Reel 29.04.2025 („durch die Spange in den Rücken oder sonst wohin geschoben“).
-[FOTO: Aisun in Farbe, Gestik mit der Hand.]
+Quelle: Reel 29.04.2025. `[AISUN: Darf die Kieferorthopädin so vorkommen (reale Dritte, ohne Namen und Ort)? Begleitet sie euch noch?]`
 
-**Slide 5 · PROOF** (25 Wörter)
-> **Beim Großen:** Zahnspange plus Hinschauen, begleitet von einer Kieferorthopädin, die selbst innerwise nutzt.
-> **Beim Kleinen:** Zahnschmerzen. Und dahinter ein Thema, das gar nicht seins war.
+**Slide 3 · MAKE IT REAL · Humor (einzige Stelle)** (Pose 9: Hände im Raum) (22 Wörter)
+> BODONI: Urlaub. Ich hatte nichts dabei.
+> Raleway: Keine energetischen Materialien. Nur meine Hände. 😅
+> Also hab ich halt damit den Kiefer meines Großen abgescannt.
 
-Quellen: Reels 29.04.2025, 14.05.2024, 16.04.2025.
-[FOTO: zwei Handyfotos nebeneinander (Collage, unperfekt): zwei Paar Kinderschuhe, zwei Zahnbürsten, oder beide Jungs von hinten.]
+Quelle: Reel 29.04.2025 („im Urlaub ganz ohne meine energetischen Materialien“, „mit deinen Händen abscannen“). `[AISUN: Was hat er in dem Moment gesagt oder gemacht? Ein echter Satz von ihm macht diese Slide zum Filmmoment.]`
 
-**Slide 6 · VALUE** (30 Wörter + Sicherheits-Satz)
-> Du brauchst keine Ausbildung, um anzufangen.
-> Leg abends deine Hand an die Wange deines Kindes und **spür mal**: Ist da was eng? Warm? Unruhig?
+**Slide 4 · Muster 1/3** (Pose 4: sitzend mit Handy) (14 Wörter)
+> Raleway: DIE SPANGE:
+> Richtet die Zähne.
+> ICH, ZUSÄTZLICH:
+> BODONI: Guck immer wieder nach den Blockaden darunter.
+
+Quelle: Reel 29.04.2025 („bearbeite ich energetisch immer wieder alle Blockaden“).
+
+**Slide 5 · Muster 2/3** (Pose 8: im Raum stehend, Hände in Bewegung) (17 Wörter)
+> Raleway: DIE SPANGE:
+> Hat ganz schön Arbeit.
+> ICH, ZUSÄTZLICH:
+> BODONI: Mein Wunsch: dass sie möglichst wenig zu tun hat.
+
+Quelle: Reel 29.04.2025 („damit die Zahnspange möglichst wenig ‚zu tun hat‘“). Als Wunsch formuliert, nicht als Versprechen.
+
+**Slide 6 · POV · Muster 3/3** (Pose 2 oder 6, direkter Blick) (27 Wörter)
+> Raleway: DIE SPANGE:
+> Schiebt die Zähne an ihren Platz.
+> ICH, ZUSÄTZLICH:
+> BODONI: Damit das Thema dahinter nicht übersehen wird.
+> Raleway: Und nicht einfach in den Rücken oder sonst wohin geschoben.
+
+Quelle: Reel 29.04.2025, dicht am Wortlaut.
+
+**Slide 7 · Ich-Slide · Gegenbild** (Pose 3: Hand an der Wange) (22 Wörter)
+> BODONI: Deine Hände können ein messerscharfes Instrument werden.
+> Raleway: Mit etwas Übung. Du kannst die Realität mit deinen Händen abscannen. Spür mal rein, ja?
+
+Quelle: Reel 29.04.2025 („Unsere Hände & unsere Intuition können mit etwas Übung ein messerscharfes Diagnostik-Instrument werden“, „Diagnostik“ bewusst gestrichen).
+
+**Slide 8 · VALUE** (Pose 11 oder 6) (38 Wörter)
+> BODONI: Heute Abend: Hand an die Wange deines Kindes.
+> Raleway: Spür mal rein. Eng? Weit? Unruhig?
 > Du musst nichts deuten. Nur wahrnehmen.
+> Energetische Arbeit ersetzt keine ärztliche Hilfe. Bei Warnzeichen oder wenn dein Bauchgefühl Alarm schlägt, gehört dein Kind abgeklärt.
 
-Fußzeile klein: *Energetische Arbeit ersetzt keine ärztliche Hilfe. Bei Warnzeichen oder wenn dein Bauchgefühl Alarm schlägt, gehört dein Kind abgeklärt.*
-[FOTO: Hand auf Kinderwange, abends, Bettdecke.]
+**Slide 9 · MONEY LINE** (Pose 12: Outdoor, Weite) (9 Wörter)
+> BODONI: Der Zahnarzt kennt die Zähne. Du kennst dein Kind.
 
-**Slide 7 · Wendung** (25 Wörter)
-> Weißt du, was ich glaube?
-> Du spürst bei deinem Kind längst mehr, als dir jemand zutraut.
-> Du hast nur gelernt, dass **andere** es besser wissen.
+**Slide 10 · Autorinnen-Slide und CTA** (Pose 10: warmes Lächeln) (31 Wörter)
+> Raleway: Ich bin Aisun. Diplom-Psychologin, ehemalige Psychotherapeutin. Mama von zwei Jungs, 12 und 6.
+> BODONI: Kommentiere KOMPASS.
+> Raleway: Dann schick ich dir meinen Heilungskompass. Damit testest du, was bei dir und deinem Kind dahintersteckt.
 
-[FOTO: Aisun nah, warm, Kopf leicht geneigt.]
-
-**Slide 8 · MONEY LINE** (9 Wörter)
-> Der Zahnarzt kennt die Zähne.
-> **Du kennst dein Kind.**
-
-[FOTO: ruhiger Hintergrund, viel Luft.]
-
-**Slide 9 · CTA** (18 Wörter)
-> Willst du lernen, das, was du spürst, auch zu testen?
-> Kommentiere **KOMPASS** und ich schick dir meinen Heilungskompass.
-
-Variante ZÄHNE: *Kommentiere **ZÄHNE** und ich schick dir mein Zahn-Arbeitsblatt, mit dem ich selbst gearbeitet habe.* (Quelle Reel 29.04.2025)
-[FOTO: Porträt Aisun, Keyword als Pille.]
+Bei B sind Autorin und CTA auf einer Slide, damit es bei 10 bleibt; das Vorbild verlangt die Autorin „vor dem CTA“, hier steht sie oben auf derselben Slide. Wenn Aisun es getrennt will: 11 Slides. Variante ZÄHNE nur nach Aisuns Bestätigung („… mein Zahn-Arbeitsblatt, mit dem ich selbst gearbeitet habe“, Reel 29.04.2025), nie beide.
 
 **Caption B**
 
-Mit meinen eigenen Händen. 🫶🏻
+Nur meine Hände dabei. 🫶🏻
 
-🦷 Ja, ich behandle die Zähne meiner Söhne. Als Mama. Und ja, wir gehen trotzdem zum Zahnarzt und zur Kieferorthopädin.
+🏝️ Urlaub. Keine energetischen Materialien dabei. Nur meine Hände. Also hab ich halt damit den Kiefer meines Großen abgescannt. 😅
 
-✨ Im Urlaub hatte ich keine Materialien dabei. Nur meine Hände. Ich habe den Kiefer meines Großen abgetastet und gespürt, was da festsitzt.
+🦷 Und ja, die Zahnspange kommt trotzdem. `[AISUN: Stand heute]` Uns begleitet eine Kieferorthopädin, die selbst innerwise nutzt.
 
-🙌🏻 Die Zahnspange macht ihren Job. Ich schaue zusätzlich, was hinter der Fehlstellung liegt.
+✨ Ich guck zusätzlich immer wieder nach den Blockaden darunter. Mein Wunsch: dass die Spange möglichst wenig zu tun hat. Und dass nichts übersehen und einfach woanders hingeschoben wird.
 
-💛 Das ist kein Entweder-oder. Das ist beides.
+🙌🏻 Unsere Hände und unsere Intuition können mit etwas Übung ein messerscharfes Instrument werden.
 
-🤍 Und ich glaube: Du spürst bei deinem Kind längst mehr, als dir jemand zutraut.
+💛 Probier's heute Abend: Hand an die Wange deines Kindes. Spür mal rein. Du musst nichts deuten, ja?
 
 ⚠️ Wichtig: Energetische Arbeit ersetzt keine ärztliche Hilfe. Bei Warnzeichen oder wenn dein Bauchgefühl Alarm schlägt, gehört dein Kind abgeklärt.
 
-👉🏻 Kommentiere KOMPASS und ich schick dir meinen Heilungskompass. Damit lernst du, das, was du spürst, auch zu testen.
-
-(Variante: 👉🏻 Kommentiere ZÄHNE und ich schick dir mein Zahn-Arbeitsblatt.)
+👉🏻 Kommentiere KOMPASS und ich schick dir meinen Heilungskompass. Damit testest du, was bei dir und deinem Kind dahintersteckt.
 
 ZAHNSPANGE KIEFER INNERWISE
 
 ---
 
-### Entwurf C · „NICHT nur dem Zahnarzt“ (Winkel: Anti-Experte, die Frau selbst) · 8 Slides
+## 5. Gate: 10-Punkte-Kontrolle (Selbstprüfung der Autorin, Version 2)
 
-**Slide 1 · STOP** (10 Wörter)
-> Warum ich meine Zähne **NICHT** mehr nur dem Zahnarzt überlasse.
+Hinweis: Das ist meine eigene Prüfung. In Version 1 lag ich 3 Punkte über der Kritik. Deshalb geht V2 erneut an die unabhängige Kritikerin, bevor irgendetwas weitergeht.
 
-Unterzeile klein: *Ich gehe trotzdem hin.* `[AISUN: stimmt „nicht mehr“, also war es früher anders?]`
-[FOTO: Selfie Aisun, lachend mit sichtbaren Zähnen, Bad-Spiegel.]
+### Entwurf A (V2)
+1. **Stoppt Slide 1?** Ja. Du-Dialog mit zwei Sätzen in wörtlicher Rede, Mama erkennt sich sofort (A1). A2 als Test ohne Schuld-Trigger.
+2. **Framing statt Thema?** Ja. Streit → Kinderzahn.
+3. **Konkretes?** Ja. Dialog, „zwei Tage später“, Zahn (A1); Alter und Diagnose (A2).
+4. **Slide 2 stärker?** Ja. Dreh mit Aisuns eigenem Satz („war mir lange überhaupt nicht klar“) und neuer Schleife („Bis er mit fünf …“), ohne zu erklären.
+5. **Echter Filmmoment?** Ja. Diagnose-Kaskade plus „ganz schön geschockt“, wörtlich.
+6. **POV?** Ja. Muster „Zahnarzt / Wir, zusätzlich“ zeigt ihre Haltung (beides), ohne Zahnärzte abzuwerten.
+7. **Ein Value?** Ja. Eine Frage plus Handlung (reinspüren, aufschreiben).
+8. **Money Line?** Ja. „Nicht alles, was dein Kind trägt, gehört zu ihm.“
+9. **Lesbar?** Ja, mit Vorbehalt. Slide 8 hat 45 Wörter inklusive Sicherheits-Satz; Greta muss sie in kurzen Zeilen setzen. Erst das Mockup beweist es.
+10. **Ein CTA?** Ja. KOMPASS mit Brücke zur Geschichte.
 
-**Slide 2 · PROVE THE SWIPE** (20 Wörter)
-> Nicht weil Zahnärzte schlecht arbeiten.
-> Sondern weil dort eine Frage nie gestellt wird:
-> **Warum ausgerechnet dieser Zahn? Warum ausgerechnet jetzt?**
+Zusätzlich: Wiederholungsmuster (3×) ja · Humor an einer Stelle ja · Autorinnen-Slide ja · Einschränkung ja · „Nicht X, sondern Y“: 1 (Money Line) · nichts erfunden bei Aisun: ja, offene Stellen markiert.
 
-[FOTO: Aisun im Wartezimmer oder vor einer Praxistür, falls vorhanden; sonst Spiegel-Selfie.]
+**Note: 8/10**, unter zwei Bedingungen: Aisun entscheidet über den Ausgang und das Foto-Set existiert. Ohne Shooting ist es nicht prüfbar, denn der Look trägt die Hälfte.
 
-**Slide 3 · MAKE IT REAL** (27 Wörter)
-> Du putzt zweimal am Tag. Zahnseide. Prophylaxe, brav.
-> Und trotzdem kommt es wieder: Entzündung, Zahnfleisch, der nächste Termin.
-> Und du fragst dich, was du **noch** falsch machst.
-
-Quelle: Reel 05.05.2025.
-[FOTO: Zahnseide, Zahnbürste, Terminkarte auf dem Waschbecken.]
-
-**Slide 4 · POV** (26 Wörter)
-> Du machst nichts falsch.
-> Für mich sind Zähne nicht nur Mechanik. **Sie speichern Themen.**
-> Eine alte Geschichte. Eine heruntergeschluckte Wut. Etwas, worauf du seit Monaten herumbeißt.
-
-Quelle: Reel 05.05.2025.
-[FOTO: Aisun, Hand am Kiefer, ernst.]
-
-**Slide 5 · PROOF** (31 Wörter)
-> Das schreiben mir Leute unter meine Zahn-Videos:
-> „So ein Quatsch.“ „Das kann nicht sein.“ „Zähne sind feste Substanz, da hilft keine Energiearbeit.“
-> Meine Antwort ist immer dieselbe: **Probier's doch einfach aus.**
-
-Quelle: Reel 09.05.2025. `[AISUN: deine eigene Zahngeschichte als echter Beweis? Ohne sie bleibt diese Slide schwach.]`
-[FOTO: echter Screenshot der Kommentare, Namen geschwärzt.]
-
-**Slide 6 · VALUE** (37 Wörter + Sicherheits-Satz)
-> Wenn das nächste Mal ein Zahn zieht: Leg einen Finger drauf und frag ihn.
-> **Was beißt du gerade weg?**
-> Schreib die erste Antwort auf. Ohne zu bewerten. Und dann entscheide, ob und wann du zum Zahnarzt gehst.
-
-Fußzeile klein: *Energetische Arbeit ersetzt keine ärztliche Hilfe. Bei starken Schmerzen, Schwellung oder Fieber gehörst du abgeklärt.*
-[FOTO: Finger an der Wange, Handyfoto.]
-
-**Slide 7 · MONEY LINE** (11 Wörter)
-> Dein Zahnarzt sieht den Zahn.
-> **Du kannst sehen, worauf du beißt.**
-
-**Slide 8 · CTA** (19 Wörter)
-> Willst du lernen, selbst zu testen, was hinter deinen Beschwerden steckt?
-> Kommentiere **KOMPASS** und ich schick dir meinen Heilungskompass.
-
-Variante ZÄHNE: *Kommentiere **ZÄHNE** und ich schick dir mein Zahn-Arbeitsblatt.*
-
-**Caption C**
-
-Du machst nichts falsch. 🦷
-
-🪥 Du putzt, nimmst Zahnseide, gehst brav zur Prophylaxe. Und trotzdem: wieder Entzündung, wieder Zahnfleisch, wieder ein Termin.
-
-🤍 Für mich sind Zähne nicht nur Mechanik. Sie speichern Themen.
-
-😅 Unter meinen Zahn-Videos lese ich: „So ein Quatsch.“ Meine Antwort: Probier's doch einfach aus.
-
-👌🏻 Ich gehe selbst zu ausgewählten Ärzten. Der Zahnarzt gehört dazu. Ich lasse nur die Frage nicht mehr weg: Warum dieser Zahn, warum jetzt?
-
-⚠️ Energetische Arbeit ersetzt keine ärztliche Hilfe. Bei starken Schmerzen, Schwellung oder Fieber gehörst du abgeklärt.
-
-👉🏻 Kommentiere KOMPASS und ich schick dir meinen Heilungskompass.
-
-ZAHNPROBLEME ZAHNFLEISCH INNERWISE
-
----
-
-## 5. Gate: 10-Punkte-Kontrolle je Entwurf
-
-### Entwurf A · Streit und Zahn
-1. **Stoppt Slide 1 den Daumen?** Ja. „WIE BITTE?“-Moment, iteriert ihren Reel mit 11.394 Views, trifft jede Mama.
-2. **Framing statt Thema?** Ja. Nicht „Zähne energetisch“, sondern Streit → Kinderzahn.
-3. **Konkretes in der Hook?** Ja. Partner, Kind, Zahnschmerzen. Keine Zahl, aber eine Szene.
-4. **Macht Slide 2 es stärker?** Ja. Verneint die naheliegende Erklärung und öffnet eine zweite Schleife („Unter seinem Zahn.“).
-5. **Echter Filmmoment?** Ja. Slide 3, Diagnose-Kaskade im Wortlaut aus ihrem Reel.
-6. **POV erkennbar?** Ja. „Was trägt mein Kind, ist das überhaupt seins?“ ist reinste Aisun (Fremdenergie, ohne Fachwort).
-7. **Ein Value, nicht fünf?** Ja. Eine Frage: „Was ist bei UNS gerade eng?“
-8. **Money Line?** Ja. „Nicht alles, was dein Kind trägt, gehört zu ihm.“ (Variante ihres Kernsatzes, screenshot-tauglich.)
-9. **In Sekunden lesbar?** Ja. Höchstens 33 Wörter, ein Gedanke je Slide. Slide 6 mit Fußzeile ist die vollste, Greta muss sie luftig setzen.
-10. **Ein klarer CTA?** Ja. KOMPASS, Variante ZÄHNE nur als Alternative im Briefing, nie beide im Post.
-
-**Note: 9/10.** Abzug: Der Ausgang der Geschichte fehlt (bewusst, bis Aisun entscheidet), und Slide 1 lebt davon, dass ihr Gesicht drauf ist. Schuld-Trigger wird auf Slide 7 aufgefangen. Petra: gelb (Kind, Zahnschmerz, energetische Ursache).
-
-### Entwurf B · Ich behandle die Zähne meiner Söhne
-1. **Daumen?** Ja. Tabu-Verb plus eigene Kinder, Bauart ihres Siegers (288.454 Views, 578 Saves).
-2. **Framing?** Ja. Mama mit Händen statt Methode.
-3. **Konkretes?** Ja, aber weniger als A: „Söhne“, „Hände“, kein Moment. Das Foto muss die Konkretheit liefern.
-4. **Slide 2 stärker?** Ja. Zahnarzt vs. Kieferorthopädin vs. ich, offene Schleife „umgehauen“.
-5. **Filmmoment?** Teilweise, daher **Ja mit Vorbehalt.** Urlaub, Hände, Kiefer ist echt, aber ein echter Satz des Sohnes fehlt (`[AISUN]`).
-6. **POV?** Ja. „Kein Entweder-oder.“
-7. **Ein Value?** Ja. Hand an die Wange, spür mal. Sehr speicherbar.
-8. **Money Line?** Ja. „Der Zahnarzt kennt die Zähne. Du kennst dein Kind.“
-9. **Lesbar?** Ja.
-10. **CTA?** Ja.
-
-**Note: 8/10.** Stärkste Nähe und bester Speicher-Anreiz, aber Slide 3 und 5 sind dünner als bei A, solange Aisun keinen echten Moment ergänzt. Mit einem echten Satz des Großen wird es eine 9. Passt genau auf den Themenplan-Slot „Zuhause: die Zahnspange“. Petra: gelb („behandle“ für eigene Kinder ist nach Regel erlaubt).
-
-### Entwurf C · NICHT nur dem Zahnarzt
-1. **Daumen?** Ja, aber abgeschwächt: „NICHT mehr nur“ nimmt die Kante, die „Warum du NICHT …“ hatte.
+### Entwurf B (V2)
+1. **Stoppt Slide 1?** Ja. Bauart ihres Siegers.
 2. **Framing?** Ja.
-3. **Konkretes?** Nein. Kein Moment, keine Zahl, keine Person im Hook.
-4. **Slide 2 stärker?** Ja. „Warum dieser Zahn, warum jetzt?“ öffnet eine Schleife.
-5. **Filmmoment?** Ja, aber generisch (Putzen, Prophylaxe). „Genau ich“, aber ohne Aisun drin.
-6. **POV?** Ja. „Zähne speichern Themen.“
-7. **Ein Value?** Ja. Finger drauf, frag den Zahn.
-8. **Money Line?** Ja, aber schwächer als A und B.
-9. **Lesbar?** Ja.
-10. **CTA?** Ja.
+3. **Konkretes?** Ja. Alter 12, Hände, Zahnspange.
+4. **Slide 2 stärker?** Ja. „Spange UND Hände“ plus Kieferorthopädin, die selbst innerwise nutzt: überraschend, ohne Abwertung.
+5. **Echter Filmmoment?** **Nein, noch nicht.** Urlaub und Hände sind echt, aber ohne einen echten Satz oder eine Reaktion des Sohnes bleibt es eine Situation, kein Film.
+6. **POV?** Ja. Muster „Die Spange / Ich, zusätzlich“.
+7. **Ein Value?** Ja. Bester Speicher-Anlass, ohne „warm“.
+8. **Money Line?** Ja. Der Kontrast Zahnarzt/Ich steht nur noch einmal.
+9. **Lesbar?** Ja, mit Vorbehalt (Slide 8 und 10 sind die vollsten).
+10. **Ein CTA?** Ja.
 
-**Note: 7/10. Zurück an die Autorin.** Konkret fehlt: (a) Hook schärfen auf „Warum ich beim Zahnarzt NIE nur Ja sage“ oder Ähnliches mit Szene, (b) Slide 5 braucht Aisuns eigene Zahngeschichte statt nur Hater-Kommentaren, (c) keine Familie, keine Nähe, das widerspricht dem Ziel dieses Posts. Als späteres Reel taugt der Winkel gut (Kommentare vorlesen).
+**Note: 7/10.** Geht nicht weiter, bis Aisun den Moment mit ihrem Sohn liefert und den Stand der Spange bestätigt. Dann rechne ich mit 8 bis 9.
 
 ---
 
 ## 6. Empfehlung
 
-**Entwurf A posten** (9/10), ein Karussell, KOMPASS als Standard, ZÄHNE nur wenn aktiv. **Entwurf B als Folge-Karussell** für den Zahnspangen-Slot, sobald Aisun den echten Moment liefert. C fällt raus.
-
-Dafür an Greta, sobald die Fotos da sind. Danach Petra (gelb erwartet), dann Freigabe-Paket.
+**Entwurf A zuerst** (Fr 06.11., 12 Uhr), nach Aisuns Antworten, Mockup Slide 1 bis 3 und erneuter Kritik. **Entwurf B** als Folge-Karussell für den Zahnspangen-Slot (Fr 20.11.), sobald der echte Moment da ist. Für beide reicht **ein** Shooting: gleiches Outfit, 12 Posen inklusive zwei Bildern mit dem Großen.
 
 ## 7. Was mir von Aisun fehlt (max. 3)
 
-1. **Ausgang der Geschichte:** Darf auf Slide 5 stehen, wie es bei deinem Kleinen weiterging („am nächsten Tag kein Eiter“), oder bleibt das bewusst offen?
-2. **Fotos und Gesichter:** Gibt es ein Handy-Selfie von dir, das Standbild aus dem Kiefer-Reel und ein Hände-an-der-Wange-Foto? Dürfen die Gesichter der Jungs drauf, oder nur von hinten?
-3. **Keyword:** Läuft ZÄHNE in ManyChat noch (Zahn-Arbeitsblatt)? Sonst bleibt es bei KOMPASS.
+1. **Ausgang der Geschichte des Kleinen:** Darf „am nächsten Tag kein Schmerz, keine Entzündung, kein Eiter mehr da. So genial!“ stehen, oder lassen wir es offen?
+2. **Shooting:** Machst du ein Foto-Set (ein Outfit, 10 bis 12 Posen laut Liste, zwei davon mit deinem Großen)? Dürfen die Gesichter der Jungs drauf?
+3. **Für B und das Keyword:** Was hat dein Großer gesagt, als du im Urlaub seinen Kiefer abgescannt hast, und hat er die Spange inzwischen? Und läuft ZÄHNE noch (was schickt es)? Sonst bleibt es bei KOMPASS.
