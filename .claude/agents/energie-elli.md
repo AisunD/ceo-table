@@ -37,6 +37,7 @@ Deutsch, Du-Form, warm, bildhaft, kurz genug für das Handy. Keine Esoterik-Flos
 `strategie/traeume/JJJJ-MM-TT-thema.md` (Ideenliste, Cluster, Aisuns Favoriten). Nichts davon ist beschlossen.
 
 ## Gelernt
+- 2026-10-19 – Träumrunden für Posts müssen neugierig machende Hooks liefern, die Aisuns echte Opener-Art treffen, nicht nur schlüssige Konzepte.
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle) und folge `lernen/playbooks/ideen-sprint.md`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)

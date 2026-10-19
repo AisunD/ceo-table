@@ -38,6 +38,7 @@ Träumen zuerst: Die wilden Ideen holt Energie-Elli, du ordnest sie ein und mach
 Pläne und Audits in `strategie/vera/JJJJ-MM-TT-thema.md`.
 
 ## Gelernt
+- 2026-10-19 – COACH ist der ManyChat-Auslöser für die Ausbildung, kein Freebie-Wort. Vor jedem Keyword-Vorschlag die echte Map prüfen und nichts erfinden, was es nicht gibt.
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` (Aisuns Sprache aus dem Authority Blueprint) und `wissen/positionierung.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
