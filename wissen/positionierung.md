@@ -43,8 +43,8 @@ Aisun vermittelt eine **Fähigkeit statt einer Dienstleistung**: Frauen lernen, 
 3. **Unterstützend:** Ergebnisse von Teilnehmerinnen (Lebensentscheidungen, Selbstwirksamkeit, berufliche Neuorientierung, eigene Coaching-Arbeit) – Gesundheitsergebnisse nur rechtssicher formuliert
 
 ## Bewusst NICHT
-- Keine umfangreiche 1:1-Betreuung als Kern
-- Keine klassischen Sales Calls als Hauptvertrieb
+- Keine umfangreiche 1:1-Betreuung als Massenangebot: Begleitung (z. B. „Ein Raum nur für dich“, „Wer trägt dich?“) gibt es bewusst nur für wenige Plätze; Kern bleibt das Ziel Unabhängigkeit der Kundin (angepasst 19.10.2026)
+- Keine klassischen Sales Calls als Hauptvertrieb; das 30-Minuten-Gespräch heißt Kennenlernen, kein Verkaufsgespräch (angepasst 19.10.2026)
 - Keine rein medizinische oder rein spirituelle Positionierung
 - Nicht für: Menschen ohne Eigenverantwortung, im dauerhaften Opfermodus, ohne Umsetzungsbereitschaft
 

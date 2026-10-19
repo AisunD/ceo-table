@@ -21,3 +21,4 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 2026-10-18 – Verkauft wird nur vormittags/tagsüber, nie abends. Live-Termine (z. B. Q&A) zum Verkaufen deshalb tagsüber ansetzen. – (Aisun)
 - 2026-10-18 – ActiveCampaign soll angebunden werden (Connector „ActiveCampaign" existiert, Aisun verbindet ihn in claude.ai), damit Funnel-Frieda, Tina und Conny die E-Mail-Serien lesen und auswerten können. – (Aisun)
 - 2026-10-18 – Deep Dive 333 € ist brutto (Endkundinnen). Das 30.000-€-VIP-Angebot bleibt vorerst als Preisanker, damit die Ausbildung nicht als teuerstes Angebot gilt. – (Aisun, Cockpit-Antwort f14)
+- 2026-10-19 – Positionierung angepasst: 1:1-Begleitung gibt es bewusst nur für wenige Plätze, Kern bleibt „Du wirst unabhängig“. Das Gespräch davor heißt Kennenlernen, nicht Sales Call. – (Aisun, Cockpit-Antwort f17)
