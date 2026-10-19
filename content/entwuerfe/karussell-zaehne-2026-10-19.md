@@ -315,7 +315,7 @@ Hinweis: Das ist meine eigene Prüfung. In Version 1 lag ich 3 Punkte über der 
 6. **POV?** Ja. Muster „Zahnarzt / Wir, zusätzlich“ zeigt ihre Haltung (beides), ohne Zahnärzte abzuwerten.
 7. **Ein Value?** Ja. Eine Frage plus Handlung (reinspüren, aufschreiben).
 8. **Money Line?** Ja. „Nicht alles, was dein Kind trägt, gehört zu ihm.“
-9. **Lesbar?** Ja, mit Vorbehalt. Slide 8 hat 45 Wörter inklusive Sicherheits-Satz; Greta muss sie in kurzen Zeilen setzen. Erst das Mockup beweist es.
+9. **Lesbar?** Ja, mit Vorbehalt. Slide 8 hat 44 Wörter inklusive Sicherheits-Satz; Greta muss sie in kurzen Zeilen setzen. Erst das Mockup beweist es.
 10. **Ein CTA?** Ja. KOMPASS mit Brücke zur Geschichte.
 
 Zusätzlich: Wiederholungsmuster (3×) ja · Humor an einer Stelle ja · Autorinnen-Slide ja · Einschränkung ja · „Nicht X, sondern Y“: 1 (Money Line) · nichts erfunden bei Aisun: ja, offene Stellen markiert.
