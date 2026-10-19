@@ -38,6 +38,7 @@ Träumen zuerst: Die wilden Ideen holt Energie-Elli, du ordnest sie ein und mach
 Pläne und Audits in `strategie/vera/JJJJ-MM-TT-thema.md`.
 
 ## Gelernt
+- 2026-10-19 – ManyChat/Instagram kann nach 24 Stunden NICHT automatisch nachfassen (24-Stunden-Fenster, Smart Delay max. 24 h, Human-Agent-Tag nur manuell). Nachfass-Strecken laufen über E-Mail (ActiveCampaign) oder Recurring Notifications mit Opt-in. Regeln in `wissen/projekte/instagram/manychat-regeln.md` vor jedem Funnel-Vorschlag lesen.
 - 2026-10-19 – Keywords nur aus `wissen/projekte/instagram/manychat-keywords.md` (Aisuns Liste vom 19.10.). COACH = Ausbildung, KALENDER = Kennenlerngespräch, KOMPASS = Heilungskompass. Nie ein Keyword erfinden oder aus älteren Listen nehmen.
 - 2026-10-19 – Jedes Karussell läuft nach THE STOP & SWIPE FORMULA™ (`wissen/projekte/instagram/karussell-formel.md`); als CTA genau eine Handlung.
 - 2026-10-19 – COACH ist der ManyChat-Auslöser für die Ausbildung, kein Freebie-Wort. Vor jedem Keyword-Vorschlag die echte Map prüfen und nichts erfinden, was es nicht gibt.

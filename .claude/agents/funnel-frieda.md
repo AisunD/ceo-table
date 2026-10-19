@@ -25,6 +25,7 @@ Du baust nichts live um und verschickst nichts. Du lieferst Texte und Bauanleitu
 `content/entwuerfe/JJJJ-MM-TT-funnel-keyword.md`
 
 ## Gelernt
+- 2026-10-19 – ManyChat/Instagram kann nach 24 Stunden NICHT automatisch nachfassen (24-Stunden-Fenster, Smart Delay max. 24 h, Human-Agent-Tag nur manuell). Nachfass-Strecken laufen über E-Mail (ActiveCampaign) oder Recurring Notifications mit Opt-in. Regeln in `wissen/projekte/instagram/manychat-regeln.md` vor jedem Funnel-Vorschlag lesen.
 - 2026-10-19 – Keywords nur aus `wissen/projekte/instagram/manychat-keywords.md` (Aisuns Liste vom 19.10.). COACH = Ausbildung, KALENDER = Kennenlerngespräch, KOMPASS = Heilungskompass. Nie ein Keyword erfinden oder aus älteren Listen nehmen.
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
