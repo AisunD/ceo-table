@@ -1,9 +1,9 @@
 # Auswertung des Instagram-Katalogs (Stand Aisuns Datei vom 19.10.2026)
 
-Quelle: Aisuns Datei „Instagram-Katalog.xlsx“ (268 Posts, Nov. 2024 bis Dez. 2025 im Wesentlichen, die Spalte „First show“ ist nicht überall einheitlich). Rohdaten als CSV: `daten/instagram/instagram-katalog-2026-10.csv`. Alle Zahlen sind Views, Likes, Kommentare, Gespeichert, Neue Follower aus dieser Datei; Teilen ist überall 0 und damit nicht erfasst. Das ist die erste echte Datenbasis des Tisches.
+Quelle: Aisuns Datei „Instagram-Katalog.xlsx“, laut Aisun (19.10.2026) eine **Liste ihrer Reels** (268 Einträge, Nov. 2024 bis Dez. 2025 im Wesentlichen, die Spalte „First show“ ist nicht überall einheitlich). Rohdaten als CSV: `daten/instagram/instagram-katalog-2026-10.csv`. Alle Zahlen sind Views, Likes, Kommentare, Gespeichert, Neue Follower aus dieser Datei; Teilen ist überall 0 und damit nicht erfasst. Das ist die erste echte Datenbasis des Tisches.
 
 ## Die wichtigsten Befunde
-1. **Es ist fast alles Reels.** 250 Reels, 11 Live/Sprechreels, 2 Karussells, 2 Beiträge. Zu Karussells gibt es praktisch keine Daten. Das eine auswertbare Karussell („Das bin ich … und das hast du davon“, 17.01.2025) hat 26.125 Views, 263 Likes, 38 Kommentare, 26 Saves. Aisuns Reichweiten-Motor sind Reels, nicht Karussells.
+1. **Der Katalog ist eine Reel-Liste.** Er sagt nichts darüber, wie viele Karussells Aisun gepostet hat oder wie sie liefen; die 2 Karussell-Einträge sind Ausnahmen in der Liste. **Zu Karussells haben wir keine Daten** (weder dafür noch dagegen). Das eine auswertbare Karussell („Das bin ich … und das hast du davon“, 17.01.2025) hat 26.125 Views, 263 Likes, 38 Kommentare, 26 Saves. Die Reichweiten-Belege hier gelten für Reels; ob Karussells bei Aisun besser oder schlechter laufen, ist offen. Dafür braucht es einen Meta-Export der Karussells.
 2. **Extrem konzentriert.** Gesamt rund 7,0 Mio. Views, Median 2.555 pro Post. Die Top 3 (alle derselbe Hook „Warum du NICHT zum Frauenarzt gehen solltest!“) machen 76 % aller Views aus, die Top 10 87 %. Nur 7 Posts haben über 50.000 Views, 195 von 268 unter 4.000.
 3. **Der Sieger wurde mehrfach wiederholt.** „Warum du NICHT zum Frauenarzt gehen solltest!“: 2,34 Mio. (Nov 2024, 1.923 neue Follower), 1,86 Mio. (Aug 2024, 699), 1,12 Mio. (Jun 2024, 691), 214.000 (Okt 2024). Dazu „Du musst nicht zum Frauenarzt … entscheid doch einfach selbst“ 38.000. Wiederholen und variieren hat funktioniert.
 4. **Nächste Sieger:** „Heute behandle ich den Kiefer meines zehnjährigen Sohnes.“ (288.000, 453 Follower, kein CTA), „Dein Kind hat FIEBER? Tu das NICHT!“ (90.000), „Das ist der Grund für Blasenentzündung nach dem S.ex!“ (61.000), „Das brauchst du um 2025 gesund zu werden!“ (50.000, 364 Follower), „Dein Körper lügt nie!! Er sagt dir JETZT schon, was in 5 Jahren krank wird.“ (35.000, 434 Follower).
@@ -12,7 +12,7 @@ Quelle: Aisuns Datei „Instagram-Katalog.xlsx“ (268 Posts, Nov. 2024 bis Dez.
 7. **Insgesamt 0,77 neue Follower pro 1.000 Views.**
 
 ## Was das für die Planung heißt
-- Reels bleiben der Reichweiten-Motor; Karussells sind ein Experiment und brauchen ein eigenes Ziel (Speichern, Liste), nicht „Reichweite“.
+- Reels sind belegt der Reichweiten-Motor. Karussells sind unbelegt, also ein Experiment mit eigenem Ziel (Speichern, Liste) und eigener Messung, bis ein Karussell-Export vorliegt.
 - Wiederholen und variieren, was gewonnen hat (Anti-Arzt-Provokation, Kind/BTS am Körper der Kinder, konkretes Organ mit energetischer Deutung, „Dein Körper lügt nie“).
 - Business-, Coach- und Geld-Themen nicht als Reichweiten-Post einsetzen.
 - Begegnungen/Fremdenergie ist als Einstieg schwächer als angenommen (Median 2.339, Max 6.144).
