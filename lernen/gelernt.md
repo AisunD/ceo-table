@@ -19,6 +19,9 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - 2026-10-19 – Für ALLE Karussells gilt THE STOP & SWIPE FORMULA™ (`wissen/projekte/instagram/karussell-formel.md`), inkl. Design-Regel „Low Effort Look, High Attention Framing“ (Dump Style, eigene Fotos) und 10-Punkte-Kontrolle. Aisun hat das ausdrücklich bestätigt; Sebastian legt nichts vor, was die Kontrolle nicht besteht.
 - 2026-10-19 – Karussell-Themen für Aisuns Zielgruppe (Heilungs-Kundin) wählen, nicht für Coaches: Business- und KI-Themen interessieren die Zielgruppe noch nicht, sie ist zu wenig abgeholt. Einsteigerthemen zuerst (Aisuns Kernthemen wie Zähne, Fieber, Frauenarzt, Fremdenergie), KI weglassen, bis Aisun es wieder will. Aisun hat das Coach-/KI-Karussell vollständig verworfen.
 - 2026-10-19 – ManyChat: kein Connector im Verzeichnis. Zugriff nur über API-Token als Umgebungsvariable oder über Screenshots/Export der Keyword-Map; bis dahin gilt die Map in `wissen/projekte/instagram/anweisungen.md`.
+- 2026-10-19 – Views sind Aisun egal, wenn der Post zu Verkäufen führt. Nie nach Views entscheiden, ob ein Thema (z. B. Coach-Ausbildung) bleibt; Posts nach Leads, DMs und Käufen bewerten. Wenige Zuschauerinnen für ein 10.000-€-Angebot sind ein Erfolg.
+- 2026-10-19 – Aisuns scharfe Hooks (Anti-Arzt, „Tu das NICHT“, „Ich behandle …“) sind ihre Stärke und bleiben erlaubt, Regel angepasst. Nicht weichspülen oder wegfiltern.
+- 2026-10-19 – Aisun poste Mo bis Fr täglich um 12 Uhr und macht 6-mal pro Woche Stories mit 24-Stunden-Pause (Fr/Sa bis So). Das bleibt. Nicht neu erfinden.
 
 ## Stimme und Stil
 (noch leer)

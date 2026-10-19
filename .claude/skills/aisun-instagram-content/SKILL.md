@@ -120,6 +120,7 @@ Rechtsrat, sondern die sichere Default-Linie.
 - ⚠️ „Diese Methode heilt deine Krankheit" → „So habe **ich** … geheilt" / „so lernst **du**, selbst hinzuschauen".
 
 **Leitplanke 2 – Perspektive ja, Behandlungs-Verbot nein (v. a. bei Kindern). VERSCHÄRFT.**
+> **Update 19.10.2026 (Aisun):** Für HOOKS (Reel-Titel, Slide 1) sind provokante Formulierungen wie „Warum du NICHT zum Frauenarzt gehen solltest“, „Tu das NICHT“ und „Ich behandle den Kiefer meines Sohnes“ ausdrücklich erlaubt. Die Auflösung im Body und der Sicherheits-Satz bei Kindern/Fieber gelten unverändert. Maßgeblich ist `wissen/regeln.md`.
 - ✅ „Symptome sind nicht aus Versehen da." / „Ich teste, wann ich wirklich zum Arzt gehe."
 - ⛔️ NIE Eltern anweisen, nicht zu handeln. Konkret: **kein „senk kein Fieber", kein
   „geh nicht zum Arzt"** bei Kindern. Stattdessen: **„Energetische Arbeit ersetzt keine
