@@ -30,3 +30,4 @@ Du baust nichts live um und verschickst nichts. Du lieferst Texte und Bauanleitu
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
+- Kein Upsell im Checkout, Zusatzangebote per Mail (Aisun 23.10.).

@@ -43,3 +43,4 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - Petra-Fix 23.10.: Fremdtexte (z. B. innerwise-Begleitbuch) dürfen „therapeutisch“ nicht übernehmen → „gezielt ansetzen“. Bestellbuttons immer „zahlungspflichtig bestellen“.
 - Jede Änderung sofort überall nachziehen: Datei, Cockpit, Nina-Paket, Slack-Thread. Nina sieht den Chat nicht; nie mit alten Ständen arbeiten (Aisun, 23.10.2026).
 - Karussells nie Slide für Slide flicken, wenn der Bogen nicht trägt: neu aufbauen und unabhängig prüfen lassen, bevor Aisun es sieht (23.10.2026).
+- Kein Upsell/Order Bump im Checkout (weder Hausarzt noch KiH); Zusatzangebote laufen per Mail. Aisun nicht mehr daran erinnern (23.10.2026).

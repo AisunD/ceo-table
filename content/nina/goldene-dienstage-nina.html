@@ -30,11 +30,11 @@ pre{white-space:pre-wrap;overflow-wrap:anywhere;font-family:var(--body);font-siz
 <main class="wrap">
 <header><p class="eyebrow">Für Nina · Stand 23.10.2026, 9 Uhr</p><h1>Goldene Dienstage mit dem Hausarzt</h1><p class="hint">Alles, was du zum Bauen und Verschicken brauchst. Jeder graue Kasten hat einen Kopieren-Knopf.</p></header>
 <section><h2>Was du jetzt tust</h2><ol class="todo">
-<li><b>ThriveCart:</b> Produkt „Goldene Dienstage“ bauen (195 €, Bestellschluss 3.11., 23.59 Uhr), mit Order Bump „Kurs im Heilen dazu“. Texte unten.</li>
-<li><b>ThriveCart, Kurs im Heilen:</b> bis 3.11. Order Bump „Goldene Dienstage dazu, 195 €“ mit Lieferadresse. Details im Textpaket unten.</li>
+<li><b>ThriveCart:</b> Produkt „Goldene Dienstage“ (195 €, Bestellschluss 3.11., 23.59 Uhr). Kein Upsell im Checkout.</li>
+<li><b>Kurs im Heilen bis 3.11.:</b> Wer neu kauft, bekommt per Mail den Link zu den Goldenen Dienstagen (aisundodenhoff.thrivecart.com/hausarzt). Kein Order Bump.</li>
 <li><b>Anwältin:</b> Widerrufsbelehrung für Ware + Kurs holen. Erst dann live schalten.</li>
 <li><b>ActiveCampaign:</b> Mail 1 am Mo 26.10. an Kurs-im-Heilen- und Magic-Momentum-Kundinnen. Kauf-Tag <code>hausarzt-live-2026</code>, damit Mail 2 und 3 nur an Nicht-Käuferinnen gehen.</li>
-<li><b>Verteiler-Mail:</b> wirbt für den Kurs im Heilen (699 €). Im KiH-Checkout bis 3.11. ein Order Bump „Goldene Dienstage + Hausarzt dazu, 195 €“ mit Lieferadresse. Die Goldenen Dienstage gibt es nicht einzeln. Kundinnen aus Punkt 3 bekommen die Mail nicht.</li>
+<li><b>Verteiler-Mail:</b> wirbt für den Kurs im Heilen (699 €). Die Goldenen Dienstage bekommen Käuferinnen danach per Mail angeboten. Kundinnen aus Punkt 3 bekommen die Verteiler-Mail nicht.</li>
 </ol></section>
 <section><h2>So sieht es aus</h2><div class="links">
 <a href="https://claude.ai/artifact/4ySG9tBpdiDLWYCsqTx1Bw"><span>ThriveCart-Seite (Vorschau)</span>Nummerierte Blöcke = Elemente im ThriveCart-Editor</a>
@@ -107,17 +107,8 @@ Noch nicht? Kein Problem: Der Kurs im Heilen ist ein Selbstlernkurs. Du arbeites
 - Schriften, wenn wählbar: Bodoni (Überschriften), Raleway (Text)
 - Termine-Kacheln (④) gehen nur über ein HTML-Element, sonst einfach als Text.
 
-## Zusatzangebot im Bestellformular (Order Bump, von Aisun abgesegnet)
-- Kästchen: „Ich habe den Kurs im Heilen noch nicht – Selbstlernkurs gleich dazu buchen“
-- Produkt: Kurs im Heilen Selbstlernkurs, Preis wie im bestehenden ThriveCart-Produkt [Nina: Preis aus ThriveCart übernehmen]
-- Text darunter: „Du arbeitest ihn parallel durch und bist bei den Goldenen Dienstagen direkt mit dabei.“
-
-## Zusatz im Kurs-im-Heilen-Checkout (für die Verteiler-Mail, Aisun 23.10.)
-- Bis Dienstag, 3.11., 23.59 Uhr im bestehenden ThriveCart-Produkt „Kurs im Heilen“ (699 €, unverändert) ein Order Bump:
-  „Goldene Dienstage mit dem Hausarzt dazu – 195 €: 4 Dienstage live mit Aisun, Aufzeichnungen, Telegram-Gruppe, dein Hausarzt nach Hause.“
-- Wer das ankreuzt: Lieferadresse Pflicht (nur Deutschland), Kauf-Tag `hausarzt-live-2026`.
-- Die Goldenen Dienstage gibt es nicht einzeln für Neue. Kein Rabatt auf den Kurs im Heilen.
-- Nach dem 3.11. den Order Bump wieder entfernen.
+## Kein Upsell im Checkout (Aisun, 23.10.)
+Kein Order Bump, weder im Goldene-Dienstage- noch im Kurs-im-Heilen-Checkout. Neue, die den Kurs im Heilen bis 3.11. kaufen, bekommen per E-Mail den Link zu den Goldenen Dienstagen: https://aisundodenhoff.thrivecart.com/hausarzt/
 
 ## Fußzeile / unter dem Checkout (Pflicht)
 Meine Angebote ersetzen keine ärztliche, heilpraktische oder psychotherapeutische Behandlung. Keine Diagnosen, keine Heilversprechen.
@@ -197,7 +188,7 @@ Ich freu mich auf dich,
 Aisun
 
 PS: Die Goldenen Dienstage gibt es nur dieses eine Mal.</pre></article></section>
-<section><h2>Verteiler-Mail</h2><p class="hint">Kurs im Heilen 699 € + optional Goldene Dienstage 195 € (Order Bump im KiH-Checkout bis 3.11., mit Lieferadresse). Link in der Mail: Kurs-im-Heilen-Checkout.</p><article class="blk"><div class="bh"><h3>Betreff (Empfehlung zuerst)</h3><button type="button" class="cp" data-t="b4">Kopieren</button></div><pre id="b4">1. Ich habe etwas getestet, das ich dir zeigen will
+<section><h2>Verteiler-Mail</h2><p class="hint">Kurs im Heilen 699 €. Die Goldenen Dienstage (195 €) bekommen Käuferinnen per Mail angeboten, kein Upsell im Checkout.</p><article class="blk"><div class="bh"><h3>Betreff (Empfehlung zuerst)</h3><button type="button" class="cp" data-t="b4">Kopieren</button></div><pre id="b4">1. Ich habe etwas getestet, das ich dir zeigen will
 2. Der Hausarzt: ein neues Tool von innerwise
 3. Wofür entscheide ich mich, und wogegen?
 4. Vier Dienstage, live mit mir

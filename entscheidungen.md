@@ -30,7 +30,8 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 23.10.2026: Hausarzt-Kurs: 4 Dienstage 10.11.–01.12., 10.30–12 Uhr via Zoom, Aufzeichnungen unbegrenzt, Telegram-Gruppe, 195 € brutto inkl. Hausarzt. Fotos und Name „innerwise Hausarzt“ dürfen verwendet werden (Aisun ist innerwise-Mentorin).
 - 23.10.2026: Titel des Hausarzt-Kurses: „Goldene Dienstage mit dem Hausarzt“.
 - 23.10.2026: Goldene Dienstage: einmalige Runde, Plätze unbegrenzt, Begriff „Golden Circle“ bleibt im Text.
-- 23.10.2026: Goldene Dienstage freigegeben, inkl. Order Bump „Kurs im Heilen dazu buchen“ im ThriveCart-Checkout. Versand nur innerhalb Deutschlands.
+- 23.10.2026: Goldene Dienstage freigegeben. Versand nur innerhalb Deutschlands.
 - 23.10.2026: Goldene Dienstage: Bestellschluss Dienstag, 3. November. Letzte Mail am 3.11. um 10.30 Uhr.
 - 23.10.2026: Verteiler-Angebot: Kurs im Heilen bleibt 699 €, kein Rabatt. Wer bis 3.11. kauft, ist bei den Goldenen Dienstagen live dabei. Später nicht mehr live.
 - 23.10.2026 (Korrektur): Verteiler: KiH 699 € + optional Goldene Dienstage 195 € dazubuchen, nur bis 3.11.; Goldene Dienstage nicht einzeln für Neue.
+- 23.10.2026: Kein Upsell/Order Bump im Checkout. Goldene Dienstage für KiH-Neukäuferinnen per Mail.

@@ -20,15 +20,14 @@ Wunderbar, dann bist du genau richtig.
 Hier findest du alles zu den Goldenen Dienstagen: 4 Dienstage live ab 10.11., dein Hausarzt kommt zu dir nach Hause, 195 € inkl. MwSt.
 Bestellbar bis Dienstag, 3. November.
 
-Knopf: [Zu den Goldenen Dienstagen] → https://claude.ai/artifact/LTL6qLAsYtkEwnD55yhhYV
+Knopf: [Zu den Goldenen Dienstagen] → https://claude.ai/artifact/LTL6qLAsYtkEwnD55yhhYV (öffentliche Seite zu den Goldenen Dienstagen; Bestellung dort über https://aisundodenhoff.thrivecart.com/hausarzt/)
 
 ## 3b. Antwort „Neu“
 Wie schön, dass du hier bist!
 
-Die Goldenen Dienstage bauen auf dem Kurs im Heilen auf. Den holst du dir als Selbstlernkurs, arbeitest ihn parallel durch und buchst die Goldenen Dienstage einfach dazu. Dann bist du direkt dabei.
+Die Goldenen Dienstage bauen auf dem Kurs im Heilen auf. Den holst du dir als Selbstlernkurs und arbeitest ihn parallel durch. Nach deiner Anmeldung schicke ich dir den Link zu den Goldenen Dienstagen per Mail. Dann bist du direkt dabei.
 
 Knopf: [Zum Kurs im Heilen] → https://aisundodenhoff.thrivecart.com/kurs-im-heilen/
-(Erst aktivieren, wenn im Kurs-im-Heilen-Checkout der Zusatz „Goldene Dienstage dazu, 195 €“ eingebaut ist. Bis dahin: [Mehr zu den Goldenen Dienstagen] → Seiten-Link.)
 
 ## 4. Optional: eine Erinnerung (nur wer nicht geklickt hat)
 Smart Delay 22 Stunden (innerhalb des 24-Stunden-Fensters), dann:

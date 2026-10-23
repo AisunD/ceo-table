@@ -4,7 +4,7 @@
 1. Selfie-Video Aisun: „Ich darf dir etwas zeigen, das es noch nicht zu kaufen gibt.“ – klein: „Nur für dich, wenn du schon mit mir arbeitest.“ Sprechtext: „Beim innerwise-Mentorentreffen durften wir den neuen Hausarzt schon testen. Und ich war völlig beeindruckt von seiner Tiefe und Klarheit.“
 2. Bild story-2-nicht-noch-eine-karte.png
 3. Video story-3-seite-video.mp4 + Link-Sticker „Zu den Goldenen Dienstagen“ → https://claude.ai/artifact/LTL6qLAsYtkEwnD55yhhYV
-4. Bild story-4-neu-hier.png + Link-Sticker „Zum Kurs im Heilen“ → https://aisundodenhoff.thrivecart.com/kurs-im-heilen/ (erst posten, wenn der Order Bump „Goldene Dienstage dazu“ im KiH-Checkout eingebaut ist)
+4. Bild story-4-neu-hier.png + Link-Sticker „Zum Kurs im Heilen“ → https://aisundodenhoff.thrivecart.com/kurs-im-heilen/ (Goldene Dienstage bekommen KiH-Käuferinnen per Mail)
 Termine: ab Mo 26.10., wieder Mo 2.11. und Di 3.11.
 
 ## Karussell (11 Slides, Gate 8/10) – Di 27.10., 12 Uhr
