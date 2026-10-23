@@ -5,6 +5,7 @@ Vorschau: https://claude.ai/artifact/4ySG9tBpdiDLWYCsqTx1Bw
 Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 
 ## Produkt-Einstellungen
+- **Checkout-Link:** https://aisundodenhoff.thrivecart.com/hausarzt/
 - **Produktname (intern):** Goldene Dienstage – innerwise Hausarzt Live
 - **Produktname (Kundin sieht):** Goldene Dienstage mit dem Hausarzt
 - **Preis:** 195 € einmalig, brutto (inkl. MwSt.). Einmalige Runde. Plätze nicht begrenzt.
