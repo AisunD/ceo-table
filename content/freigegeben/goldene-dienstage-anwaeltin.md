@@ -7,3 +7,4 @@
 5. Titel: Kurzform „Diplom-Psychologin, ehemalige Psychotherapeutin“ in der Signatur; Langform wo Platz ist?
 
 Rote Stellen (behoben am 23.10.): Schritt 4 „therapeutisch einwirken“ → „gezielt ansetzen“; Bestellbutton „zahlungspflichtig bestellen“ (§ 312j BGB).
+6. Impressum (eingebaut in die öffentliche Seite am 23.10.): alter Disclaimer („Produkte, Geräte und Behandlungen“, „Dosierung“, „Heilmittelwerbegesetz“-Absatz) und Steuernummer bewusst weggelassen; ersetzt durch kurzen Hinweis. Titel „Psychologische Psychotherapeutin“ steht als Berufsbezeichnung (Kammerangabe). Bitte Impressum insgesamt prüfen. Datenschutz: Seite läuft auf claude.ai und lädt Google Fonts.

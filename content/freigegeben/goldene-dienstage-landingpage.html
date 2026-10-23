@@ -132,6 +132,13 @@ body{font-weight:500}
 .chip b{font-size:clamp(18px,5.4vw,22px)}
 .pill{white-space:normal;text-align:center;line-height:1.3;max-width:62%}
 body{overflow-x:clip}
+.imp{max-width:520px;margin:6px auto 0;text-align:left}
+.imp{border-bottom:0}
+.imp summary{justify-content:center;gap:10px;cursor:pointer;text-align:center;color:var(--creme);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.imp-body{margin-top:14px;display:grid;gap:12px;line-height:1.5;color:#cfc9c2}
+.imp-body b{color:var(--creme)}
+.imp-body a,.legal-links a{color:var(--gold)}
+.legal-links{margin-top:14px;color:#cfc9c2}
 </style>
 </head>
 <body>
@@ -267,7 +274,19 @@ body{overflow-x:clip}
 <div class="sticky"><a class="btn" href="#preis">Platz sichern · 195 €</a></div>
 
 <footer class="foot"><div class="wrap">
-  <p style="margin-bottom:10px">Meine Angebote ersetzen keine ärztliche, heilpraktische oder psychotherapeutische Behandlung. Keine Diagnosen, keine Heilversprechen.</p><a href="#">Impressum</a> · <a href="#">Datenschutz</a> · <a href="#">AGB</a> <span class="todo">LINKS</span>
+  <p style="margin-bottom:10px">Meine Angebote ersetzen keine ärztliche, heilpraktische oder psychotherapeutische Behandlung. Keine Diagnosen, keine Heilversprechen.</p><details class="imp" id="impressum"><summary>Impressum</summary>
+<div class="imp-body">
+<p><b>Angaben gemäß § 5 DDG</b><br>Dieses Impressum gilt auch für meine Social-Media-Profile und den Podcast, unter anderem auf Instagram, YouTube, Spotify und Apple Podcasts.</p>
+<p>Aisun Dodenhoff<br>Diplom-Psychologin<br>Gerlindeweg 34<br>13505 Berlin</p>
+<p><b>Kontakt</b><br>Telefon: +49 173 3414919<br>E-Mail: kontakt@aisundodenhoff.com</p>
+<p><b>Berufsbezeichnung</b><br>Diplom-Psychologin<br>Psychologische Psychotherapeutin (verliehen in Hessen, Deutschland)</p>
+<p><b>Zuständige Kammer / Aufsichtsbehörde</b><br>Psychotherapeutenkammer Berlin<br>Kurfürstendamm 184, 10707 Berlin<br><a href="https://www.psychotherapeutenkammer-berlin.de/">www.psychotherapeutenkammer-berlin.de</a></p>
+<p><b>Berufsrechtliche Regelungen</b><br>– Psychotherapeutengesetz (PsychThG), abrufbar unter <a href="https://www.gesetze-im-internet.de/psychthg_2020/">www.gesetze-im-internet.de</a><br>– Berliner Heilberufekammergesetz (BlnHKG), abrufbar unter <a href="https://gesetze.berlin.de/">gesetze.berlin.de</a><br>– Berufsordnung der Psychotherapeutenkammer Berlin (BOBln), veröffentlicht im Amtsblatt für Berlin und abrufbar auf der Website der Psychotherapeutenkammer Berlin (Suchbegriff „Berufsordnung“)</p>
+<p><b>Verbraucherstreitbeilegung</b><br>Ich bin nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen (§ 36 VSBG).</p>
+<p><b>Hinweis</b><br>Meine Angebote dienen dem allgemeinen Wohlbefinden. Sie ersetzen keine ärztliche, heilpraktische oder psychotherapeutische Behandlung. Eine individuelle Wirkung kann nicht garantiert werden.</p>
+<p><b>Verweise auf fremde Inhalte</b><br>Soweit diese Seite direkte oder indirekte Verweise auf fremde Inhalte enthält, macht sich die Anbieterin diese Inhalte nicht zu eigen. Für illegale oder fehlerhafte Inhalte ist der Fremdanbieter selbst verantwortlich. Erhält die Anbieterin Kenntnis davon, werden entsprechende Verweise sofort entfernt.</p>
+</div></details>
+<p class="legal-links">Datenschutz und AGB: <a href="https://aisundodenhoff.com/">aisundodenhoff.com</a> sowie im Bestellformular bei ThriveCart</p>
 </div></footer>
 
 </body>
