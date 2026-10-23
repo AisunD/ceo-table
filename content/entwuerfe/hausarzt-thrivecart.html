@@ -62,6 +62,13 @@ body{font-weight:500}
 .label,.tag{color:#1A1A1A;opacity:.72}
 .dark .label{color:var(--gold);opacity:1}
 .chip span,.small,.note{font-weight:500}
+.page{grid-template-columns:minmax(0,1fr)}
+@media(min-width:860px){.page{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}}
+.card{min-width:0}
+.dates{grid-template-columns:repeat(4,minmax(0,1fr))}
+.dates b{font-size:clamp(17px,5.2vw,22px)}
+h1,h2,p,li{overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto}
+body{overflow-x:clip}
 </style>
 </head>
 <body>
