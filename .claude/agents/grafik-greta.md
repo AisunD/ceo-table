@@ -31,3 +31,4 @@ Canva-Link, Anzahl Slides, kurze Notiz, was du bewusst entschieden hast. Keine V
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
+- Bodoni nie dünn: kräftigerer Schnitt, nicht zu klein; Haarstriche müssen am Handy gut lesbar sein (Aisun, 23.10.).

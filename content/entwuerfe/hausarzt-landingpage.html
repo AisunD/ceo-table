@@ -6,7 +6,7 @@
 <title>Goldene Dienstage</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Raleway:wght@400;500;600;700&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Raleway:wght@400;500;600;700&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 <style>
 :root{
   --gold:#C6A764; --creme:#FBFAF0; --sand:#EADCC1; --beere:#73013A;
@@ -116,6 +116,14 @@ details p{margin-top:10px;font-size:15.5px}
 .foot a{color:var(--grau)}
 .sticky{position:sticky;bottom:0;padding:10px var(--gut) calc(10px + env(safe-area-inset-bottom));background:linear-gradient(180deg,rgba(26,26,26,0),rgba(26,26,26,.92) 35%);z-index:5}
 .sticky .btn{max-width:520px;margin:0 auto;padding:14px 18px;font-size:14px}
+
+/* Lesbarkeit: kräftigere Bodoni (kleine optische Größe = dickere Haarstriche), Text etwas fetter */
+h1,h2,h3,.quote,.chip b,.big,.date .d,.item .n,.steps li::before,.sum b,.dates b,.logo{font-weight:500;font-optical-sizing:none;font-variation-settings:"opsz" 11}
+h1,h2{letter-spacing:.005em}
+body{font-weight:500}
+.label,.tag{color:#1A1A1A;opacity:.72}
+.dark .label{color:var(--gold);opacity:1}
+.chip span,.small,.note{font-weight:500}
 </style>
 </head>
 <body>

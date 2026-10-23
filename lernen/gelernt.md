@@ -38,3 +38,4 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 ## Abläufe
 - 2026-10-16 – Freigaben gesammelt einmal pro Woche, nicht einzeln.
 - Inhalte über Produkte anderer (z. B. innerwise) nie aus Fotos ableiten oder erfinden: Originaltext nehmen oder Aisun fragen (23.10.2026).
+- Lesbarkeit Schrift: Bodoni-Haarstriche sind Aisun zu dünn. In HTML Bodoni Moda immer mit Gewicht 500 und optischer Größe „opsz“ 11 (dickere Striche), Fließtext Raleway 500, kleine Beschriftungen dunkel statt grau. In Canva: Bauer Bodoni nicht in dünnen Schnitten und nicht zu klein (23.10.2026).

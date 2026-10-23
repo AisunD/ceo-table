@@ -6,7 +6,7 @@
 <title>Goldene Dienstage · ThriveCart</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--gold:#C6A764;--creme:#FBFAF0;--sand:#EADCC1;--beere:#73013A;--schwarz:#1A1A1A;--grau:#888380;
 --metall:linear-gradient(115deg,#a88a4c 0%,#C6A764 28%,#efe2bf 50%,#C6A764 72%,#9d7f43 100%);
@@ -54,6 +54,14 @@ details p{margin-top:6px;font-size:15px}
 .btn{display:block;text-align:center;background:var(--metall);color:var(--schwarz);font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:16px;border-radius:999px;margin-top:16px;text-decoration:none}
 .small{font-size:12px;color:var(--grau);margin-top:10px;text-align:center}
 .foot{text-align:center;font-size:12px;color:var(--grau);padding:0 16px 30px}
+
+/* Lesbarkeit: kräftigere Bodoni (kleine optische Größe = dickere Haarstriche), Text etwas fetter */
+h1,h2,h3,.quote,.chip b,.big,.date .d,.item .n,.steps li::before,.sum b,.dates b,.logo{font-weight:500;font-optical-sizing:none;font-variation-settings:"opsz" 11}
+h1,h2{letter-spacing:.005em}
+body{font-weight:500}
+.label,.tag{color:#1A1A1A;opacity:.72}
+.dark .label{color:var(--gold);opacity:1}
+.chip span,.small,.note{font-weight:500}
 </style>
 </head>
 <body>
