@@ -37,3 +37,15 @@ Vorschau: https://claude.ai/artifact/HLqdCohY5tfkAivtkQ2qn4
 9 Angebot Goldene Dienstage
 10 Jedes Ja hat ein Nein. Klar wirst du erst, wenn du beide kennst.
 11 Kommentiere HAUSARZT
+
+## NEU AUFGEBAUT (23.10. abends, nach Aisuns Kritik „kein Spannungsbogen“) – gilt, alles oben ist überholt
+Bogen: Problem → Wendepunkt → Alltagsbeweis → Lösung → wie es geht → Beweis → Angebot → CTA. Unabhängige Kritik: 5/10 → 7,5/10 → überarbeitet.
+1 Du weißt längst, dass sich etwas ändern muss. Und drehst dich trotzdem im Kreis. / Vielleicht, weil du dir bisher nur eine von zwei Fragen stellst. (kleine Box)
+2 Du sagst Ja zu mehr Zeit für dich. Und Ja zu allem anderen auch. / Drei Wochen später ist die Zeit für dich wieder weg. Nicht, weil du zu schwach bist.
+3 Jedes Ja ist gleichzeitig ein Nein. / Wir sagen Ja zu etwas Neuem. Aber zum Alten sagen wir nie Nein. Und wundern uns, warum sich nichts bewegt.
+4 Im Alltag ist das sonnenklar. JA/NEIN: Fahrrad–Auto · Ägypten–Herbst zuhause · früh ins Bett–nächste Folge · neues Projekt–freie Abende. / Nur bei uns selbst tun wir so, als ginge beides.
+5 Genau dafür gibt es jetzt ein Werkzeug. Klein. Golden. Und so klar. / Der neue innerwise Hausarzt. Erst in ein paar Wochen im Handel. (Box groß)
+6 Jede Testkarte hat zwei Seiten: Dafür. Dagegen. / Du findest heraus, wofür du dich entscheidest und wogegen. Und welches der 144 Gesundungsmittel dir die Kraft dafür gibt.
+7 Beim innerwise-Mentorentreffen durften wir ihn testen. Ich war völlig beeindruckt. / Tiefe, Klarheit, Golden Circle: erst das Warum, dann alles andere.
+8 Lass ihn uns zusammen auspacken: Goldene Dienstage mit dem Hausarzt, 195 €, Fakten, Bestellschluss 3.11.
+9 Kommentiere HAUSARZT und ich schick dir alle Infos. / Die Goldenen Dienstage gibt es nur dieses eine Mal.

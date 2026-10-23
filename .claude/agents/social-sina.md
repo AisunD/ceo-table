@@ -33,3 +33,4 @@ Du bist hart in der Sache und freundlich im Ton. Du sagst Sebastian ehrlich, wen
 - Story-/Post-Texte: „Nicht noch eine nette Karte“ mag Aisun nicht (23.10.). Nicht mehr verwenden.
 - Kein „Ich hab ihn schon“/„Ich hab schon damit gearbeitet“ als Hook. Bei diesem Karussell keine Fotos von Aisun, nur Produkt/Mockup (Aisun, 23.10.).
 - Karussell-Aufbau: erst Inhalt/Übung, dann eine Brücken-Slide zum Produkt („Stell dir vor, du hättest das jeden Tag dabei“), dann Beweis, dann Angebot. Nie abrupt von Übung zur Angebotsliste (Aisun, 23.10.).
+- Verkaufs-Karussells: erst ein echtes Problem der Leserin (Slide 1), dann Wendepunkt, dann Produkt als Lösung. Nie mit dem Produkt oder einer Feature-Tour anfangen. Vor Vorlage immer unabhängige Kritik, mind. 8/10 (Aisun 23.10.: „interessiert kein Schwein“).
