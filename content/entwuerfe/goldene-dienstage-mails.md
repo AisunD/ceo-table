@@ -21,6 +21,7 @@ Goldene Dienstage mit dem Hausarzt
 - Der Hausarzt kommt zu dir nach Hause, bevor ihn alle anderen kaufen können (Versand inklusive, nur innerhalb Deutschlands)
 - Alle Aufzeichnungen danach unbegrenzt, dazu eine Telegram-Gruppe
 - Für dich: 195 Euro inkl. MwSt.
+- Bestellbar bis Dienstag, 3. November
 
 Die Goldenen Dienstage gibt es nur dieses eine Mal. Und wenn es sich für dich nicht richtig anfühlt, ist das völlig okay.
 
@@ -33,14 +34,14 @@ PS: Der Hausarzt erscheint offiziell erst in 4 bis 6 Wochen und kostet dann 49 E
 
 ## Mail 2 – Erinnerung (Fr 30.10., vormittags, nur an Nicht-Käuferinnen)
 Betreff: Deine Dose wird bald gepackt
-Alternativ: Kurze Erinnerung an die Goldenen Dienstage
-Vorschautext: In der ersten Novemberwoche geht der Hausarzt raus.
+Alternativ: Bis Dienstag, 3. November, bist du noch dabei
+Vorschautext: Bestellschluss ist Dienstag, der 3. November.
 
 Hallo [VORNAME],
 
 nur eine kurze Erinnerung, ja? Vor ein paar Tagen habe ich dir die Goldenen Dienstage mit dem Hausarzt geschickt.
 
-Ich verschicke die Dosen in der ersten Novemberwoche, damit sie vor dem ersten Dienstag am 10.11. bei dir sind. Wenn du dabei sein magst, ist jetzt der beste Moment, damit deine Dose rechtzeitig bei dir ankommt.
+Bestellen kannst du bis Dienstag, 3. November. Danach packe ich die Dosen, damit sie vor dem ersten Dienstag am 10.11. bei dir sind. Wenn du dabei sein magst, ist jetzt der beste Moment.
 
 Zur Erinnerung: vier Dienstage live mit mir, 10.30 bis 12 Uhr, alle Aufzeichnungen bleiben dir. Der Hausarzt ist inklusive, 195 Euro.
 
@@ -52,3 +53,23 @@ Herzlich,
 Aisun
 
 PS: Im Handel gibt es den Hausarzt erst in 4 bis 6 Wochen. Mit den Goldenen Dienstagen hast du ihn vorher in der Hand und arbeitest direkt mit mir damit.
+
+## Mail 3 – Letzter Tag (Di 3.11., 10.30 Uhr, nur an Nicht-Käuferinnen)
+Betreff: Nächste Woche geht's los
+Alternativ: Heute ist der letzte Tag
+Vorschautext: Bis heute kannst du noch bei den Goldenen Dienstagen dabei sein.
+
+Hallo [VORNAME],
+
+nächste Woche geht's los: Am Dienstag, 10.11., um 10.30 Uhr treffen wir uns zum ersten Goldenen Dienstag mit dem Hausarzt.
+
+Heute ist der letzte Tag, an dem du dich anmelden kannst. Danach packe ich die Dosen.
+
+Wenn deine dabei sein soll: hier entlang.
+
+[BUTTON: Jetzt noch dabei sein → LINK ZUR SEITE]
+
+Ich freu mich auf dich,
+Aisun
+
+PS: Die Goldenen Dienstage gibt es nur dieses eine Mal.

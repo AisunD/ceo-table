@@ -31,3 +31,4 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 23.10.2026: Titel des Hausarzt-Kurses: „Goldene Dienstage mit dem Hausarzt“.
 - 23.10.2026: Goldene Dienstage: einmalige Runde, Plätze unbegrenzt, Begriff „Golden Circle“ bleibt im Text.
 - 23.10.2026: Goldene Dienstage freigegeben, inkl. Order Bump „Kurs im Heilen dazu buchen“ im ThriveCart-Checkout. Versand nur innerhalb Deutschlands.
+- 23.10.2026: Goldene Dienstage: Bestellschluss Dienstag, 3. November. Letzte Mail am 3.11. um 10.30 Uhr.

@@ -8,6 +8,7 @@ Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 - **Produktname (intern):** Goldene Dienstage – innerwise Hausarzt Live
 - **Produktname (Kundin sieht):** Goldene Dienstage mit dem Hausarzt
 - **Preis:** 195 € einmalig, brutto (inkl. MwSt.). Einmalige Runde. Plätze nicht begrenzt.
+- **Bestellschluss:** Dienstag, 3. November 2026, 23.59 Uhr – Produkt in ThriveCart dann schließen. Unter dem Button: „Bestellbar bis Dienstag, 3. November.“
 - **Physisches Produkt:** Ja → Lieferadresse abfragen (Pflichtfelder).
 - **Versand:** kostenlos, inklusive (kein eigener Posten). Nur innerhalb Deutschlands, Land im Formular auf Deutschland festlegen. Direkt über dem Button: „Versand inklusive, nur innerhalb Deutschlands. Ich verschicke in der ersten Novemberwoche, rechtzeitig vor dem Start.“
 - **Eigenes Pflicht-Kästchen (Custom Field / Checkbox, Pflicht):**
@@ -50,7 +51,7 @@ Noch nicht? Kein Problem: Der Kurs im Heilen ist ein Selbstlernkurs. Du arbeites
 
 ## ⑥ FAQ
 - **Kann ich den Hausarzt nicht einfach so kaufen?** Noch nicht. Er erscheint erst in vier bis sechs Wochen und kostet dann 49 €. Deiner ist über meine Vorbestellung als innerwise-Mentorin schon reserviert.
-- **Wann kommt der Hausarzt an?** Rechtzeitig vor dem ersten Dienstag. Deine Dose ist schon reserviert und kommt innerhalb Deutschlands vor dem Start bei dir an. Der Versand ist inklusive.
+- **Wann kommt der Hausarzt an?** Du kannst bis Dienstag, 3. November, bestellen. Danach packe ich die Dosen, und deine kommt innerhalb Deutschlands rechtzeitig vor dem ersten Dienstag bei dir an. Der Versand ist inklusive.
 - **Was, wenn ich einen Dienstag verpasse?** Kein Problem. Du bekommst jede Aufzeichnung und kannst sie unbegrenzt anschauen. Deine Fragen stellst du zwischendurch in der Telegram-Gruppe.
 - **Ist das eine Behandlung?** Nein. Du lernst, mit einem energetischen Werkzeug für dich selbst zu arbeiten. Das ersetzt keine ärztliche oder psychotherapeutische Behandlung.
 
