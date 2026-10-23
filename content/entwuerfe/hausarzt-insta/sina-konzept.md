@@ -9,10 +9,10 @@ Termine: ab Mo 26.10., wieder Mo 2.11. und Di 3.11.
 
 ## Karussell (9 Slides, Gate 8/10) – Di 27.10., 12 Uhr
 1 STOP: Es gibt ihn noch nicht zu kaufen. Ich hab schon mit ihm gearbeitet. / Der neue innerwise Hausarzt. Und warum er nichts für Anfängerinnen ist. (Foto: Aisun mit Box)
-2 PROVE: Beim innerwise-Mentorentreffen durften wir ihn testen. / Und er ist nicht noch eine nette Karte. Er will eine Entscheidung von dir.
+2 PROVE: Beim innerwise-Mentorentreffen durften wir ihn testen. / Der Hausarzt für deine Hosentasche. Und er will eine Entscheidung von dir.
 3 REAL: Du ziehst eine Karte. Liest sie. Denkst: Stimmt. Und abends sitzt du wieder vor derselben Frage. (besser: Aisuns echter Testmoment)
 4 POV: Jedes Ja ist gleichzeitig ein Nein. / Wofür entscheide ich mich – und wogegen gleichzeitig?
-5 PROOF: Ich war völlig beeindruckt. / Von seiner Tiefe. Von seiner Klarheit. Er hat den Golden Circle fast schon integriert.
+5 PROOF: Ich war völlig beeindruckt. / Von seiner Tiefe. Von seiner Klarheit. Den Golden Circle hat er den Golden Circle fast schon integriert.
 6 VALUE: Probier es heute schon. / Nimm eine Entscheidung, die gerade ansteht. Frag nicht nur: Wofür? Frag auch: Wogegen? Spür mal rein, was sich zeigt.
 7 ANGEBOT: Goldene Dienstage mit dem Hausarzt – 4 Dienstage live via Zoom, 10.11.–01.12., 10:30–12 Uhr · Hausarzt nach Hause, bevor es ihn im Handel gibt · Aufzeichnungen unbegrenzt · Telegram-Gruppe · 195 € · Nur für dich, wenn du schon mit mir arbeitest (Kurs im Heilen, kleine Heilapotheke, Magic Momentum). Neu hier? Starte mit dem Kurs im Heilen und buch die Goldenen Dienstage dazu. Bestellbar bis Di, 3.11.
 8 MONEY LINE: Jedes Ja hat ein Nein. Klar wirst du erst, wenn du beide kennst.
@@ -21,3 +21,4 @@ Termine: ab Mo 26.10., wieder Mo 2.11. und Di 3.11.
 Caption: siehe Chat 23.10. (128 Wörter, Ende: INNERWISE · INNERWISE HAUSARZT · ENERGETISCHE SELBSTHEILUNG)
 
 Offen: Foto Aisun mit Box; echter Testmoment (1 Satz); Keyword HAUSARZT anlegen.
+Vorschau: https://claude.ai/artifact/HLqdCohY5tfkAivtkQ2qn4

@@ -1,0 +1,42 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500&family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:Raleway,sans-serif;position:relative;color:#FBFAF0;background:radial-gradient(75% 50% at 50% 62%,#3a2e17 0%,#1A1A1A 72%)}
+body.light{background:#EADCC1;color:#1A1A1A}
+body.beere{background:linear-gradient(180deg,#73013A 0%,#4a0126 100%)}
+.brand{position:absolute;top:64px;width:100%;text-align:center;font-family:"Bodoni Moda",serif;color:#C6A764;letter-spacing:.32em;font-size:24px}
+.light .brand{color:#73013A}
+.n{position:absolute;top:60px;right:70px;font-size:24px;font-weight:600;color:#C6A764;letter-spacing:.1em}
+.light .n{color:#73013A}
+.t{position:absolute;left:90px;right:90px;text-align:center}
+h1{font-family:"Bodoni Moda",serif;font-weight:500;font-variation-settings:"opsz" 11;font-size:84px;line-height:1.06}
+h1 em{display:block;color:#C6A764;font-style:italic}
+.light h1 em{color:#73013A}
+.s{margin-top:30px;font-size:36px;line-height:1.42;font-weight:500;opacity:.92}
+.card{position:absolute;left:50%;transform:translateX(-50%);background:#FBFAF0;border-radius:40px;padding:34px;box-shadow:0 0 0 2px rgba(198,167,100,.6),0 34px 70px rgba(0,0,0,.5)}
+.card img{display:block;width:100%;mix-blend-mode:multiply}
+.ph{position:absolute;left:50%;transform:translateX(-50%);border:3px dashed rgba(198,167,100,.7);border-radius:40px;display:flex;align-items:center;justify-content:center;text-align:center;color:#C6A764;font-size:34px;line-height:1.4;padding:30px}
+ul{list-style:none;text-align:left;margin-top:44px;font-size:36px;line-height:1.35}
+ul li{padding:14px 0 14px 46px;position:relative;border-top:1px solid rgba(198,167,100,.35)}
+ul li:before{content:"";position:absolute;left:4px;top:34px;width:24px;height:2px;background:#C6A764}
+.pill{display:inline-block;margin-top:34px;background:linear-gradient(115deg,#a88a4c,#C6A764 30%,#efe2bf 50%,#C6A764 70%,#9d7f43);color:#1A1A1A;font-weight:700;letter-spacing:.14em;font-size:40px;padding:26px 54px;border-radius:999px}
+.swipe{position:absolute;bottom:56px;right:70px;font-size:26px;letter-spacing:.12em;color:#C6A764;font-weight:600}
+.light .swipe{color:#73013A}
+</style></head><body><div id="c"></div>
+<script>
+const S={
+1:['',`<div class="t" style="top:150px"><h1>Es gibt ihn noch nicht zu kaufen.<em>Ich hab schon mit ihm gearbeitet.</em></h1><p class="s">Der neue innerwise Hausarzt. Und warum er nichts für Anfängerinnen ist.</p></div><div class="ph" style="top:720px;width:640px;height:520px">Hier dein Handyfoto<br>mit der goldenen Box<br>in der Hand</div>`],
+2:['',`<div class="t" style="top:150px"><h1>Beim innerwise-Mentorentreffen<em>durften wir ihn testen.</em></h1><p class="s">Der Hausarzt für deine Hosentasche. Und er will eine Entscheidung von dir.</p></div><div class="card" style="top:700px;width:560px"><img src="front.jpg"></div>`],
+3:['light',`<div class="t" style="top:140px"><h1 style="font-size:76px">Du ziehst eine Karte. Liest sie. Denkst: Stimmt.<em>Und abends sitzt du wieder vor derselben Frage.</em></h1></div><div class="card" style="top:700px;width:560px;box-shadow:0 20px 50px rgba(0,0,0,.18)"><img src="buch.jpg"></div>`],
+4:['beere',`<div class="t" style="top:380px"><h1 style="font-size:104px">Jedes Ja ist gleichzeitig<em>ein Nein.</em></h1><p class="s" style="margin-top:50px">Wofür entscheide ich mich –<br>und wogegen gleichzeitig?</p></div>`],
+5:['',`<div class="t" style="top:150px"><h1>Ich war völlig<em>beeindruckt.</em></h1><p class="s">Von seiner Tiefe. Von seiner Klarheit.<br>Den Golden Circle hat er fast schon integriert.</p></div><div class="card" style="top:640px;width:620px"><img src="fan.jpg"></div>`],
+6:['light',`<div class="t" style="top:300px"><h1>Probier es<em>heute schon.</em></h1><p class="s" style="margin-top:50px">Nimm eine Entscheidung, die gerade ansteht.<br><br>Frag nicht nur: Wofür?<br>Frag auch: Wogegen?<br><br>Spür mal rein, was sich zeigt.</p></div>`],
+7:['',`<div class="t" style="top:230px"><h1 style="font-size:80px">Goldene Dienstage<em>mit dem Hausarzt</em></h1><ul><li>4 Dienstage live via Zoom, 10.11.–01.12., 10:30 – 12:00</li><li>Dein Hausarzt kommt zu dir nach Hause, bevor es ihn im Handel gibt</li><li>Aufzeichnungen unbegrenzt · Telegram-Gruppe · 195 €</li><li><b style="color:#C6A764">Nur für dich, wenn du schon mit mir arbeitest:</b> Kurs im Heilen, kleine Heilapotheke, Magic Momentum</li><li>Neu hier? Starte mit dem Kurs im Heilen und buch die Goldenen Dienstage dazu. Bestellbar bis Di, 3.11.</li></ul></div>`],
+8:['beere',`<div class="t" style="top:400px"><h1 style="font-size:96px">Jedes Ja hat ein Nein.<em>Klar wirst du erst, wenn du beide kennst.</em></h1></div>`],
+9:['',`<div class="t" style="top:300px"><h1>Kommentiere</h1><div class="pill">HAUSARZT</div><p class="s" style="margin-top:40px">und ich schick dir alle Infos.</p><p class="s" style="margin-top:80px;color:#C6A764;font-weight:600">Die Goldenen Dienstage gibt es nur dieses eine Mal.</p></div>`]
+};
+const k=location.hash.slice(1);document.body.className=S[k][0];
+document.getElementById('c').innerHTML=`<div class="brand">AISUN DODENHOFF</div><div class="n">${k}/9</div>`+S[k][1]+(k<9?'<div class="swipe">WISCHEN →</div>':'');
+</script></body></html>
