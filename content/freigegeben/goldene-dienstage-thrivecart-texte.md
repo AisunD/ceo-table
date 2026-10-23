@@ -9,11 +9,11 @@ Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 - **Produktname (Kundin sieht):** Goldene Dienstage mit dem Hausarzt
 - **Preis:** 195 € einmalig, brutto (inkl. MwSt.). Einmalige Runde. Plätze nicht begrenzt.
 - **Physisches Produkt:** Ja → Lieferadresse abfragen (Pflichtfelder).
-- **Versand:** kostenlos, inklusive (kein eigener Posten). Aisun verschickt in der ersten Novemberwoche, Ankunft innerhalb Deutschlands vor dem 10.11. [Ausland PRÜFEN]
+- **Versand:** kostenlos, inklusive (kein eigener Posten). Nur innerhalb Deutschlands, Land im Formular auf Deutschland festlegen. Direkt über dem Button: „Versand inklusive, nur innerhalb Deutschlands. Ich verschicke in der ersten Novemberwoche, rechtzeitig vor dem Start.“
 - **Eigenes Pflicht-Kästchen (Custom Field / Checkbox, Pflicht):**
   „Ich arbeite bereits mit der kleinen Heilapotheke, habe den Kurs im Heilen gemacht oder arbeite ihn parallel durch.“
   (So prüfen wir die Voraussetzung, ohne Kontrolle per Hand.)
-- **Bestellbutton:** Jetzt Platz sichern
+- **Bestellbutton (Pflicht, § 312j BGB):** Jetzt Platz sichern – zahlungspflichtig bestellen
 - **Kurzbeschreibung im Formular:** Kurs + innerwise Hausarzt
 - **Nach dem Kauf:** Danke-Seite + Mail mit Zoom-Link, Terminen und Telegram-Link [PRÜFEN: Tag in ActiveCampaign, z. B. `hausarzt-live-2026`]
 
@@ -62,7 +62,20 @@ Noch nicht? Kein Problem: Der Kurs im Heilen ist ein Selbstlernkurs. Du arbeites
 - Schriften, wenn wählbar: Bodoni (Überschriften), Raleway (Text)
 - Termine-Kacheln (④) gehen nur über ein HTML-Element, sonst einfach als Text.
 
-## Offen vor Livegang
-1. Ausland-Versand, Anmeldeschluss (Preis brutto ✔, Zoom ✔, Aufzeichnungen unbegrenzt ✔, Telegram ✔)
-2. Widerruf bei Ware + Live-Kurs (Anwältin)
-3. Petra: Begriffe „Hausarzt“ und „Mittel“ (rote Linien)
+## Zusatzangebot im Bestellformular (Order Bump, von Aisun abgesegnet)
+- Kästchen: „Ich habe den Kurs im Heilen noch nicht – Selbstlernkurs gleich dazu buchen“
+- Produkt: Kurs im Heilen Selbstlernkurs, Preis wie im bestehenden ThriveCart-Produkt [Nina: Preis aus ThriveCart übernehmen]
+- Text darunter: „Du arbeitest ihn parallel durch und bist bei den Goldenen Dienstagen direkt mit dabei.“
+
+## Fußzeile / unter dem Checkout (Pflicht)
+Meine Angebote ersetzen keine ärztliche, heilpraktische oder psychotherapeutische Behandlung. Keine Diagnosen, keine Heilversprechen.
+Impressum · Datenschutz · AGB verlinken.
+
+## Checkliste vor Livegang (Petra, 23.10.2026)
+- [ ] Button „Jetzt Platz sichern – zahlungspflichtig bestellen“
+- [ ] 195 € inkl. MwSt. am Button und in der Übersicht
+- [ ] „Nur Deutschland“ + Versandzeit vor dem Button
+- [ ] Widerrufsbelehrung + Widerrufsbutton + Häkchen für digitale Leistung (Wortlaut von der Anwältin)
+- [ ] Impressum/AGB auf alten Wortlaut prüfen („approbierte psychologische Psychotherapeutin“, KV-Bezug, „Geräte“, „Dosierung“ müssen raus)
+- [ ] Datenschutz: Zoom, Aufzeichnungen, Telegram, Weitergabe Lieferadresse
+- [ ] Sobald der Hausarzt offiziell im Handel ist: „erscheint erst in 4 bis 6 Wochen“ und „Noch nicht“ anpassen
