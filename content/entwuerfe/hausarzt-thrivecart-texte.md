@@ -5,8 +5,8 @@ Vorschau: https://claude.ai/artifact/4ySG9tBpdiDLWYCsqTx1Bw
 Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 
 ## Produkt-Einstellungen
-- **Produktname (intern):** Erste Reihe – innerwise Hausarzt Live
-- **Produktname (Kundin sieht):** Erste Reihe: 4 Dienstage mit dem innerwise Hausarzt
+- **Produktname (intern):** Goldene Dienstage – innerwise Hausarzt Live
+- **Produktname (Kundin sieht):** Goldene Dienstage mit dem Hausarzt
 - **Preis:** 195 € einmalig, brutto (inkl. MwSt.)
 - **Physisches Produkt:** Ja → Lieferadresse abfragen (Pflichtfelder).
 - **Versand:** [Länder PRÜFEN, nur DE/AT/CH?]
@@ -20,7 +20,7 @@ Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 ## ① Überschrift
 **Kleine Zeile darüber:** innerwise Hausarzt · 4 Dienstage live
 
-**Headline:** Erste Reihe: Der Hausarzt kommt zu dir.
+**Headline:** Goldene Dienstage mit dem Hausarzt.
 
 **Unterzeile:** Das neueste Werkzeug von innerwise erscheint erst in ein paar Wochen. Du bist schon vorher dabei – gemeinsam mit mir, an vier Dienstagen live.
 
@@ -64,7 +64,7 @@ Noch nicht? Dann hol dir erst den Kurs im Heilen Selbstlernkurs → https://aisu
 
 ## Offen vor Livegang
 1. Versandländer, Anmeldeschluss (Preis brutto ✔, Zoom ✔, Aufzeichnungen unbegrenzt ✔, Telegram ✔)
-2. Höchstzahl Plätze, Titel
+2. Höchstzahl Plätze
 3. Liefertermin: Kommt die Dose vor dem 10.11. an? Wenn nicht: Wie starten wir ohne?
 5. Widerruf bei Ware + Live-Kurs (Anwältin)
 6. Petra: Begriffe „Hausarzt“ und „Mittel“ (rote Linien)

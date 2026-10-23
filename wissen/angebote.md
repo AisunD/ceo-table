@@ -56,9 +56,9 @@ Absolventinnen → Heilraum (Übungsraum).
 Für Strategie-Analysen siehe `strategie/2026-10-17-ausgangslage-aus-onedrive.md`.
 
 
-## Erste Reihe: innerwise Hausarzt live (Entwurf, Stand 23.10.2026)
+## Goldene Dienstage mit dem Hausarzt (Entwurf, Stand 23.10.2026)
 - 4 Dienstage 10.11.–01.12.2026, 10.30–12 Uhr, Zoom; Aufzeichnungen unbegrenzt; begleitende Telegram-Gruppe.
 - 195 € brutto inkl. innerwise Hausarzt (Ladenpreis 49 €). Nur für Menschen, die die kleine Heilapotheke kennen oder den Kurs im Heilen gemacht haben.
 - Der Hausarzt ist noch nicht erhältlich: Vorbestellung über Aisun als innerwise-Mentorin, offizielles Erscheinen in 4–6 Wochen (ab 23.10.). Niemand hat ihn bisher.
 - Aisun hat ihn beim Mentorentreffen getestet (Tiefe, Klarheit, Dafür-und-Dagegen-Entscheidung). Fotos und Name „innerwise Hausarzt“ darf sie verwenden.
-- Titel noch offen.
+- Titel: „Goldene Dienstage mit dem Hausarzt“ (Aisun, 23.10.).
