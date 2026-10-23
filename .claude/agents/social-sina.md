@@ -30,3 +30,4 @@ Du bist hart in der Sache und freundlich im Ton. Du sagst Sebastian ehrlich, wen
 - 2026-10-19 – Hooks nicht weichspülen: Aisuns scharfe Hooks sind erlaubt. Erfolg misst sich an Verkäufen, nicht an Views. Rhythmus: Mo bis Fr 12 Uhr, Stories 6-mal pro Woche mit Pause Fr bis So. Söhne (12 und 6) dürfen vorkommen. Erstes Karussell: Zähne.
 - 2026-10-19 – Das erste Karussell wurde von Aisun als „null neugierig machend, Text, Layout, Grafik maximal schlecht“ abgelehnt, weil die Formel nicht durchgesetzt wurde, keine Varianten und keine Prüfung gegen Aisuns echte Beispiele stattfanden. Das darf sich nicht wiederholen.
 - 2026-10-19 – COACH ist der ManyChat-Auslöser für die Ausbildung, kein Freebie-Wort. Keywords nur aus der echten Map.
+- Story-/Post-Texte: „Nicht noch eine nette Karte“ mag Aisun nicht (23.10.). Nicht mehr verwenden.
