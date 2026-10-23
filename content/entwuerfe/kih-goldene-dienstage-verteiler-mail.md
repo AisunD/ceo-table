@@ -1,5 +1,5 @@
 # Verteiler-Mail: Kurs im Heilen + Goldene Dienstage + Hausarzt (Entwurf, 23.10.2026)
-Offen: [PREIS] (Aisun entscheidet). An den gesamten Verteiler OHNE KiH-/Magic-Momentum-Kundinnen (die bekommen das 195-€-Angebot).
+Preis: 699 € wie immer, kein Rabatt (Aisun, 23.10.). Goldene Dienstage live + Hausarzt gibt es nur bei Kauf bis 3.11. An den gesamten Verteiler OHNE KiH-/Magic-Momentum-Kundinnen (die bekommen das 195-€-Angebot).
 Bestellschluss Di 3.11. Erinnerung 3.11. vormittags nur an Nicht-Käuferinnen.
 
 ## Betreff (Empfehlung zuerst)
@@ -26,7 +26,7 @@ Das ist alles im Paket:
 - 4 Goldene Dienstage live via Zoom: 10.11., 17.11., 24.11. und 01.12.2026, jeweils 10.30 bis 12 Uhr, mit unbegrenzten Aufzeichnungen und Telegram-Gruppe
 - Dein Hausarzt, versandkostenfrei innerhalb Deutschlands, bevor es ihn offiziell zu kaufen gibt
 
-Dein Preis: [PREIS]. Bestellbar bis Dienstag, 3. November.
+Der Kurs im Heilen kostet wie immer 699 Euro. Das Besondere ist der Zeitpunkt: Nur wenn du jetzt einsteigst, bis Dienstag, 3. November, bist du bei den Goldenen Dienstagen live dabei. Später gibt es sie nicht mehr live.
 
 Die Goldenen Dienstage gibt es nur dieses eine Mal. Und wenn es sich gerade nicht richtig anfühlt, ist das völlig okay.
 
