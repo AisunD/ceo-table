@@ -62,5 +62,5 @@ Für Strategie-Analysen siehe `strategie/2026-10-17-ausgangslage-aus-onedrive.md
 - Der Hausarzt ist noch nicht erhältlich: Vorbestellung über Aisun als innerwise-Mentorin, offizielles Erscheinen in 4–6 Wochen (ab 23.10.). Niemand hat ihn bisher.
 - Aisun hat ihn beim Mentorentreffen getestet (Tiefe, Klarheit, Dafür-und-Dagegen-Entscheidung). Fotos und Name „innerwise Hausarzt“ darf sie verwenden.
 - Titel: „Goldene Dienstage mit dem Hausarzt“ (Aisun, 23.10.).
-- Einmalige Runde, Plätze nicht begrenzt. Wer innerwise noch nicht kennt, startet den Kurs im Heilen (Selbstlernkurs) parallel und ist direkt dabei – nie „nächstes Mal“. Dosen hat Aisun vorbestellt und abgeholt; Versand an Teilnehmerinnen vor dem 10.11.
+- Einmalige Runde, Plätze nicht begrenzt. Wer innerwise noch nicht kennt, startet den Kurs im Heilen (Selbstlernkurs) parallel und ist direkt dabei – nie „nächstes Mal“. Dosen hat Aisun vorbestellt und abgeholt; Versand kostenlos, Aisun verschickt in der ersten Novemberwoche (Ankunft in Deutschland vor dem 10.11.).
 - „Golden Circle“ soll im Text vorkommen (Aisun: klingt schön, auch für alle, die den Begriff nicht kennen).

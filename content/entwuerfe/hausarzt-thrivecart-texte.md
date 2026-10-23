@@ -9,7 +9,7 @@ Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 - **Produktname (Kundin sieht):** Goldene Dienstage mit dem Hausarzt
 - **Preis:** 195 € einmalig, brutto (inkl. MwSt.). Einmalige Runde. Plätze nicht begrenzt.
 - **Physisches Produkt:** Ja → Lieferadresse abfragen (Pflichtfelder).
-- **Versand:** [Länder PRÜFEN, nur DE/AT/CH?]
+- **Versand:** kostenlos, inklusive (kein eigener Posten). Aisun verschickt in der ersten Novemberwoche, Ankunft innerhalb Deutschlands vor dem 10.11. [Ausland PRÜFEN]
 - **Eigenes Pflicht-Kästchen (Custom Field / Checkbox, Pflicht):**
   „Ich arbeite bereits mit der kleinen Heilapotheke, habe den Kurs im Heilen gemacht oder arbeite ihn parallel durch.“
   (So prüfen wir die Voraussetzung, ohne Kontrolle per Hand.)
@@ -50,7 +50,7 @@ Noch nicht? Kein Problem: Der Kurs im Heilen ist ein Selbstlernkurs. Du arbeites
 
 ## ⑥ FAQ
 - **Kann ich den Hausarzt nicht einfach so kaufen?** Noch nicht. Er erscheint erst in vier bis sechs Wochen und kostet dann 49 €. Deiner ist über meine Vorbestellung als innerwise-Mentorin schon reserviert.
-- **Wann kommt der Hausarzt an?** Rechtzeitig vor dem ersten Dienstag. Deine Dose ist schon reserviert, ich schicke sie dir direkt nach deiner Anmeldung.
+- **Wann kommt der Hausarzt an?** Rechtzeitig vor dem ersten Dienstag. Deine Dose ist schon reserviert und kommt innerhalb Deutschlands vor dem Start bei dir an. Der Versand ist inklusive.
 - **Was, wenn ich einen Dienstag verpasse?** Kein Problem. Du bekommst jede Aufzeichnung und kannst sie unbegrenzt anschauen. Deine Fragen stellst du zwischendurch in der Telegram-Gruppe.
 - **Ist das eine Behandlung?** Nein. Du lernst, mit einem energetischen Werkzeug für dich selbst zu arbeiten. Das ersetzt keine ärztliche oder psychotherapeutische Behandlung.
 
@@ -63,6 +63,6 @@ Noch nicht? Kein Problem: Der Kurs im Heilen ist ein Selbstlernkurs. Du arbeites
 - Termine-Kacheln (④) gehen nur über ein HTML-Element, sonst einfach als Text.
 
 ## Offen vor Livegang
-1. Versandländer, Anmeldeschluss (Preis brutto ✔, Zoom ✔, Aufzeichnungen unbegrenzt ✔, Telegram ✔)
+1. Ausland-Versand, Anmeldeschluss (Preis brutto ✔, Zoom ✔, Aufzeichnungen unbegrenzt ✔, Telegram ✔)
 2. Widerruf bei Ware + Live-Kurs (Anwältin)
 3. Petra: Begriffe „Hausarzt“ und „Mittel“ (rote Linien)
