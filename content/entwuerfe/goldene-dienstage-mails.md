@@ -4,7 +4,7 @@ Zielgruppe: Kurs im Heilen + Magic Momentum. Platzhalter: [VORNAME], [LINK ZUR S
 ## Mail 1 – Einladung (Mo 26.10., vormittags, erst wenn die Seite online ist)
 Betreff: Der Hausarzt: du darfst vor allen anderen mit ihm arbeiten
 Alternativ: Etwas Neues, zuerst für dich
-Vorschautext: Vier Dienstage, live mit mir. Und deine Dose kommt zu dir nach Hause.
+Vorschautext: Vier Dienstage, live mit mir. Und dein Hausarzt kommt zu dir nach Hause.
 
 Hallo [VORNAME],
 
@@ -33,7 +33,7 @@ Aisun
 PS: Der Hausarzt erscheint offiziell erst in 4 bis 6 Wochen und kostet dann 49 Euro. Deiner ist als Teil des Kurses schon inklusive.
 
 ## Mail 2 – Erinnerung (Fr 30.10., vormittags, nur an Nicht-Käuferinnen)
-Betreff: Deine Dose wird bald gepackt
+Betreff: Dein Hausarzt wird bald gepackt
 Alternativ: Bis Dienstag, 3. November, bist du noch dabei
 Vorschautext: Bestellschluss ist Dienstag, der 3. November.
 
@@ -41,7 +41,7 @@ Hallo [VORNAME],
 
 nur eine kurze Erinnerung, ja? Vor ein paar Tagen habe ich dir die Goldenen Dienstage mit dem Hausarzt geschickt.
 
-Bestellen kannst du bis Dienstag, 3. November. Danach packe ich die Dosen, damit sie vor dem ersten Dienstag am 10.11. bei dir sind. Wenn du dabei sein magst, ist jetzt der beste Moment.
+Bestellen kannst du bis Dienstag, 3. November. Danach packe ich die goldenen Boxen, damit dein Hausarzt vor dem ersten Dienstag am 10.11. bei dir ist. Wenn du dabei sein magst, ist jetzt der beste Moment.
 
 Zur Erinnerung: vier Dienstage live mit mir, 10.30 bis 12 Uhr, alle Aufzeichnungen bleiben dir. Der Hausarzt ist inklusive, 195 Euro.
 
@@ -63,7 +63,7 @@ Hallo [VORNAME],
 
 nächste Woche geht's los: Am Dienstag, 10.11., um 10.30 Uhr treffen wir uns zum ersten Goldenen Dienstag mit dem Hausarzt.
 
-Heute ist der letzte Tag, an dem du dich anmelden kannst. Danach packe ich die Dosen.
+Heute ist der letzte Tag, an dem du dich anmelden kannst. Danach packe ich die goldenen Boxen.
 
 Wenn deine dabei sein soll: hier entlang.
 

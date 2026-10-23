@@ -26,7 +26,7 @@ Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 **Unterzeile:** Das neueste Werkzeug von innerwise erscheint erst in ein paar Wochen. Du bist schon vorher dabei – gemeinsam mit mir, an vier Dienstagen live. Die Goldenen Dienstage gibt es nur dieses eine Mal.
 
 ## ② Bild
-Foto: Dose mit Karten, Chips und Begleitbuch (innerwise-Produktfoto, Nutzung erlaubt).
+Foto: goldene Box mit Karten, Chips und Begleitbuch (innerwise-Produktfoto, Nutzung erlaubt).
 
 ## ③ Aufzählung
 **Überschrift:** Mein Geschenk an alle, die schon mit mir arbeiten
@@ -51,7 +51,7 @@ Noch nicht? Kein Problem: Der Kurs im Heilen ist ein Selbstlernkurs. Du arbeites
 
 ## ⑥ FAQ
 - **Kann ich den Hausarzt nicht einfach so kaufen?** Noch nicht. Er erscheint erst in vier bis sechs Wochen und kostet dann 49 €. Deiner ist über meine Vorbestellung als innerwise-Mentorin schon reserviert.
-- **Wann kommt der Hausarzt an?** Du kannst bis Dienstag, 3. November, bestellen. Danach packe ich die Dosen, und deine kommt innerhalb Deutschlands rechtzeitig vor dem ersten Dienstag bei dir an. Der Versand ist inklusive.
+- **Wann kommt der Hausarzt an?** Du kannst bis Dienstag, 3. November, bestellen. Danach packe ich die goldenen Boxen, und dein Hausarzt kommt innerhalb Deutschlands rechtzeitig vor dem ersten Dienstag bei dir an. Der Versand ist inklusive.
 - **Was, wenn ich einen Dienstag verpasse?** Kein Problem. Du bekommst jede Aufzeichnung und kannst sie unbegrenzt anschauen. Deine Fragen stellst du zwischendurch in der Telegram-Gruppe.
 - **Ist das eine Behandlung?** Nein. Du lernst, mit einem energetischen Werkzeug für dich selbst zu arbeiten. Das ersetzt keine ärztliche oder psychotherapeutische Behandlung.
 
