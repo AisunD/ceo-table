@@ -30,7 +30,7 @@ Quellen: Produktpalette, Blueprint/Business Report, Salespages, Launch-Unterlage
 | **Business Healing** | Workshop, ca. 2 Std. live auf Zoom | offen | lief sehr gut |
 | **Lebenscoach-Mastermind** | Neues Live-Produkt | offen | neu |
 | **The Money Room** | Workshop/Launch | offen | Status unklar |
-| **DARE Day** | innerwise-Coaching-Spiel, Präsenz (Berlin, Pforzheim, Thailand); nächste: 7.11.2026 Berlin (1 Tag), 10./11.4.2027 (2 Tage) | 250 € (1 Tag) · 500 € (2 Tage) | Teil der Ausbildung / sporadisch |
+| **DARE Day** | innerwise-Coaching-Format, Präsenz (Berlin, Pforzheim, Thailand); nächste: 7.11.2026 Berlin (1 Tag), 10./11.4.2027 (2 Tage). Seite: https://aisundodenhoff.com/dare-day-berlin-november-2026/ | 250 € (1 Tag) · 500 € (2 Tage) | Teil der Ausbildung / sporadisch |
 | **Podcast „Unheilbar gibt's nicht"** | Sichtbarkeit | – | läuft seit Ende Aug. 2026 |
 
 ## Customer Journey (heute)
