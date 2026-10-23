@@ -68,6 +68,13 @@ Noch nicht? Kein Problem: Der Kurs im Heilen ist ein Selbstlernkurs. Du arbeites
 - Produkt: Kurs im Heilen Selbstlernkurs, Preis wie im bestehenden ThriveCart-Produkt [Nina: Preis aus ThriveCart übernehmen]
 - Text darunter: „Du arbeitest ihn parallel durch und bist bei den Goldenen Dienstagen direkt mit dabei.“
 
+## Zusatz im Kurs-im-Heilen-Checkout (für die Verteiler-Mail, Aisun 23.10.)
+- Bis Dienstag, 3.11., 23.59 Uhr im bestehenden ThriveCart-Produkt „Kurs im Heilen“ (699 €, unverändert) ein Order Bump:
+  „Goldene Dienstage mit dem Hausarzt dazu – 195 €: 4 Dienstage live mit Aisun, Aufzeichnungen, Telegram-Gruppe, dein Hausarzt nach Hause.“
+- Wer das ankreuzt: Lieferadresse Pflicht (nur Deutschland), Kauf-Tag `hausarzt-live-2026`.
+- Die Goldenen Dienstage gibt es nicht einzeln für Neue. Kein Rabatt auf den Kurs im Heilen.
+- Nach dem 3.11. den Order Bump wieder entfernen.
+
 ## Fußzeile / unter dem Checkout (Pflicht)
 Meine Angebote ersetzen keine ärztliche, heilpraktische oder psychotherapeutische Behandlung. Keine Diagnosen, keine Heilversprechen.
 Impressum · Datenschutz · AGB verlinken.

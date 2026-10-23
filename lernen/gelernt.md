@@ -41,3 +41,4 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - Lesbarkeit Schrift: Bodoni-Haarstriche sind Aisun zu dünn. In HTML Bodoni Moda immer mit Gewicht 500 und optischer Größe „opsz“ 11 (dickere Striche), Fließtext Raleway 500, kleine Beschriftungen dunkel statt grau. In Canva: Bauer Bodoni nicht in dünnen Schnitten und nicht zu klein (23.10.2026).
 - Handy-Seiten immer auch bei 320 und 360 px prüfen, nicht nur 390: Kopfzeile und Kacheln dürfen die Seite nie breiter machen (Aisun sah verschobene Kacheln, 23.10.2026).
 - Petra-Fix 23.10.: Fremdtexte (z. B. innerwise-Begleitbuch) dürfen „therapeutisch“ nicht übernehmen → „gezielt ansetzen“. Bestellbuttons immer „zahlungspflichtig bestellen“.
+- Jede Änderung sofort überall nachziehen: Datei, Cockpit, Nina-Paket, Slack-Thread. Nina sieht den Chat nicht; nie mit alten Ständen arbeiten (Aisun, 23.10.2026).
