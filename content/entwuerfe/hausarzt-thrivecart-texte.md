@@ -64,5 +64,5 @@ Noch nicht? Dann hol dir erst den Kurs im Heilen Selbstlernkurs → https://aisu
 
 ## Offen vor Livegang
 1. Versandländer, Anmeldeschluss (Preis brutto ✔, Zoom ✔, Aufzeichnungen unbegrenzt ✔, Telegram ✔)
-5. Widerruf bei Ware + Live-Kurs (Anwältin)
-6. Petra: Begriffe „Hausarzt“ und „Mittel“ (rote Linien)
+2. Widerruf bei Ware + Live-Kurs (Anwältin)
+3. Petra: Begriffe „Hausarzt“ und „Mittel“ (rote Linien)
