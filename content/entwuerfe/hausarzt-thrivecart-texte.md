@@ -25,7 +25,7 @@ Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 **Unterzeile:** Das neueste Werkzeug von innerwise erscheint erst in ein paar Wochen. Du bist schon vorher dabei – gemeinsam mit mir, an vier Dienstagen live. Diese Runde gibt es nur ein einziges Mal.
 
 ## ② Bild
-Foto: Dose mit Karten, Münzen und Begleitbuch (innerwise-Produktfoto, Nutzung erlaubt).
+Foto: Dose mit Karten, Chips und Begleitbuch (innerwise-Produktfoto, Nutzung erlaubt).
 
 ## ③ Aufzählung
 **Überschrift:** Mein Geschenk an alle, die schon mit mir arbeiten
