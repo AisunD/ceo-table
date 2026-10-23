@@ -45,7 +45,7 @@ Hallo [VORNAME],
 
 nur eine kurze Erinnerung, ja? Heute ist der letzte Tag, an dem du den Kurs im Heilen mit den Goldenen Dienstagen und dem Hausarzt bestellen kannst.
 
-Nächsten Dienstag, am 10.11. um 10.30 Uhr, treffen wir uns zum ersten Mal live. Danach packe ich die Hausärzte.
+Danach packe ich die Hausärzte, und nächsten Dienstag, am 10.11. um 10.30 Uhr, treffen wir uns zum ersten Mal live.
 
 Wenn du dabei sein magst, hier entlang. Und wenn es gerade nicht passt, musst du nichts entscheiden.
 
