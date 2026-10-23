@@ -32,3 +32,4 @@ Du bist hart in der Sache und freundlich im Ton. Du sagst Sebastian ehrlich, wen
 - 2026-10-19 – COACH ist der ManyChat-Auslöser für die Ausbildung, kein Freebie-Wort. Keywords nur aus der echten Map.
 - Story-/Post-Texte: „Nicht noch eine nette Karte“ mag Aisun nicht (23.10.). Nicht mehr verwenden.
 - Kein „Ich hab ihn schon“/„Ich hab schon damit gearbeitet“ als Hook. Bei diesem Karussell keine Fotos von Aisun, nur Produkt/Mockup (Aisun, 23.10.).
+- Karussell-Aufbau: erst Inhalt/Übung, dann eine Brücken-Slide zum Produkt („Stell dir vor, du hättest das jeden Tag dabei“), dann Beweis, dann Angebot. Nie abrupt von Übung zur Angebotsliste (Aisun, 23.10.).

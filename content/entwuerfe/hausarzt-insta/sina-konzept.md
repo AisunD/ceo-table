@@ -24,3 +24,16 @@ Caption: siehe Chat 23.10. (128 Wörter, Ende: INNERWISE · INNERWISE HAUSARZT �
 
 Offen: echter Testmoment (1 Satz); Keyword HAUSARZT anlegen.
 Vorschau: https://claude.ai/artifact/HLqdCohY5tfkAivtkQ2qn4
+
+## Neue Reihenfolge (Aisun 23.10., Spannungsbogen) – gilt
+1 Was, wenn jede Entscheidung zwei Seiten hätte? / Der neue innerwise Hausarzt. Klein. Golden. Und so klar.
+2 Du ziehst eine Karte. Liest sie. Denkst: Stimmt. Und abends sitzt du wieder vor derselben Frage.
+3 Jedes Ja ist gleichzeitig ein Nein.
+4 Ganz einfach, mitten im Alltag: (4 Beispiele)
+5 Und trotzdem denken wir oft, alles geht gleichzeitig.
+6 Probier es heute schon.
+7 BRÜCKE (neu): Und jetzt stell dir vor, du hättest das jeden Tag dabei. / Den neuen innerwise Hausarzt. Klein genug für die Hosentasche. Und so klar, dass er dir zeigt: Wofür – und wogegen?
+8 Beim innerwise-Mentorentreffen durften wir ihn testen. Ich war völlig beeindruckt. / Tiefe, Klarheit, Golden Circle.
+9 Angebot Goldene Dienstage
+10 Jedes Ja hat ein Nein. Klar wirst du erst, wenn du beide kennst.
+11 Kommentiere HAUSARZT
