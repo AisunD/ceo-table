@@ -20,13 +20,15 @@ h1 em{display:block;color:#C6A764;font-style:italic}
 .ph{position:absolute;left:50%;transform:translateX(-50%);border:3px dashed rgba(198,167,100,.7);border-radius:40px;display:flex;align-items:center;justify-content:center;text-align:center;color:#C6A764;font-size:34px;line-height:1.4;padding:30px}
 ul{list-style:none;text-align:left;margin-top:44px;font-size:36px;line-height:1.35}
 ul li{padding:14px 0 14px 46px;position:relative;border-top:1px solid rgba(198,167,100,.35)}
-ul li:before{content:"";position:absolute;left:4px;top:34px;width:24px;height:2px;background:#C6A764}
+ul li:before{content:"";position:absolute;left:4px;top:34px;width:24px;height:2px;background:#C6A764}.light ul li:before{background:#73013A}
 .pill{display:inline-block;margin-top:34px;background:linear-gradient(115deg,#a88a4c,#C6A764 30%,#efe2bf 50%,#C6A764 70%,#9d7f43);color:#1A1A1A;font-weight:700;letter-spacing:.14em;font-size:40px;padding:26px 54px;border-radius:999px}
 .swipe{position:absolute;bottom:56px;right:70px;font-size:26px;letter-spacing:.12em;color:#C6A764;font-weight:600}
 .light .swipe{color:#73013A}
 </style></head><body><div id="c"></div>
 <script>
 const S={
+"4a":['light',`<div class="t" style="top:170px"><h1 style="font-size:80px">Ganz einfach,<em>mitten im Alltag:</em></h1><ul style="margin-top:60px;font-size:40px;line-height:1.4"><li style="border-color:rgba(115,1,58,.25)">Du fährst mit dem Fahrrad zur Arbeit. Und entscheidest dich damit gegen das Auto.</li><li style="border-color:rgba(115,1,58,.25)">Du fliegst nach Ägypten. Und entscheidest dich damit gegen den Herbst in Deutschland.</li><li style="border-color:rgba(115,1,58,.25)">Du gehst heute früh ins Bett. Und entscheidest dich damit gegen die nächste Folge.</li><li style="border-color:rgba(115,1,58,.25)">Du sagst Ja zu einem neuen Projekt. Und damit Nein zu freien Abenden.</li></ul></div>`],
+"4b":['beere',`<div class="t" style="top:330px"><h1 style="font-size:92px">Und trotzdem denken wir oft,<em>alles geht gleichzeitig.</em></h1><p class="s" style="margin-top:50px">Klarheit entsteht erst,<br>wenn du das Nein mitentscheidest.</p></div>`],
 "1a":['',`<div class="t" style="top:170px"><h1 style="font-size:96px">Der Hausarzt<em>für deine Hosentasche.</em></h1><p class="s">Das Allerneueste von innerwise.<br>Und nichts für Anfängerinnen.</p></div><div style="position:absolute;left:50%;top:640px;transform:translateX(-50%);width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(198,167,100,.35) 0%,rgba(198,167,100,0) 65%)"></div><img src="box-cut.png" style="position:absolute;left:50%;top:700px;transform:translateX(-50%) rotate(-4deg);width:520px;filter:drop-shadow(0 34px 40px rgba(0,0,0,.6))">`],
 "1b":['',`<div class="t" style="top:170px"><h1 style="font-size:100px">Klein. Golden.<em>Und so klar.</em></h1><p class="s">Der neue innerwise Hausarzt.<br>Und warum er nichts für Anfängerinnen ist.</p></div><div style="position:absolute;left:50%;top:640px;transform:translateX(-50%);width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(198,167,100,.35) 0%,rgba(198,167,100,0) 65%)"></div><img src="box-cut.png" style="position:absolute;left:50%;top:700px;transform:translateX(-50%) rotate(-4deg);width:520px;filter:drop-shadow(0 34px 40px rgba(0,0,0,.6))">`],
 "1c":['',`<div class="t" style="top:150px"><h1 style="font-size:84px">Was, wenn jede Entscheidung<em>zwei Seiten hätte?</em></h1><p class="s">Der neue innerwise Hausarzt zeigt dir beide.</p></div><div style="position:absolute;left:50%;top:640px;transform:translateX(-50%);width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(198,167,100,.35) 0%,rgba(198,167,100,0) 65%)"></div><img src="box-cut.png" style="position:absolute;left:50%;top:700px;transform:translateX(-50%) rotate(-4deg);width:520px;filter:drop-shadow(0 34px 40px rgba(0,0,0,.6))">`],
@@ -40,6 +42,6 @@ const S={
 8:['beere',`<div class="t" style="top:400px"><h1 style="font-size:96px">Jedes Ja hat ein Nein.<em>Klar wirst du erst, wenn du beide kennst.</em></h1></div>`],
 9:['',`<div class="t" style="top:300px"><h1>Kommentiere</h1><div class="pill">HAUSARZT</div><p class="s" style="margin-top:40px">und ich schick dir alle Infos.</p><p class="s" style="margin-top:80px;color:#C6A764;font-weight:600">Die Goldenen Dienstage gibt es nur dieses eine Mal.</p></div>`]
 };
-const k=location.hash.slice(1);document.body.className=S[k][0];
-document.getElementById('c').innerHTML=`<div class="brand">AISUN DODENHOFF</div><div class="n">${k.replace(/[abc]/,'')}/9</div>`+S[k][1]+(k!='9'?'<div class="swipe">WISCHEN →</div>':'');
+const [k,num,tot]=location.hash.slice(1).split('_');document.body.className=S[k][0];
+document.getElementById('c').innerHTML=`<div class="brand">AISUN DODENHOFF</div><div class="n">${num}/${tot}</div>`+S[k][1]+(num!==tot?'<div class="swipe">WISCHEN →</div>':'');
 </script></body></html>
