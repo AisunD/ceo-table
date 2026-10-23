@@ -1,0 +1,29 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500&family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{background:radial-gradient(70% 40% at 50% 60%,#3a2e17 0%,#1A1A1A 72%);color:#FBFAF0;font-family:Raleway,sans-serif;position:relative}
+.brand{position:absolute;top:240px;width:100%;text-align:center;font-family:"Bodoni Moda",serif;color:#C6A764;letter-spacing:.32em;font-size:28px}
+.txt{position:absolute;top:310px;left:90px;right:90px;text-align:center}
+h1{font-family:"Bodoni Moda",serif;font-weight:500;font-variation-settings:"opsz" 11;font-size:88px;line-height:1.05}
+h1 em{display:block;color:#C6A764;font-style:italic}
+.sub{margin-top:34px;font-size:36px;line-height:1.4;font-weight:500;color:#eee7da}
+.card{position:absolute;left:50%;transform:translateX(-50%);background:#FBFAF0;border-radius:44px;padding:40px;box-shadow:0 0 0 2px rgba(198,167,100,.6),0 40px 80px rgba(0,0,0,.55)}.card img{display:block;width:100%;mix-blend-mode:multiply}
+.foot{position:absolute;width:100%;text-align:center;font-size:30px;font-weight:600}
+.foot b{display:block;margin-top:10px;color:#C6A764}
+.sticker{position:absolute;left:50%;transform:translateX(-50%);border:2px dashed rgba(198,167,100,.55);border-radius:28px;width:560px;height:110px;display:flex;align-items:center;justify-content:center;color:rgba(198,167,100,.75);font-size:26px;letter-spacing:.06em}
+</style></head><body>
+<div class="brand">AISUN DODENHOFF</div>
+<div id="c"></div>
+<script>
+const F={
+fan:`<div class="txt"><h1>Der neue innerwise Hausarzt.<em>Nicht noch eine nette Karte.</em></h1><p class="sub">Wofür entscheide ich mich – und wogegen gleichzeitig?<br>Den Golden Circle hat er fast schon integriert.</p></div>
+<div class="card" style="top:900px;width:820px"><img src="fan.jpg"></div>`,
+neu:`<div class="txt"><h1>Neu hier?<em>Dein Einstieg ist der Kurs im Heilen.</em></h1><p class="sub">Dazu kannst du die Goldenen Dienstage buchen.<br>Die Goldenen Dienstage gibt es nur dieses eine Mal.</p></div>
+<div class="card" style="top:880px;width:860px"><img src="open-crop.jpg"></div>
+<div class="sticker" style="top:1560px">Platz für den Link-Sticker</div>
+<div class="foot" style="top:1700px"><b>Bestellbar bis Dienstag, 3. November</b></div>`
+};
+document.getElementById('c').innerHTML=F[location.hash.slice(1)];
+</script></body></html>
