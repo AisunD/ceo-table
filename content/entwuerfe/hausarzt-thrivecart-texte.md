@@ -11,7 +11,7 @@ Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 - **Physisches Produkt:** Ja → Lieferadresse abfragen (Pflichtfelder).
 - **Versand:** [Länder PRÜFEN, nur DE/AT/CH?]
 - **Eigenes Pflicht-Kästchen (Custom Field / Checkbox, Pflicht):**
-  „Ich arbeite bereits mit der kleinen Heilapotheke oder habe den Kurs im Heilen gemacht.“
+  „Ich arbeite bereits mit der kleinen Heilapotheke, habe den Kurs im Heilen gemacht oder arbeite ihn parallel durch.“
   (So prüfen wir die Voraussetzung, ohne Kontrolle per Hand.)
 - **Bestellbutton:** Jetzt Platz sichern
 - **Kurzbeschreibung im Formular:** Kurs + innerwise Hausarzt
@@ -46,7 +46,7 @@ Live via Zoom · alle Aufzeichnungen danach unbegrenzt verfügbar · begleitende
 ## ⑤ Für wen
 **Überschrift:** Nur für dich, wenn du innerwise schon kennst
 Du arbeitest bereits mit der kleinen Heilapotheke oder hast bei mir den Kurs im Heilen gemacht.
-Noch nicht? Dann hol dir erst den Kurs im Heilen Selbstlernkurs → https://aisundodenhoff.thrivecart.com/kurs-im-heilen/
+Noch nicht? Kein Problem: Der Kurs im Heilen ist ein Selbstlernkurs. Du arbeitest ihn parallel durch und bist bei den Goldenen Dienstagen direkt mit dabei. → https://aisundodenhoff.thrivecart.com/kurs-im-heilen/
 
 ## ⑥ FAQ
 - **Kann ich den Hausarzt nicht einfach so kaufen?** Noch nicht. Er erscheint erst in vier bis sechs Wochen und kostet dann 49 €. Deiner ist über meine Vorbestellung als innerwise-Mentorin schon reserviert.
