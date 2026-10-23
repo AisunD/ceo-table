@@ -29,3 +29,4 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 2026-10-19 – Reihenfolge: Erst Zähne (Karussell und Funnel), danach das Coach-Karussell (COACH). – (Aisun)
 - 23.10.2026: Hausarzt-Kurs: 4 Dienstage 10.11.–01.12., 10.30–12 Uhr via Zoom, Aufzeichnungen unbegrenzt, Telegram-Gruppe, 195 € brutto inkl. Hausarzt. Fotos und Name „innerwise Hausarzt“ dürfen verwendet werden (Aisun ist innerwise-Mentorin).
 - 23.10.2026: Titel des Hausarzt-Kurses: „Goldene Dienstage mit dem Hausarzt“.
+- 23.10.2026: Goldene Dienstage: einmalige Runde, Plätze unbegrenzt, Begriff „Golden Circle“ bleibt im Text.
