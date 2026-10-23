@@ -1,5 +1,5 @@
 # Verteiler-Mail: Kurs im Heilen + Goldene Dienstage + Hausarzt (Entwurf, 23.10.2026)
-Preis: 699 € wie immer, kein Rabatt (Aisun, 23.10.). Goldene Dienstage live + Hausarzt gibt es nur bei Kauf bis 3.11. An den gesamten Verteiler OHNE KiH-/Magic-Momentum-Kundinnen (die bekommen das 195-€-Angebot).
+Preise: Kurs im Heilen 699 € (kein Rabatt) + optional Goldene Dienstage 195 € (inkl. Hausarzt). Goldene Dienstage nicht einzeln, nur zusammen mit KiH, nur bis 3.11. (Aisun, 23.10.) An den gesamten Verteiler OHNE KiH-/Magic-Momentum-Kundinnen (die bekommen das 195-€-Angebot).
 Bestellschluss Di 3.11. Erinnerung 3.11. vormittags nur an Nicht-Käuferinnen.
 
 ## Betreff (Empfehlung zuerst)
@@ -9,7 +9,7 @@ Bestellschluss Di 3.11. Erinnerung 3.11. vormittags nur an Nicht-Käuferinnen.
 4. Vier Dienstage, live mit mir
 5. Bis Dienstag kannst du live dabei sein
 6. Warum ich dir jetzt den Kurs im Heilen ans Herz lege
-Vorschautext A: Ein neues Tool, vier Dienstage live und ein Paket, das es nur jetzt gibt.
+Vorschautext A: Ein neues Tool, vier Dienstage live, und das gibt es nur jetzt.
 Vorschautext B: Ich habe den Hausarzt getestet. Und ich möchte, dass du von Anfang an dabei sein kannst.
 
 ## Mail
@@ -19,23 +19,22 @@ beim letzten innerwise-Mentorentreffen habe ich etwas Neues getestet: den Hausar
 
 Der Hausarzt wird in Zukunft den Kurs im Heilen ergänzen. Falls du den Kurs noch nicht kennst: Das ist mein Selbstlernkurs. Du lernst, dich selbst wahrzunehmen und mit energetischen Methoden zu arbeiten, in deinem Tempo, mit Aufzeichnungen, einer Alumni-Gruppe und der kleinen Heilapotheke.
 
-Und jetzt kommt das Besondere. Wenn du dir den Kurs jetzt holst, bist du bei den Goldenen Dienstagen live mit mir dabei. Egal, wie weit du mit dem Kurs bist. Du darfst am Anfang stehen und musst nichts vorbereitet haben. Du kannst deine Fragen direkt an mich stellen.
+Und jetzt kommt das Besondere. Wenn du dir den Kurs im Heilen jetzt holst, kannst du die Goldenen Dienstage dazubuchen und neben dem Kurs vier Dienstage live mit mir erleben. Egal, wie weit du mit dem Kurs bist. Du darfst am Anfang stehen und musst nichts vorbereitet haben. Du kannst deine Fragen direkt an mich stellen.
 
-Das ist alles im Paket:
-- Kurs im Heilen als Selbstlernkurs
-- 4 Goldene Dienstage live via Zoom: 10.11., 17.11., 24.11. und 01.12.2026, jeweils 10.30 bis 12 Uhr, mit unbegrenzten Aufzeichnungen und Telegram-Gruppe
-- Dein Hausarzt, versandkostenfrei innerhalb Deutschlands, bevor es ihn offiziell zu kaufen gibt
+So geht's:
+- Kurs im Heilen als Selbstlernkurs: 699 Euro
+- Nur jetzt dazu: die Goldenen Dienstage für 195 Euro. 4 Dienstage live via Zoom (10.11., 17.11., 24.11. und 01.12.2026, jeweils 10.30 bis 12 Uhr), unbegrenzte Aufzeichnungen, Telegram-Gruppe und dein Hausarzt nach Hause, bevor es ihn offiziell zu kaufen gibt (Versand inklusive, nur innerhalb Deutschlands)
 
-Der Kurs im Heilen kostet wie immer 699 Euro. Das Besondere ist der Zeitpunkt: Nur wenn du jetzt einsteigst, bis Dienstag, 3. November, bist du bei den Goldenen Dienstagen live dabei. Später gibt es sie nicht mehr live.
+Einzeln gibt es die Goldenen Dienstage nicht. Du kannst sie nur zusammen mit dem Kurs im Heilen buchen, und nur bis Dienstag, 3. November. Später gibt es sie nicht mehr live.
 
 Die Goldenen Dienstage gibt es nur dieses eine Mal. Und wenn es sich gerade nicht richtig anfühlt, ist das völlig okay.
 
-[BUTTON: Ich will bei den Goldenen Dienstagen dabei sein → LINK ZUM PAKET]
+[BUTTON: Zum Kurs im Heilen → LINK KURS IM HEILEN]
 
 Herzlich,
 Aisun
 
-PS: Den Hausarzt gibt es offiziell erst in 4 bis 6 Wochen, dann für 49 Euro. In deinem Paket ist er schon dabei.
+PS: Den Hausarzt gibt es offiziell erst in 4 bis 6 Wochen, dann für 49 Euro. Bei den Goldenen Dienstagen ist er schon dabei.
 
 ## Erinnerung (Di 3.11., vormittags, nur Nicht-Käuferinnen)
 Betreff: Heute ist der letzte Tag
@@ -43,13 +42,13 @@ Vorschautext: Bis heute kannst du noch bei den Goldenen Dienstagen dabei sein.
 
 Hallo [VORNAME],
 
-nur eine kurze Erinnerung, ja? Heute ist der letzte Tag, an dem du den Kurs im Heilen mit den Goldenen Dienstagen und dem Hausarzt bestellen kannst.
+nur eine kurze Erinnerung, ja? Heute ist der letzte Tag, an dem du zum Kurs im Heilen die Goldenen Dienstage mit dem Hausarzt dazubuchen kannst.
 
 Danach packe ich die Hausärzte, und nächsten Dienstag, am 10.11. um 10.30 Uhr, treffen wir uns zum ersten Mal live.
 
 Wenn du dabei sein magst, hier entlang. Und wenn es gerade nicht passt, musst du nichts entscheiden.
 
-[BUTTON: Heute noch dabei sein → LINK ZUM PAKET]
+[BUTTON: Heute noch dabei sein → LINK KURS IM HEILEN]
 
 Herzlich,
 Aisun

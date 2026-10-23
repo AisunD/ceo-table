@@ -33,3 +33,4 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 23.10.2026: Goldene Dienstage freigegeben, inkl. Order Bump „Kurs im Heilen dazu buchen“ im ThriveCart-Checkout. Versand nur innerhalb Deutschlands.
 - 23.10.2026: Goldene Dienstage: Bestellschluss Dienstag, 3. November. Letzte Mail am 3.11. um 10.30 Uhr.
 - 23.10.2026: Verteiler-Angebot: Kurs im Heilen bleibt 699 €, kein Rabatt. Wer bis 3.11. kauft, ist bei den Goldenen Dienstagen live dabei. Später nicht mehr live.
+- 23.10.2026 (Korrektur): Verteiler: KiH 699 € + optional Goldene Dienstage 195 € dazubuchen, nur bis 3.11.; Goldene Dienstage nicht einzeln für Neue.
