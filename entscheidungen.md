@@ -27,3 +27,4 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 2026-10-19 – Erfolg bei Social Media misst sich an Verkäufen, nicht an Views. Reels zur großen Coach-Ausbildung (10.000 €) dürfen wenig Views haben, wenn daraus Käufe entstehen. Die Strategie wird als Verkaufssystem aufgebaut, nicht als Reichweiten-Wettbewerb. – (Aisun)
 - 2026-10-19 – Aisuns Söhne (12 und 6) dürfen in Posts vorkommen. Erstes Karussell: Zähne. – (Aisun)
 - 2026-10-19 – Reihenfolge: Erst Zähne (Karussell und Funnel), danach das Coach-Karussell (COACH). – (Aisun)
+- 23.10.2026: Hausarzt-Kurs: 4 Dienstage 10.11.–01.12., 10.30–12 Uhr via Zoom, Aufzeichnungen unbegrenzt, Telegram-Gruppe, 195 € brutto inkl. Hausarzt. Fotos und Name „innerwise Hausarzt“ dürfen verwendet werden (Aisun ist innerwise-Mentorin).

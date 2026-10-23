@@ -22,10 +22,10 @@ Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 
 **Headline:** Erste Reihe: Der Hausarzt kommt zu dir.
 
-**Unterzeile:** Das neueste Werkzeug von innerwise ist da. Sei eine der Ersten, die damit arbeiten – gemeinsam mit mir, an vier Dienstagen live.
+**Unterzeile:** Das neueste Werkzeug von innerwise erscheint erst in ein paar Wochen. Du bist schon vorher dabei – gemeinsam mit mir, an vier Dienstagen live.
 
 ## ② Bild
-Foto: Dose mit Karten, Münzen und Begleitbuch (innerwise-Produktfoto). [Bildrechte PRÜFEN]
+Foto: Dose mit Karten, Münzen und Begleitbuch (innerwise-Produktfoto, Nutzung erlaubt).
 
 ## ③ Aufzählung
 **Überschrift:** Mein Geschenk an alle, die schon mit mir arbeiten
@@ -33,6 +33,10 @@ Foto: Dose mit Karten, Münzen und Begleitbuch (innerwise-Produktfoto). [Bildrec
 - Du bekommst den Hausarzt zu dir nach Hause (Wert 49 €).
 - Du lernst, damit zu arbeiten.
 - Du klärst mit den energetischen Methoden dein System auf eine völlig neue Art und Weise.
+
+## ③b Selbst getestet
+**Überschrift:** Selbst getestet: nicht noch eine nette Karte
+Beim letzten innerwise-Mentorentreffen durften wir den Hausarzt schon testen. Ich war völlig beeindruckt von seiner Tiefe und Klarheit. Du bekommst nicht mehr nur eine nette Heilkarte, sondern eine klare Antwort: Wofür entscheide ich mich – und wogegen entscheide ich mich gleichzeitig?
 
 ## ④ Termine
 **Überschrift:** Vier Dienstage, 10.30–12 Uhr, live via Zoom
@@ -45,8 +49,8 @@ Du arbeitest bereits mit der kleinen Heilapotheke oder hast bei mir den Kurs im 
 Noch nicht? Dann hol dir erst den Kurs im Heilen Selbstlernkurs → https://aisundodenhoff.thrivecart.com/kurs-im-heilen/
 
 ## ⑥ FAQ
-- **Ich habe den Hausarzt schon.** [PRÜFEN Preis ohne Hausarzt]
-- **Wann kommt der Hausarzt an?** Ich schicke ihn dir so, dass er vor dem ersten Dienstag bei dir ist. [Anmeldeschluss PRÜFEN]
+- **Kann ich den Hausarzt nicht einfach so kaufen?** Noch nicht. Er erscheint erst in vier bis sechs Wochen und kostet dann 49 €. Deiner ist über meine Vorbestellung als innerwise-Mentorin schon reserviert.
+- **Wann kommt der Hausarzt an?** Ich schicke ihn dir, sobald er da ist. [PRÜFEN Liefertermin vs. Start 10.11.]
 - **Was, wenn ich einen Dienstag verpasse?** Kein Problem. Du bekommst jede Aufzeichnung und kannst sie unbegrenzt anschauen. Deine Fragen stellst du zwischendurch in der Telegram-Gruppe.
 - **Ist das eine Behandlung?** Nein. Du lernst, mit einem energetischen Werkzeug für dich selbst zu arbeiten. Das ersetzt keine ärztliche oder psychotherapeutische Behandlung.
 
@@ -61,7 +65,6 @@ Noch nicht? Dann hol dir erst den Kurs im Heilen Selbstlernkurs → https://aisu
 ## Offen vor Livegang
 1. Versandländer, Anmeldeschluss (Preis brutto ✔, Zoom ✔, Aufzeichnungen unbegrenzt ✔, Telegram ✔)
 2. Höchstzahl Plätze, Titel
-3. Preis für alle, die den Hausarzt schon haben
-4. Bildrechte und Name „innerwise Hausarzt“ (Uwe Albrecht)
+3. Liefertermin: Kommt die Dose vor dem 10.11. an? Wenn nicht: Wie starten wir ohne?
 5. Widerruf bei Ware + Live-Kurs (Anwältin)
 6. Petra: Begriffe „Hausarzt“ und „Mittel“ (rote Linien)
