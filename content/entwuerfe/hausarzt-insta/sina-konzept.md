@@ -8,7 +8,7 @@
 Termine: ab Mo 26.10., wieder Mo 2.11. und Di 3.11.
 
 ## Karussell (9 Slides, Gate 8/10) – Di 27.10., 12 Uhr
-1 STOP: Es gibt ihn noch nicht zu kaufen. Ich hab schon mit ihm gearbeitet. / Der neue innerwise Hausarzt. Und warum er nichts für Anfängerinnen ist. (Foto: Aisun mit Box)
+1 STOP (neu 23.10.): Der Hausarzt für deine Hosentasche. / Das Allerneueste von innerwise. Und nichts für Anfängerinnen. (Bild: goldene Box, kein Foto von Aisun). Alternativen: „Klein. Golden. Und so klar.“ / „Was, wenn jede Entscheidung zwei Seiten hätte?“
 2 PROVE: Beim innerwise-Mentorentreffen durften wir ihn testen. / Der Hausarzt für deine Hosentasche. Und er will eine Entscheidung von dir.
 3 REAL: Du ziehst eine Karte. Liest sie. Denkst: Stimmt. Und abends sitzt du wieder vor derselben Frage. (besser: Aisuns echter Testmoment)
 4 POV: Jedes Ja ist gleichzeitig ein Nein. / Wofür entscheide ich mich – und wogegen gleichzeitig?
@@ -20,5 +20,5 @@ Termine: ab Mo 26.10., wieder Mo 2.11. und Di 3.11.
 
 Caption: siehe Chat 23.10. (128 Wörter, Ende: INNERWISE · INNERWISE HAUSARZT · ENERGETISCHE SELBSTHEILUNG)
 
-Offen: Foto Aisun mit Box; echter Testmoment (1 Satz); Keyword HAUSARZT anlegen.
+Offen: echter Testmoment (1 Satz); Keyword HAUSARZT anlegen.
 Vorschau: https://claude.ai/artifact/HLqdCohY5tfkAivtkQ2qn4
