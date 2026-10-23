@@ -22,7 +22,7 @@ Wer baut: Nina oder Aisun im ThriveCart-Editor. Frieda hilft bei Fragen.
 
 **Headline:** Goldene Dienstage mit dem Hausarzt.
 
-**Unterzeile:** Das neueste Werkzeug von innerwise erscheint erst in ein paar Wochen. Du bist schon vorher dabei – gemeinsam mit mir, an vier Dienstagen live. Diese Runde gibt es nur ein einziges Mal.
+**Unterzeile:** Das neueste Werkzeug von innerwise erscheint erst in ein paar Wochen. Du bist schon vorher dabei – gemeinsam mit mir, an vier Dienstagen live. Die Goldenen Dienstage gibt es nur dieses eine Mal.
 
 ## ② Bild
 Foto: Dose mit Karten, Chips und Begleitbuch (innerwise-Produktfoto, Nutzung erlaubt).

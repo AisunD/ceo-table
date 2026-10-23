@@ -22,7 +22,7 @@ Goldene Dienstage mit dem Hausarzt
 - Alle Aufzeichnungen danach unbegrenzt, dazu eine Telegram-Gruppe
 - Für dich: 195 Euro inkl. MwSt.
 
-Diese Runde gibt es nur dieses eine Mal. Und wenn es sich für dich nicht richtig anfühlt, ist das völlig okay.
+Die Goldenen Dienstage gibt es nur dieses eine Mal. Und wenn es sich für dich nicht richtig anfühlt, ist das völlig okay.
 
 [BUTTON: Mehr zu den Goldenen Dienstagen → LINK ZUR SEITE]
 
