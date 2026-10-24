@@ -1,5 +1,5 @@
 # Goldene Dienstage – Einladung + Erinnerung (Entwurf, 23.10.2026)
-Zielgruppe: Kurs im Heilen + Magic Momentum. Platzhalter: [VORNAME], [LINK ZUR SEITE].
+Zielgruppe: Kurs im Heilen + Magic Momentum. Platzhalter: [VORNAME]. Link zur Seite: https://claude.ai/artifact/LTL6qLAsYtkEwnD55yhhYV
 
 ## Mail 1 – Einladung (Mo 26.10., vormittags, erst wenn die Seite online ist)
 Betreff: Der Hausarzt: du darfst vor allen anderen mit ihm arbeiten
@@ -12,7 +12,7 @@ du hast bei mir den Kurs im Heilen oder Magic Momentum besucht. Du kennst die ma
 
 Und jetzt gibt es etwas ganz Neues: den innerwise Hausarzt.
 
-Beim letzten Mentorentreffen durften wir schon damit arbeiten. Ich war völlig beeindruckt von seiner Tiefe und Klarheit. Er ist wieder ganz neu, wieder ganz anders und gleichzeitig ähnlich kompakt wie die kleine Heilapotheke. Er hat den Golden Circle fast schon integriert. Das ist nicht mehr nur eine nette Karte, sondern eine klare Antwort: Wofür entscheide ich mich, und wogegen gleichzeitig? Ein magisches Tool, ehrlich.
+Beim letzten Mentorentreffen durften wir schon damit arbeiten. Ich war völlig beeindruckt von seiner Tiefe und Klarheit. Er ist wieder ganz neu, wieder ganz anders und gleichzeitig ähnlich kompakt wie die kleine Heilapotheke. Er hat den Golden Circle fast schon integriert. Er gibt dir eine klare Antwort: Wofür entscheide ich mich, und wogegen gleichzeitig? Ein magisches Tool, ehrlich.
 
 Und weil du schon mit mir gearbeitet hast, biete ich dir exklusiv einen Kurs dazu an:
 
@@ -25,7 +25,7 @@ Goldene Dienstage mit dem Hausarzt
 
 Die Goldenen Dienstage gibt es nur dieses eine Mal. Und wenn es sich für dich nicht richtig anfühlt, ist das völlig okay.
 
-[BUTTON: Mehr zu den Goldenen Dienstagen → LINK ZUR SEITE]
+[BUTTON: Mehr zu den Goldenen Dienstagen → https://claude.ai/artifact/LTL6qLAsYtkEwnD55yhhYV]
 
 Ich freu mich auf dich,
 Aisun
@@ -47,7 +47,7 @@ Zur Erinnerung: vier Dienstage live mit mir, 10.30 bis 12 Uhr, alle Aufzeichnung
 
 Und wenn es gerade nicht passt: Du musst nichts entscheiden. Dann ist es eben nicht dein Tool in diesem Moment.
 
-[BUTTON: Zu den Goldenen Dienstagen → LINK ZUR SEITE]
+[BUTTON: Zu den Goldenen Dienstagen → https://claude.ai/artifact/LTL6qLAsYtkEwnD55yhhYV]
 
 Herzlich,
 Aisun
@@ -67,7 +67,7 @@ Heute ist der letzte Tag, an dem du dich anmelden kannst. Danach packe ich die g
 
 Wenn deine dabei sein soll: hier entlang.
 
-[BUTTON: Jetzt noch dabei sein → LINK ZUR SEITE]
+[BUTTON: Jetzt noch dabei sein → https://claude.ai/artifact/LTL6qLAsYtkEwnD55yhhYV]
 
 Ich freu mich auf dich,
 Aisun

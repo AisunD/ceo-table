@@ -15,11 +15,11 @@ Vorschautext B: Ich habe den Hausarzt getestet. Und ich möchte, dass du von Anf
 ## Mail
 Hallo [VORNAME],
 
-beim letzten innerwise-Mentorentreffen habe ich etwas Neues getestet: den Hausarzt. Ich war richtig beeindruckt von seiner Tiefe und Klarheit. Er hat den Golden Circle fast schon integriert. Das ist nicht nur eine nette Karte, sondern eine klare Antwort auf die Frage: Wofür entscheide ich mich, und wogegen gleichzeitig?
+beim letzten innerwise-Mentorentreffen habe ich etwas Neues getestet: den Hausarzt. Ich war richtig beeindruckt von seiner Tiefe und Klarheit. Er hat den Golden Circle fast schon integriert. Er gibt dir eine klare Antwort auf die Frage: Wofür entscheide ich mich, und wogegen gleichzeitig?
 
 Der Hausarzt wird in Zukunft den Kurs im Heilen ergänzen. Falls du den Kurs noch nicht kennst: Das ist mein Selbstlernkurs. Du lernst, dich selbst wahrzunehmen und mit energetischen Methoden zu arbeiten, in deinem Tempo, mit Aufzeichnungen, einer Alumni-Gruppe und der kleinen Heilapotheke.
 
-Und jetzt kommt das Besondere. Wenn du dir den Kurs im Heilen jetzt holst, kannst du die Goldenen Dienstage dazubuchen und neben dem Kurs vier Dienstage live mit mir erleben. Egal, wie weit du mit dem Kurs bist. Du darfst am Anfang stehen und musst nichts vorbereitet haben. Du kannst deine Fragen direkt an mich stellen.
+Und jetzt kommt das Besondere. Wenn du dir den Kurs im Heilen jetzt holst, kannst du die Goldenen Dienstage dazubuchen und neben dem Kurs vier Dienstage live mit mir erleben. Den Link dazu schicke ich dir nach deiner Anmeldung per Mail. Egal, wie weit du mit dem Kurs bist. Du darfst am Anfang stehen und musst nichts vorbereitet haben. Du kannst deine Fragen direkt an mich stellen.
 
 So geht's:
 - Kurs im Heilen als Selbstlernkurs: 699 Euro
@@ -29,7 +29,7 @@ Einzeln gibt es die Goldenen Dienstage nicht. Du kannst sie nur zusammen mit dem
 
 Die Goldenen Dienstage gibt es nur dieses eine Mal. Und wenn es sich gerade nicht richtig anfühlt, ist das völlig okay.
 
-[BUTTON: Zum Kurs im Heilen → LINK KURS IM HEILEN]
+[BUTTON: Zum Kurs im Heilen → https://aisundodenhoff.thrivecart.com/kurs-im-heilen/]
 
 Herzlich,
 Aisun
@@ -48,9 +48,32 @@ Danach packe ich die Hausärzte, und nächsten Dienstag, am 10.11. um 10.30 Uhr,
 
 Wenn du dabei sein magst, hier entlang. Und wenn es gerade nicht passt, musst du nichts entscheiden.
 
-[BUTTON: Heute noch dabei sein → LINK KURS IM HEILEN]
+[BUTTON: Heute noch dabei sein → https://aisundodenhoff.thrivecart.com/kurs-im-heilen/]
 
 Herzlich,
+Aisun
+
+PS: Die Goldenen Dienstage gibt es nur dieses eine Mal.
+
+## Mail an Kurs-im-Heilen-Neukäuferinnen (automatisch nach Kauf, bis 3.11.)
+Auslöser: Kauf Kurs im Heilen Selbststudium zwischen 26.10. und 3.11. (Tag in ActiveCampaign). Kein Upsell im Checkout, das Angebot kommt nur per Mail.
+Betreff: Willkommen im Kurs im Heilen. Und eine Einladung
+Vorschautext: Du kannst jetzt noch live bei den Goldenen Dienstagen dabei sein.
+
+Hallo [VORNAME],
+
+wie schön, dass du da bist! Deine Zugangsdaten zum Kurs im Heilen kommen in einer eigenen Mail.
+
+Weil du genau jetzt einsteigst, hast du eine besondere Chance: Du kannst bei den Goldenen Dienstagen mit dem Hausarzt dabei sein. Egal, wie weit du im Kurs bist. Du darfst am Anfang stehen und deine Fragen direkt an mich stellen.
+
+- 4 Dienstage live via Zoom: 10.11., 17.11., 24.11. und 01.12.2026, jeweils 10.30 bis 12 Uhr
+- Dein Hausarzt kommt zu dir nach Hause, bevor es ihn im Handel gibt (Versand inklusive, nur innerhalb Deutschlands)
+- Aufzeichnungen unbegrenzt, Telegram-Gruppe
+- 195 Euro inkl. MwSt., bestellbar bis Dienstag, 3. November
+
+[BUTTON: Zu den Goldenen Dienstagen → https://claude.ai/artifact/LTL6qLAsYtkEwnD55yhhYV]
+
+Ich freu mich auf dich,
 Aisun
 
 PS: Die Goldenen Dienstage gibt es nur dieses eine Mal.

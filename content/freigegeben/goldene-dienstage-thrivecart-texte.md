@@ -37,8 +37,8 @@ Foto: goldene Box mit Karten, Chips und Begleitbuch (innerwise-Produktfoto, Nutz
 - Du klärst mit den energetischen Methoden dein System auf eine völlig neue Art und Weise.
 
 ## ③b Selbst getestet
-**Überschrift:** Selbst getestet: nicht noch eine nette Karte
-Beim letzten innerwise-Mentorentreffen durften wir den Hausarzt schon testen. Ich war völlig beeindruckt von seiner Tiefe und Klarheit. Er hat den Golden Circle fast schon integriert. Du bekommst nicht mehr nur eine nette Heilkarte, sondern eine klare Antwort: Wofür entscheide ich mich – und wogegen entscheide ich mich gleichzeitig?
+**Überschrift:** Selbst getestet: klein, golden und so klar
+Beim letzten innerwise-Mentorentreffen durften wir den Hausarzt schon testen. Ich war völlig beeindruckt von seiner Tiefe und Klarheit. Er hat den Golden Circle fast schon integriert. Du bekommst eine klare Antwort: Wofür entscheide ich mich – und wogegen entscheide ich mich gleichzeitig?
 
 ## ④ Termine
 **Überschrift:** Vier Dienstage, 10.30–12 Uhr, live via Zoom
