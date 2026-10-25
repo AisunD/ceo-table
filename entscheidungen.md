@@ -36,3 +36,4 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 23.10.2026 (Korrektur): Verteiler: KiH 699 € + optional Goldene Dienstage 195 € dazubuchen, nur bis 3.11.; Goldene Dienstage nicht einzeln für Neue.
 - 23.10.2026: Kein Upsell/Order Bump im Checkout. Goldene Dienstage für KiH-Neukäuferinnen per Mail.
 - 24.10.2026: Verteiler-Mail ohne Arzt-Hinweis (steht im Impressum), auf Aisuns ausdrücklichen Wunsch. Kurs im Heilen: „erst live, jetzt auch als Selbstlernkurs“ (nie „Präsenz“).
+- 25.10.2026: Über-mich-Post: Aisun will mutige Formulierungen („Colitis geheilt“, „Alternativen zur Schulmedizin“) als persönliche Erfahrung, bewusst. Petra meldet gelb, Anwältin entscheidet.
