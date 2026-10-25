@@ -10,10 +10,14 @@ body{background:radial-gradient(70% 42% at 50% 58%,#3d301a 0%,#1A1A1A 72%);color
 .name{position:absolute;top:500px;width:100%;font:700 200px/1.1 'Dancing Script',cursive;color:#C6A764;text-shadow:0 4px 30px rgba(0,0,0,.4)}
 .sub{position:absolute;top:760px;left:110px;right:110px;font:600 44px/1.3 'Bodoni Moda',serif;font-variation-settings:'opsz' 11}
 .sub em{color:#C6A764}
-.glow{position:absolute;left:50%;top:890px;transform:translateX(-50%);width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,rgba(198,167,100,.38) 0%,rgba(198,167,100,0) 65%)}
-.box{position:absolute;left:50%;top:960px;transform:translateX(-50%) rotate(-4deg);width:400px;filter:drop-shadow(0 34px 40px rgba(0,0,0,.6))}
-.foot{position:absolute;top:1450px;width:100%;font:600 32px Raleway;line-height:1.5}
+.glow{position:absolute;left:50%;top:820px;transform:translateX(-50%);width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,rgba(198,167,100,.38) 0%,rgba(198,167,100,0) 65%)}
+.box{position:absolute;left:50%;top:900px;transform:translateX(-50%) rotate(-4deg);width:330px;filter:drop-shadow(0 34px 40px rgba(0,0,0,.6))}
+.foot{position:absolute;top:1255px;width:100%;font:600 32px Raleway;line-height:1.5}
 .foot b{display:block;color:#C6A764;font-size:30px;letter-spacing:.06em}
+.cta{position:absolute;top:1390px;width:100%}
+.cta small{display:block;font:700 24px Raleway;letter-spacing:.18em;color:#C6A764}
+.cta p{font:600 34px 'Bodoni Moda',serif;margin-top:6px}
+.st{position:absolute;top:1475px;left:50%;transform:translateX(-50%);width:520px;height:90px;border:2px dashed rgba(198,167,100,.55);border-radius:22px;display:flex;align-items:center;justify-content:center;color:rgba(198,167,100,.7);font:600 22px Raleway;letter-spacing:.08em}
 </style></head><body>
 <div class="brand">AISUN DODENHOFF</div>
 <div class="pill">GOLDENE DIENSTAGE MIT DEM HAUSARZT</div>
@@ -22,5 +26,7 @@ body{background:radial-gradient(70% 42% at 50% 58%,#3d301a 0%,#1A1A1A 72%);color
 <p class="sub">Schön, dass du dabei bist.<br><em>Deine goldene Box ist reserviert.</em></p>
 <div class="glow"></div><img class="box" src="box-cut.png" alt="">
 <div class="foot">Wir sehen uns am Dienstag, 10. November<b>10:30 UHR · LIVE VIA ZOOM</b></div>
-<script>document.getElementById('n').textContent=decodeURIComponent(location.hash.slice(1))</script>
+<div class="cta"><small>DU WILLST AUCH DABEI SEIN?</small><p>Bestellbar bis Dienstag, 3. November</p></div>
+<script>const n=decodeURIComponent(location.hash.slice(1));document.getElementById('n').textContent=n;
+if(n.includes('&')){document.querySelector('.w').textContent='Die Ersten sind dabei:';document.getElementById('n').style.fontSize='134px';document.querySelector('.sub').innerHTML='Die goldenen Boxen sind reserviert.<br><em>Und deine?</em>'}</script>
 </body></html>
