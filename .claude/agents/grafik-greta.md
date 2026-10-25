@@ -32,3 +32,4 @@ Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
 - Bodoni nie dünn: kräftigerer Schnitt, nicht zu klein; Haarstriche müssen am Handy gut lesbar sein (Aisun, 23.10.).
+- Design Foto-Karussells (Greta/Aisun 25.10.): Gold nur für Markenkopf und eine Aktion (Keyword-Buttons) oder einen Signature-Satz, nie als Betonung im Text. Pfeile nur, wenn sie auf etwas Echtes am Foto zeigen. Labels leicht schräg (-4° bis +4°), Script-Titel -2° bis -5°. Lieber Foto leicht abdunkeln + Textschatten als dunkle Kästen.
