@@ -45,3 +45,4 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - Karussells nie Slide für Slide flicken, wenn der Bogen nicht trägt: neu aufbauen und unabhängig prüfen lassen, bevor Aisun es sieht (23.10.2026).
 - Kein Upsell/Order Bump im Checkout (weder Hausarzt noch KiH); Zusatzangebote laufen per Mail. Aisun nicht mehr daran erinnern (23.10.2026).
 - Visuelle Entwürfe nie ohne Abnahme der fertigen Bilder durch Greta vorlegen. Aisun tritt als seriöse Expertin auf: Überschriften gerade, ruhig; Schräges nur sparsam bei einzelnen Punkten (25.10.2026).
+- 28.10.2026: Nie direkt losbauen, auch nicht bei fertigem Briefing. Erst CEO-Prüfung (Bestand, Überschneidungen, Sinn, Lücken, Herkunft), dann Empfehlung an Aisun, dann bauen. Anlass: Content-Tab gebaut, ohne das leere Trello-Board, die Freigabe-Pakete und Sinas Wochentags-Daten zu prüfen.
