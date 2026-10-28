@@ -21,5 +21,6 @@ Quelle: Briefing „Content-Bereich im CEO-Table“. Gilt für Romy, Tina, Sina,
 - In Texten über Aisun immer „ehemalige Psychotherapeutin".
 
 
-## Posting-Tage
-- Montage meiden, sie performen schlecht.
+## Posting-Rhythmus
+- Mo bis Fr täglich um 12 Uhr, ein Reel oder Karussell. Bei viel Material auch samstags (Entscheidung 19.10., bestätigt 28.10.).
+- Keine Montags-Regel: Montag ist ein normaler Posting-Tag (Aisun, 28.10.; Katalog bestätigt keinen schwachen Montag).

@@ -10,7 +10,7 @@ Texterin Tina · 19.10.2026 · nach `lernen/playbooks/karussell-qualitaet.md` ·
 | **Ziel** | Liste (warme Leads für die Coach-Ausbildung), nicht Viralität. Business-Content läuft auf dem Account schwächer (Vera, Skill). |
 | **Keyword** | **COACH** = ManyChat-Auslöser für die Ausbildung, **kein Freebie-Wort**. Nichts „schicke ich dir" versprechen. |
 | **Offen** | **[OFFEN: Folgeschritt nach COACH.]** Die letzte Slide ist als Einladung formuliert („ich lade dich zum nächsten Schritt ein"), nicht als Freebie. Aisun entscheidet: Einladung zum Kennenlernen-Gespräch, Mail mit Ausbildungsinfos oder etwas anderes. Frieda prüft, ob COACH in ManyChat aktiv ist (steht in den Regeln, fehlt in der aktiven Liste). |
-| **Posting** | Nicht Montag. Dienstag oder Mittwoch vormittags (Vera). |
+| **Posting** | Mo–Fr 12 Uhr (Entscheidung 19.10.). |
 | **Quellen der Fakten** | Stimme/Vokabular nur aus `wissen/stimme.md`. Alicia Beluga wird **nicht** genannt (Einverständnis offen). Keine Zahlen, keine Studien, keine Verknappung. |
 
 **Reihenfolge am Ende (bewusste Abweichung):** Speicher-Slide, dann Autorin-Slide, dann Keyword-Slide. Die Checkliste verlangt Autorin vor dem Keyword, die Anweisung „vorletzte Slide = Speicher". Beides zugleich geht nicht. Ich habe Speicher als letzte Inhaltsslide gesetzt. Wenn Aisun die Autorin-Slide lieber mit der CTA verbinden will (wie in ihrem Ausreden-Post), rutscht Speicher auf die vorletzte Position.
