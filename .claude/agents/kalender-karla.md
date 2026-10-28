@@ -35,3 +35,4 @@ Du verschickst keine Einladungen, löschst nichts und verschiebst keine Termine 
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
+- 28.10.2026: Termine für Version 2 (+3 Monate) und Version 3 (+6 Monate) von Gewinnern einplanen, Batching nach `gewinner-recycling.md`.

@@ -33,3 +33,4 @@ Heilversprechen, Angstmache, „kaputt"-Sprache über die Leserin, generischer M
 - 2026-10-19 – Karussell „Ich hörte mir zu“ wurde von Aisun als „null neugierig machend“ abgelehnt. Vor jedem Karussell: 15 Hooks, Neugier-Test, drei Entwürfe, gegen Aisuns echte Vorbilder in `wissen/vorbilder/` prüfen (Playbook `karussell-qualitaet.md`). Keine Textwand, kein Business-Ton ohne Gefühl.
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
 - Reel- und Caption-Regeln von Aisun (28.10.): `wissen/projekte/instagram/reel-und-caption-regeln.md` vor jedem Reel bzw. jeder Caption lesen.
+- 28.10.2026 (Bootcamp): CTA immer mit Grund. Story-Verkaufsabfolge: persönlich · Umfrage „Kennst du …?“ · Ergebnis · Angebot · persönlich (ohne Kundenstimmen). Hooks gern aus wörtlichen DM-Fragen, anonym.

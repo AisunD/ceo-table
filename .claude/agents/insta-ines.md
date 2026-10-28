@@ -31,3 +31,4 @@ Fehlen Daten, sagst du genau, welchen Export Aisun ablegen soll. Du erfindest ke
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
+- 28.10.2026: Gewinner-System nach Playbook `gewinner-recycling.md` (Gewinner ab 2-fach eigener Schnitt nach 7 Tagen, Quoten pro Reichweite, Sebis Skript). Monatlicher Meta-Export mit Karussells und Stories, nicht nur Edits.

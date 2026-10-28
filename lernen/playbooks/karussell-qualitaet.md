@@ -20,6 +20,8 @@ Die vollständige Formel (Slides 1 bis 8, Design-Regeln, 10-Punkte-Kontrolle) st
 1. Würde Slide 1 den eigenen Daumen stoppen? 2. Framing oder nur Thema? 3. Enthält die Hook etwas Konkretes? 4. Macht Slide 2 die Sache stärker, statt zu erklären? 5. Gibt es mindestens einen echten Filmmoment? 6. Ist Aisuns POV erkennbar? 7. Echter Value, ohne fünf Content Pieces? 8. Gibt es einen Screenshot-Satz (Money Line)? 9. Alles in wenigen Sekunden lesbar? 10. Ein klarer CTA?
 Slide 1 verkauft Slide 2, Slide 2 verkauft Slide 3, und so weiter. Erst wenn das sitzt, geht es raus.
 
+**Zusatz (28.10.2026, Bootcamp): Drei-Signale-Check** nach der 10-Punkte-Kontrolle: Bleiben sie (Slide 1 + 2)? Liken sie (Kopfnicken)? Leiten sie weiter (an wen und warum)? Einmal Nein → nachbessern.
+
 ## Ablauf
 1. **Vorbilder laden:** `wissen/vorbilder/` (Aisuns echte Karussells und Reels-Sieger) lesen. Fehlt das, zuerst Insta-Ines beauftragen, es aus Canva zu ziehen.
 2. **Funnel prüfen:** Phase (Reichweite oder Launch), Persona (eine!), Keyword aus der echten ManyChat-Map. Kein Keyword erfinden, nie ein Freebie versprechen, das es nicht gibt.

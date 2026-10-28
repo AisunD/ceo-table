@@ -32,3 +32,4 @@ Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
 - Reel- und Caption-Regeln von Aisun (28.10.): `wissen/projekte/instagram/reel-und-caption-regeln.md` vor jedem Reel bzw. jeder Caption lesen.
+- 28.10.2026 (Bootcamp): Reel-Bauplan Hook 0–3 Sek. (gesagt und als Text, Text-Hook 2–4 Wörter ergänzend) · eine Kernaussage · Zwischenhook · Beleg · Abschluss. Mindestens 6 Hook-Arten pro Hook-Liste. Quelle: `wissen/quellen/ki-content-bootcamp/`.

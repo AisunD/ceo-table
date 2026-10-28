@@ -39,3 +39,4 @@ Eine Zeile pro feste Entscheidung, neueste oben. Format: `JJJJ-MM-TT – Entsche
 - 25.10.2026: Über-mich-Post: Aisun will mutige Formulierungen („Colitis geheilt“, „Alternativen zur Schulmedizin“) als persönliche Erfahrung, bewusst. Petra meldet gelb, Anwältin entscheidet.
 - 28.10.2026: Content-Bereich im Cockpit (Tab Content). Dateien liegen im Asset-Speicher des Cockpits, kein Google Drive.
 - 28.10.2026: Keine Montags-Regel, Montag ist normaler Posting-Tag. Rhythmus bleibt Mo–Fr 12 Uhr, ein Reel oder Karussell; bei viel Material auch Sa. (Aisun)
+- 28.10.2026: KI-Content-Bootcamp (Sebi): kein eigenes Projekt. Das Beste wird ins bestehende Team eingebaut (Gewinner-System, Recycling 80/20 mit Version 2/3, Blickwinkel, Hook-Vielfalt, Drei-Signale-Check). Provokante Hooks bleiben, Kursregeln, die unseren widersprechen, gelten nicht. (Aisun)
