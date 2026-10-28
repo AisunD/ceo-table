@@ -913,7 +913,7 @@ Bisheriges Gespräch:\n${hist}`;
         <h3 class="ct-hook">${esc(c.hook||"").replace(/ \/ /g,"<br>")}</h3>
         <div class="ct-media">
           <div class="ct-slot">${vid?`<video src="${blobUrl(vid)}#t=0.1" controls playsinline muted preload="metadata"></video><span class="lab">Video</span>`:`<div class="miss">Video fehlt${canUp?`<button class="btn" data-up="video">Hochladen</button>`:""}</div>`}</div>
-          <div class="ct-slot">${cov?`<img src="${blobUrl(cov)}" alt="Deckblatt"><span class="lab">Deckblatt</span>`:`<div class="miss">${c.cover_text?`Deckblatt folgt:<br><b>${esc(c.cover_text)}</b>`:"Deckblatt fehlt"}${canUp?`<button class="btn" data-up="cover">Hochladen</button>`:""}</div>`}</div>
+          <div class="ct-slot">${cov?`<img src="${blobUrl(cov)}" alt="Deckblatt"><span class="lab">Deckblatt</span>`:`<div class="miss">${c.canva_link?`Deckblatt ist in Canva fertig<a class="btn" href="${esc(c.canva_link)}" target="_blank" rel="noopener">In Canva öffnen</a>`:c.cover_text?`Deckblatt folgt:<br><b>${esc(c.cover_text)}</b>`:"Deckblatt fehlt"}${canUp?`<button class="btn" data-up="cover">Hochladen</button>`:""}</div>`}</div>
         </div>
         <div class="ct-acts">
           <button class="bigbtn" data-save="video" ${vid?"":"disabled"}><span class="n">1</span>Video speichern</button>
