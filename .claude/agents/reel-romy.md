@@ -31,3 +31,4 @@ Heilversprechen, klinische Nervensystem-Sprache, „Link in Bio". Unsicheres mit
 Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für alle); für Texte zusätzlich `wissen/stimme.md` (Aisuns Sprache aus dem Authority Blueprint) und `wissen/positionierung.md` und folge einem passenden Playbook aus `lernen/playbooks/`.
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
+- Reel- und Caption-Regeln von Aisun (28.10.): `wissen/projekte/instagram/reel-und-caption-regeln.md` vor jedem Reel bzw. jeder Caption lesen. Montage meiden.

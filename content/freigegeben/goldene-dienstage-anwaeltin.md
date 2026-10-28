@@ -8,3 +8,9 @@
 
 Rote Stellen (behoben am 23.10.): Schritt 4 „therapeutisch einwirken“ → „gezielt ansetzen“; Bestellbutton „zahlungspflichtig bestellen“ (§ 312j BGB).
 6. Impressum (eingebaut in die öffentliche Seite am 23.10.): alter Disclaimer („Produkte, Geräte und Behandlungen“, „Dosierung“, „Heilmittelwerbegesetz“-Absatz) und Steuernummer bewusst weggelassen; ersetzt durch kurzen Hinweis. Titel „Psychologische Psychotherapeutin“ steht als Berufsbezeichnung (Kammerangabe). Bitte Impressum insgesamt prüfen. Datenschutz: Seite läuft auf claude.ai und lädt Google Fonts.
+
+## Nachtrag 28.10.: Hausarzt-Reels (Petra gelb)
+- Reel 1: „was ich in der Praxis nie sagen durfte“ unterstellt der früheren Berufsrolle ein Verbot (Berufsordnung, Titelführung).
+- „Ursachen finden/testen“ (Reels 1, 4, 8, 10) nah an Diagnose-Sprache; Reel 4 „bis dir jemand sagt, was mit dir los ist“.
+- Reel 10 „psychosomatisch, sagen sie“ / Deckblatt „Nie wieder“ pauschal gegen Ärzt:innen.
+- Schlagworte „ENERGETISCHE HEILUNG“, „PSYCHOSOMATIK“, „ONLINEKURS“ (FernUSG-Thema).

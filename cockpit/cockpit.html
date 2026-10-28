@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Raleway:wght@400;500;600;700&display=swap">
 <style>
-/* Layout: eine App mit fünf Räumen (Heute · Entscheiden · Zahlen · Strategie · Team). Unten eine feste Tab-Leiste wie am Handy, auf breiten Bildschirmen dieselben Tabs oben. Jeder Raum eine ruhige Spalte. */
+/* Layout: eine App mit sieben Räumen (Heute · Entscheiden · Entwürfe · Content · Zahlen · Strategie · Team). Unten eine feste Tab-Leiste wie am Handy, auf breiten Bildschirmen dieselben Tabs oben. Jeder Raum eine ruhige Spalte. */
 :root{
   --bg:#FBFAF0; --surface:#FFFFFF; --sunk:#F3EEDF; --sand:#EADCC1; --line:#E4DAC4;
   --fg:#1A1A1A; --muted:#6F6A63; --ink-accent:#73013A; --gold:#C6A764;
@@ -49,11 +49,13 @@ button{cursor:pointer}
 /* Tabs */
 .tabs{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--tabbar);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line);
   padding:6px max(8px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px))}
-.tabs .in{max-width:680px;margin:0 auto;display:grid;grid-template-columns:repeat(6,1fr);gap:0}
-.tab{background:none;border:0;border-radius:12px;padding:6px 2px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:10.5px;font-weight:600;color:var(--muted);position:relative}
+.tabs .in{max-width:720px;margin:0 auto;display:grid;grid-template-columns:repeat(7,1fr);gap:0}
+.tab{background:none;border:0;border-radius:12px;padding:6px 0;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:10px;min-width:0;font-weight:600;color:var(--muted);position:relative}
 .tab svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .tab[aria-selected="true"]{color:var(--fg)}
 .tab[aria-selected="true"] svg{stroke:var(--ink-accent)}
+.tab .tl-short{display:none}
+@media (max-width:440px){.tab .tl-long{display:none}.tab .tl-short{display:inline}}
 .tab .badge{position:absolute;top:2px;left:calc(50% + 6px);min-width:18px;height:18px;border-radius:9px;background:var(--crit);color:#FBFAF0;font-size:10px;font-weight:700;display:grid;place-items:center;padding:0 5px}
 .view[hidden]{display:none!important}
 .view{display:flex;flex-direction:column;gap:22px}
@@ -133,6 +135,41 @@ button.tile:hover{background:var(--sunk)}
 .newtask{display:grid;grid-template-columns:1fr auto auto;gap:8px}
 @media (max-width:520px){.newtask{grid-template-columns:1fr 1fr}.newtask input{grid-column:1/-1}}
 .newtask input,.newtask select{border:1px solid var(--line);border-radius:12px;padding:9px 12px;background:var(--surface);min-width:0}
+
+/* Content: Posting-Board (Video speichern, Deckblatt speichern, Caption kopieren, abhaken) */
+.ct-filters{display:flex;flex-direction:column;gap:8px}
+.ct-day{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:10px 0 -8px}
+.ct-day.today{color:var(--ink-accent)}
+.ct{display:flex;flex-direction:column;gap:14px}
+.ct.posted{opacity:.6}
+.ct-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ct-typ{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.ct-hook{font-size:21px;line-height:1.25;font-weight:600}
+.ct-media{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ct-slot{position:relative;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:var(--sunk);border:1px solid var(--line)}
+.ct-slot video,.ct-slot img{width:100%;height:100%;object-fit:cover;display:block;background:#000}
+.ct-slot .miss{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:10px;text-align:center;font-size:13px;color:var(--muted)}
+.ct-slot .lab{position:absolute;left:8px;top:8px;background:rgba(26,26,26,.72);color:#FBFAF0;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:999px;pointer-events:none}
+.ct-acts{display:grid;grid-template-columns:1fr;gap:8px}
+.bigbtn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:52px;border-radius:14px;border:1px solid var(--gold);background:var(--surface);font-size:15px;font-weight:700;padding:10px 14px;text-align:center}
+.bigbtn .n{width:24px;height:24px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-size:12px;flex:none}
+.bigbtn.primary{background:var(--berry);border-color:var(--berry);color:var(--berry-ink)}
+.bigbtn.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+.bigbtn[disabled]{opacity:.6;cursor:default}
+.ct-cap summary{font-size:13px;font-weight:600;color:var(--muted);cursor:pointer}
+.ct-cap pre{white-space:pre-wrap;font-family:var(--body);font-size:14px;line-height:1.55;margin:10px 0 0;background:var(--sunk);border-radius:12px;padding:12px 14px;max-height:320px;overflow:auto;user-select:text;-webkit-user-select:text}
+.ct-meta{display:grid;grid-template-columns:1.3fr 1fr;gap:8px}
+.ct-meta label{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);min-width:0}
+.ct-meta input,.ct-meta select{border:1px solid var(--line);border-radius:12px;padding:10px 6px;background:var(--surface);font-size:13px;font-weight:600;letter-spacing:0;text-transform:none;color:var(--fg);min-width:0;width:100%}
+.kw{font-weight:800;letter-spacing:.08em}
+.ct-note{font-size:13px;color:var(--muted);margin:0;overflow-wrap:anywhere}
+.ct-up{display:flex;gap:14px;flex-wrap:wrap}
+.c-idee{background:var(--idle-bg);color:var(--muted)}
+.c-fertig{background:var(--warn-bg);color:var(--warn)}
+.c-zur-freigabe{background:var(--crit-bg);color:var(--crit)}
+.c-geplant{background:var(--sunk);color:var(--ink-accent)}
+.c-gepostet{background:var(--ok-bg);color:var(--ok)}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:14px;font-weight:600;z-index:40;max-width:calc(100% - 32px);text-align:center}
 
 /* Zahlen */
 .kpis{display:grid;grid-template-columns:1fr 1fr;gap:12px}
@@ -354,6 +391,17 @@ tr:last-child td{border-bottom:0}
     <div id="entwuerfe"><div class="empty">Entwürfe werden geladen …</div></div>
   </section>
 
+  <!-- CONTENT -->
+  <section class="view" id="v-content" aria-labelledby="h-content" hidden>
+    <div class="vh"><h2 id="h-content">Content</h2><span class="small muted" id="ct-sum"></span></div>
+    <p class="muted" style="margin:-10px 0 0;max-width:60ch">Deine Posts der Woche. So geht's am Handy: ① Video speichern, ② Deckblatt speichern, ③ Caption kopieren, in Instagram posten, dann abhaken.</p>
+    <div class="ct-filters">
+      <div class="filters" id="ct-f-st" role="group" aria-label="Status"></div>
+      <div class="filters" id="ct-f-k" role="group" aria-label="Kampagne"></div>
+    </div>
+    <div id="content" style="display:flex;flex-direction:column;gap:22px"><div class="empty">Content wird geladen …</div></div>
+  </section>
+
   <!-- ZAHLEN -->
   <section class="view" id="v-zahlen" aria-labelledby="h-zahlen" hidden>
     <div class="vh"><h2 id="h-zahlen">Zahlen 2026</h2><span class="small muted" id="z-stand"></span></div>
@@ -386,8 +434,9 @@ tr:last-child td{border-bottom:0}
 
 <nav class="tabs" aria-label="Bereiche"><div class="in" role="tablist">
   <button class="tab" role="tab" data-tab="heute"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4 7 17M17 7l1.4-1.4"/></svg>Heute</button>
-  <button class="tab" role="tab" data-tab="entscheiden"><svg viewBox="0 0 24 24"><path d="M4 12.5 9 17 20 6"/></svg>Entscheiden<span class="badge" id="b-dec" hidden></span></button>
+  <button class="tab" role="tab" data-tab="entscheiden"><svg viewBox="0 0 24 24"><path d="M4 12.5 9 17 20 6"/></svg><span class="tl-long">Entscheiden</span><span class="tl-short">Fragen</span><span class="badge" id="b-dec" hidden></span></button>
   <button class="tab" role="tab" data-tab="entwuerfe"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>Entwürfe</button>
+  <button class="tab" role="tab" data-tab="content"><svg viewBox="0 0 24 24"><rect x="6" y="3" width="12" height="18" rx="2.5"/><path d="M10.5 9.5v5l4-2.5z"/></svg>Content</button>
   <button class="tab" role="tab" data-tab="zahlen"><svg viewBox="0 0 24 24"><path d="M5 20V11M12 20V5M19 20v-7"/></svg>Zahlen</button>
   <button class="tab" role="tab" data-tab="strategie"><svg viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6z"/><path d="M9 10h6M9 14h6M9 18h4"/></svg>Strategie</button>
   <button class="tab" role="tab" data-tab="team"><svg viewBox="0 0 24 24"><circle cx="9" cy="9" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 19c.8-3 3.2-4.5 6-4.5s5.2 1.5 6 4.5M15 15.5c2.6-.6 5 .6 6 3.5"/></svg>Team</button>
@@ -413,11 +462,11 @@ tr:last-child td{border-bottom:0}
   $("#greet").innerHTML = (h<11?"Guten Morgen":h<17?"Hallo":"Guten Abend")+", <em>Aisun</em>";
   $("#today").textContent = fmtLong(now);
 
-  const state = { team:[], tasks:[], decs:[], papers:null, lauf:null, chats:{}, entwuerfe:null, fragen:null, zahlen:null, events:null, calError:null, briefing:null, filter:"alle", draft:{} };
+  const state = { team:[], tasks:[], decs:[], papers:null, lauf:null, chats:{}, entwuerfe:null, fragen:null, zahlen:null, events:null, calError:null, briefing:null, filter:"alle", draft:{}, content:null, ctSt:"offen", ctK:"alle" };
   let db = null;
 
   // ---------- Tabs ----------
-  const TABS = ["heute","entscheiden","entwuerfe","zahlen","strategie","team"];
+  const TABS = ["heute","entscheiden","entwuerfe","content","zahlen","strategie","team"];
   function show(tab, anchor){
     if(!TABS.includes(tab)) tab = "heute";
     TABS.forEach(t=>{ $("#v-"+t).hidden = t!==tab; });
@@ -816,6 +865,133 @@ Bisheriges Gespräch:\n${hist}`;
     }).join("");
   }
 
+  // ---------- Content ----------
+  const CT_ST = ["idee","fertig","zur-freigabe","geplant","gepostet"];
+  const CT_LABEL = {"idee":"Idee","fertig":"Fertig","zur-freigabe":"Zur Freigabe","geplant":"Geplant","gepostet":"Gepostet"};
+  const CT_TYP = {reel:"Reel",karussell:"Karussell",story:"Story"};
+  const WDS = ["So","Mo","Di","Mi","Do","Fr","Sa"];
+  let ctAssets, ctDownloads, ctAssetsTried = false;
+  async function ctCaps(){
+    if(ctAssetsTried) return; ctAssetsTried = true;
+    try{ ctAssets = await claude.use("assets"); }catch(_){ ctAssets = null; }
+    try{ ctDownloads = await claude.use("downloads"); }catch(_){ ctDownloads = null; }
+    renderContent();
+  }
+  function toast(t){ let el = $("#toast"); if(!el){ el = document.createElement("div"); el.id="toast"; el.className="toast"; el.setAttribute("role","status"); document.body.appendChild(el); }
+    el.textContent = t; el.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(()=>{ el.hidden = true; }, 2600); }
+  const blobUrl = id => "/_blob/"+encodeURIComponent(id);
+  function ctFile(c, kind){
+    const base = c.dateiname || (String(c.kampagne||"Content").replace(/[^A-Za-z0-9äöüÄÖÜß_-]+/g,"_")+"_"+c.id);
+    return kind==="video" ? base+"."+(c.video_ext||"mp4") : base+"_Deckblatt."+(c.cover_ext||"png");
+  }
+  function renderContent(){
+    const el = $("#content"); if(state.content===null) return;
+    const all = state.content;
+    const camps = [...new Set(all.map(c=>c.kampagne).filter(Boolean))].sort();
+    if(state.ctK!=="alle" && !camps.includes(state.ctK)) state.ctK = "alle";
+    const stChips = [["offen","Noch zu posten"],["alle","Alle"],...CT_ST.map(s=>[s,CT_LABEL[s]])];
+    $("#ct-f-st").innerHTML = stChips.map(([v,l])=>`<button class="chip" data-ctst="${v}" aria-pressed="${state.ctSt===v}">${esc(l)}</button>`).join("");
+    $("#ct-f-k").innerHTML = camps.length>1 ? [["alle","Alle Kampagnen"],...camps.map(k=>[k,k])].map(([v,l])=>`<button class="chip" data-ctk="${esc(v)}" aria-pressed="${state.ctK===v}">${esc(l)}</button>`).join("") : "";
+    let list = all.filter(c=> state.ctK==="alle" || c.kampagne===state.ctK);
+    list = list.filter(c=> state.ctSt==="alle" ? true : state.ctSt==="offen" ? c.status!=="gepostet" : c.status===state.ctSt);
+    list.sort((a,b)=> String(a.posting_datum||"9999").localeCompare(String(b.posting_datum||"9999")) || (a.reihenfolge||0)-(b.reihenfolge||0) || String(a.id).localeCompare(String(b.id)));
+    const open = all.filter(c=>c.status!=="gepostet").length;
+    $("#ct-sum").textContent = all.length ? `${open} noch zu posten` : "";
+    if(!list.length){ el.innerHTML = `<div class="empty">${all.length ? "Hier ist gerade nichts. Tipp auf „Alle“." : "Noch keine Posts angelegt. Sebastian legt sie hier ab."}</div>`; return; }
+    const canUp = !!ctAssets, canWrite = !!db;
+    let last = null; const out = [];
+    list.forEach(c=>{
+      const day = c.posting_datum || "";
+      if(day!==last){ last = day;
+        let lbl = "Ohne Datum";
+        if(day){ const d = new Date(day+"T12:00:00"); lbl = (day===todayStr?"Heute · ":"")+WDS[d.getDay()]+" "+fmtShort(day); }
+        out.push(`<div class="ct-day${day===todayStr?" today":""}">${esc(lbl)}</div>`); }
+      const st = CT_ST.includes(c.status) ? c.status : "idee";
+      const vid = c.video_id, cov = c.cover_id;
+      out.push(`<article class="card ct${st==="gepostet"?" posted":""}" data-ct="${esc(c.id)}">
+        <div class="ct-top"><span class="ct-typ">${esc(CT_TYP[c.typ]||c.typ||"Post")}${c.nummer?" "+esc(c.nummer):""} · ${esc(c.kampagne||"")}</span><span class="pill c-${st}">${esc(CT_LABEL[st])}</span></div>
+        <h3 class="ct-hook">${esc(c.hook||"").replace(/ \/ /g,"<br>")}</h3>
+        <div class="ct-media">
+          <div class="ct-slot">${vid?`<video src="${blobUrl(vid)}#t=0.1" controls playsinline muted preload="metadata"></video><span class="lab">Video</span>`:`<div class="miss">Video fehlt${canUp?`<button class="btn" data-up="video">Hochladen</button>`:""}</div>`}</div>
+          <div class="ct-slot">${cov?`<img src="${blobUrl(cov)}" alt="Deckblatt"><span class="lab">Deckblatt</span>`:`<div class="miss">${c.cover_text?`Deckblatt folgt:<br><b>${esc(c.cover_text)}</b>`:"Deckblatt fehlt"}${canUp?`<button class="btn" data-up="cover">Hochladen</button>`:""}</div>`}</div>
+        </div>
+        <div class="ct-acts">
+          <button class="bigbtn" data-save="video" ${vid?"":"disabled"}><span class="n">1</span>Video speichern</button>
+          <button class="bigbtn" data-save="cover" ${cov?"":"disabled"}><span class="n">2</span>Deckblatt speichern</button>
+          <button class="bigbtn primary" data-copy ${c.caption?"":"disabled"}><span class="n">3</span>Caption kopieren</button>
+        </div>
+        ${c.caption?`<details class="ct-cap"><summary>Caption ansehen</summary><pre>${esc(c.caption)}</pre></details>`:""}
+        <div class="ct-meta">
+          <label>Posten am<input type="date" data-date value="${esc(day)}" ${canWrite?"":"disabled"}></label>
+          <label>Status<select data-st ${canWrite?"":"disabled"}>${CT_ST.map(s=>`<option value="${s}" ${s===st?"selected":""}>${CT_LABEL[s]}</option>`).join("")}</select></label>
+        </div>
+        ${c.keyword?`<p class="ct-note">Keyword: <span class="kw">${esc(c.keyword)}</span>${c.notiz?" · "+esc(c.notiz):""}</p>`:(c.notiz?`<p class="ct-note">${esc(c.notiz)}</p>`:"")}
+        ${canUp&&(vid||cov)?`<div class="ct-up">${vid?`<button class="linkbtn" data-up="video">Video ersetzen</button>`:""}${cov?`<button class="linkbtn" data-up="cover">Deckblatt ersetzen</button>`:""}</div>`:""}
+        ${st!=="gepostet"&&canWrite?`<button class="bigbtn ok" data-posted>Gepostet – abhaken</button>`:""}
+      </article>`);
+    });
+    el.innerHTML = out.join("");
+  }
+  async function ctUpdate(id, data){
+    if(!db) return;
+    try{ await db.collection("content").doc(id).update({...data, geaendert:new Date().toISOString()}); }
+    catch(err){ toast(err&&err.code==="invalid_argument" ? "Du darfst hier nichts ändern." : "Speichern hat nicht geklappt. Versuch es noch einmal."); }
+  }
+  async function ctSave(c, kind, btn){
+    const id = kind==="video" ? c.video_id : c.cover_id; if(!id) return;
+    const name = ctFile(c, kind); const old = btn.innerHTML; btn.disabled = true; btn.innerHTML = "Lädt …";
+    try{
+      const r = await fetch(blobUrl(id)); if(!r.ok) throw new Error("fetch");
+      const blob = await r.blob();
+      if(ctDownloads){
+        try{ await ctDownloads.save({filename:name, data:blob}); toast(kind==="video"?"Video gespeichert.":"Deckblatt gespeichert."); }
+        catch(err){ if(err&&err.code==="declined") {} else if(err&&err.code==="rate_limited") toast("Einen Moment, dann noch einmal tippen."); else toast("Speichern geht hier gerade nicht. Halte das Bild bzw. Video gedrückt."); }
+      } else {
+        const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(()=>URL.revokeObjectURL(a.href), 4000);
+      }
+    }catch(_){ toast("Datei konnte nicht geladen werden."); }
+    finally{ btn.disabled = false; btn.innerHTML = old; }
+  }
+  function ctCopy(c, card){
+    const text = c.caption||"";
+    const done = ok => { if(ok){ toast("Caption kopiert. Jetzt in Instagram einfügen."); } else { const d = card.querySelector(".ct-cap"); if(d){ d.open = true; const pre = d.querySelector("pre"); const rg = document.createRange(); rg.selectNodeContents(pre); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(rg); } toast("Bitte lange drücken und „Kopieren“ wählen."); } };
+    const fallback = () => { try{ const ta = document.createElement("textarea"); ta.value = text; ta.setAttribute("readonly",""); ta.style.position="fixed"; ta.style.opacity="0"; document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, text.length); const ok = document.execCommand("copy"); ta.remove(); done(ok); }catch(_){ done(false); } };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(()=>done(true), fallback); } else fallback();
+  }
+  function ctUpload(c, kind){
+    if(!ctAssets) return;
+    const inp = document.createElement("input"); inp.type = "file";
+    inp.accept = kind==="video" ? "video/mp4,video/quicktime,video/webm,.mp4,.mov" : "image/png,image/jpeg,image/webp";
+    inp.addEventListener("change", async ()=>{
+      const f = inp.files && inp.files[0]; if(!f) return;
+      if(f.size > 20*1024*1024){ toast("Die Datei ist größer als 20 MB. Bitte kleiner exportieren."); return; }
+      toast(kind==="video"?"Video wird hochgeladen …":"Deckblatt wird hochgeladen …");
+      try{
+        const r = await ctAssets.upload(f);
+        const ext = (f.name.split(".").pop()||"").toLowerCase().replace(/[^a-z0-9]/g,"") || (kind==="video"?"mp4":"png");
+        await ctUpdate(c.id, kind==="video" ? {video_id:r.id, video_url:blobUrl(r.id), video_ext:ext} : {cover_id:r.id, cover_url:blobUrl(r.id), cover_ext:ext});
+        toast("Hochgeladen.");
+      }catch(err){ toast(err&&err.code==="too_large" ? "Zu groß (max. 20 MB)." : err&&err.code==="unsupported_type" ? "Dieses Dateiformat geht nicht. Bitte MP4, PNG oder JPG." : "Hochladen hat nicht geklappt."); }
+    });
+    inp.click();
+  }
+  $("#v-content").addEventListener("click", e=>{
+    const f1 = e.target.closest("[data-ctst]"); if(f1){ state.ctSt = f1.dataset.ctst; renderContent(); return; }
+    const f2 = e.target.closest("[data-ctk]"); if(f2){ state.ctK = f2.dataset.ctk; renderContent(); return; }
+    const card = e.target.closest("[data-ct]"); if(!card) return;
+    const c = (state.content||[]).find(x=>x.id===card.dataset.ct); if(!c) return;
+    const sv = e.target.closest("[data-save]"); if(sv){ ctSave(c, sv.dataset.save, sv); return; }
+    if(e.target.closest("[data-copy]")){ ctCopy(c, card); return; }
+    const up = e.target.closest("[data-up]"); if(up){ ctUpload(c, up.dataset.up); return; }
+    if(e.target.closest("[data-posted]")){ ctUpdate(c.id, {status:"gepostet", gepostet_am:todayStr}); toast("Abgehakt. Schön!"); }
+  });
+  $("#v-content").addEventListener("change", e=>{
+    const card = e.target.closest("[data-ct]"); if(!card) return;
+    if(e.target.matches("[data-date]")) ctUpdate(card.dataset.ct, {posting_datum:e.target.value||""});
+    if(e.target.matches("[data-st]")) ctUpdate(card.dataset.ct, {status:e.target.value});
+  });
+
   // ---------- Strategie ----------
   function inline(s){ return esc(s).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/`([^`]+)`/g,"$1"); }
   const isNum = s => /^[\s\d.,%€+−\-–×Σ=~]+$/.test(s) && /\d/.test(s);
@@ -892,7 +1068,7 @@ Bisheriges Gespräch:\n${hist}`;
   // ---------- Start ----------
   async function startDb(){
     db = await claude.use("db");
-    if(!db){ ["#tasks","#team-areas","#decs","#papers","#questions","#zahlen","#entwuerfe"].forEach(s=>$(s).innerHTML='<div class="empty">Bitte melde dich bei claude.ai an, um dein Cockpit zu sehen.</div>'); $("#brief-btn").hidden=true; return; }
+    if(!db){ ["#tasks","#team-areas","#decs","#papers","#questions","#zahlen","#entwuerfe","#content"].forEach(s=>$(s).innerHTML='<div class="empty">Bitte melde dich bei claude.ai an, um dein Cockpit zu sehen.</div>'); $("#brief-btn").hidden=true; return; }
     const fail = sel => () => { $(sel).innerHTML = '<div class="empty">Konnte gerade nicht geladen werden. Lade die Seite neu.</div>'; };
     db.collection("team").onSnapshot(s=>{ state.team = s.docs.map(d=>({id:d.id,...d.data()})); renderTeam(); renderTasks(); renderNow(); }, fail("#team-areas"));
     db.collection("auftraege").onSnapshot(s=>{ state.tasks = s.docs.map(d=>({id:d.id,...d.data()})); renderTasks(); renderTiles(); renderNow(); }, fail("#tasks"));
@@ -900,6 +1076,8 @@ Bisheriges Gespräch:\n${hist}`;
     db.collection("entscheidungen").orderBy("datum","desc").limit(10).onSnapshot(s=>{ state.decs = s.docs.map(d=>({id:d.id,...d.data()})); renderDecs(); }, fail("#decs"));
     db.collection("gespraeche").onSnapshot(s=>{ const c={}; s.docs.forEach(d=>{ c[d.id]={...d.data()}; }); state.chats = c; renderTeam(); if(chatId) renderChat(true); }, ()=>{});
     db.collection("entwuerfe").onSnapshot(s=>{ state.entwuerfe = s.docs.map(d=>({id:d.id,...d.data()})); renderEntwuerfe(); renderNow(); }, fail("#entwuerfe"));
+    db.collection("content").onSnapshot(s=>{ state.content = s.docs.map(d=>({id:d.id,...d.data()})); renderContent(); }, fail("#content"));
+    ctCaps();
     db.collection("papiere").onSnapshot(s=>{ state.papers = s.docs.map(d=>({id:d.id,...d.data()})); renderPapers(); }, fail("#papers"));
     db.collection("kennzahlen").doc("umsatz-2026").onSnapshot(s=>{ state.zahlen = s.exists ? s.data() : false; renderTiles(); if(!$("#v-zahlen").hidden) renderZahlen(); });
     db.collection("meta").doc("lauf").onSnapshot(s=>{ state.lauf = s.exists ? s.data() : null; renderLauf(); });

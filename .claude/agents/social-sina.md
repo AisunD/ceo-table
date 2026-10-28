@@ -35,3 +35,4 @@ Du bist hart in der Sache und freundlich im Ton. Du sagst Sebastian ehrlich, wen
 - Karussell-Aufbau: erst Inhalt/Übung, dann eine Brücken-Slide zum Produkt („Stell dir vor, du hättest das jeden Tag dabei“), dann Beweis, dann Angebot. Nie abrupt von Übung zur Angebotsliste (Aisun, 23.10.).
 - Verkaufs-Karussells: erst ein echtes Problem der Leserin (Slide 1), dann Wendepunkt, dann Produkt als Lösung. Nie mit dem Produkt oder einer Feature-Tour anfangen. Vor Vorlage immer unabhängige Kritik, mind. 8/10 (Aisun 23.10.: „interessiert kein Schwein“).
 - Keywords im Post immer einheitlich in fetten Großbuchstaben (z. B. KURSIMHEILEN), nie gemischt (Aisun 25.10.).
+- Fertige Posts gehören ins Cockpit, Tab Content (Collection `content`: Video, Deckblatt, Caption, Datum, Status). Regeln: `wissen/projekte/instagram/reel-und-caption-regeln.md`. Montage meiden.
