@@ -37,4 +37,11 @@ Gestartet 29.10.2026. Ablauf und Fragen: `wissen/quellen/ki-content-bootcamp/pak
   - Kundin: Bild gemalt, Goldklee: „Es fühlt sich an, als hätte ich das Thema geheilt und durch die Heilpflanze ersetzt.“
   - Kundin (Heilraum Extended Jahr): „hab mich gleich fürs ganze Jahr bei dir angemeldet … das Zahndokument probiere ich gleich mal aus“
   - Kundin: „ohne diese Erfahrung des ersten Wahrnehmens … Ich glaube, dass die Live-Erfahrung wichtig ist.“
-- Frage 3 (Zielkundin): (offen)
+- Frage 3 (Zielkundin), Aisun: „mir fällt es echt voll schwer, meine eine typische Kundin zu beschreiben“. Mehrere beschrieben (ohne Namen):
+  - Kundin T.: etwas über 50, selbstständig, arbeitet mit BrainFit, gibt verschiedene Kurse; hat sich zum allerersten Mal eine 10.000-€-Ausbildung gegönnt, ist jetzt innerwise Coach/Mentorin. Kinder groß, mehr Zeit für sich, übt ganz viel im Alltag, lässt sich total darauf ein.
+  - Kundin (Ergotherapeutin): will es einfach in ihre Praxis integrieren.
+  - Kundin E.: Österreicherin, Mama von zwei Kindern, um die 35. Wollte es erst nur für sich, fand es so begeisternd, dass sie es jetzt tagtäglich anwendet und eine eigene Praxis aufgemacht hat.
+  - Kundin J.: war Physiotherapeutin, hat aufgehört, selbstständig als energetischer Coach, kennt sich mit körperlichen Themen aus und kombiniert das.
+  - Kundin (fast 70): wohnt allein in einem Haus, kommt immer zu den 14-tägigen Übungstreffen, wendet es gern für ihre Zähne und für ihr Haus an.
+  - Kundin M.: Ergotherapeutin, hat sich selbstständig gemacht: „es ist ganz krass, dass ich mich so viel traue, einfach so unkonventionell zu machen“, probiert es immer mehr für sich aus.
+  - Nachhaken (einmal): Welche davon ist die eine für Instagram?
