@@ -12,5 +12,5 @@ Gestartet 29.10.2026. Ablauf und Fragen: `wissen/quellen/ki-content-bootcamp/pak
   Geplant: 1:1 VIP Begleitung für Business-Leader: preis noch offen. Hochpreisig
   Goldene Dienstage: 197€
   Einzelene Workshops: 22 (reduziert)-333 € (Urseele). Live und als Aufzeichnung
-  Abgleich offen: Goldene Dienstage laut Checkout/Entscheidung 195 € (Aisun gefragt).
+  Korrektur Aisun: Goldene Dienstage 195 € stimmt.
 - Frage 2 (Ergebnis): (offen)
