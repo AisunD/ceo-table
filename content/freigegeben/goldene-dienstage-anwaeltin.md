@@ -14,3 +14,6 @@ Rote Stellen (behoben am 23.10.): Schritt 4 „therapeutisch einwirken“ → �
 - „Ursachen finden/testen“ (Reels 1, 4, 8, 10) nah an Diagnose-Sprache; Reel 4 „bis dir jemand sagt, was mit dir los ist“.
 - Reel 10 „psychosomatisch, sagen sie“ / Deckblatt „Nie wieder“ pauschal gegen Ärzt:innen.
 - Schlagworte „ENERGETISCHE HEILUNG“, „PSYCHOSOMATIK“, „ONLINEKURS“ (FernUSG-Thema).
+
+## Nachtrag 29.10.: Kundinnen-Erfahrungen mit Gesundheitsthemen als Content (Aisuns bewusste Entscheidung)
+- HWG § 11 (Äußerungen Dritter, Heilungsberichte), Einwilligung der Kundinnen bei wörtlichen Zitaten, DSGVO Art. 9 bei erkennbaren Personen.
