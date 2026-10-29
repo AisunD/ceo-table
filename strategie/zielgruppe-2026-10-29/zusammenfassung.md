@@ -24,3 +24,10 @@ Nicht umdrehen, aber auch nicht „hoffen“: **Anwenderinnen sind die Tür (Rei
 3. Herkunft der Ausbildungs-Plätze 2026 nennen (je Platz: über KiH, Grundausbildung, Workshop, Instagram, Empfehlung).
 
 Elli: Fragen fürs Sakral an drei Tagen stellen lassen (siehe elli.md). Nichts beschlossen.
+
+## Aisuns Antwort (29.10.2026)
+- **Keine Brücke im KiH:** Erwähnt sie die Ausbildung, denken Anwenderinnen „der KiH reicht mir eh nicht, das ist nur ein Basiskurs“ und der Kurs wirkt schlechter. Die Ausbildung wird im KiH (und Workshop) nicht genannt.
+- **Gespräche:** Bisher keine Gespräche für die Ausbildung; Interessentinnen kommen auf die Warteliste und bekommen per Mail den KiH empfohlen. Aisun: Gespräche sind „eine gute Idee“.
+- **Herkunft der Plätze (letzte Runde):** 1 direkt über Instagram · 1 über UrSeele · 1 über Workshop → KiH → Ausbildung · die übrigen schon länger im Feld, meist über den KiH.
+- **Ellis Sakral-Fragen (erster Tag):** 1 (mehr Zeit mit Frauen, die die Arbeit weitergeben): „Ja.“ · 2 (weiter täglich Content für Mütter): „macht mir schon Spaß und es funktioniert halt“ · 3 (Hälfte der DMs Bewerbungen): „absolut ja … das würde mich richtig freuen“.
+- Offen bis zur emotionalen Klarheit (Fragen an zwei weiteren Tagen): Wochen-Mix.

@@ -46,4 +46,5 @@ Gestartet 29.10.2026. Ablauf und Fragen: `wissen/quellen/ki-content-bootcamp/pak
   - Kundin M.: Ergotherapeutin, hat sich selbstständig gemacht: „es ist ganz krass, dass ich mich so viel traue, einfach so unkonventionell zu machen“, probiert es immer mehr für sich aus.
   - Nachhaken (einmal): Welche davon ist die eine für Instagram? Aisun: „Eigentlich beide“ (A: Helferin, die es in ihren Beruf holt, und B: Anwenderin für sich und die Familie). → übernehmen, markiert „(noch schärfen)“.
 - Pausiert bei Frage 4 (29.10.): Aisun will vorher strategisch klären, ob Instagram auf Anwenderinnen oder auf die Coach-Ausbildung zielt (Team-Beratung, strategie/zielgruppe-2026-10-29/). Danach Frage 3 neu schärfen und mit Frage 4 weiter.
+- Zielgruppen-Beratung: Antworten Aisuns in strategie/zielgruppe-2026-10-29/zusammenfassung.md (Herkunft der Ausbildungsplätze, keine Brücke im KiH). Interview geht mit beiden Gruppen weiter.
 - Frage 4 (Wo sie feststeckt): (offen)
