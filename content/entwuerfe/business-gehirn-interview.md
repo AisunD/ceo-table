@@ -13,4 +13,5 @@ Gestartet 29.10.2026. Ablauf und Fragen: `wissen/quellen/ki-content-bootcamp/pak
   Goldene Dienstage: 197€
   Einzelene Workshops: 22 (reduziert)-333 € (Urseele). Live und als Aufzeichnung
   Korrektur Aisun: Goldene Dienstage 195 € stimmt.
-- Frage 2 (Ergebnis): (offen)
+- Frage 2 (Ergebnis), Aisun wörtlich: Sie erzählt einer Freundin unglaublich, ich weiß jetzt irgendwie selber, was dran ist und wann es dran ist. Sie fühlt sicherer in meinen Entscheidungen und ich bin klarer in meinen Entscheidungen. Ich [Nachricht brach hier ab]
+- Frage 3 (Zielkundin): (offen)
