@@ -25,4 +25,4 @@ Top-Reels im Zeitraum (Vorschaubilder): 2× „Kein Wartezimmer … Kein Termin 
 - Städte: Riga 35,9 % · Berlin 9,0 % · Wien 4,4 % · München 3,3 % · Hamburg 3,2 %.
 
 ## Auffällig (Sebastian)
-- Riga als größte Stadt (35,9 %) und Lettland/Indien mit zusammen 17 % passen nicht zu einem deutschsprachigen Konto. Zu klären: gekaufte oder Bot-Follower, frühere Werbung, Wohnort von Teammitgliedern? Das verzerrt alle Quoten pro Follower.
+- Riga als größte Stadt (35,9 %) und Lettland/Indien mit zusammen 17 % passen nicht zu einem deutschsprachigen Konto. Aisun 29.10.: Sie hat einmal Follower gekauft, schätzungsweise 3.000, vermutlich die aus Riga. Nach und nach aussortieren. Bis dahin Quoten pro Follower mit Vorsicht lesen; Quoten pro Aufruf/Reichweite sind verlässlicher.

@@ -47,4 +47,7 @@ Gestartet 29.10.2026. Ablauf und Fragen: `wissen/quellen/ki-content-bootcamp/pak
   - Nachhaken (einmal): Welche davon ist die eine für Instagram? Aisun: „Eigentlich beide“ (A: Helferin, die es in ihren Beruf holt, und B: Anwenderin für sich und die Familie). → übernehmen, markiert „(noch schärfen)“.
 - Pausiert bei Frage 4 (29.10.): Aisun will vorher strategisch klären, ob Instagram auf Anwenderinnen oder auf die Coach-Ausbildung zielt (Team-Beratung, strategie/zielgruppe-2026-10-29/). Danach Frage 3 neu schärfen und mit Frage 4 weiter.
 - Zielgruppen-Beratung: Antworten Aisuns in strategie/zielgruppe-2026-10-29/zusammenfassung.md (Herkunft der Ausbildungsplätze, keine Brücke im KiH). Interview geht mit beiden Gruppen weiter.
-- Frage 4 (Wo sie feststeckt): (offen)
+- Frage 4 (Wo sie feststeckt), Aisun wörtlich:
+  - Anwenderinnen: „Die Selbstanwender, die stecken einfach fest, dass keiner Lösungen für ihre Symptome hat. Dass die mit der Schilddrüse schon ewig rumdrehen, dass die Fibromyalgie haben. Dass die Ärzte sagen, ja, da kann man halt nichts machen. Das ist halt so. Bei mir war es ja so, dass die gesagt haben, es ist unheilbar, da kann man nichts machen.“ Außerdem: „viele Leute, die einfach wahnsinnig gerne Ausbildungen machen, die einfach ganz viel machen und ganz viel ausprobieren, einfach neugierig sind und spüren, dass da was drin ist für sie.“
+  - Coach-Ausbildung: „auch so Leute, die einfach ganz viele Ausbildungen machen und das Gefühl haben, das bringt sie jetzt wirklich weiter.“ Aisun: „ich weiß es nicht genau“ → (noch schärfen). Weg dahin: Kundinnen fragen (siehe Aufgabe), DMs, Warteliste-Mails.
+- Frage 5 (Ihre Sätze): (offen)
