@@ -58,3 +58,4 @@ Quelle: Aisuns Screenshot der Liste „Manychat Keywords“ vom 19.10.2026. Dies
 - COACH führt zur Ausbildung; das Kennenlerngespräch (Calendly) hat ein eigenes Keyword KALENDER.
 - Bei Heilraum-extended-Keywords gibt es zuerst ein Freebie (Arbeitsblatt), danach das Workshop-Angebot zum vergünstigten Preis. Die Automationen liefern aktuell bei ZÄHNE viele Klicks auf das Arbeitsblatt, aber kaum Käufe des Workshops (Stand 19.10.2026, siehe Zähne-Funnel-Analyse).
 - Deaktiviert: UMSATZ, Tipp.
+| Goldene Dienstage / innerwise Hausarzt (bis 3.11.2026) | HAUSARZT |
