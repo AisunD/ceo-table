@@ -14,3 +14,5 @@
 4. **Vorschau prüfen** (Thumbnail), dann **Greta** auf alle Deckblätter zusammen, erst danach speichern (`commit`).
 5. **Export** als PNG und in den Asset-Speicher des Content-Boards, `cover_id` eintragen. Solange `export-download.canva.com` in der Cloud-Umgebung gesperrt ist: `canva_id` und `canva_link` eintragen, Aisun speichert über „In Canva öffnen“.
 6. Ab dem sechsten Deckblatt einer Serie eine zweite Pose einmischen (Greta, 28.10.).
+
+7. **Export-Weg (geklappt am 01.11.2026, wenn Aisuns Computer verbunden ist):** `export-design` (PNG, pro) liefert signierte URLs. Die Cloud kann sie nicht laden. Stattdessen: Built-in-Browser auf `export-download.canva.com` freigeben (`request_access`, site), eine Export-URL öffnen und per `javascript_tool` alle URLs derselben Herkunft mit `fetch` holen und als Download auslösen (Dateinamen werden ignoriert, es entstehen `.tmp`-Dateien im Downloads-Ordner, zuordnen über die Dateigröße). Danach `device_stage_files` nur für diese Dateien, in `.png` umbenennen, mit `asset: true` ins Cockpit hochladen, `cover_id` eintragen. Den Downloads-Ordner nie komplett durchsehen, nur die benötigten Dateien anfassen.
