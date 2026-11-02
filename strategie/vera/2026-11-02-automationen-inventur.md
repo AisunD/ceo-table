@@ -47,3 +47,6 @@ Zusätzlich fällt auf: Für die Keywords COACH und KALENDER und für die Coach-
 3. Nina: Was steht in den Bedingungen von 84, 92, 93 und 101 (Kauf, Klick oder Tag)?
 4. KiH Selbststudium: Sind 4 Onboardings wirklich alle Käufe seit März? Laufen die Hausarzt-Käuferinnen über eine andere Strecke?
 5. Darf ich als nächsten Schritt die Kennzahlen je Mail ziehen (nur lesen)?
+
+## Nachtrag 2.11. (Aisuns UTM-Tabelle)
+Die Frage nach den Ads ist beantwortet: Bezahlte Meta-Anzeigen auf den Heilungskompass liefen ab 20.10.2025 (Auswertung: daten/ads/heilungskompass-utm-2025.md). Offen: Laufen sie noch?
