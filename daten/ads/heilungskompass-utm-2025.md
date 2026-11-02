@@ -25,4 +25,4 @@ Dazu 110 Leads ohne UTM-Daten. Aisuns Notiz in der Tabelle: „stammen aus org u
 - Ein verkaufter Kurs im Heilen (Selbststudium) bringt bei 699 € brutto etwa 587 € netto (19 % MwSt., Annahme). Bei ca. 5,27 pro Lead zahlen etwa 110 Leads einen Verkauf. Die Umwandlung vom Lead zum Kauf kennen wir nicht.
 - Retargeting ist mit Abstand am günstigsten, „Mütter“ war zu teuer und wurde abgedreht.
 - Die Blätter „UTM Parameter“ und „Short Links“ zeigen die UTM-Logik: ig/organic-social/freebie_hk/prospecting/cta, Kurzlink go.aisundodenhoff.com/hk-ig. Das ist die Vorlage für saubere Quellen-Angaben (siehe Fehler in Hausarzt Email 1: utm_source=instagram/social für einen Newsletter).
-- Offen: Laufen die Anzeigen noch? Es fehlen Zahlen ab 11/2025 und Käufe je Zielgruppe.
+- Ja, die Anzeigen laufen noch: Folgekampagne seit 11.04.2026 (daten/ads/heilungskompass-kampagne-2026.md).
