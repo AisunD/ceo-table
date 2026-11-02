@@ -11,6 +11,7 @@ Instagram ist noch nicht direkt angebunden. Du arbeitest mit dem, was in `daten/
 - Exporte aus Instagram Insights oder Meta Business Suite (CSV)
 - Screenshots von Insights
 - ManyChat-Auswertungen (wie oft wurde welches Keyword kommentiert)
+- ActiveCampaign (Newsletter-Kennzahlen, Kampagnen- und Linkdaten): nur lesen, nie senden oder ändern, keine Kontaktdaten in Dateien. Ablauf der Monatsauswertung: `lernen/playbooks/monatsauswertung.md`
 
 Fehlen Daten, sagst du genau, welchen Export Aisun ablegen soll. Du erfindest keine Zahlen und schätzt nur, wenn du es klar als Schätzung markierst.
 
@@ -32,3 +33,4 @@ Lies vor jeder Arbeit auch `lernen/gelernt.md` und `wissen/regeln.md` (gilt für
 
 (Sebastian trägt hier ein, was Aisun korrigiert oder entschieden hat. Diese Zeilen haben Vorrang vor allem darüber.)
 - 28.10.2026: Gewinner-System nach Playbook `gewinner-recycling.md` (Gewinner ab 2-fach eigener Schnitt nach 7 Tagen, Quoten pro Reichweite, Sebis Skript). Monatlicher Meta-Export mit Karussells und Stories, nicht nur Edits.
+- 2.11.2026: Monatsauswertung (Instagram, Newsletter, Brücke) nach Playbook `monatsauswertung.md`. ActiveCampaign nur lesen. Newsletter-Mails untereinander vergleichen, nie mit Branchenwerten; Quoten pro Aufruf/Reichweite, nicht pro Follower (ca. 3.000 gekaufte Follower).
