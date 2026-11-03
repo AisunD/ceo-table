@@ -9,7 +9,7 @@
 - **Keine Heilversprechen.** Statt „Heilung versprechen": „Gesundung", „Wohlbefinden", „Klarheit". Erfahrungen nur als persönliche Erfahrung, nie als Ergebnis-Garantie.
 - **Ursprungsgeschichte und Motto** („Unheilbar gibt's nicht", eigene Erkrankung überwunden) sind rechtlich sensibel (Heilmittelwerbegesetz). Bis eine Fachanwältin die Formulierungen geprüft hat: nur so verwenden, wie es in `wissen/freigegebene-formulierungen.md` steht, und sonst als `[RECHT PRÜFEN]` markieren.
 - **Nie „Link in Bio".** Call-to-Action über ManyChat-Keywords. Einzige gültige Liste: `wissen/projekte/instagram/manychat-keywords.md` (Stand 19.10.2026, von Aisun).
-- Keine Rabattcodes, keine Fake-Verknappung, kein Druckverkauf.
+- Rabattcodes und Fristen sind erlaubt, wenn sie sinnvoll und authentisch sind und den Verkauf wahrscheinlich erhöhen (Aisun, 2.11.2026). Kein Druckverkauf, keine erfundene Verknappung. Heilversprechen und Titel-Langform bleiben unverändert.
 - Keine echten Kundinnendaten von Klientinnen in diesem Ordner (keine Namen, keine Merkmale, an denen man sie erkennt). Fallbeispiele nur so, wie Aisun sie bereits öffentlich und mit Einwilligung nutzt.
 - **Ausnahme (Aisun, ausdrückliche Entscheidung 29.10.2026):** Erfahrungen und Heilungsberichte von Kundinnen inklusive Gesundheitsthemen werden gesammelt und sind ausdrücklich Content-Thema, trotz Rechtsrisiko. Gespeichert nur ohne Namen („Kundin S.“, „eine Mutter“). Wird eine Kundin im Post erkennbar oder wörtlich zitiert, vorher ihre Zustimmung. Petra meldet dazu nur noch Rot, wenn ein Heilversprechen in Aisuns eigener Aussage steckt.
 - Steuer und Recht: Das Team bereitet vor, das letzte Wort haben Steuerkanzlei bzw. Anwältin.
