@@ -28,3 +28,10 @@ Quelle: Zoom „participants“-Export (167 Zeilen). Namen nicht gespeichert. Z�
 - Verweildauer: Median 75 Minuten. Mindestens 15 Minuten: 70 %, 60 Minuten: 57 %, 90 Minuten: 37 %, 120 Minuten: 30 %, 150 Minuten: 21 %.
 - Nicht enthalten: Aufzeichnung angesehen (kommt aus dem Aufzeichnungs-Link bzw. ThriveCart/Zoom-Cloud).
 - Einordnung: Beim Januar-Workshop blieben laut früherer Auswertung rund 70 % bis zum Pitch. Hier waren nach der Hälfte der Zeit (90 Min.) noch 37 % der Live-Teilnehmerinnen da. Der Verkaufsteil lag vermutlich später; dann wären viele schon gegangen. Wann der Pitch begann, ist noch zu klären.
+
+## Wann begann der Verkaufsteil? (Transkript Vimeo-Aufzeichnung, 3.11.2026)
+Aufzeichnung: 92,6 Minuten (Q&A danach nicht aufgezeichnet).
+- Min 0–44: Ankommen, Atmung, Inhalt. Min 44–58: Kundinnen-Feedback. Min 56–76: Heilapotheke/Heilkarte-Demo.
+- **Kurs-Pitch beginnt ca. Min 76** („In dem Kurs zeige ich dir …"). **Preis 2.000 € inkl. MwSt. + Raten bei ca. Min 82.** Testimonials/Schluss Min 88–92.
+- Zoom-Zeit und Aufzeichnungsminuten sind nicht exakt synchron (Warteraum, Vorlauf). Grob: Beim Pitch (nach ~76 Min.) waren noch etwa die Hälfte der Live-Teilnehmerinnen im Raum (Median Verweildauer 75 Min.); beim Preis rund 40 %. Der Verkaufsteil lag im letzten Sechstel der Aufzeichnung, also spät.
+- Offen: ThriveCart-Export (Käufe seit 30.09.).
