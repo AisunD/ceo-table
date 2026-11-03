@@ -19,3 +19,12 @@ Die Anmeldungen im September lagen damit rund 30 % unter denen vom Januar (nur T
 1. **Show-up (Teilnahme live und Aufzeichnung):** in der Workshop-Software (Zoom o. ä.) zu holen: Teilnahmebericht als CSV (angemeldet, live dabei, Verweildauer, Aufzeichnung angesehen). ActiveCampaign hat dafür keinen Tag.
 2. **Käufe (Kurs im Heilen live Frühbucher 2.000 €, normal 2.400 €, Selbststudium 699 €):** ThriveCart-Export 30.09.–heute, nur Anzahl und Betrag.
 3. **Von wo kamen die 207?** Anzeigen-Leads (Tag „Freebie Heilungskompass ADS“, 3.277) oder organisch/Instagram/Podcast.
+
+## Show-up am 30.09.2026 (Zoom-Teilnehmerbericht, ohne Namen ausgewertet, 3.11.2026)
+Quelle: Zoom „participants“-Export (167 Zeilen). Namen nicht gespeichert. Zählweise (Näherung): Zoom-Anzeigenamen, Wiedereintritte zusammengefasst, Warteraum-Zeiten nicht mitgezählt. Wer unter mehreren Namen oder Geräten kam, ist evtl. doppelt oder einmal gezählt.
+- Dauer des Workshops (Gastgeberin im Raum): 174 Minuten.
+- **Live dabei: ca. 67 verschiedene Teilnehmerinnen** von 207 Angemeldeten, also etwa **32 %**.
+- Gleichzeitig im Raum: Spitze ca. 41 (nach 30 Minuten), nach 90 Minuten 32, nach 120 Minuten 25, nach 150 Minuten 21, zum Schluss 15.
+- Verweildauer: Median 75 Minuten. Mindestens 15 Minuten: 70 %, 60 Minuten: 57 %, 90 Minuten: 37 %, 120 Minuten: 30 %, 150 Minuten: 21 %.
+- Nicht enthalten: Aufzeichnung angesehen (kommt aus dem Aufzeichnungs-Link bzw. ThriveCart/Zoom-Cloud).
+- Einordnung: Beim Januar-Workshop blieben laut früherer Auswertung rund 70 % bis zum Pitch. Hier waren nach der Hälfte der Zeit (90 Min.) noch 37 % der Live-Teilnehmerinnen da. Der Verkaufsteil lag vermutlich später; dann wären viele schon gegangen. Wann der Pitch begann, ist noch zu klären.
