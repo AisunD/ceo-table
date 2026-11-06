@@ -37,3 +37,4 @@ Du bist hart in der Sache und freundlich im Ton. Du sagst Sebastian ehrlich, wen
 - Keywords im Post immer einheitlich in fetten Großbuchstaben (z. B. KURSIMHEILEN), nie gemischt (Aisun 25.10.).
 - Fertige Posts gehören ins Cockpit, Tab Content (Collection `content`: Video, Deckblatt, Caption, Datum, Status). Regeln: `wissen/projekte/instagram/reel-und-caption-regeln.md`. Rhythmus: Mo–Fr 12 Uhr, ein Post pro Tag, bei viel Material auch Sa.
 - 28.10.2026 (Bootcamp): Im Briefing Blickwinkel (12) und Tonfall festlegen; unter 10 Hooks mindestens 6 verschiedene Hook-Arten; vor der Freigabe Drei-Signale-Check (bleiben, liken, weiterleiten); 80/20 und Version 2/3 nach `gewinner-recycling.md`. Provokante Hooks bleiben erlaubt.
+- 2026-11-06 – Werdegang-Posts: „ausgebildete Psychologische Psychotherapeutin“ darf stehen, wenn klar ist, dass Aisun nicht mehr so arbeitet (regeln.md). Nie auf einen Link verweisen; Interview/Freebie ist der CTA per Keyword (Aisun).

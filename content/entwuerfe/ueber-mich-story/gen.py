@@ -3,7 +3,7 @@ P="/home/user/ceo-table/content/entwuerfe/ueber-mich/fotos/"
 # (foto, bg-pos, overlay, anker, html)
 S=[
  ("f05.jpg","50% 18%",.30,"b",'<div class="q">„Darm<br>entfernen.“</div><p>Das war die Empfehlung.<br>Nach über 20 Jahren Colitis ulcerosa.</p><p class="h">Ich habe <em>Stopp</em> gesagt.</p>'),
- ("f04.jpg","50% 15%",.45,"b",'<h2>Nicht, weil ich naiv war.</h2><p>Ich bin Diplom-Psychologin.<br>Ich habe in Kliniken gearbeitet.<br>Ich kannte das System von innen.</p><p class="h"><em>Genau deshalb.</em></p>'),
+ ("f04.jpg","50% 15%",.45,"b",'<h2>Nicht, weil ich naiv war.</h2><p>Ich bin Diplom-Psychologin und ausgebildete Psychologische Psychotherapeutin.<br>Ich habe in Kliniken gearbeitet.<br>Ich kannte das System von innen.</p><p class="h"><em>Genau deshalb.</em></p>'),
  ("f09.jpg","50% 10%",.42,"b",'<ul><li>Cortison.</li><li>Medikamente.</li><li>Darmspiegelungen.</li><li>Schübe.</li></ul><p>Über 20 Jahre lang.</p><h2>Schulmedizinisch: <em>unheilbar.</em></h2>'),
  ("f08.jpg","50% 12%",.45,"b",'<p>Ich war in zwei Welten zu Hause: in Kliniken und Praxen. Und als Unternehmensberaterin im <span style="white-space:nowrap">Top-Management</span>, unter anderem bei der Deutschen Bahn.</p><p class="h">In beiden sah ich dasselbe:</p><h2>Die eigentlichen Ursachen bleiben fast immer <em>unsichtbar.</em></h2>'),
  ("f02.jpg","50% 45%",.50,"t",'<p>In der Therapie wurde ein Symptom behandelt.<br>In der Beratung eine Struktur optimiert.</p><h2>Aber <em>warum</em> ist das überhaupt entstanden?</h2><p>Was will das System eigentlich sagen?<br>Ich habe diese Frage gestellt.</p>'),
@@ -11,7 +11,7 @@ S=[
  ("f14.jpg","50% 15%",.45,"b",'<p>Ich habe energetisch gearbeitet.<br>Nicht von heute auf morgen,<br>mit Hilfe anderer energetischer Coaches.</p><h2>Und ich habe meine Colitis <em>geheilt.</em></h2><p>Heute habe ich keine Beschwerden mehr.</p><p class="s">Meine Geschichte. Keine Anleitung.</p>'),
  ("f07.jpg","50% 12%",.32,"b",'<p>Deshalb löse ich deine Probleme nicht für dich.</p><h2>Ich zeige dir, wie du wieder Zugang findest:</h2><p>zu deiner eigenen Wahrnehmung.<br>Und zu deiner Entscheidungsfähigkeit.</p>'),
  ("f12.jpg","55% 25%",.34,"b",'<h2 class="m">Du brauchst nicht noch eine Expertin.</h2><h2 class="m"><em>Werde die Expertin für dich selbst.</em></h2>'),
- ("f15.jpg","50% 14%",.40,"b",'<p>Willst du spüren, wie sich deine eigene Wahrnehmung anfühlt?</p><p class="h">Kommentiere</p><div class="kw">KOMPASS</div><p>und ich schick dir meinen Heilungskompass.</p>'),
+ ("f15.jpg","50% 14%",.40,"b",'<p>Wie diese Heilung wirklich passiert ist, erzähle ich in einem Interview.</p><p class="h">Kommentiere</p><div class="kw">INTERVIEW</div><p>und ich schick es dir.</p>'),
 ]
 css="""*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1350px;overflow:hidden;background:#1A1A1A}
 .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}

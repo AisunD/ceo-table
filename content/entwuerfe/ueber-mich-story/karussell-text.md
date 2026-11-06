@@ -13,7 +13,7 @@ Status: Text-Entwurf, Gate bestanden (9/10). Noch NICHT gebaut, NICHT freigegebe
 - **Posting:** Mo bis Fr 12 Uhr, Termin nach Aisuns Freigabe.
 - **Look:** Foto aus dem Ägypten-Set (beiger Look, Palmen) im Hintergrund jeder Slide, Beere-Overlay `#73013A` 55 bis 65 %, Headline Bauer Bodoni (HTML-Fallback Bodoni Moda 500, opsz 11) in Creme `#FBFAF0`, Fließtext Raleway 500. Eine Akzentfarbe: Gold `#C6A764`, nur auf dunklem Grund. Format 4:5 (1080 × 1350), Slide-Zähler oben rechts, Gesicht nie vom Text verdeckt.
 
-**Titel-Hinweis:** Der Newsletter sagt „ausgebildete Psychologische Psychotherapeutin“. Für Mail 1 hat Aisun das so gelassen. Für neue Posts gilt die Regel: Kurzform „Diplom-Psychologin, ehemalige Psychotherapeutin“. So ist es unten umgesetzt.
+**Titel-Hinweis (aktualisiert 6.11.):** Aisun hat entschieden: „ausgebildete Psychologische Psychotherapeutin“ bleibt in Werdegangs- und Selbstvorstellungs-Texten, sofern klar ist, dass sie nicht mehr als solche arbeitet.
 
 ---
 
@@ -162,9 +162,9 @@ Layout: Kernsatz Bodoni, letzte Zeile klein in Raleway kursiv, Creme (nicht grau
 Layout: nur dieser Satz, sehr groß, zentriert auf der Palmenfläche, Overlay 65 %. Screenshot-Slide. (12 Wörter)
 
 **Slide 10 – CTA** · Foto **f15** (warmes Lächeln, direkter Blick)
-> Willst du spüren, wie sich deine eigene Wahrnehmung anfühlt?
-> Kommentiere **KOMPASS**
-> und ich schick dir meinen Heilungskompass.
+> Wie diese Heilung wirklich passiert ist, erzähle ich in einem Interview.
+> Kommentiere **INTERVIEW**
+> und ich schick es dir.
 
 Layout: „KOMPASS“ groß in Raleway-Versalien auf goldener Pill mit dunkler Schrift (`#1A1A1A`). Kein weiterer CTA. (17 Wörter)
 
@@ -192,13 +192,13 @@ Layout: „KOMPASS“ groß in Raleway-Versalien auf goldener Pill mit dunkler S
 
 💡 Heute löse ich deine Probleme nicht für dich. Ich zeige dir, wie du wieder Zugang zu deiner eigenen Wahrnehmung findest. Damit du die Expertin für dich selbst wirst.
 
-🎧 Wie diese Heilung wirklich passiert ist, erzähle ich sehr offen in einem Interview: [INTERVIEW-LINK FEHLT] (siehe offene Frage 1, Link in der Caption ist nicht klickbar)
+🎧 Wie diese Heilung wirklich passiert ist, erzähle ich sehr offen in einem Interview.
 
-👉 Kommentiere **KOMPASS** und ich schick dir meinen Heilungskompass.
+👉 Kommentiere **INTERVIEW** und ich schick es dir.
 
-🤍 Aisun, Diplom-Psychologin, ehemalige Psychotherapeutin
+🤍 Aisun, Diplom-Psychologin und ausgebildete Psychologische Psychotherapeutin (heute nicht mehr in der Praxis tätig)
 
-DIPLOM-PSYCHOLOGIN · COLITIS ULCEROSA · INNERWISE
+INNERWISE · COLITIS ULCEROSA · ENERGETISCHE SELBSTHEILUNG
 
 ---
 
@@ -209,4 +209,8 @@ DIPLOM-PSYCHOLOGIN · COLITIS ULCEROSA · INNERWISE
 
 ## 6. Rechts-Check (kurz, Sina-Vorprüfung, Petra prüft am Ende)
 - **Rot:** keins. Kein Heilversprechen für andere, keine Aufforderung, Medikamente abzusetzen oder eine OP abzulehnen, keine erfundenen Zahlen. Rot würde es, wenn die Sicherheits-Zeile auf Slide 7 oder der Sicherheits-Satz in der Caption gestrichen wird.
-- **Gelb (für die Anwältin sammeln, blockiert nicht):** „Ich habe meine Colitis geheilt“ als Ich-Aussage (HWG, von Aisun am 25.10. und 29.10. bewusst gewünscht); „Stopp gesagt“ zur OP-Empfehlung; Vergleich mit „Jahren psychotherapeutischer Ausbildung“ (Slide 6, Berufsordnung/Kammer); „Schulmedizinisch: unheilbar“; Titel (Kurzform „ehemalige Psychotherapeutin“ genutzt, der Newsletter-Titel „ausgebildete Psychologische Psychotherapeutin“ ist hier bewusst nicht übernommen); „Praxen“ steht nur für Aisuns frühere Arbeit.
+- **Gelb (für die Anwältin sammeln, blockiert nicht):** „Ich habe meine Colitis geheilt“ als Ich-Aussage (HWG, von Aisun am 25.10. und 29.10. bewusst gewünscht); „Stopp gesagt“ zur OP-Empfehlung; Vergleich mit „Jahren psychotherapeutischer Ausbildung“ (Slide 6, Berufsordnung/Kammer); „Schulmedizinisch: unheilbar“; Titel „ausgebildete Psychologische Psychotherapeutin“ (Aisuns Entscheidung 6.11.; Zusatz „nicht mehr in der Praxis tätig“ in der Caption); „Praxen“ steht nur für Aisuns frühere Arbeit.
+
+
+## Änderung 6.11.2026 (Aisun)
+Titel: „ausgebildete Psychologische Psychotherapeutin“ bleibt (Slide 2, Caption), dazu klar, dass sie nicht mehr in der Praxis arbeitet. CTA Slide 10 und Caption: Keyword INTERVIEW statt Link und statt KOMPASS. Offen: Keyword in ManyChat anlegen und Interview-Link hinterlegen (Frieda/Aisun); „22 Jahre“ und „Darm entfernen“ noch nicht bestätigt.
