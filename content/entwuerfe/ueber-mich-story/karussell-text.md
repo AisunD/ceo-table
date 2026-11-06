@@ -172,27 +172,23 @@ Layout: „KOMPASS“ groß in Raleway-Versalien auf goldener Pill mit dunkler S
 
 ---
 
-## 4. Caption (nach `reel-und-caption-regeln.md`)
+## 4. Caption (nach `reel-und-caption-regeln.md`, überarbeitet 6.11.: Aisuns eigene Newsletter-Sätze statt Neuformulierung)
 
-🤍 Ich kannte beide Seiten.
-
-🏥 Ich habe in Kliniken gearbeitet, in Praxen, im 50-Minuten-Takt.
-
-💼 Und gleichzeitig viele Jahre als Unternehmensberaterin, bis ins Top-Management.
-
-🔍 In beiden Welten habe ich dasselbe gesehen: Die eigentlichen Ursachen bleiben fast immer unsichtbar.
-
-🩺 Und dann war da mein eigener Körper. Über 20 Jahre Colitis ulcerosa. Cortison, Schübe, Darmspiegelungen. Am Ende die Empfehlung: Darm entfernen.
+🤍 „Darm entfernen.“ Das war am Ende die Empfehlung. Nach über 20 Jahren Colitis ulcerosa.
 
 ✋ Da habe ich Stopp gesagt.
 
-🌿 Ich habe energetisch gearbeitet. Nicht von heute auf morgen, und mit Hilfe anderer energetischer Coaches. Heute habe ich keine Beschwerden mehr.
+🏥 Ich bin Diplom-Psychologin und ausgebildete Psychologische Psychotherapeutin. Ich habe in Kliniken gearbeitet, in ambulanten Praxen, im 50-Minuten-Takt. Und viele Jahre als Unternehmensberaterin, unter anderem bei der Deutschen Bahn. Zwei sehr unterschiedliche Welten, und in beiden dieselbe Beobachtung: Die eigentlichen Ursachen bleiben fast immer unsichtbar.
 
-⚠️ Ich erzähle meine Geschichte, keine Anleitung. Energetische Arbeit ersetzt keine ärztliche Hilfe. Entscheidungen über Medikamente oder Operationen triffst du bitte immer gemeinsam mit deiner Ärztin.
+🔍 Die Frage, warum etwas überhaupt entstanden ist, stellte kaum jemand. Ich habe sie gestellt. Und das hat mein Leben verändert.
 
-💡 Heute löse ich deine Probleme nicht für dich. Ich zeige dir, wie du wieder Zugang zu deiner eigenen Wahrnehmung findest. Damit du die Expertin für dich selbst wirst.
+🌿 Ich habe energetisch gearbeitet, nicht von heute auf morgen und mit Hilfe anderer energetischer Coaches, und meine Colitis geheilt.
 
-🎧 Wie diese Heilung wirklich passiert ist, erzähle ich sehr offen in einem Interview.
+⚠️ Das ist meine Geschichte, keine Anleitung. Energetische Arbeit ersetzt keine ärztliche Hilfe. Triff Entscheidungen über Medikamente oder Operationen bitte immer gemeinsam mit deiner Ärztin oder deinem Arzt.
+
+💡 Ich helfe dir nicht, indem ich deine Probleme für dich löse. Ich zeige dir, wie du wieder Zugang zu deiner eigenen Wahrnehmung und Entscheidungsfähigkeit findest. Damit du die Expertin für dich selbst wirst.
+
+🎧 In einem Interview habe ich sehr offen erzählt, wie diese Heilung wirklich passiert ist.
 
 👉 Kommentiere **INTERVIEW** und ich schick es dir.
 
