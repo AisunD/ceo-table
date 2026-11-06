@@ -16,11 +16,11 @@ S=[
 css="""*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1350px;overflow:hidden;background:#1A1A1A}
 .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .ov{position:absolute;inset:0}
-.brand{position:absolute;top:44px;right:56px;text-align:right;font-family:'Bodoni Moda',serif;color:#FBFAF0;letter-spacing:.18em;font-size:24px;font-weight:600;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.brand{position:absolute;top:70px;right:64px;text-align:right;font-family:'Bodoni Moda',serif;color:#FBFAF0;letter-spacing:.18em;font-size:24px;font-weight:600;text-shadow:0 1px 8px rgba(0,0,0,.6)}
 .brand i{display:block;font-family:'Dancing Script',cursive;letter-spacing:0;font-size:26px;font-style:normal}
-.n{position:absolute;top:48px;left:60px;color:#FBFAF0;font:600 24px Raleway;letter-spacing:.1em;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.n{position:absolute;top:74px;left:64px;color:#FBFAF0;font:600 24px Raleway;letter-spacing:.1em;text-shadow:0 1px 8px rgba(0,0,0,.6)}
 .tx{position:absolute;left:64px;right:64px;color:#FBFAF0;text-shadow:0 2px 14px rgba(0,0,0,.65);display:grid;gap:26px}
-.tx.b{bottom:110px}.tx.t{top:130px}
+.tx.b{bottom:140px}.tx.t{top:175px}
 .tx p{font:500 40px/1.32 Raleway}.tx p.h{font:600 42px/1.3 Raleway}
 .tx h2{font:700 64px/1.1 'Bodoni Moda',serif;font-variation-settings:'opsz' 11}
 .tx h2.m{font-size:76px;text-align:center}
@@ -30,7 +30,7 @@ css="""*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:
 .yr{font:700 190px/1 'Bodoni Moda',serif;color:#C6A764;font-variation-settings:'opsz' 11}
 .s{font:500 italic 34px Raleway;opacity:.95}
 .kw{justify-self:start;background:linear-gradient(115deg,#a88a4c,#C6A764 30%,#efe2bf 50%,#C6A764 70%,#9d7f43);color:#1A1A1A;font:700 62px Raleway;letter-spacing:.1em;padding:20px 52px;border-radius:999px;text-shadow:none}
-.sw{position:absolute;bottom:40px;right:56px;color:#FBFAF0;font:600 26px Raleway;letter-spacing:.14em;text-shadow:0 1px 8px rgba(0,0,0,.6)}"""
+.sw{position:absolute;bottom:64px;right:64px;color:#FBFAF0;font:600 26px Raleway;letter-spacing:.14em;text-shadow:0 1px 8px rgba(0,0,0,.6)}"""
 head='<!doctype html><html lang="de"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..800&family=Raleway:ital,wght@0,500;0,600;0,700;1,500&family=Dancing+Script:wght@500..700&display=swap" rel="stylesheet"><style>'+css+'</style></head><body>'
 for i,(f,pos,dk,anc,html) in enumerate(S,1):
     grad = "linear-gradient(0deg,rgba(26,26,26,.78) 0%,rgba(26,26,26,.55) 38%,rgba(26,26,26,0) 70%)" if anc=="b" else "linear-gradient(180deg,rgba(26,26,26,.78) 0%,rgba(26,26,26,.5) 40%,rgba(26,26,26,0) 72%)"
