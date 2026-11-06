@@ -5,3 +5,5 @@ Slides: 1 Das bin ich · 2 Dinge, die ich liebe · 3 Meine tiefsten Täler · 4 
 Hook-Alternativen Slide 1: „19x umgezogen. 2x geschieden. 0,0 Alkohol. Hi, ich bin Aisun.“ · „22 Jahre krank. „Unheilbar“, hieß es. Das bin ich.“
 Caption-Entwurf: siehe Sina-Bericht im Chat 25.10. (endet mit Wort-CTA, Suchbegriffe DIPLOM-PSYCHOLOGIN, ENERGETISCHE SELBSTHEILUNG, INNERWISE, COLITIS ULCEROSA)
 Offen: Diplom-Jahr/Uni, Zahl Coaches, Buchtitel, Hundemama, Einverständnis Klientin Foto Slide 5, ManyChat erkennt Wörter im Satz?
+
+Korrektur 6.11.2026 (Aisun): Die Fotos in `fotos/` sind aus **Indien**, nicht aus Ägypten. Slide 2 (u-02.jpg) nennt noch „hier: Ägypten“ im Bild und muss vor jeder Nutzung neu gerendert werden (gen3.py ist korrigiert).

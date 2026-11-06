@@ -11,7 +11,7 @@ Status: Text-Entwurf, Gate bestanden (9/10). Noch NICHT gebaut, NICHT freigegebe
 - **Phase:** Reichweite / Aufwärmen. **Keyword:** **KOMPASS** (aus der echten Map, Heilkompass, 0 €).
 - **Blickwinkel:** Ich-Geschichte aus beiden Rollen (Insiderin des Systems und Betroffene). **Tonfall:** ruhig, klar, mit einer scharfen Kante auf Slide 1. Kein Pathos.
 - **Posting:** Mo bis Fr 12 Uhr, Termin nach Aisuns Freigabe.
-- **Look:** Foto aus dem Ägypten-Set (beiger Look, Palmen) im Hintergrund jeder Slide, Beere-Overlay `#73013A` 55 bis 65 %, Headline Bauer Bodoni (HTML-Fallback Bodoni Moda 500, opsz 11) in Creme `#FBFAF0`, Fließtext Raleway 500. Eine Akzentfarbe: Gold `#C6A764`, nur auf dunklem Grund. Format 4:5 (1080 × 1350), Slide-Zähler oben rechts, Gesicht nie vom Text verdeckt.
+- **Look:** Foto aus dem Indien-Set (beiger Look, Palmen) im Hintergrund jeder Slide, Beere-Overlay `#73013A` 55 bis 65 %, Headline Bauer Bodoni (HTML-Fallback Bodoni Moda 500, opsz 11) in Creme `#FBFAF0`, Fließtext Raleway 500. Eine Akzentfarbe: Gold `#C6A764`, nur auf dunklem Grund. Format 4:5 (1080 × 1350), Slide-Zähler oben rechts, Gesicht nie vom Text verdeckt.
 
 **Titel-Hinweis (aktualisiert 6.11.):** Aisun hat entschieden: „ausgebildete Psychologische Psychotherapeutin“ bleibt in Werdegangs- und Selbstvorstellungs-Texten, sofern klar ist, dass sie nicht mehr als solche arbeitet.
 

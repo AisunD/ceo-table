@@ -6,7 +6,7 @@ S=[
    L("Diplom-Psychologin,<br>ehemalige<br>Psychotherapeutin","r",170,39,0),L("Mentorin für<br>energetische<br>Selbstheilung","r",430,40,0),L("Generatorin 4/6","r",640,40,2),L("Berlin · Heidenheim","r",750,40,0)]),
  dict(img="f10.jpg",pos="50% 60%",dark=.30,title="Dinge, die ich liebe",trot=0,tsize=104,labels=[
    L("Laufen,<br>jeden Morgen","l",330,44,0),L("Meine Familie","l",520,48,-2),L("Sauna im<br>eigenen Garten","l",680,44,0),
-   L("Frauen begleiten,<br>die ihre eigene<br>Heilerin werden","r",300,44,0),L("Rohkakao","r",560,44,0),L("Reisen<br><small>(hier: Ägypten)</small>","r",700,40,2),L("Abwechslung","r",880,44,0)]),
+   L("Frauen begleiten,<br>die ihre eigene<br>Heilerin werden","r",300,44,0),L("Rohkakao","r",560,44,0),L("Reisen<br><small>(hier: Indien)</small>","r",700,40,2),L("Abwechslung","r",880,44,0)]),
  dict(img="f09.jpg",pos="50% 30%",dark=.45,title="Meine tiefsten Täler",trot=0,tsize=104,labels=[
    L("Meine Schwester<br>starb 2023<br>an Krebs","l",380,40,0),L("1 Fehlgeburt<br>2023","l",640,40,0),L("Sexueller<br>Missbrauch","l",860,40,0),
    L("22 Jahre<br>Colitis Ulcerosa","r",380,40,0),L("2x geschieden","r",640,40,0),L("Meine Tochter<br>starb 2011<br>bei der Geburt","r",840,40,0)]),
