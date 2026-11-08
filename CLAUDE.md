@@ -97,6 +97,7 @@ Der Tisch liegt in einem GitHub-Speicher. Änderungen gehen verloren, wenn sie n
 Aisun sieht ihr Team, ihren Tag und die Aufträge im Cockpit: https://claude.ai/artifact/XWgduNktuMurMvsLEYWjpY
 Am Ende jeder Sitzung (und wenn sich Status ändert) aktualisierst du dessen Datenbank mit dem Tool `ArtifactData` (url = Cockpit-Link). Lies vorher die Dokumente, die du änderst, und schreib mit `if_version`.
 - `team/<id>` (sebastian, katharina, tina, romy, greta, ines, conny, frieda, vera, karla, franzi, petra): `status` = arbeitet | bereit | wartet | reserve, `aufgabe` = ein Satz, was sie gerade tut oder wofür sie auf Aisun wartet.
+- **Planung und Ideen (Aisun, 8.11.2026):** Dinge, die Aisun nicht vergessen will (Ideen, To-dos, Prüfaufträge), kommen als `auftraege` mit Feld `art: "planung"`. Der Morgenlauf sucht jeden Morgen alle offenen Aufträge und Fragen zusammen und schreibt die höchstens fünf wichtigsten als Erinnerung ins `meta/briefing`. Feste Fakten bleiben in `entscheidungen`.
 - `auftraege/<id>`: `titel`, `wer` (Team-id, „aisun" oder „nina"), `faellig` (JJJJ-MM-TT, nur wenn echt), `status` = offen | in-arbeit | zur-freigabe | erledigt, `prio` = hoch (optional), `notiz`. Aisun kann im Cockpit abhaken – lies den Stand zu Beginn jeder Sitzung mit `ArtifactData list` und übernimm Erledigtes.
 - `entscheidungen/<id>`: `datum`, `text` – jede neue Zeile aus `entscheidungen.md` auch hier.
 - `meta/briefing`: `text` (max. 110 Wörter, Du-Form), `datum`, `von: "Sebastian"` – schreib morgens bzw. zu Sitzungsbeginn ein neues Briefing.
