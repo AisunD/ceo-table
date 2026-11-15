@@ -323,6 +323,7 @@ tr:last-child td{border-bottom:0}
 .ask input{flex:1;min-width:0;border:1px solid var(--line);border-radius:999px;padding:10px 14px;background:var(--bg)}
 .answer{white-space:pre-line;font-size:14px;max-width:66ch;margin:0}
 @media (prefers-reduced-motion: no-preference){.view{animation:fade .18s ease-out}@keyframes fade{from{opacity:.4}to{opacity:1}}}
+.ct-strip{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;border-radius:12px}.ct-strip figure{flex:0 0 78%;scroll-snap-align:center;margin:0}.ct-strip img{display:block;width:100%;height:auto;border-radius:12px}.ct-strip figcaption{font-size:12px;color:var(--muted);text-align:center;margin-top:4px}
 </style>
 
 <div class="wrap">
@@ -907,26 +908,30 @@ Bisheriges Gespräch:\n${hist}`;
         if(day){ const d = new Date(day+"T12:00:00"); lbl = (day===todayStr?"Heute · ":"")+WDS[d.getDay()]+" "+fmtShort(day); }
         out.push(`<div class="ct-day${day===todayStr?" today":""}">${esc(lbl)}</div>`); }
       const st = CT_ST.includes(c.status) ? c.status : "idee";
-      const vid = c.video_id, cov = c.cover_id;
+      const vid = c.video_id, cov = c.cover_id; const isCar = c.typ==="karussell"||c.typ==="story"; const slides = Array.isArray(c.slide_ids)?c.slide_ids:[];
       out.push(`<article class="card ct${st==="gepostet"?" posted":""}" data-ct="${esc(c.id)}">
         <div class="ct-top"><span class="ct-typ">${esc(CT_TYP[c.typ]||c.typ||"Post")}${c.nummer?" "+esc(c.nummer):""} · ${esc(c.kampagne||"")}</span><span class="pill c-${st}">${esc(CT_LABEL[st])}</span></div>
         <h3 class="ct-hook">${esc(c.hook||"").replace(/ \/ /g,"<br>")}</h3>
-        <div class="ct-media">
+        ${isCar ? `<div class="ct-slides">${slides.length ? `<div class="ct-strip">${slides.map((sid,i)=>`<figure><img src="${blobUrl(sid)}" alt="Slide ${i+1}" loading="lazy"><figcaption>${i+1}/${slides.length}</figcaption></figure>`).join("")}</div>` : `<div class="miss">Slides fehlen noch${c.link?`<a class="btn" href="${esc(c.link)}" target="_blank" rel="noopener">Vorschau öffnen</a>`:""}${canUp?`<button class="btn" data-up="slides">Slides hochladen</button>`:""}</div>`}</div>
+        <div class="ct-acts">
+          <button class="bigbtn" data-save="slides" ${slides.length?"":"disabled"}><span class="n">1</span>Alle Slides speichern</button>
+          <button class="bigbtn primary" data-copy ${c.caption?"":"disabled"}><span class="n">2</span>Caption kopieren</button>
+        </div>` : `<div class="ct-media">
           <div class="ct-slot">${vid?`<video src="${blobUrl(vid)}#t=0.1" controls playsinline muted preload="metadata"></video><span class="lab">Video</span>`:`<div class="miss">Video fehlt${canUp?`<button class="btn" data-up="video">Hochladen</button>`:""}</div>`}</div>
-          <div class="ct-slot">${cov?`<img src="${blobUrl(cov)}" alt="Deckblatt"><span class="lab">Deckblatt</span>`:`<div class="miss">${c.canva_link?`Deckblatt ist in Canva fertig<a class="btn" href="${esc(c.canva_link)}" target="_blank" rel="noopener">In Canva öffnen</a>`:c.cover_text?`Deckblatt folgt:<br><b>${esc(c.cover_text)}</b>`:"Deckblatt fehlt"}${canUp?`<button class="btn" data-up="cover">Hochladen</button>`:""}</div>`}</div>
+          <div class="ct-slot">${cov?`<img src="${blobUrl(cov)}" alt="Deckblatt"><span class="lab">Deckblatt</span>`:`<div class="miss">${c.canva_link?`Deckblatt ist in Canva fertig<a class="btn" href="${esc(c.canva_link)}" target="_blank" rel="noopener">In Canva öffnen</a>`:c.cover_text?`Deckblatt folgt:<br><b>${esc(c.cover_text)}</b>${canUp?`<button class="btn" data-up="cover">Deckblatt hochladen</button>`:""}`:`Deckblatt fehlt${canUp?`<button class="btn" data-up="cover">Hochladen</button>`:""}`}</div>`}</div>
         </div>
         <div class="ct-acts">
           <button class="bigbtn" data-save="video" ${vid?"":"disabled"}><span class="n">1</span>Video speichern</button>
           <button class="bigbtn" data-save="cover" ${cov?"":"disabled"}><span class="n">2</span>Deckblatt speichern</button>
           <button class="bigbtn primary" data-copy ${c.caption?"":"disabled"}><span class="n">3</span>Caption kopieren</button>
-        </div>
+        </div>`}
         ${c.caption?`<details class="ct-cap"><summary>Caption ansehen</summary><pre>${esc(c.caption)}</pre></details>`:""}
         <div class="ct-meta">
           <label>Posten am<input type="date" data-date value="${esc(day)}" ${canWrite?"":"disabled"}></label>
           <label>Status<select data-st ${canWrite?"":"disabled"}>${CT_ST.map(s=>`<option value="${s}" ${s===st?"selected":""}>${CT_LABEL[s]}</option>`).join("")}</select></label>
         </div>
         ${c.keyword?`<p class="ct-note">Keyword: <span class="kw">${esc(c.keyword)}</span>${c.notiz?" · "+esc(c.notiz):""}</p>`:(c.notiz?`<p class="ct-note">${esc(c.notiz)}</p>`:"")}
-        ${canUp&&(vid||cov)?`<div class="ct-up">${vid?`<button class="linkbtn" data-up="video">Video ersetzen</button>`:""}${cov?`<button class="linkbtn" data-up="cover">Deckblatt ersetzen</button>`:""}</div>`:""}
+        ${canUp&&isCar&&slides.length?`<div class="ct-up"><button class="linkbtn" data-up="slides">Slides ersetzen</button></div>`:""}${canUp&&!isCar&&(vid||cov)?`<div class="ct-up">${vid?`<button class="linkbtn" data-up="video">Video ersetzen</button>`:""}${cov?`<button class="linkbtn" data-up="cover">Deckblatt ersetzen</button>`:""}</div>`:""}
         ${st!=="gepostet"&&canWrite?`<button class="bigbtn ok" data-posted>Gepostet – abhaken</button>`:""}
       </article>`);
     });
@@ -952,6 +957,38 @@ Bisheriges Gespräch:\n${hist}`;
       }
     }catch(_){ toast("Datei konnte nicht geladen werden."); }
     finally{ btn.disabled = false; btn.innerHTML = old; }
+  }
+  async function ctSaveSlides(c, btn){
+    const ids = Array.isArray(c.slide_ids)?c.slide_ids:[]; if(!ids.length) return;
+    const old = btn.innerHTML; btn.disabled = true; let n = 0;
+    try{
+      for(let i=0;i<ids.length;i++){
+        btn.innerHTML = "Lädt "+(i+1)+"/"+ids.length+" …";
+        const r = await fetch(blobUrl(ids[i])); if(!r.ok) throw new Error("fetch"); const blob = await r.blob();
+        const name = (c.dateiname||"Karussell")+"_"+String(i+1).padStart(2,"0")+".jpg";
+        if(ctDownloads){ try{ await ctDownloads.save({filename:name, data:blob}); n++; }catch(err){ if(err&&err.code==="declined") break; throw err; } }
+        else { const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),4000); n++; await new Promise(r=>setTimeout(r,500)); }
+      }
+      toast(n? n+" Slides gespeichert." : "Nichts gespeichert.");
+    }catch(_){ toast("Speichern geht hier gerade nicht. Halte die einzelnen Bilder gedrückt."); }
+    finally{ btn.disabled = false; btn.innerHTML = old; }
+  }
+  function ctUploadSlides(c){
+    if(!ctAssets) return;
+    const inp = document.createElement("input"); inp.type = "file"; inp.multiple = true; inp.accept = "image/png,image/jpeg,image/webp";
+    inp.addEventListener("change", async ()=>{
+      const files = [...(inp.files||[])].sort((a,b)=>a.name.localeCompare(b.name,undefined,{numeric:true})); if(!files.length) return;
+      const ids = [];
+      try{
+        for(let i=0;i<files.length;i++){
+          if(files[i].size > 20*1024*1024){ toast("Eine Datei ist größer als 20 MB."); return; }
+          toast("Slide "+(i+1)+" von "+files.length+" wird hochgeladen …");
+          const r = await ctAssets.upload(files[i]); ids.push(r.id);
+        }
+        await ctUpdate(c.id, {slide_ids:ids}); toast("Slides hochgeladen.");
+      }catch(_){ toast("Hochladen hat nicht geklappt."); }
+    });
+    inp.click();
   }
   function ctCopy(c, card){
     const text = c.caption||"";
@@ -981,9 +1018,9 @@ Bisheriges Gespräch:\n${hist}`;
     const f2 = e.target.closest("[data-ctk]"); if(f2){ state.ctK = f2.dataset.ctk; renderContent(); return; }
     const card = e.target.closest("[data-ct]"); if(!card) return;
     const c = (state.content||[]).find(x=>x.id===card.dataset.ct); if(!c) return;
-    const sv = e.target.closest("[data-save]"); if(sv){ ctSave(c, sv.dataset.save, sv); return; }
+    const sv = e.target.closest("[data-save]"); if(sv){ if(sv.dataset.save==="slides") ctSaveSlides(c, sv); else ctSave(c, sv.dataset.save, sv); return; }
     if(e.target.closest("[data-copy]")){ ctCopy(c, card); return; }
-    const up = e.target.closest("[data-up]"); if(up){ ctUpload(c, up.dataset.up); return; }
+    const up = e.target.closest("[data-up]"); if(up){ if(up.dataset.up==="slides") ctUploadSlides(c); else ctUpload(c, up.dataset.up); return; }
     if(e.target.closest("[data-posted]")){ ctUpdate(c.id, {status:"gepostet", gepostet_am:todayStr}); toast("Abgehakt. Schön!"); }
   });
   $("#v-content").addEventListener("change", e=>{
