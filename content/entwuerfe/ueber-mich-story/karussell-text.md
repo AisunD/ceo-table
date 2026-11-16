@@ -138,12 +138,8 @@ Layout: „2016.“ riesig in Bodoni Gold, Rest Raleway. (28 Wörter)
 
 **Slide 7 – PROOF (Vorher/Nachher)** · Foto **f14** (Augen geschlossen, Hände im Raum)
 > Ich habe energetisch gearbeitet. Voller Begeisterung. Jeden Tag.
-> Nicht von heute auf morgen.
-> Mit Hilfe anderer energetischer Coaches.
 > **Und ich habe meine Colitis geheilt.**
-> Heute habe ich keine Beschwerden mehr.
->
-> *Meine Geschichte. Keine Anleitung.*
+> Das ist meine Geschichte, keine Anleitung.
 
 Layout: Kernsatz Bodoni, letzte Zeile klein in Raleway kursiv, Creme (nicht grau). (32 Wörter)
 
@@ -213,3 +209,4 @@ Titel: „ausgebildete Psychologische Psychotherapeutin“ bleibt (Slide 2, Capt
 
 ## Änderung 16.11.2026 (Aisun, Wunsch im Cockpit)
 Slide 7: „Ich habe energetisch gearbeitet. Voller Begeisterung. Jeden Tag.“ Slide 8: letzter Satz neu: „Und zu dem, was du längst weißt.“ Alles andere bleibt.
+Zusatz 16.11.: Auf Slide 7 ist die Zeile „Nicht von heute auf morgen, mit Hilfe anderer energetischer Coaches“ gestrichen (Aisun). Die Caption enthält sie weiter, falls gewünscht bitte melden.
