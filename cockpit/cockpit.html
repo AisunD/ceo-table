@@ -327,6 +327,7 @@ tr:last-child td{border-bottom:0}
 .ct-links{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 4px}.ct-links a,.ct-links button{font:inherit;font-size:13px;font-weight:600;color:var(--ink-accent);background:transparent;border:1px solid var(--ink-accent);border-radius:999px;padding:7px 12px;text-decoration:none;cursor:pointer}
 .ct-wish{border-top:1px solid rgba(128,128,128,.25);padding-top:8px}.ct-wish summary{cursor:pointer;font-weight:600;font-size:14px}.ct-wish textarea{width:100%;box-sizing:border-box;min-height:84px;margin:8px 0;font:inherit;font-size:15px;padding:10px;border-radius:10px;border:1px solid rgba(128,128,128,.4);background:transparent;color:inherit}.ct-wish .hint{font-size:12px;color:var(--muted);margin:0 0 8px}
 .ct-note a{color:var(--ink-accent);overflow-wrap:anywhere}
+.ct-ent p{margin:8px 0;font-size:15px;line-height:1.5}.ct-ent strong{font-weight:700}
 </style>
 
 <div class="wrap">
@@ -917,7 +918,7 @@ Bisheriges Gespräch:\n${hist}`;
       out.push(`<article class="card ct${st==="gepostet"?" posted":""}" data-ct="${esc(c.id)}">
         <div class="ct-top"><span class="ct-typ">${esc(CT_TYP[c.typ]||c.typ||"Post")}${c.nummer?" "+esc(c.nummer):""} · ${esc(c.kampagne||"")}</span><span class="pill c-${st}">${esc(CT_LABEL[st])}</span></div>
         <h3 class="ct-hook">${esc(c.hook||"").replace(/ \/ /g,"<br>")}</h3>
-        ${(()=>{ const w = c.wer||"sina"; const hasW = state.team.some(x=>x.id===w); const L = []; if(c.link) L.push(`<a href="${esc(c.link)}" target="_blank" rel="noopener">Vorschau öffnen</a>`); if(c.canva_link) L.push(`<a href="${esc(c.canva_link)}" target="_blank" rel="noopener">In Canva öffnen</a>`); if(c.quelle) L.push(`<a href="${GH+esc(c.quelle)}" target="_blank" rel="noopener">Entwurf lesen</a>`); if(hasW) L.push(`<button type="button" data-chatwith="${esc(w)}">Mit ${esc(nameOf(w))} sprechen</button>`); return L.length?`<div class="ct-links">${L.join("")}</div>`:""; })()}
+        ${(()=>{ const w = c.wer||"sina"; const hasW = state.team.some(x=>x.id===w); const L = []; if(c.link) L.push(`<a href="${esc(c.link)}" target="_blank" rel="noopener">Vorschau öffnen</a>`); if(c.canva_link) L.push(`<a href="${esc(c.canva_link)}" target="_blank" rel="noopener">In Canva öffnen</a>`); if(hasW) L.push(`<button type="button" data-chatwith="${esc(w)}">Mit ${esc(nameOf(w))} sprechen</button>`); return L.length?`<div class="ct-links">${L.join("")}</div>`:""; })()}
         ${isCar ? `<div class="ct-slides">${slides.length ? `<div class="ct-strip">${slides.map((sid,i)=>`<figure><img src="${blobUrl(sid)}" alt="Slide ${i+1}" loading="lazy"><figcaption>${i+1}/${slides.length}</figcaption></figure>`).join("")}</div>` : `<div class="miss">Slides fehlen noch${c.link?`<a class="btn" href="${esc(c.link)}" target="_blank" rel="noopener">Vorschau öffnen</a>`:""}${canUp?`<button class="btn" data-up="slides">Slides hochladen</button>`:""}</div>`}</div>
         <div class="ct-acts">
           <button class="bigbtn" data-save="slides" ${slides.length?"":"disabled"}><span class="n">1</span>Alle Slides speichern</button>
@@ -937,6 +938,7 @@ Bisheriges Gespräch:\n${hist}`;
           <label>Status<select data-st ${canWrite?"":"disabled"}>${CT_ST.map(s=>`<option value="${s}" ${s===st?"selected":""}>${CT_LABEL[s]}</option>`).join("")}</select></label>
         </div>
         ${c.keyword?`<p class="ct-note">Keyword: <span class="kw">${esc(c.keyword)}</span>${c.notiz?" · "+linkify(c.notiz):""}</p>`:(c.notiz?`<p class="ct-note">${linkify(c.notiz)}</p>`:"")}
+        ${c.entwurf?`<details class="ct-cap"><summary>Was drauf soll</summary><div class="ct-ent">${String(c.entwurf).split(/\n\n+/).map(par=>`<p>${inline(par).replace(/\n/g,"<br>")}</p>`).join("")}</div></details>`:""}
         ${canWrite?`<details class="ct-wish"><summary>Änderung wünschen</summary><textarea data-wish-text placeholder="Was soll anders sein? Z. B. Slide 4: Satz kürzer."></textarea><p class="hint">Das geht als Auftrag an ${esc(nameOf(c.wer||"sina"))}. Erledigt wird es beim nächsten Lauf (spätestens morgens um 7 Uhr) oder sofort, wenn du es mir im Chat sagst.</p><button type="button" class="bigbtn primary" data-wish-send>Auftrag senden</button></details>`:""}
         ${canUp&&isCar&&slides.length?`<div class="ct-up"><button class="linkbtn" data-up="slides">Slides ersetzen</button></div>`:""}${canUp&&!isCar&&(vid||cov)?`<div class="ct-up">${vid?`<button class="linkbtn" data-up="video">Video ersetzen</button>`:""}${cov?`<button class="linkbtn" data-up="cover">Deckblatt ersetzen</button>`:""}</div>`:""}
         ${st!=="gepostet"&&canWrite?`<button class="bigbtn ok" data-posted>Gepostet – abhaken</button>`:""}

@@ -51,3 +51,4 @@ Gilt für alle Agentinnen. Sebastian pflegt diese Datei, eine Zeile pro Erkenntn
 - 2026-11-06 – Die Fotos in `content/entwuerfe/ueber-mich/fotos/` (beiger Look, Palmen) sind aus **Indien**, nicht aus Ägypten (Aisun). Nie „Ägypten“ dazu schreiben.
 - 2026-11-06 – Bildfarbe: Auf dem Handy wirkten Karussells mit Beere-Overlay rosastichig. Fotos nur neutral abdunkeln (schwarzer Verlauf), Beere höchstens ganz dezent (max. 12 %), und immer am Handy gegenprüfen.
 - 2026-11-16 – Team-Stände im Cockpit (`team/<id>.aufgabe`) ehrlich halten: nie „wartet auf …“ stehen lassen, wenn es erledigt oder abgesagt ist. Wenn ein Projekt endet, sofort Cockpit und Dateien aufräumen (Archiv). Neue Infos an die Betroffenen geben (Aisun).
+- 2026-11-16 – Aisun kann GitHub-Dateien nicht lesen. Alles, was sie ansehen soll, kommt lesbar ins Cockpit (Zusammenfassung in der Karte, Slides als Bilder, Vorschau-Seite als Artifact). Nie nur einen Repo-Pfad oder GitHub-Link nennen. (Aisun)
