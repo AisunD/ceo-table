@@ -137,7 +137,7 @@ Layout: die Frage in Bodoni, Gold auf „warum“. Foto hat viel ruhige Fläche 
 Layout: „2016.“ riesig in Bodoni Gold, Rest Raleway. (28 Wörter)
 
 **Slide 7 – PROOF (Vorher/Nachher)** · Foto **f14** (Augen geschlossen, Hände im Raum)
-> Ich habe energetisch gearbeitet.
+> Ich habe energetisch gearbeitet. Voller Begeisterung. Jeden Tag.
 > Nicht von heute auf morgen.
 > Mit Hilfe anderer energetischer Coaches.
 > **Und ich habe meine Colitis geheilt.**
@@ -151,7 +151,7 @@ Layout: Kernsatz Bodoni, letzte Zeile klein in Raleway kursiv, Creme (nicht grau
 > Deshalb löse ich deine Probleme nicht für dich.
 > **Ich zeige dir, wie du wieder Zugang findest:**
 > zu deiner eigenen Wahrnehmung.
-> Und zu deiner Entscheidungsfähigkeit.
+> Und zu dem, was du längst weißt.
 
 (27 Wörter)
 
@@ -210,3 +210,6 @@ INNERWISE · COLITIS ULCEROSA · ENERGETISCHE SELBSTHEILUNG
 
 ## Änderung 6.11.2026 (Aisun)
 Titel: „ausgebildete Psychologische Psychotherapeutin“ bleibt (Slide 2, Caption), dazu klar, dass sie nicht mehr in der Praxis arbeitet. CTA Slide 10 und Caption: Keyword INTERVIEW statt Link und statt KOMPASS. Offen: Keyword in ManyChat anlegen und Interview-Link hinterlegen (Frieda/Aisun); „22 Jahre“ und „Darm entfernen“ noch nicht bestätigt.
+
+## Änderung 16.11.2026 (Aisun, Wunsch im Cockpit)
+Slide 7: „Ich habe energetisch gearbeitet. Voller Begeisterung. Jeden Tag.“ Slide 8: letzter Satz neu: „Und zu dem, was du längst weißt.“ Alles andere bleibt.
