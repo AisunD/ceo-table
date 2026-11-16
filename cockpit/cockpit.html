@@ -324,6 +324,9 @@ tr:last-child td{border-bottom:0}
 .answer{white-space:pre-line;font-size:14px;max-width:66ch;margin:0}
 @media (prefers-reduced-motion: no-preference){.view{animation:fade .18s ease-out}@keyframes fade{from{opacity:.4}to{opacity:1}}}
 .ct-strip{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;border-radius:12px}.ct-strip figure{flex:0 0 78%;scroll-snap-align:center;margin:0}.ct-strip img{display:block;width:100%;height:auto;border-radius:12px}.ct-strip figcaption{font-size:12px;color:var(--muted);text-align:center;margin-top:4px}
+.ct-links{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 4px}.ct-links a,.ct-links button{font:inherit;font-size:13px;font-weight:600;color:var(--ink-accent);background:transparent;border:1px solid var(--ink-accent);border-radius:999px;padding:7px 12px;text-decoration:none;cursor:pointer}
+.ct-wish{border-top:1px solid rgba(128,128,128,.25);padding-top:8px}.ct-wish summary{cursor:pointer;font-weight:600;font-size:14px}.ct-wish textarea{width:100%;box-sizing:border-box;min-height:84px;margin:8px 0;font:inherit;font-size:15px;padding:10px;border-radius:10px;border:1px solid rgba(128,128,128,.4);background:transparent;color:inherit}.ct-wish .hint{font-size:12px;color:var(--muted);margin:0 0 8px}
+.ct-note a{color:var(--ink-accent);overflow-wrap:anywhere}
 </style>
 
 <div class="wrap">
@@ -885,6 +888,8 @@ Bisheriges Gespräch:\n${hist}`;
     const base = c.dateiname || (String(c.kampagne||"Content").replace(/[^A-Za-z0-9äöüÄÖÜß_-]+/g,"_")+"_"+c.id);
     return kind==="video" ? base+"."+(c.video_ext||"mp4") : base+"_Deckblatt."+(c.cover_ext||"png");
   }
+  const GH = "https://github.com/AisunD/ceo-table/blob/main/";
+  const linkify = s => esc(s).replace(/(https?:\/\/[^\s<]+)/g,'<a href="$1" target="_blank" rel="noopener">$1</a>');
   function renderContent(){
     const el = $("#content"); if(state.content===null) return;
     const all = state.content;
@@ -912,6 +917,7 @@ Bisheriges Gespräch:\n${hist}`;
       out.push(`<article class="card ct${st==="gepostet"?" posted":""}" data-ct="${esc(c.id)}">
         <div class="ct-top"><span class="ct-typ">${esc(CT_TYP[c.typ]||c.typ||"Post")}${c.nummer?" "+esc(c.nummer):""} · ${esc(c.kampagne||"")}</span><span class="pill c-${st}">${esc(CT_LABEL[st])}</span></div>
         <h3 class="ct-hook">${esc(c.hook||"").replace(/ \/ /g,"<br>")}</h3>
+        ${(()=>{ const w = c.wer||"sina"; const hasW = state.team.some(x=>x.id===w); const L = []; if(c.link) L.push(`<a href="${esc(c.link)}" target="_blank" rel="noopener">Vorschau öffnen</a>`); if(c.canva_link) L.push(`<a href="${esc(c.canva_link)}" target="_blank" rel="noopener">In Canva öffnen</a>`); if(c.quelle) L.push(`<a href="${GH+esc(c.quelle)}" target="_blank" rel="noopener">Entwurf lesen</a>`); if(hasW) L.push(`<button type="button" data-chatwith="${esc(w)}">Mit ${esc(nameOf(w))} sprechen</button>`); return L.length?`<div class="ct-links">${L.join("")}</div>`:""; })()}
         ${isCar ? `<div class="ct-slides">${slides.length ? `<div class="ct-strip">${slides.map((sid,i)=>`<figure><img src="${blobUrl(sid)}" alt="Slide ${i+1}" loading="lazy"><figcaption>${i+1}/${slides.length}</figcaption></figure>`).join("")}</div>` : `<div class="miss">Slides fehlen noch${c.link?`<a class="btn" href="${esc(c.link)}" target="_blank" rel="noopener">Vorschau öffnen</a>`:""}${canUp?`<button class="btn" data-up="slides">Slides hochladen</button>`:""}</div>`}</div>
         <div class="ct-acts">
           <button class="bigbtn" data-save="slides" ${slides.length?"":"disabled"}><span class="n">1</span>Alle Slides speichern</button>
@@ -930,7 +936,8 @@ Bisheriges Gespräch:\n${hist}`;
           <label>Posten am<input type="date" data-date value="${esc(day)}" ${canWrite?"":"disabled"}></label>
           <label>Status<select data-st ${canWrite?"":"disabled"}>${CT_ST.map(s=>`<option value="${s}" ${s===st?"selected":""}>${CT_LABEL[s]}</option>`).join("")}</select></label>
         </div>
-        ${c.keyword?`<p class="ct-note">Keyword: <span class="kw">${esc(c.keyword)}</span>${c.notiz?" · "+esc(c.notiz):""}</p>`:(c.notiz?`<p class="ct-note">${esc(c.notiz)}</p>`:"")}
+        ${c.keyword?`<p class="ct-note">Keyword: <span class="kw">${esc(c.keyword)}</span>${c.notiz?" · "+linkify(c.notiz):""}</p>`:(c.notiz?`<p class="ct-note">${linkify(c.notiz)}</p>`:"")}
+        ${canWrite?`<details class="ct-wish"><summary>Änderung wünschen</summary><textarea data-wish-text placeholder="Was soll anders sein? Z. B. Slide 4: Satz kürzer."></textarea><p class="hint">Das geht als Auftrag an ${esc(nameOf(c.wer||"sina"))}. Erledigt wird es beim nächsten Lauf (spätestens morgens um 7 Uhr) oder sofort, wenn du es mir im Chat sagst.</p><button type="button" class="bigbtn primary" data-wish-send>Auftrag senden</button></details>`:""}
         ${canUp&&isCar&&slides.length?`<div class="ct-up"><button class="linkbtn" data-up="slides">Slides ersetzen</button></div>`:""}${canUp&&!isCar&&(vid||cov)?`<div class="ct-up">${vid?`<button class="linkbtn" data-up="video">Video ersetzen</button>`:""}${cov?`<button class="linkbtn" data-up="cover">Deckblatt ersetzen</button>`:""}</div>`:""}
         ${st!=="gepostet"&&canWrite?`<button class="bigbtn ok" data-posted>Gepostet – abhaken</button>`:""}
       </article>`);
@@ -1014,6 +1021,12 @@ Bisheriges Gespräch:\n${hist}`;
     inp.click();
   }
   $("#v-content").addEventListener("click", e=>{
+    const cw = e.target.closest("[data-chatwith]"); if(cw){ openChat(cw.dataset.chatwith, cw); return; }
+    const ws = e.target.closest("[data-wish-send]"); if(ws){
+      const card = ws.closest("[data-ct]"); const c = (state.content||[]).find(x=>x.id===card.dataset.ct); const ta = card.querySelector("[data-wish-text]"); const txt = (ta.value||"").trim();
+      if(!c||!txt){ toast("Schreib erst, was geändert werden soll."); return; }
+      db.collection("auftraege").doc("w-"+Date.now().toString(36)).set({titel:"Änderung: "+(c.hook||c.id).slice(0,70), wer:c.wer||"sina", status:"offen", prio:"hoch", bezug:"content/"+c.id, notiz:"Änderungswunsch von Aisun zum Post „"+(c.hook||c.id)+"“ ("+c.id+"): "+txt, angelegt:new Date().toISOString()}).then(()=>{ ta.value=""; toast("Auftrag ist angelegt."); }).catch(()=>toast("Senden hat nicht geklappt. Versuch es noch einmal."));
+      return; }
     const f1 = e.target.closest("[data-ctst]"); if(f1){ state.ctSt = f1.dataset.ctst; renderContent(); return; }
     const f2 = e.target.closest("[data-ctk]"); if(f2){ state.ctK = f2.dataset.ctk; renderContent(); return; }
     const card = e.target.closest("[data-ct]"); if(!card) return;
