@@ -30,16 +30,13 @@ def G(n):
         s+='<path d="M540 365 C500 330 480 300 505 280 C525 262 540 280 540 292 C540 280 555 262 575 280 C600 300 580 330 540 365Z" fill="'+GO+'"/>'
         s+=pill(540,90,'Nähe',BE,CR,size=40)+pill(540,610,'und trotzdem frei',GO,DK,size=40)
     if n==4:
-        cx,cy=310,350
-        rs=(60,105,150,195,240)
-        for k,r in enumerate(rs): s+=f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{GO if k==3 else BE}" stroke-width="{9 if k==3 else 3}"/>'
-        for k,r in enumerate(rs):
-            if k>0: s+=f'<text x="{cx}" y="{cy-r+31}" text-anchor="middle" font-family="Raleway" font-weight="700" font-size="26" fill="{DK if k==3 else BE}">{k+1}</text>'
-        s+=person(cx,cy-34,0.7,SA,GO,4)+f'<text x="{cx}" y="{cy-50-0}" text-anchor="middle" font-family="Raleway" font-weight="700" font-size="1" fill="{BE}"></text>'
-        labs=['1 Sehen','2 Begegnen · gesund','3 Benutzen','4 Kontrollieren','5 Übernahme']
-        for i,l in enumerate(labs):
-            y=130+i*110; hi=(i==3)
-            s+=pill(810,y,l,GO if hi else BE,DK if hi else CR,w=420,size=36)
+        cx,cy=620,350
+        rs=(70,120,170,220,270)
+        for k,r in enumerate(rs): s+=f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{GO if k==3 else BE}" stroke-width="{10 if k==3 else 3}"/>'
+        s+=person(cx,cy-40,0.8,SA,GO,4)
+        s+=person(110,300,1.0,"#E7B7BB",BE,4)
+        s+=arrow(190,370,cx-rs[3]+6,350,GO,7)
+        s+=f'<circle cx="{cx-rs[3]}" cy="350" r="14" fill="{GO}"/>'
     if n==5:
         s+=person(210,260,1.8,SA,GO)+person(860,260,1.5,"#E7B7BB",BE)
         for k in range(14):
@@ -63,16 +60,15 @@ S=[
  ('p','p01',1250,'Du merkst nur: Ich rechtfertige mich. Ich werde <em>enger</em>.','Kein Streit, kein lautes Wort. Und trotzdem ist da was eng.','c'),
  ('g',1,'Kontrolle versteckt sich oft hinter <em>Sorge</em>.',''),
  ('p','p04',1160,'Sorge sieht so liebevoll aus.','Darum traust du dich kaum, sie <em>infrage</em> zu stellen.','c'),
- ('g',4,'Ebene 4 heißt <em>Kontrollieren</em>.','Hier wohnt auch die Eifersucht.'),
+ ('g',4,'Und wie <em>tief</em> kommt er dabei in dich hinein?','Manche Kontrolle merkst du sofort. Manche erst nach Jahren.'),
  ('p','p05',1250,'Spür mal <em>rein</em>.','Wie fühlt sich dein Abend an, nachdem er gefragt hat? Eng oder weit?','c'),
  ('g',2,'<em>Fremd</em> fühlt sich an wie Druck, Schuld und Erklären müssen.',''),
  ('g',3,'<em>Eigen</em> fühlt sich an wie Freiheit, auch in Nähe.','Er darf fragen. Du darfst antworten. Und es bleibt weit in dir.'),
  ('p','p10',1050,'Und jetzt ehrlich hinschauen: Wo <em>kontrollierst</em> du selbst?','','c'),
  ('g',5,'Der kurze Blick auf sein Handy.','Die Frage, die du „nur so“ stellst.'),
- ('p','p17',1150,'Manchmal löst eine klare <em>Grenze</em> mehr als jedes Gespräch.','','c'),
- ('g',6,'„Ich bin um elf zu Hause.“','Ein Satz. Ohne dritte Erklärung hinterher.'),
+ ('p','p17',1150,'Und die meisten merken es <em>nicht</em>.','Weder wenn sie kontrolliert werden. Noch wenn sie selbst kontrollieren.','c'),
  ('p','p13',1160,'Liebe will wissen, wie es dir geht. Kontrolle will wissen, wo du <em>warst</em>.','','b'),
- ('p','p09',1100,'Wie viel Kontrolle hast du schon als <em>Liebe</em> verkauft?','Das Arbeitsblatt „Das Ende der toxischen Beziehungen“ zeigt es dir.<br>Kommentiere <b class="kw">TOXISCH</b>','b'),
+ ('p','p09',1100,'Wie tief kontrolliert dich jemand? Und wie tief kontrollierst du?','Das Arbeitsblatt zeigt es dir.<br>Kommentiere <b class="kw">TOXISCH</b>','b'),
 ]
 css="""*{margin:0;padding:0;box-sizing:border-box}html,body{width:1080px;height:1350px;overflow:hidden}
 body{font-family:Raleway,sans-serif;position:relative;background:#FBFAF0}

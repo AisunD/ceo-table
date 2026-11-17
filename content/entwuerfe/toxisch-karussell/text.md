@@ -141,3 +141,6 @@ KONTROLLE · BEZIEHUNG · INNERWISE
 1. **Echte Erfahrung (wichtigster Hebel zur 9):** Kennst du die Frage „Wo kontrolliere ich selbst?“ von dir? Ein ehrlicher Satz von dir (z. B. ein Moment, in dem du dich selbst beim Kontrollieren erwischt hast) käme auf Slide 12 und in die Caption. Wir erfinden das nicht.
 2. **Beispielsatz Grenze (Slide 14, Grafik G6):** Passt „Ich bin um elf zu Hause.“ für dich, oder hast du einen eigenen Grenz-Satz aus dem Workshop Begegnungen?
 3. **Arbeitsblatt:** Liefert die TOXISCH-Automation aktuell wirklich das Arbeitsblatt „Das Ende der toxischen Beziehungen“? Bitte kurz bestätigen (Frieda prüft sonst).
+
+## Version 2 (17.11.2026, Aisun)
+Die Ebenen und das Grenzen-Setzen sind aus dem Karussell raus, weil die TOXISCH-Automation sie im Arbeitsblatt zeigt (Automation bestätigt: sendet „Das Ende der toxischen Beziehungen“, danach Tag Begegnungen-Workshop). Neu: Slide 7 „Wie tief kommt er in dich hinein?“ (Ringe ohne Ebenen-Namen), Slide 13 „Die meisten merken es nicht“, Slide 15 „Wie tief kontrolliert dich jemand? Und wie tief kontrollierst du?“. 15 Slides.
