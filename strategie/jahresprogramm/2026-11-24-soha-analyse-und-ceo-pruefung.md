@@ -59,3 +59,14 @@ Muster: Wer hoch verkauft (Soha, Queendom), gibt **jedem Baustein einen Namen im
 
 ## Nachtrag: Instagram @xenia.greta (Screenshots Aisun, 24.11.)
 Ausführlich in `wissen/vorbilder/extern-instagram-xenia-greta-yes-momentum.md`. Kurz: 10.800 Follower, wenig Likes, verkauft über ein Gratis-Event mit eigenem Begriff („YES-Momentum“ = Event, Ergebnis und Keyword), angepinnt und in der Bio. Karussell als 13-Slide-Verkaufsbrief mit kleinen Zahlen als Beweis und Keyword-CTA. Übertragbar ist die Bauweise, nicht Bilder, Denglisch oder Business-Themen.
+
+## Nachtrag: weitere Vorbilder, die Aisun genannt hat (24.11.)
+**Olivia Grimaud, KI Female Business School „UPGRADE 2027“** (warteliste-ki-fbs.oliviagrimaud.de, Abruf 24.11.)
+- 12 Monate, Frauen mit Wissens-/Beratungs-Business. Versprechen: „Alle nutzen KI. Du nutzt sie richtig.“ Vier KI-Systeme in 12 Monaten.
+- Bausteine: 17 Live-Termine mit Namen (Opening Ceremony, 4 Bootcamps, 11 Hot-Seat-Coachings, Closing Ceremony am 27.11.2027), Aufzeichnungen in 24 Std., Expertinnen-Team (Recht, Technik, SEO), Community mit eigenem Namen („Granaten“), Vorlagen. 2026-Runde: 2 Live-Calls/Monat, 6 Module, „OLLI THE BRAIN“.
+- Preis nicht sichtbar. Tür: Gratis-Tool (10-Min-KI-Check) → Warteliste → Vorverkauf nur für die Warteliste (28.11.). 300+ Teilnehmerinnen.
+- Bauprinzip: **Warteliste als Vorfilter** und **das Jahr als Ereignis** mit Eröffnung und Abschluss-Zeremonie. Große Gruppe, Aisun nicht persönlich in jedem Call, Expertinnen ergänzen.
+
+**Nike Menzel (PurposePreneur):** Seite aus der Cloud nicht erreichbar (Weiterleitung auf fremden Host, Unterseite nicht auflösbar). Frühere Instagram-Analyse liegt nicht im CEO-Table (vermutlich anderes Claude-Projekt). Offen.
+
+**„Sarah, Business-Mastermind“:** Name nicht eindeutig, Aisun fragen.
