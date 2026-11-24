@@ -56,3 +56,6 @@ Muster: Wer hoch verkauft (Soha, Queendom), gibt **jedem Baustein einen Namen im
 3. Katharina: Preis, Gruppengröße, Rechnung, Rhythmus, Abgrenzung zur Ausbildung. Vera: Launch und Tür.
 4. Weitere Beispiele von Aisun kommen in diesen Ordner.
 5. Zeitfenster (Vorschlag): Gründungsrunde Start Frühjahr 2027, erster Vor-Ort-Termin DARE Day 10./11.4.2027.
+
+## Nachtrag: Instagram @xenia.greta (Screenshots Aisun, 24.11.)
+Ausführlich in `wissen/vorbilder/extern-instagram-xenia-greta-yes-momentum.md`. Kurz: 10.800 Follower, wenig Likes, verkauft über ein Gratis-Event mit eigenem Begriff („YES-Momentum“ = Event, Ergebnis und Keyword), angepinnt und in der Bio. Karussell als 13-Slide-Verkaufsbrief mit kleinen Zahlen als Beweis und Keyword-CTA. Übertragbar ist die Bauweise, nicht Bilder, Denglisch oder Business-Themen.
