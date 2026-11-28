@@ -47,6 +47,7 @@ Absolventinnen → Heilraum (Übungsraum).
 - Sie wünscht sich: Selbstlernkurs, der ohne sie funktioniert; größere Gruppen; weniger Instagram-Abhängigkeit.
 
 ## Ideen in Planung
+- **Hexenkreis (in Entwicklung, Stand 28.11.2026):** Frauen aus der ersten Coach-Ausbildung; eine Gruppe von Frauen schaut gemeinsam auf das Thema einer Frau („irre magisch“, Aisun). Wird ein eigenes Produkt. Ablauf, Dauer, Leitung, Preis noch offen.
 - **Private Begleitung für Frauen (Entwurf, Preis 15.000 € netto, Stand 18.10.2026):** 6 Monate wöchentlich 1:1, Einladung „Ein Raum nur für dich", Versand über Ewald. Noch nicht freigegeben.
 - **Neues VIP-Angebot:** energetische Business-Begleitung für erfolgreiche Unternehmerinnen, drei Räume (Ich, Wir, Es). Name offen.
 - **Community-Bündelung:** alle Produkte in einer Community, zweimal im Jahr Launch, Zugang je ein halbes Jahr.
