@@ -25,7 +25,7 @@ Du persönlich im Übungsraum · Körper und Energie zum Anfassen (Materialien) 
 ## Was ich hinterfrage (kurz)
 1. **Deine Live-Zeit.** Grob gezählt (Annahme): Übungstreffen ca. 39 Std. + Workshops ca. 24 + Q&A/Hot Seats ca. 18 + Abendtermin bis 18 + 1:1 für jede (bei 20 Frauen) 20 = **rund 100–120 Stunden im Jahr**, plus Vorbereitung. Machbar, aber nur mit Pausen (Ferien) und mit Co-Coachin für den Abend.
 2. **Bibliothek „erst schauen, dann üben“** spart dir Produktion. Vorschlag: halb neue Workshops, halb aus der Bibliothek mit Live-Übung.
-3. **Kurs im Heilen drin** heißt: Wer KiH live für 2.400 € kauft, braucht einen Grund. Entweder der Preis des Jahresprogramms liegt deutlich darüber, oder KiH live ist der Einstieg ins Jahr.
+3. **Kurs im Heilen:** Aisun 28.11.: KiH live fällt weg, alles läuft nur noch im Jahresprogramm. Damit muss das Jahresprogramm den Wert von KiH live tragen, und der 0€-Workshop verkauft künftig das Jahresprogramm.
 4. **Ausbildung:** Als eigener Stadtteil mit eigenem Preis lassen (sie bringt gut die Hälfte des Umsatzes). Jahresprogramm-Frauen bekommen Vorrang oder Anrechnung. Ellis Frage f41 ist noch offen.
 5. **Hexenkreis** ist noch nirgends beschrieben. Wer leitet ihn, wie lange, wie oft? Erst dann als Bonus versprechen.
 
