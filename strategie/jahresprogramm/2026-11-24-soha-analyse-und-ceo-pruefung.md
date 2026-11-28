@@ -70,3 +70,6 @@ Ausführlich in `wissen/vorbilder/extern-instagram-xenia-greta-yes-momentum.md`.
 **Nike Menzel (PurposePreneur):** Seite aus der Cloud nicht erreichbar (Weiterleitung auf fremden Host, Unterseite nicht auflösbar). Frühere Instagram-Analyse liegt nicht im CEO-Table (vermutlich anderes Claude-Projekt). Offen.
 
 **„Sarah, Business-Mastermind“:** Name nicht eindeutig, Aisun fragen.
+
+## WICHTIG für den Launch (Aisun, 28.11.)
+Vor jeder Launch-Planung, Landingpage oder Mail-Serie für das Jahresprogramm zuerst lesen: `wissen/vorbilder/grimaud-kifbs-launch-2026-11/analyse.md` (Warteliste zwei Stunden vorher, Vorabend-Mail mit GIFs, Bonus für die ersten 5, Countdown, Opening/Closing Ceremony, Seitenaufbau in 29 Abschnitten). Screenshots im Ordner `bilder/`. Vera, Conny, Frieda und Tina bekommen die Datei mit jedem Launch-Auftrag.
